@@ -1,0 +1,19 @@
+# Local data and generated results never belong in the source repository.
+/tests/_sandbox/
+/tests/*results.json
+/_downloads/
+/_publish/
+/_bin/*
+!/_bin/.gitkeep
+**/Input/*
+!**/Input/.gitkeep
+**/Output/*
+!**/Output/.gitkeep
+**/Watermark/*
+!**/Watermark/.gitkeep
+.env
+.env.*
+*.log
+*.tmp
+Thumbs.db
+Desktop.ini

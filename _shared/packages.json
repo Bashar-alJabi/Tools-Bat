@@ -1,0 +1,23 @@
+[
+  {
+    "Id": "ffmpeg", "Name": "FFmpeg + FFprobe", "Version": "9.0.2", "Arch": "AMD64",
+    "Url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-9.0.2-essentials_build.zip",
+    "HashUrl": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-9.0.2-essentials_build.zip.sha256",
+    "SHA256": "60f467265b1e312373dbcd92200c2618a74850f98d3d078e94296bb3fa2047ba", "ApproxMB": 109, "Kind": "zip", "Folder": "ffmpeg",
+    "Source": "https://www.gyan.dev/ffmpeg/builds/", "License": "GPLv3 build; preserve COPYING, source offer and build information."
+  },
+  {
+    "Id": "magick", "Name": "ImageMagick Portable Q16 HDRI", "Version": "7.1.2-34", "Arch": "AMD64",
+    "Url": "https://github.com/ImageMagick/ImageMagick/releases/download/7.1.2-34/ImageMagick-7.1.2-34-portable-Q16-HDRI-x64.7z",
+    "HashUrl": "", "SHA256": "8dcfd3644b7fc20a92aeedeb4798024e5947f25f4d7c0c313c883fbca3d723e6",
+    "ApproxMB": 12, "Kind": "7z", "Folder": "imagemagick",
+    "Source": "https://github.com/ImageMagick/ImageMagick/releases/tag/7.1.2-34", "License": "ImageMagick License + bundled delegate notices."
+  },
+  {
+    "Id": "ghostscript", "Name": "Ghostscript (installer download ONLY)", "Version": "10.08.0", "Arch": "AMD64",
+    "Url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs10080/gs10080w64.exe",
+    "HashUrl": "", "SHA256": "52a91b8bf09298788d7a57b9206127026c23eacd75405f0a131e26dc381dce50",
+    "ApproxMB": 63, "Kind": "installer", "Folder": "ghostscript",
+    "Source": "https://ghostscript.com/releases/gsdnld.html", "License": "AGPLv3 or Artifex commercial license. Review before redistributing. Installer is never executed automatically."
+  }
+]
