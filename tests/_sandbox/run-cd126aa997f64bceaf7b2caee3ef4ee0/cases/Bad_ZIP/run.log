@@ -1,0 +1,13 @@
+
+============================================================
+                    ZIP EXTRACT
+============================================================
+Input : C:\Bashar\TOOLs\Tools Bat\tests\_sandbox\run-cd126aa997f64bceaf7b2caee3ef4ee0\cases\Bad_ZIP\Input
+Output: C:\Bashar\TOOLs\Tools Bat\tests\_sandbox\run-cd126aa997f64bceaf7b2caee3ef4ee0\cases\Bad_ZIP\Output
+Processing: broken.zip
+[FAILED] Exception calling "OpenRead" with "1" argument(s): "Central Directory corrupt."
+
+============================================================
+                         SUMMARY
+============================================================
+Total: 1  Successful: 0  Failed: 1  Skipped: 0

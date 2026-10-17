@@ -1,0 +1,13 @@
+
+============================================================
+                    IMAGE CONVERT
+============================================================
+Input : C:\Bashar\TOOLs\Tools Bat\tests\_sandbox\run-cd126aa997f64bceaf7b2caee3ef4ee0\cases\Animated_to_static_rejected\Input
+Output: C:\Bashar\TOOLs\Tools Bat\tests\_sandbox\run-cd126aa997f64bceaf7b2caee3ef4ee0\cases\Animated_to_static_rejected\Output
+Processing: animated.gif
+[FAILED] Multiple frames/pages need GIF, WebP or TIFF output; split them separately first.
+
+============================================================
+                         SUMMARY
+============================================================
+Total: 1  Successful: 0  Failed: 1  Skipped: 0

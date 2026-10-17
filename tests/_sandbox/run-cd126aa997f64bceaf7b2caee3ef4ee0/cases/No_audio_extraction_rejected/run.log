@@ -1,0 +1,17 @@
+
+============================================================
+                    EXTRACT AUDIO
+============================================================
+Input : C:\Bashar\TOOLs\Tools Bat\tests\_sandbox\run-cd126aa997f64bceaf7b2caee3ef4ee0\cases\No_audio_extraction_rejected\Input
+Output: C:\Bashar\TOOLs\Tools Bat\tests\_sandbox\run-cd126aa997f64bceaf7b2caee3ef4ee0\cases\No_audio_extraction_rejected\Output
+Processing: silent.mp4
+[FAILED] Stream map '' matches no streams.
+To ignore this, add a trailing '?' to the map.
+Failed to set value '0:a:0' for option 'map': Invalid argument
+Error parsing options for output file result.mp3.
+Error opening output files: Invalid argument
+
+============================================================
+                         SUMMARY
+============================================================
+Total: 1  Successful: 0  Failed: 1  Skipped: 0

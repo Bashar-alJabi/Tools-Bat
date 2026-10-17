@@ -1,0 +1,50 @@
+﻿{
+    "DateUTC":  "2026-10-17T20:43:20.1550565Z",
+    "Results":  [
+                    {
+                        "Test":  "Unsupported input ignored",
+                        "Passed":  true,
+                        "Detail":  "Expected behavior verified."
+                    },
+                    {
+                        "Test":  "Long path rejected safely",
+                        "Passed":  true,
+                        "Detail":  "Expected behavior verified."
+                    },
+                    {
+                        "Test":  "Unwritable output shape handled",
+                        "Passed":  true,
+                        "Detail":  "Expected behavior verified."
+                    },
+                    {
+                        "Test":  "Missing input directory handled",
+                        "Passed":  true,
+                        "Detail":  "Expected behavior verified."
+                    },
+                    {
+                        "Test":  "Invalid local executable falls back to system",
+                        "Passed":  true,
+                        "Detail":  "Expected behavior verified."
+                    },
+                    {
+                        "Test":  "Cached corrupt archive preserved and rejected",
+                        "Passed":  true,
+                        "Detail":  "Expected behavior verified."
+                    },
+                    {
+                        "Test":  "ZIP symlink rejected",
+                        "Passed":  true,
+                        "Detail":  "Expected behavior verified."
+                    },
+                    {
+                        "Test":  "Metadata comment removed",
+                        "Passed":  true,
+                        "Detail":  "Expected behavior verified."
+                    },
+                    {
+                        "Test":  "MP4 stream removal and MP3 extraction",
+                        "Passed":  true,
+                        "Detail":  "Expected behavior verified."
+                    }
+                ]
+}

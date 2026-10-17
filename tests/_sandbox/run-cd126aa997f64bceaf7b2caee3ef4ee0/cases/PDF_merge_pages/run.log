@@ -1,0 +1,14 @@
+
+============================================================
+                    MERGE PDF
+============================================================
+Input : C:\Bashar\TOOLs\Tools Bat\tests\_sandbox\run-cd126aa997f64bceaf7b2caee3ef4ee0\cases\PDF_merge_pages\Input
+Output: C:\Bashar\TOOLs\Tools Bat\tests\_sandbox\run-cd126aa997f64bceaf7b2caee3ef4ee0\cases\PDF_merge_pages\Output
+Processing: 2 files
+[SUCCESS] merged.pdf
+[SKIPPED] merged.pdf already exists.
+
+============================================================
+                         SUMMARY
+============================================================
+Total: 2  Successful: 1  Failed: 0  Skipped: 1

@@ -1,0 +1,13 @@
+
+============================================================
+                    ZIP EXTRACT
+============================================================
+Input : C:\Bashar\TOOLs\Tools Bat\tests\_sandbox\run-cd126aa997f64bceaf7b2caee3ef4ee0\Portable نقل (1) & ! %TB_UNDEFINED% [ar]\UTI\ZIP Extract\Input
+Output: C:\Bashar\TOOLs\Tools Bat\tests\_sandbox\run-cd126aa997f64bceaf7b2caee3ef4ee0\Portable نقل (1) & ! %TB_UNDEFINED% [ar]\UTI\ZIP Extract\Output
+Processing: sample.zip
+[SUCCESS] sample.zip.extracted
+
+============================================================
+                         SUMMARY
+============================================================
+Total: 1  Successful: 1  Failed: 0  Skipped: 0

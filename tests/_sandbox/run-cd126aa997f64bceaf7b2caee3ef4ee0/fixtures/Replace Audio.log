@@ -1,0 +1,13 @@
+
+============================================================
+                    REPLACE AUDIO
+============================================================
+Input : C:\Bashar\TOOLs\Tools Bat\tests\_sandbox\run-cd126aa997f64bceaf7b2caee3ef4ee0\Portable نقل (1) & ! %TB_UNDEFINED% [ar]\VID\Video - Audio\Input
+Output: C:\Bashar\TOOLs\Tools Bat\tests\_sandbox\run-cd126aa997f64bceaf7b2caee3ef4ee0\Portable نقل (1) & ! %TB_UNDEFINED% [ar]\VID\Video - Audio\Output
+Processing: عينة ! %TB_UNDEFINED% & ^ (test) [1].mp4
+[SUCCESS] replaced.mp4
+
+============================================================
+                         SUMMARY
+============================================================
+Total: 1  Successful: 1  Failed: 0  Skipped: 0

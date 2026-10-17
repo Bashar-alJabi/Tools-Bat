@@ -1,0 +1,16 @@
+
+============================================================
+                    VIDEO SPEED
+============================================================
+Input : C:\Bashar\TOOLs\Tools Bat\tests\_sandbox\run-cd126aa997f64bceaf7b2caee3ef4ee0\cases\Bad_video\Input
+Output: C:\Bashar\TOOLs\Tools Bat\tests\_sandbox\run-cd126aa997f64bceaf7b2caee3ef4ee0\cases\Bad_video\Output
+Processing: broken.mp4
+[FAILED] [in#0 @ 000001ece7505a40] moov atom not found
+[in#0 @ 000001ece75058c0] Error opening input: Invalid data found when processing input
+Error opening input file C:\Bashar\TOOLs\Tools Bat\tests\_sandbox\run-cd126aa997f64bceaf7b2caee3ef4ee0\cases\Bad_video\Input\broken.mp4.
+Error opening input files: Invalid data found when processing input
+
+============================================================
+                         SUMMARY
+============================================================
+Total: 1  Successful: 0  Failed: 1  Skipped: 0

@@ -1,0 +1,13 @@
+
+============================================================
+                    IMAGE RESIZE
+============================================================
+Input : C:\Bashar\TOOLs\Tools Bat\tests\_sandbox\run-cd126aa997f64bceaf7b2caee3ef4ee0\cases\Bad_image\Input
+Output: C:\Bashar\TOOLs\Tools Bat\tests\_sandbox\run-cd126aa997f64bceaf7b2caee3ef4ee0\cases\Bad_image\Output
+Processing: broken.png
+[FAILED] identify: improper image header `source.png' @ error/png.c/ReadPNGImage/3956.
+
+============================================================
+                         SUMMARY
+============================================================
+Total: 1  Successful: 0  Failed: 1  Skipped: 0

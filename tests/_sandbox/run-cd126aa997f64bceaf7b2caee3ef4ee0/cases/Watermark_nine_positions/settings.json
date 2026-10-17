@@ -1,0 +1,17 @@
+﻿{
+    "SIZE":  "12",
+    "GRAVITY1":  "northwest",
+    "COUNT":  "9",
+    "OPACITY":  "70",
+    "GRAVITY5":  "center",
+    "GRAVITY9":  "southeast",
+    "GRAVITY4":  "west",
+    "GRAVITY8":  "south",
+    "TYPE":  "1",
+    "GRAVITY3":  "northeast",
+    "WATERMARK_TEXT":  "A \"quote\" \u0026 !",
+    "GRAVITY7":  "southwest",
+    "GRAVITY6":  "east",
+    "GRAVITY2":  "north",
+    "ROTATION":  "-8"
+}

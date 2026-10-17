@@ -1,0 +1,1 @@
+Safe test fixture; no third-party program was downloaded.

@@ -1,0 +1,15 @@
+
+============================================================
+                    FILE INVENTORY
+============================================================
+Input : C:\Bashar\TOOLs\Tools Bat\tests\_sandbox\run-cd126aa997f64bceaf7b2caee3ef4ee0\Portable نقل (1) & ! %TB_UNDEFINED% [ar]\UTI\File Inventory\Input
+Output: C:\Bashar\TOOLs\Tools Bat\tests\_sandbox\run-cd126aa997f64bceaf7b2caee3ef4ee0\Portable نقل (1) & ! %TB_UNDEFINED% [ar]\UTI\File Inventory\Output
+Processing: 3 files
+[SUCCESS] inventory.csv
+[SKIPPED] inventory.csv already exists.
+[SKIPPED] inventory.csv already exists.
+
+============================================================
+                         SUMMARY
+============================================================
+Total: 3  Successful: 1  Failed: 0  Skipped: 2

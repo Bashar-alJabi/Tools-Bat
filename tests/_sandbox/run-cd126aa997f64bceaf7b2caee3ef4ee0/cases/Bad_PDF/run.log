@@ -1,0 +1,22 @@
+
+============================================================
+                    COMPRESS PDF
+============================================================
+Input : C:\Bashar\TOOLs\Tools Bat\tests\_sandbox\run-cd126aa997f64bceaf7b2caee3ef4ee0\cases\Bad_PDF\Input
+Output: C:\Bashar\TOOLs\Tools Bat\tests\_sandbox\run-cd126aa997f64bceaf7b2caee3ef4ee0\cases\Bad_PDF\Output
+Processing: broken.pdf
+[FAILED] GPL Ghostscript 10.07.1: Unrecoverable error, exit code 1
+Error: /stackunderflow in --not--
+Operand stack:
+
+Execution stack:
+   %interp_exit   .runexec2   --nostringval--   --nostringval--   --nostringval--   2   %stopped_push   --nostringval--   --nostringval--   --nostringval--   false   1   %stopped_push   1804   1   3   %oparray_pop   1803   1   3   %oparray_pop   1788   1   3   %oparray_pop   1659   1   3   %oparray_pop   --nostringval--   %errorexec_pop   .runexec2   --nostringval--   --nostringval--   --nostringval--   2   %stopped_push   --nostringval--
+Dictionary stack:
+   --dict:744/1123(ro)(G)--   --dict:0/20(G)--   --dict:85/200(L)--
+Current allocation mode is local
+Current file position is 4
+
+============================================================
+                         SUMMARY
+============================================================
+Total: 1  Successful: 0  Failed: 1  Skipped: 0

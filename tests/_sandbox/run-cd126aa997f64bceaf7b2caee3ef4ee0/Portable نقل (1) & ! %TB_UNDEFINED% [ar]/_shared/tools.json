@@ -1,0 +1,182 @@
+[
+  {
+    "Name": "Background Color Remover",
+    "Path": "IMG\\Image Background Color Remover\\Background Color Remover.bat",
+    "Dependency": "magick",
+    "Original": true
+  },
+  {
+    "Name": "Image Compression",
+    "Path": "IMG\\Image Compression\\Image Compression.bat",
+    "Dependency": "magick",
+    "Original": true
+  },
+  {
+    "Name": "Image Convert",
+    "Path": "IMG\\Image Converter\\Image Convert.bat",
+    "Dependency": "magick",
+    "Original": true
+  },
+  {
+    "Name": "Image Crop",
+    "Path": "IMG\\Image Crop\\Image Crop.bat",
+    "Dependency": "magick",
+    "Original": true
+  },
+  {
+    "Name": "Image Enhance",
+    "Path": "IMG\\Image Enhance\\Image Enhance.bat",
+    "Dependency": "magick",
+    "Original": true
+  },
+  {
+    "Name": "Image Contact Sheet",
+    "Path": "IMG\\Image Grid\\Image Contact Sheet.bat",
+    "Dependency": "magick",
+    "Original": true
+  },
+  {
+    "Name": "Image Metadata Cleaner",
+    "Path": "IMG\\Image Metadata Cleaner\\Image Metadata Cleaner.bat",
+    "Dependency": "magick",
+    "Original": true
+  },
+  {
+    "Name": "Image Resize",
+    "Path": "IMG\\Image Resize\\Image Resize.bat",
+    "Dependency": "magick",
+    "Original": true
+  },
+  {
+    "Name": "Image Watermark",
+    "Path": "IMG\\Image Watermark\\Image Watermark.bat",
+    "Dependency": "magick",
+    "Original": true
+  },
+  {
+    "Name": "Compress Video",
+    "Path": "VID\\Video  Compression\\Compress Video.bat",
+    "Dependency": "ffmpeg",
+    "Original": true
+  },
+  {
+    "Name": "Convert Audio",
+    "Path": "VID\\Video - Audio\\Convert Audio.bat",
+    "Dependency": "ffmpeg",
+    "Original": true
+  },
+  {
+    "Name": "Extract Audio",
+    "Path": "VID\\Video - Audio\\Extract Audio.bat",
+    "Dependency": "ffmpeg",
+    "Original": true
+  },
+  {
+    "Name": "Increase Volume",
+    "Path": "VID\\Video - Audio\\Increase Volume.bat",
+    "Dependency": "ffmpeg",
+    "Original": true
+  },
+  {
+    "Name": "Merge Audio",
+    "Path": "VID\\Video - Audio\\Merge Audio.bat",
+    "Dependency": "ffmpeg",
+    "Original": true
+  },
+  {
+    "Name": "Normalize Audio",
+    "Path": "VID\\Video - Audio\\Normalize Audio.bat",
+    "Dependency": "ffmpeg",
+    "Original": true
+  },
+  {
+    "Name": "Remove Audio",
+    "Path": "VID\\Video - Audio\\Remove Audio.bat",
+    "Dependency": "ffmpeg",
+    "Original": true
+  },
+  {
+    "Name": "Replace Audio",
+    "Path": "VID\\Video - Audio\\Replace Audio.bat",
+    "Dependency": "ffmpeg",
+    "Original": true
+  },
+  {
+    "Name": "Video FPS Converter",
+    "Path": "VID\\Video FPS Converter\\Video FPS Converter.bat",
+    "Dependency": "ffmpeg",
+    "Original": true
+  },
+  {
+    "Name": "Video Resolution Converter",
+    "Path": "VID\\Video Resolution Converter\\Video Resolution Converter.bat",
+    "Dependency": "ffmpeg",
+    "Original": true
+  },
+  {
+    "Name": "Video Speed",
+    "Path": "VID\\Video Speed\\Video Speed.bat",
+    "Dependency": "ffmpeg",
+    "Original": true
+  },
+  {
+    "Name": "Video Thumbnail",
+    "Path": "VID\\Video Thumbnail\\Video Thumbnail.bat",
+    "Dependency": "ffmpeg",
+    "Original": false
+  },
+  {
+    "Name": "Compress PDF",
+    "Path": "PDF\\Compress PDF\\Compress PDF.bat",
+    "Dependency": "ghostscript",
+    "Original": true
+  },
+  {
+    "Name": "Merge PDF",
+    "Path": "PDF\\Merge PDF\\Merge PDF.bat",
+    "Dependency": "ghostscript",
+    "Original": false
+  },
+  {
+    "Name": "Audio Converter",
+    "Path": "AUD\\Audio Converter\\Audio Converter.bat",
+    "Dependency": "ffmpeg",
+    "Original": false
+  },
+  {
+    "Name": "Duplicate Finder",
+    "Path": "UTI\\Duplicate Finder\\Duplicate Finder.bat",
+    "Dependency": "",
+    "Original": false
+  },
+  {
+    "Name": "File Hashes",
+    "Path": "UTI\\File Hashes\\File Hashes.bat",
+    "Dependency": "",
+    "Original": false
+  },
+  {
+    "Name": "File Inventory",
+    "Path": "UTI\\File Inventory\\File Inventory.bat",
+    "Dependency": "",
+    "Original": false
+  },
+  {
+    "Name": "Media Info",
+    "Path": "UTI\\Media Info\\Media Info.bat",
+    "Dependency": "ffprobe",
+    "Original": false
+  },
+  {
+    "Name": "ZIP Backup",
+    "Path": "UTI\\ZIP Backup\\ZIP Backup.bat",
+    "Dependency": "",
+    "Original": false
+  },
+  {
+    "Name": "ZIP Extract",
+    "Path": "UTI\\ZIP Extract\\ZIP Extract.bat",
+    "Dependency": "",
+    "Original": false
+  }
+]
