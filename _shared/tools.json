@@ -251,5 +251,67 @@
     "Dependency": "ffmpeg",
     "Original": false,
     "Standalone": true
+  },
+  {
+    "Name": "Audio Trim",
+    "Path": "AUD\\Audio Trim\\Audio Trim.bat",
+    "Dependency": "ffmpeg",
+    "Original": false,
+    "Standalone": true,
+    "AdditionalDependencies": [
+      "ffprobe"
+    ]
+  },
+  {
+    "Name": "Audio Normalize",
+    "Path": "AUD\\Audio Normalize\\Audio Normalize.bat",
+    "Dependency": "ffmpeg",
+    "Original": false,
+    "Standalone": true
+  },
+  {
+    "Name": "Audio Fade",
+    "Path": "AUD\\Audio Fade\\Audio Fade.bat",
+    "Dependency": "ffmpeg",
+    "Original": false,
+    "Standalone": true,
+    "AdditionalDependencies": [
+      "ffprobe"
+    ]
+  },
+  {
+    "Name": "Audio Channels",
+    "Path": "AUD\\Audio Channels\\Audio Channels.bat",
+    "Dependency": "ffmpeg",
+    "Original": false,
+    "Standalone": true
+  },
+  {
+    "Name": "Audio Concatenate",
+    "Path": "AUD\\Audio Concatenate\\Audio Concatenate.bat",
+    "Dependency": "ffmpeg",
+    "Original": false,
+    "Standalone": true
+  },
+  {
+    "Name": "PDF Split",
+    "Path": "PDF\\PDF Split\\PDF Split.bat",
+    "Dependency": "ghostscript",
+    "Original": false,
+    "Standalone": true
+  },
+  {
+    "Name": "PDF To Images",
+    "Path": "PDF\\PDF To Images\\PDF To Images.bat",
+    "Dependency": "ghostscript",
+    "Original": false,
+    "Standalone": true
+  },
+  {
+    "Name": "PDF Text",
+    "Path": "PDF\\PDF Text\\PDF Text.bat",
+    "Dependency": "ghostscript",
+    "Original": false,
+    "Standalone": true
   }
 ]
