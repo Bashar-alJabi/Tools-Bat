@@ -1,6 +1,6 @@
 ﻿# tOOls Bat
 
-مجموعة أدوات Windows قابلة للنقل: **30 أداة** للصور والفيديو والصوت وPDF والملفات، إضافة إلى `START_HERE.bat` للتجهيز. الأسماء والمجلدات والقوائم الأصلية محفوظة، والمعالجة الموثوقة مشتركة داخل `_shared`.
+مجموعة أدوات Windows قابلة للنقل: **55 أداة** للصور والفيديو والصوت وPDF والملفات والشبكة، إضافة إلى `START_HERE.bat` للتجهيز. الأسماء والمجلدات والقوائم الأصلية محفوظة. كل أداة لها MD مستقل؛ الأدوات الـ25 الجديدة تضع المعالجة في PS1 داخل مجلدها وتشارك وظائف المسارات والأمان واكتشاف البرامج فقط.
 
 ## البداية
 
@@ -43,7 +43,7 @@
 
 أدوات `VID/Video - Audio` السبع تشترك في Input وOutput وفق التنظيم الأصلي. بعض نتائجها تحمل الاسم نفسه؛ انقل نتيجة العملية السابقة خارج Output قبل تشغيل عملية أخرى على المدخل نفسه، حتى لا تُتخطى بسبب وجودها.
 
-## الأدوات الجديدة
+## الأدوات التسع المضافة سابقًا
 
 | الأداة | الاستخدام والنتيجة | الاعتماد |
 |---|---|---|
@@ -59,9 +59,41 @@
 
 كل أداة جديدة موجودة داخل مجلدها بملف BAT يحمل اسمها ومجلدي Input وOutput.
 
+## الدفعة الجديدة: 25 أداة مستقلة في الاستخدام
+
+| BAT وMD داخل مجلد الأداة | الوظيفة | الاعتماد |
+|---|---|---|
+| [Image Rotate](<IMG/Image Rotate/Image Rotate.md>) | تدوير الصور | ImageMagick |
+| [Image Flip](<IMG/Image Flip/Image Flip.md>) | عكس الصور | ImageMagick |
+| [Image Grayscale](<IMG/Image Grayscale/Image Grayscale.md>) | صور بتدرج رمادي | ImageMagick |
+| [Image Border](<IMG/Image Border/Image Border.md>) | إطار حول الصور | ImageMagick |
+| [Image Info](<IMG/Image Info/Image Info.md>) | معلومات الصور | ImageMagick |
+| [Video Trim](<VID/Video Trim/Video Trim.md>) | اقتطاع مقطع فيديو | FFmpeg |
+| [Video Rotate](<VID/Video Rotate/Video Rotate.md>) | تدوير الفيديو | FFmpeg |
+| [Video To GIF](<VID/Video To GIF/Video To GIF.md>) | تحويل فيديو إلى GIF | FFmpeg |
+| [Video Remux](<VID/Video Remux/Video Remux.md>) | تغيير حاوية الفيديو | FFmpeg |
+| [Video Frames](<VID/Video Frames/Video Frames.md>) | استخراج إطارات فيديو | FFmpeg |
+| [Audio Trim](<AUD/Audio Trim/Audio Trim.md>) | اقتطاع الصوت | FFmpeg |
+| [Audio Normalize](<AUD/Audio Normalize/Audio Normalize.md>) | موازنة شدة الصوت | FFmpeg |
+| [Audio Fade](<AUD/Audio Fade/Audio Fade.md>) | تدرج بداية ونهاية الصوت | FFmpeg |
+| [Audio Channels](<AUD/Audio Channels/Audio Channels.md>) | تغيير عدد قنوات الصوت | FFmpeg |
+| [Audio Concatenate](<AUD/Audio Concatenate/Audio Concatenate.md>) | وصل المقاطع الصوتية | FFmpeg |
+| [PDF Split](<PDF/PDF Split/PDF Split.md>) | تفكيك صفحات PDF | Ghostscript |
+| [PDF To Images](<PDF/PDF To Images/PDF To Images.md>) | صفحات PDF إلى صور | Ghostscript |
+| [PDF Text](<PDF/PDF Text/PDF Text.md>) | استخراج نص PDF | Ghostscript |
+| [Rename Copies](<UTI/Rename Copies/Rename Copies.md>) | ترقيم نسخ الملفات | Windows/.NET |
+| [Sort Copies](<UTI/Sort Copies/Sort Copies.md>) | تنظيم نسخ الملفات | Windows/.NET |
+| [Text Encoding](<UTI/Text Encoding/Text Encoding.md>) | تحويل ترميز النص | Windows/.NET |
+| [Folder Compare](<UTI/Folder Compare/Folder Compare.md>) | مقارنة مجلدين | Windows/.NET |
+| [JSON Format](<UTI/JSON Format/JSON Format.md>) | تنسيق JSON | Windows/.NET |
+| [Network Info](<NET/Network Info/Network Info.md>) | معلومات الشبكة المحلية | Windows/.NET |
+| [Ping Host](<NET/Ping Host/Ping Host.md>) | فحص استجابة عنوان | Windows/.NET |
+
+داخل كل مجلد: BAT للتشغيل، وPS1 واضح للمعالجة الخاصة بالأداة، وMD مفصل، وInput وOutput. الأدوات الجديدة لا تمر عبر ToolRunner أوNewTool؛ تستخدم Core للأمان والملفات فقط. لا توجد حزم PowerShell إضافية.
+
 ## تشغيل متقدم
 
-كل BAT يدعم `--help` و`--check` و`--defaults`. عند التشغيل التلقائي اضبط `TB_NO_PAUSE=1` لتجاوز الانتظار الأخير. `START_HERE.bat --check` يفحص فقط ولا يطلب تنزيلًا.
+كل BAT تابع لأداة يدعم `--help` و`--check` و`--defaults`. عند التشغيل التلقائي اضبط `TB_NO_PAUSE=1` لتجاوز الانتظار الأخير. `START_HERE.bat --check` يفحص فقط ولا يطلب تنزيلًا.
 
 ```bat
 set "TB_NO_PAUSE=1"
@@ -120,10 +152,17 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File ".\tests\Run-Tests.ps1"
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File ".\tests\Test-LocalPortable.ps1"
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File ".\tests\Test-EdgeCases.ps1"
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File ".\tests\Verify-Project.ps1"
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ".\tests\Test-Improvements.ps1" -Batch ImagesVideo
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ".\tests\Test-Improvements.ps1" -Batch AudioPDF
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ".\tests\Test-Improvements.ps1" -Batch FilesNetwork
 ```
 
 لا تختبر هذه الأوامر على ملفاتك الأصلية؛ الاختبار المرفق يُنشئ مساحته الخاصة داخل `tests/_sandbox` ويحفظها للمراجعة.
 
-## نسخة GitHub
+## توزيع نظيف ونسخة GitHub
 
-هذا المستودع العام مستخدم حاليًا نسخة احتياطية لكل ملفات مجلد المشروع، بما فيها بيانات التجربة وسجلاتها ونتائج الاختبار المحلية والملفات التنفيذية التجريبية. لا يستبعد .gitignore أي ملفات مشروع، وتحفظ .gitattributes محتوى الملفات كما هو دون تحويل نهايات الأسطر. مجلد Git الداخلي .git تديره أداة Git ولا يُرفع ضمن ملفات المشروع. ملفات .gitkeep تحفظ مجلدات الأدوات الفارغة وتتجاهلها الأدوات عند المعالجة. التقارير داخل tests/recorded نسخ من النتائج مع إزالة المسارات الشخصية، أما السجلات الأصلية الكاملة فموجودة مباشرة داخل tests. تحديث النسخة الاحتياطية يتطلب commit وpush جديدين.
+التطوير الحالي على فرع `codex-improvements` للمراجعة؛ لا يُدمج في main تلقائيًا. ملفات النسخة الاحتياطية والاختبارات المرفوعة سابقًا باقية في Git. المجلدات المؤقتة الجديدة tests/_work وtests/_sandbox ومخرجات dist مستبعدة من الإضافات الجديدة؛ الاستبعاد لا يحذف الملفات المتتبعة الموجودة سابقًا. تحفظ .gitattributes المحتوى دون تحويل نهايات الأسطر.
+
+شغّل [BUILD_DISTRIBUTION.bat](BUILD_DISTRIBUTION.md) لإنتاج مجلد وZIP نظيفين داخل dist، مع BAT وMD وملفات المعالجة اللازمة ومجلدات Input/Output فارغة. يمكن تضمين توزيعات _bin المحلية الكاملة؛ لا تُنسخ البرامج المثبتة أو ملفات المستخدم تلقائيًا. [دليل النقل](docs/DISTRIBUTION.md) يشرح التسليم، و[START_HERE](START_HERE.md) يشرح التنزيل الموافق عليه وخيار --portable لنسخ توزيعة مثبتة إلى المشروع.
+
+التقارير داخل tests/recorded تحفظ نتائج المرحلة السابقة مع إزالة المسارات الشخصية. التقرير السابق docs/REVIEW_REPORT_AR.md تاريخي؛ [تقرير الفرع الحالي](docs/IMPROVEMENTS_REPORT_AR.md) يوضح الدفعات والاختبارات الجديدة، و[مقارنة الأصل](docs/ORIGINAL_COMPARISON_AR.md) توضح الحفاظ على التصميم. تحديث النسخة الاحتياطية يتطلب commit وpush، والتوزيع النظيف منفصل عنها.

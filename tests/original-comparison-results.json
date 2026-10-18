@@ -1,0 +1,117 @@
+﻿[
+    {
+        "Test":  "IMG/Image Background Color Remover/Background Color Remover.bat",
+        "Passed":  true,
+        "Detail":  "Original path and 7 menu labels preserved; individual MD exists."
+    },
+    {
+        "Test":  "IMG/Image Compression/Image Compression.bat",
+        "Passed":  true,
+        "Detail":  "Original path and 5 menu labels preserved; individual MD exists."
+    },
+    {
+        "Test":  "IMG/Image Converter/Image Convert.bat",
+        "Passed":  true,
+        "Detail":  "Original path and 8 menu labels preserved; individual MD exists."
+    },
+    {
+        "Test":  "IMG/Image Crop/Image Crop.bat",
+        "Passed":  true,
+        "Detail":  "Original path and 5 menu labels preserved; individual MD exists."
+    },
+    {
+        "Test":  "IMG/Image Enhance/Image Enhance.bat",
+        "Passed":  true,
+        "Detail":  "Original path and 4 menu labels preserved; individual MD exists."
+    },
+    {
+        "Test":  "IMG/Image Grid/Image Contact Sheet.bat",
+        "Passed":  true,
+        "Detail":  "Original path and 4 menu labels preserved; individual MD exists."
+    },
+    {
+        "Test":  "IMG/Image Metadata Cleaner/Image Metadata Cleaner.bat",
+        "Passed":  true,
+        "Detail":  "Original path and 0 menu labels preserved; individual MD exists."
+    },
+    {
+        "Test":  "IMG/Image Resize/Image Resize.bat",
+        "Passed":  true,
+        "Detail":  "Original path and 5 menu labels preserved; individual MD exists."
+    },
+    {
+        "Test":  "IMG/Image Watermark/Image Watermark.bat",
+        "Passed":  true,
+        "Detail":  "Original path and 32 menu labels preserved; individual MD exists."
+    },
+    {
+        "Test":  "VID/Video  Compression/Compress Video.bat",
+        "Passed":  true,
+        "Detail":  "Original path and 5 menu labels preserved; individual MD exists."
+    },
+    {
+        "Test":  "VID/Video - Audio/Convert Audio.bat",
+        "Passed":  true,
+        "Detail":  "Original path and 0 menu labels preserved; individual MD exists."
+    },
+    {
+        "Test":  "VID/Video - Audio/Extract Audio.bat",
+        "Passed":  true,
+        "Detail":  "Original path and 0 menu labels preserved; individual MD exists."
+    },
+    {
+        "Test":  "VID/Video - Audio/Increase Volume.bat",
+        "Passed":  true,
+        "Detail":  "Original path and 5 menu labels preserved; individual MD exists."
+    },
+    {
+        "Test":  "VID/Video - Audio/Merge Audio.bat",
+        "Passed":  true,
+        "Detail":  "Original path and 4 menu labels preserved; individual MD exists."
+    },
+    {
+        "Test":  "VID/Video - Audio/Normalize Audio.bat",
+        "Passed":  true,
+        "Detail":  "Original path and 0 menu labels preserved; individual MD exists."
+    },
+    {
+        "Test":  "VID/Video - Audio/Remove Audio.bat",
+        "Passed":  true,
+        "Detail":  "Original path and 0 menu labels preserved; individual MD exists."
+    },
+    {
+        "Test":  "VID/Video - Audio/Replace Audio.bat",
+        "Passed":  true,
+        "Detail":  "Original path and 0 menu labels preserved; individual MD exists."
+    },
+    {
+        "Test":  "VID/Video FPS Converter/Video FPS Converter.bat",
+        "Passed":  true,
+        "Detail":  "Original path and 5 menu labels preserved; individual MD exists."
+    },
+    {
+        "Test":  "VID/Video Resolution Converter/Video Resolution Converter.bat",
+        "Passed":  true,
+        "Detail":  "Original path and 4 menu labels preserved; individual MD exists."
+    },
+    {
+        "Test":  "VID/Video Speed/Video Speed.bat",
+        "Passed":  true,
+        "Detail":  "Original path and 5 menu labels preserved; individual MD exists."
+    },
+    {
+        "Test":  "PDF/Compress PDF/Compress PDF.bat",
+        "Passed":  true,
+        "Detail":  "Original path and 5 menu labels preserved; individual MD exists."
+    },
+    {
+        "Test":  "Original Markdown references",
+        "Passed":  true,
+        "Detail":  "All 15 original reference documents retained."
+    },
+    {
+        "Test":  "Individual manual coverage",
+        "Passed":  true,
+        "Detail":  "55 separate per-BAT manuals cover inputs, outputs, requirements, menus, examples, errors and limits."
+    }
+]

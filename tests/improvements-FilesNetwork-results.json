@@ -1,0 +1,43 @@
+﻿{
+    "DateUTC":  "2026-10-18T16:10:14.2847637Z",
+    "Batch":  "FilesNetwork",
+    "Windows":  "10.0.26300.0",
+    "PowerShell":  "5.1.26100.9549",
+    "Results":  [
+                    {
+                        "Test":  "Rename Copies",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Sort Copies",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Text Encoding",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Folder Compare",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "JSON Format",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Network Info",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Ping Host",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    }
+                ]
+}

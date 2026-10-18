@@ -1,19 +1,21 @@
-# سجل الاعتمادات — 2026-10-17
+﻿# سجل الاعتمادات — 2026-10-18
 
 لا توجد برامج خارجية مضمنة حاليًا في توزيع المصدر. تم اكتشاف البرامج المثبتة على جهاز الاختبار دون تعديلها أو تنزيل بدائل لها. سجل الأدوات القابل للقراءة آليًا هو `_shared/tools.json`، وحزم التنزيل هي `_shared/packages.json`.
 
 | الاعتماد الحقيقي | الأدوات التي تحتاجه | الحالة | النسخة المحلية عند البدء | النسخة الموجودة على جهاز الاختبار |
 |---|---|---|---|---|
-| FFmpeg | أدوات VID الأصلية الإحدى عشرة؛ Video Thumbnail؛ Audio Converter | إلزامي لهذه الأدوات فقط | لا توجد | 9.0.1 Essentials، مثبت ضمن PATH على هذا الجهاز |
-| FFprobe | Media Info | إلزامي لهذه الأداة فقط؛ بقية الأدوات لا تحتاجه | لا توجد | 9.0.1 مع FFmpeg |
-| ImageMagick `magick.exe` | أدوات IMG التسع | إلزامي لها فقط | لا توجد | 7.1.2-30 Q16 HDRI |
-| Ghostscript `gswin64c.exe` أو `gswin32c.exe` | Compress PDF وMerge PDF | إلزامي لهما فقط | لا توجد | 10.07.1 |
+| FFmpeg | أدوات VID الأصلية الإحدى عشرة وVideo Thumbnail؛ Audio Converter؛ الأدوات الجديدة Video Trim/Rotate/To GIF/Remux/Frames وAudio Trim/Normalize/Fade/Channels/Concatenate | إلزامي لهذه الأدوات فقط | لا توجد | 9.0.1 Essentials، مثبت ضمن PATH على هذا الجهاز |
+| FFprobe | Media Info وVideo Trim وAudio Trim وAudio Fade | إلزامي لهذه الأدوات، ويأتي مع حزمة FFmpeg | لا توجد | 9.0.1 مع FFmpeg |
+| ImageMagick `magick.exe` | أدوات IMG الأصلية التسع وImage Rotate/Flip/Grayscale/Border/Info | إلزامي لها فقط | لا توجد | 7.1.2-30 Q16 HDRI |
+| Ghostscript `gswin64c.exe` أو `gswin32c.exe` | Compress PDF وMerge PDF وPDF Split/To Images/Text | إلزامي لها فقط | لا توجد | 10.07.1 |
 | Windows PowerShell 5.1 و.NET Framework | جميع المشغلات والعمليات المشتركة | متطلب Windows أساسي | مكوّن نظام | PowerShell 5.1 |
 | Windows `tar.exe` | استخراج حزمة ImageMagick 7z أثناء التجهيز فقط | اختياري؛ يمكن الاستخراج اليدوي | مكوّن نظام، لا يُوزع من المشروع | bsdtar 3.8.8 |
 | NVIDIA GPU وتعريف متوافق | تسريع ضغط الفيديو عبر NVENC | اختياري؛ CPU بديل تلقائي | ليس جزءًا من المشروع | لا يُفترض توفره |
 | Arial | نص العلامة المائية وأسماء Contact Sheet | خط Windows المعتاد؛ قد يحتاج مستخدم نسخة Windows مختزلة توفير خط | مكوّن نظام | نجح إنشاء النص في الاختبارات |
 
 مراجع BRIA/rembg/ONNX/Real-ESRGAN وFrame Interpolation في الشروح القديمة أمثلة مقارنة وليست اعتمادات تنفيذية أو أدوات موجودة. Git وPython وNode و7-Zip ليست متطلبات تشغيل للمشروع.
+
+أدوات Rename Copies وSort Copies وText Encoding وFolder Compare وJSON Format وNetwork Info وPing Host لا تضيف اعتمادًا خارجيًا. أدوات الشبكة تستخدم .NET المدمج، وPing قد يُمنع داخل بيئة عزل أو بواسطة الجدار الناري دون أن تحتاج الأداة صلاحية Administrator في Windows العادي.
 
 ## اكتشاف النسخ والتحقق
 
@@ -28,7 +30,7 @@
 
 ## المصادر والحزم المحددة
 
-1. **FFmpeg وFFprobe:** [الموقع الرسمي والتنزيلات](https://ffmpeg.org/download.html) يوجّه إلى موزعي Windows. اختير [Gyan Builds](https://www.gyan.dev/ffmpeg/builds/) لبناء Essentials الثابت **9.0.2** بصيغة ZIP، قرابة 109 MB. الرابط يتضمن الإصدار؛ لا يُستخدم `latest`. بصمة SHA-256 ثابتة في manifest وتحققت من مطابقتها لبيانات [إصدار الناشر](https://github.com/GyanD/codexffmpeg/releases/tag/9.0.2) وملف البصمة المنشور عبر التصفح. تنزيل أرشيف البرنامج نفسه من الطرفية لم يُختبر لغياب اتصالها بالإنترنت.
+1. **FFmpeg وFFprobe:** [الموقع الرسمي والتنزيلات](https://ffmpeg.org/download.html) يوجّه إلى موزعي Windows. اختير [Gyan Builds](https://www.gyan.dev/ffmpeg/builds/) لبناء Essentials الثابت **9.0.2** بصيغة ZIP، قرابة 109 MB. الرابط يتضمن الإصدار؛ لا يُستخدم `latest`. بصمة SHA-256 ثابتة في manifest وتحققت من مطابقتها لبيانات [إصدار الناشر](https://github.com/GyanD/codexffmpeg/releases/tag/9.0.2) وملف البصمة المنشور عبر التصفح. لم يُنزّل أرشيف البرنامج أثناء التطوير، التزامًا بتعليمات عدم تنزيل برامج جديدة دون موافقة.
 2. **ImageMagick:** [صفحة التنزيل الرسمية](https://imagemagick.org/download/) و[الإصدار المثبت 7.1.2-34](https://github.com/ImageMagick/ImageMagick/releases/tag/7.1.2-34). اختير portable Q16 HDRI x64 بصيغة 7z، قرابة 12 MB. البصمة ثابتة في manifest ومنشورة ضمن أصول الإصدار الرسمي.
 3. **Ghostscript:** [التنزيل الرسمي](https://ghostscript.com/releases/gsdnld.html) و[إصدار Artifex 10.08.0](https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/tag/gs10080). حزمة Windows x64 قرابة 63 MB، وبصمتها ثابتة من أصول الإصدار الرسمي. تُحفظ داخل `_downloads` **دون تشغيل المثبت**. لا توجد في هذا الإعداد حزمة Ghostscript Portable رسمية جاهزة تم التحقق منها؛ لا تُقدّم نسخة طرف ثالث على أنها رسمية.
 

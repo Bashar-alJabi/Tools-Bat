@@ -1,8 +1,8 @@
 ﻿{
-    "DateUTC":  "2026-10-17T20:44:50.7727295Z",
+    "DateUTC":  "2026-10-18T16:12:03.2817358Z",
     "Windows":  "10.0.26300.0",
     "PowerShell":  "5.1.26100.9549",
-    "Sandbox":  "C:\\Bashar\\TOOLs\\Tools Bat\\tests\\_sandbox\\run-cd126aa997f64bceaf7b2caee3ef4ee0",
+    "Sandbox":  "C:\\Bashar\\TOOLs\\Tools Bat\\tests\\_sandbox\\run-1e57b3385e3045b0a5da558c2664c25d",
     "Results":  [
                     {
                         "Test":  "Background Color Remover",

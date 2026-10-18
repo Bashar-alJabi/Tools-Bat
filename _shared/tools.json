@@ -313,5 +313,54 @@
     "Dependency": "ghostscript",
     "Original": false,
     "Standalone": true
+  },
+  {
+    "Name": "Rename Copies",
+    "Path": "UTI\\Rename Copies\\Rename Copies.bat",
+    "Dependency": "",
+    "Original": false,
+    "Standalone": true
+  },
+  {
+    "Name": "Sort Copies",
+    "Path": "UTI\\Sort Copies\\Sort Copies.bat",
+    "Dependency": "",
+    "Original": false,
+    "Standalone": true
+  },
+  {
+    "Name": "Text Encoding",
+    "Path": "UTI\\Text Encoding\\Text Encoding.bat",
+    "Dependency": "",
+    "Original": false,
+    "Standalone": true
+  },
+  {
+    "Name": "Folder Compare",
+    "Path": "UTI\\Folder Compare\\Folder Compare.bat",
+    "Dependency": "",
+    "Original": false,
+    "Standalone": true
+  },
+  {
+    "Name": "JSON Format",
+    "Path": "UTI\\JSON Format\\JSON Format.bat",
+    "Dependency": "",
+    "Original": false,
+    "Standalone": true
+  },
+  {
+    "Name": "Network Info",
+    "Path": "NET\\Network Info\\Network Info.bat",
+    "Dependency": "",
+    "Original": false,
+    "Standalone": true
+  },
+  {
+    "Name": "Ping Host",
+    "Path": "NET\\Ping Host\\Ping Host.bat",
+    "Dependency": "",
+    "Original": false,
+    "Standalone": true
   }
 ]
