@@ -1,0 +1,3806 @@
+{
+  "Baseline": "ed2f937fb1ffb6cbcbb58d21c31903a654bc742c",
+  "TrackedFiles": 633,
+  "ImmutableFilesVerified": 428,
+  "LostFiles": 0,
+  "Files": [
+    {
+      "Before": ".gitattributes",
+      "After": ".gitattributes",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": ".gitignore",
+      "After": ".gitignore",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "AUD/Audio Channels/Audio Channels.bat",
+      "After": "Tools/AUD/Audio Channels/Audio Channels.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "AUD/Audio Channels/Audio Channels.md",
+      "After": "Tools/AUD/Audio Channels/Audio Channels.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "AUD/Audio Channels/Audio Channels.ps1",
+      "After": "Tools/AUD/Audio Channels/Audio Channels.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "AUD/Audio Channels/Input/.gitkeep",
+      "After": "Tools/AUD/Audio Channels/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "AUD/Audio Channels/Output/.gitkeep",
+      "After": "Tools/AUD/Audio Channels/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "AUD/Audio Concatenate/Audio Concatenate.bat",
+      "After": "Tools/AUD/Audio Concatenate/Audio Concatenate.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "AUD/Audio Concatenate/Audio Concatenate.md",
+      "After": "Tools/AUD/Audio Concatenate/Audio Concatenate.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "AUD/Audio Concatenate/Audio Concatenate.ps1",
+      "After": "Tools/AUD/Audio Concatenate/Audio Concatenate.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "AUD/Audio Concatenate/Input/.gitkeep",
+      "After": "Tools/AUD/Audio Concatenate/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "AUD/Audio Concatenate/Output/.gitkeep",
+      "After": "Tools/AUD/Audio Concatenate/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "AUD/Audio Converter/Audio Converter.bat",
+      "After": "Tools/AUD/Audio Converter/Audio Converter.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "AUD/Audio Converter/Audio Converter.md",
+      "After": "Tools/AUD/Audio Converter/Audio Converter.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "AUD/Audio Converter/Input/.gitkeep",
+      "After": "Tools/AUD/Audio Converter/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "AUD/Audio Converter/Output/.gitkeep",
+      "After": "Tools/AUD/Audio Converter/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "AUD/Audio Fade/Audio Fade.bat",
+      "After": "Tools/AUD/Audio Fade/Audio Fade.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "AUD/Audio Fade/Audio Fade.md",
+      "After": "Tools/AUD/Audio Fade/Audio Fade.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "AUD/Audio Fade/Audio Fade.ps1",
+      "After": "Tools/AUD/Audio Fade/Audio Fade.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "AUD/Audio Fade/Input/.gitkeep",
+      "After": "Tools/AUD/Audio Fade/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "AUD/Audio Fade/Output/.gitkeep",
+      "After": "Tools/AUD/Audio Fade/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "AUD/Audio Normalize/Audio Normalize.bat",
+      "After": "Tools/AUD/Audio Normalize/Audio Normalize.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "AUD/Audio Normalize/Audio Normalize.md",
+      "After": "Tools/AUD/Audio Normalize/Audio Normalize.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "AUD/Audio Normalize/Audio Normalize.ps1",
+      "After": "Tools/AUD/Audio Normalize/Audio Normalize.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "AUD/Audio Normalize/Input/.gitkeep",
+      "After": "Tools/AUD/Audio Normalize/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "AUD/Audio Normalize/Output/.gitkeep",
+      "After": "Tools/AUD/Audio Normalize/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "AUD/Audio Trim/Audio Trim.bat",
+      "After": "Tools/AUD/Audio Trim/Audio Trim.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "AUD/Audio Trim/Audio Trim.md",
+      "After": "Tools/AUD/Audio Trim/Audio Trim.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "AUD/Audio Trim/Audio Trim.ps1",
+      "After": "Tools/AUD/Audio Trim/Audio Trim.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "AUD/Audio Trim/Input/.gitkeep",
+      "After": "Tools/AUD/Audio Trim/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "AUD/Audio Trim/Output/.gitkeep",
+      "After": "Tools/AUD/Audio Trim/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "BUILD_DISTRIBUTION.bat",
+      "After": "BUILD_DISTRIBUTION.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "BUILD_DISTRIBUTION.md",
+      "After": "BUILD_DISTRIBUTION.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Background Color Remover/Background Color Remover — ImageMagick.md",
+      "After": "Tools/IMG/Image Background Color Remover/Background Color Remover — ImageMagick.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Background Color Remover/Background Color Remover.bat",
+      "After": "Tools/IMG/Image Background Color Remover/Background Color Remover.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Background Color Remover/Background Color Remover.md",
+      "After": "Tools/IMG/Image Background Color Remover/Background Color Remover.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Background Color Remover/Input/.gitkeep",
+      "After": "Tools/IMG/Image Background Color Remover/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "IMG/Image Background Color Remover/Output/.gitkeep",
+      "After": "Tools/IMG/Image Background Color Remover/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "IMG/Image Border/Image Border.bat",
+      "After": "Tools/IMG/Image Border/Image Border.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Border/Image Border.md",
+      "After": "Tools/IMG/Image Border/Image Border.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Border/Image Border.ps1",
+      "After": "Tools/IMG/Image Border/Image Border.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Border/Input/.gitkeep",
+      "After": "Tools/IMG/Image Border/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "IMG/Image Border/Output/.gitkeep",
+      "After": "Tools/IMG/Image Border/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "IMG/Image Compression/Compression Image — ImageMagick.md",
+      "After": "Tools/IMG/Image Compression/Compression Image — ImageMagick.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Compression/Image Compression.bat",
+      "After": "Tools/IMG/Image Compression/Image Compression.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Compression/Image Compression.md",
+      "After": "Tools/IMG/Image Compression/Image Compression.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Compression/Input/.gitkeep",
+      "After": "Tools/IMG/Image Compression/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "IMG/Image Compression/Output/.gitkeep",
+      "After": "Tools/IMG/Image Compression/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "IMG/Image Converter/Converting Image — ImageMagick.md",
+      "After": "Tools/IMG/Image Converter/Converting Image — ImageMagick.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Converter/Image Convert.bat",
+      "After": "Tools/IMG/Image Converter/Image Convert.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Converter/Image Convert.md",
+      "After": "Tools/IMG/Image Converter/Image Convert.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Converter/Input/.gitkeep",
+      "After": "Tools/IMG/Image Converter/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "IMG/Image Converter/Output/.gitkeep",
+      "After": "Tools/IMG/Image Converter/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "IMG/Image Crop/Crop Image — ImageMagick.md",
+      "After": "Tools/IMG/Image Crop/Crop Image — ImageMagick.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Crop/Image Crop.bat",
+      "After": "Tools/IMG/Image Crop/Image Crop.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Crop/Image Crop.md",
+      "After": "Tools/IMG/Image Crop/Image Crop.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Crop/Input/.gitkeep",
+      "After": "Tools/IMG/Image Crop/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "IMG/Image Crop/Output/.gitkeep",
+      "After": "Tools/IMG/Image Crop/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "IMG/Image Enhance/Enhancing Image — ImageMagick.md",
+      "After": "Tools/IMG/Image Enhance/Enhancing Image — ImageMagick.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Enhance/Image Enhance.bat",
+      "After": "Tools/IMG/Image Enhance/Image Enhance.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Enhance/Image Enhance.md",
+      "After": "Tools/IMG/Image Enhance/Image Enhance.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Enhance/Input/.gitkeep",
+      "After": "Tools/IMG/Image Enhance/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "IMG/Image Enhance/Output/.gitkeep",
+      "After": "Tools/IMG/Image Enhance/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "IMG/Image Flip/Image Flip.bat",
+      "After": "Tools/IMG/Image Flip/Image Flip.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Flip/Image Flip.md",
+      "After": "Tools/IMG/Image Flip/Image Flip.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Flip/Image Flip.ps1",
+      "After": "Tools/IMG/Image Flip/Image Flip.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Flip/Input/.gitkeep",
+      "After": "Tools/IMG/Image Flip/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "IMG/Image Flip/Output/.gitkeep",
+      "After": "Tools/IMG/Image Flip/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "IMG/Image Grayscale/Image Grayscale.bat",
+      "After": "Tools/IMG/Image Grayscale/Image Grayscale.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Grayscale/Image Grayscale.md",
+      "After": "Tools/IMG/Image Grayscale/Image Grayscale.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Grayscale/Image Grayscale.ps1",
+      "After": "Tools/IMG/Image Grayscale/Image Grayscale.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Grayscale/Input/.gitkeep",
+      "After": "Tools/IMG/Image Grayscale/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "IMG/Image Grayscale/Output/.gitkeep",
+      "After": "Tools/IMG/Image Grayscale/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "IMG/Image Grid/Image Contact Sheet.bat",
+      "After": "Tools/IMG/Image Grid/Image Contact Sheet.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Grid/Image Contact Sheet.md",
+      "After": "Tools/IMG/Image Grid/Image Contact Sheet.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Grid/Image Grid Contact Sheet — ImageMagick.md",
+      "After": "Tools/IMG/Image Grid/Image Grid Contact Sheet — ImageMagick.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Grid/Input/.gitkeep",
+      "After": "Tools/IMG/Image Grid/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "IMG/Image Grid/Output/.gitkeep",
+      "After": "Tools/IMG/Image Grid/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "IMG/Image Info/Image Info.bat",
+      "After": "Tools/IMG/Image Info/Image Info.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Info/Image Info.md",
+      "After": "Tools/IMG/Image Info/Image Info.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Info/Image Info.ps1",
+      "After": "Tools/IMG/Image Info/Image Info.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Info/Input/.gitkeep",
+      "After": "Tools/IMG/Image Info/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "IMG/Image Info/Output/.gitkeep",
+      "After": "Tools/IMG/Image Info/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "IMG/Image Metadata Cleaner/Image Metadata Cleaner — ImageMagick.md",
+      "After": "Tools/IMG/Image Metadata Cleaner/Image Metadata Cleaner — ImageMagick.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Metadata Cleaner/Image Metadata Cleaner.bat",
+      "After": "Tools/IMG/Image Metadata Cleaner/Image Metadata Cleaner.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Metadata Cleaner/Image Metadata Cleaner.md",
+      "After": "Tools/IMG/Image Metadata Cleaner/Image Metadata Cleaner.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Metadata Cleaner/Input/.gitkeep",
+      "After": "Tools/IMG/Image Metadata Cleaner/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "IMG/Image Metadata Cleaner/Output/.gitkeep",
+      "After": "Tools/IMG/Image Metadata Cleaner/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "IMG/Image Resize/Image Resize.bat",
+      "After": "Tools/IMG/Image Resize/Image Resize.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Resize/Image Resize.md",
+      "After": "Tools/IMG/Image Resize/Image Resize.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Resize/Input/.gitkeep",
+      "After": "Tools/IMG/Image Resize/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "IMG/Image Resize/Output/.gitkeep",
+      "After": "Tools/IMG/Image Resize/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "IMG/Image Resize/Resizing Image — ImageMagick.md",
+      "After": "Tools/IMG/Image Resize/Resizing Image — ImageMagick.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Rotate/Image Rotate.bat",
+      "After": "Tools/IMG/Image Rotate/Image Rotate.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Rotate/Image Rotate.md",
+      "After": "Tools/IMG/Image Rotate/Image Rotate.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Rotate/Image Rotate.ps1",
+      "After": "Tools/IMG/Image Rotate/Image Rotate.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Rotate/Input/.gitkeep",
+      "After": "Tools/IMG/Image Rotate/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "IMG/Image Rotate/Output/.gitkeep",
+      "After": "Tools/IMG/Image Rotate/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "IMG/Image Watermark/Image Watermark.bat",
+      "After": "Tools/IMG/Image Watermark/Image Watermark.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Watermark/Image Watermark.md",
+      "After": "Tools/IMG/Image Watermark/Image Watermark.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "IMG/Image Watermark/Input/.gitkeep",
+      "After": "Tools/IMG/Image Watermark/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "IMG/Image Watermark/Output/.gitkeep",
+      "After": "Tools/IMG/Image Watermark/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "IMG/Image Watermark/Watermark/.gitkeep",
+      "After": "Tools/IMG/Image Watermark/Watermark/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "IMG/Image Watermark/Watermarking Images — ImageMagick.md",
+      "After": "Tools/IMG/Image Watermark/Watermarking Images — ImageMagick.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "NET/Network Info/Input/.gitkeep",
+      "After": "Tools/NET/Network Info/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "NET/Network Info/Network Info.bat",
+      "After": "Tools/NET/Network Info/Network Info.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "NET/Network Info/Network Info.md",
+      "After": "Tools/NET/Network Info/Network Info.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "NET/Network Info/Network Info.ps1",
+      "After": "Tools/NET/Network Info/Network Info.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "NET/Network Info/Output/.gitkeep",
+      "After": "Tools/NET/Network Info/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "NET/Ping Host/Input/.gitkeep",
+      "After": "Tools/NET/Ping Host/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "NET/Ping Host/Output/.gitkeep",
+      "After": "Tools/NET/Ping Host/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "NET/Ping Host/Ping Host.bat",
+      "After": "Tools/NET/Ping Host/Ping Host.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "NET/Ping Host/Ping Host.md",
+      "After": "Tools/NET/Ping Host/Ping Host.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "NET/Ping Host/Ping Host.ps1",
+      "After": "Tools/NET/Ping Host/Ping Host.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "PDF/Compress PDF/Compress PDF.bat",
+      "After": "Tools/PDF/Compress PDF/Compress PDF.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "PDF/Compress PDF/Compress PDF.md",
+      "After": "Tools/PDF/Compress PDF/Compress PDF.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "PDF/Compress PDF/Input/.gitkeep",
+      "After": "Tools/PDF/Compress PDF/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "PDF/Compress PDF/Output/.gitkeep",
+      "After": "Tools/PDF/Compress PDF/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "PDF/Compress PDF/PDF Compression — Ghostscript.md",
+      "After": "Tools/PDF/Compress PDF/PDF Compression — Ghostscript.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "PDF/Merge PDF/Input/.gitkeep",
+      "After": "Tools/PDF/Merge PDF/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "PDF/Merge PDF/Merge PDF.bat",
+      "After": "Tools/PDF/Merge PDF/Merge PDF.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "PDF/Merge PDF/Merge PDF.md",
+      "After": "Tools/PDF/Merge PDF/Merge PDF.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "PDF/Merge PDF/Output/.gitkeep",
+      "After": "Tools/PDF/Merge PDF/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "PDF/PDF Split/Input/.gitkeep",
+      "After": "Tools/PDF/PDF Split/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "PDF/PDF Split/Output/.gitkeep",
+      "After": "Tools/PDF/PDF Split/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "PDF/PDF Split/PDF Split.bat",
+      "After": "Tools/PDF/PDF Split/PDF Split.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "PDF/PDF Split/PDF Split.md",
+      "After": "Tools/PDF/PDF Split/PDF Split.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "PDF/PDF Split/PDF Split.ps1",
+      "After": "Tools/PDF/PDF Split/PDF Split.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "PDF/PDF Text/Input/.gitkeep",
+      "After": "Tools/PDF/PDF Text/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "PDF/PDF Text/Output/.gitkeep",
+      "After": "Tools/PDF/PDF Text/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "PDF/PDF Text/PDF Text.bat",
+      "After": "Tools/PDF/PDF Text/PDF Text.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "PDF/PDF Text/PDF Text.md",
+      "After": "Tools/PDF/PDF Text/PDF Text.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "PDF/PDF Text/PDF Text.ps1",
+      "After": "Tools/PDF/PDF Text/PDF Text.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "PDF/PDF To Images/Input/.gitkeep",
+      "After": "Tools/PDF/PDF To Images/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "PDF/PDF To Images/Output/.gitkeep",
+      "After": "Tools/PDF/PDF To Images/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "PDF/PDF To Images/PDF To Images.bat",
+      "After": "Tools/PDF/PDF To Images/PDF To Images.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "PDF/PDF To Images/PDF To Images.md",
+      "After": "Tools/PDF/PDF To Images/PDF To Images.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "PDF/PDF To Images/PDF To Images.ps1",
+      "After": "Tools/PDF/PDF To Images/PDF To Images.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "README.md",
+      "After": "README.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "START_HERE.bat",
+      "After": "START_HERE.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "START_HERE.md",
+      "After": "START_HERE.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "UTI/Duplicate Finder/Duplicate Finder.bat",
+      "After": "Tools/UTI/Duplicate Finder/Duplicate Finder.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "UTI/Duplicate Finder/Duplicate Finder.md",
+      "After": "Tools/UTI/Duplicate Finder/Duplicate Finder.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "UTI/Duplicate Finder/Input/.gitkeep",
+      "After": "Tools/UTI/Duplicate Finder/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "UTI/Duplicate Finder/Output/.gitkeep",
+      "After": "Tools/UTI/Duplicate Finder/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "UTI/File Hashes/File Hashes.bat",
+      "After": "Tools/UTI/File Hashes/File Hashes.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "UTI/File Hashes/File Hashes.md",
+      "After": "Tools/UTI/File Hashes/File Hashes.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "UTI/File Hashes/Input/.gitkeep",
+      "After": "Tools/UTI/File Hashes/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "UTI/File Hashes/Output/.gitkeep",
+      "After": "Tools/UTI/File Hashes/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "UTI/File Inventory/File Inventory.bat",
+      "After": "Tools/UTI/File Inventory/File Inventory.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "UTI/File Inventory/File Inventory.md",
+      "After": "Tools/UTI/File Inventory/File Inventory.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "UTI/File Inventory/Input/.gitkeep",
+      "After": "Tools/UTI/File Inventory/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "UTI/File Inventory/Output/.gitkeep",
+      "After": "Tools/UTI/File Inventory/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "UTI/Folder Compare/Folder Compare.bat",
+      "After": "Tools/UTI/Folder Compare/Folder Compare.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "UTI/Folder Compare/Folder Compare.md",
+      "After": "Tools/UTI/Folder Compare/Folder Compare.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "UTI/Folder Compare/Folder Compare.ps1",
+      "After": "Tools/UTI/Folder Compare/Folder Compare.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "UTI/Folder Compare/Input/.gitkeep",
+      "After": "Tools/UTI/Folder Compare/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "UTI/Folder Compare/Input/Left/.gitkeep",
+      "After": "Tools/UTI/Folder Compare/Input/Left/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "UTI/Folder Compare/Input/Right/.gitkeep",
+      "After": "Tools/UTI/Folder Compare/Input/Right/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "UTI/Folder Compare/Output/.gitkeep",
+      "After": "Tools/UTI/Folder Compare/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "UTI/JSON Format/Input/.gitkeep",
+      "After": "Tools/UTI/JSON Format/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "UTI/JSON Format/JSON Format.bat",
+      "After": "Tools/UTI/JSON Format/JSON Format.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "UTI/JSON Format/JSON Format.md",
+      "After": "Tools/UTI/JSON Format/JSON Format.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "UTI/JSON Format/JSON Format.ps1",
+      "After": "Tools/UTI/JSON Format/JSON Format.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "UTI/JSON Format/Output/.gitkeep",
+      "After": "Tools/UTI/JSON Format/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "UTI/Media Info/Input/.gitkeep",
+      "After": "Tools/UTI/Media Info/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "UTI/Media Info/Media Info.bat",
+      "After": "Tools/UTI/Media Info/Media Info.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "UTI/Media Info/Media Info.md",
+      "After": "Tools/UTI/Media Info/Media Info.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "UTI/Media Info/Output/.gitkeep",
+      "After": "Tools/UTI/Media Info/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "UTI/Rename Copies/Input/.gitkeep",
+      "After": "Tools/UTI/Rename Copies/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "UTI/Rename Copies/Output/.gitkeep",
+      "After": "Tools/UTI/Rename Copies/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "UTI/Rename Copies/Rename Copies.bat",
+      "After": "Tools/UTI/Rename Copies/Rename Copies.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "UTI/Rename Copies/Rename Copies.md",
+      "After": "Tools/UTI/Rename Copies/Rename Copies.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "UTI/Rename Copies/Rename Copies.ps1",
+      "After": "Tools/UTI/Rename Copies/Rename Copies.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "UTI/Sort Copies/Input/.gitkeep",
+      "After": "Tools/UTI/Sort Copies/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "UTI/Sort Copies/Output/.gitkeep",
+      "After": "Tools/UTI/Sort Copies/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "UTI/Sort Copies/Sort Copies.bat",
+      "After": "Tools/UTI/Sort Copies/Sort Copies.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "UTI/Sort Copies/Sort Copies.md",
+      "After": "Tools/UTI/Sort Copies/Sort Copies.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "UTI/Sort Copies/Sort Copies.ps1",
+      "After": "Tools/UTI/Sort Copies/Sort Copies.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "UTI/Text Encoding/Input/.gitkeep",
+      "After": "Tools/UTI/Text Encoding/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "UTI/Text Encoding/Output/.gitkeep",
+      "After": "Tools/UTI/Text Encoding/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "UTI/Text Encoding/Text Encoding.bat",
+      "After": "Tools/UTI/Text Encoding/Text Encoding.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "UTI/Text Encoding/Text Encoding.md",
+      "After": "Tools/UTI/Text Encoding/Text Encoding.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "UTI/Text Encoding/Text Encoding.ps1",
+      "After": "Tools/UTI/Text Encoding/Text Encoding.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "UTI/ZIP Backup/Input/.gitkeep",
+      "After": "Tools/UTI/ZIP Backup/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "UTI/ZIP Backup/Output/.gitkeep",
+      "After": "Tools/UTI/ZIP Backup/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "UTI/ZIP Backup/ZIP Backup.bat",
+      "After": "Tools/UTI/ZIP Backup/ZIP Backup.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "UTI/ZIP Backup/ZIP Backup.md",
+      "After": "Tools/UTI/ZIP Backup/ZIP Backup.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "UTI/ZIP Extract/Input/.gitkeep",
+      "After": "Tools/UTI/ZIP Extract/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "UTI/ZIP Extract/Output/.gitkeep",
+      "After": "Tools/UTI/ZIP Extract/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "UTI/ZIP Extract/ZIP Extract.bat",
+      "After": "Tools/UTI/ZIP Extract/ZIP Extract.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "UTI/ZIP Extract/ZIP Extract.md",
+      "After": "Tools/UTI/ZIP Extract/ZIP Extract.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video  Compression/Compress Video.bat",
+      "After": "Tools/VID/Video  Compression/Compress Video.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video  Compression/Compress Video.md",
+      "After": "Tools/VID/Video  Compression/Compress Video.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video  Compression/Input/.gitkeep",
+      "After": "Tools/VID/Video  Compression/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "VID/Video  Compression/Output/.gitkeep",
+      "After": "Tools/VID/Video  Compression/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "VID/Video  Compression/Video Compression — FFmpeg.md",
+      "After": "Tools/VID/Video  Compression/Video Compression — FFmpeg.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video - Audio/Audio-Video — FFmpeg.md",
+      "After": "Tools/VID/Video - Audio/Audio-Video — FFmpeg.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video - Audio/Convert Audio.bat",
+      "After": "Tools/VID/Video - Audio/Convert Audio.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video - Audio/Convert Audio.md",
+      "After": "Tools/VID/Video - Audio/Convert Audio.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video - Audio/Extract Audio.bat",
+      "After": "Tools/VID/Video - Audio/Extract Audio.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video - Audio/Extract Audio.md",
+      "After": "Tools/VID/Video - Audio/Extract Audio.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video - Audio/Increase Volume.bat",
+      "After": "Tools/VID/Video - Audio/Increase Volume.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video - Audio/Increase Volume.md",
+      "After": "Tools/VID/Video - Audio/Increase Volume.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video - Audio/Input/.gitkeep",
+      "After": "Tools/VID/Video - Audio/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "VID/Video - Audio/Merge Audio.bat",
+      "After": "Tools/VID/Video - Audio/Merge Audio.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video - Audio/Merge Audio.md",
+      "After": "Tools/VID/Video - Audio/Merge Audio.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video - Audio/Normalize Audio.bat",
+      "After": "Tools/VID/Video - Audio/Normalize Audio.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video - Audio/Normalize Audio.md",
+      "After": "Tools/VID/Video - Audio/Normalize Audio.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video - Audio/Output/.gitkeep",
+      "After": "Tools/VID/Video - Audio/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "VID/Video - Audio/Remove Audio.bat",
+      "After": "Tools/VID/Video - Audio/Remove Audio.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video - Audio/Remove Audio.md",
+      "After": "Tools/VID/Video - Audio/Remove Audio.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video - Audio/Replace Audio.bat",
+      "After": "Tools/VID/Video - Audio/Replace Audio.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video - Audio/Replace Audio.md",
+      "After": "Tools/VID/Video - Audio/Replace Audio.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video FPS Converter/Input/.gitkeep",
+      "After": "Tools/VID/Video FPS Converter/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "VID/Video FPS Converter/Output/.gitkeep",
+      "After": "Tools/VID/Video FPS Converter/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "VID/Video FPS Converter/Video FPS Conversion — FFmpeg.md",
+      "After": "Tools/VID/Video FPS Converter/Video FPS Conversion — FFmpeg.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video FPS Converter/Video FPS Converter.bat",
+      "After": "Tools/VID/Video FPS Converter/Video FPS Converter.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video FPS Converter/Video FPS Converter.md",
+      "After": "Tools/VID/Video FPS Converter/Video FPS Converter.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video Frames/Input/.gitkeep",
+      "After": "Tools/VID/Video Frames/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "VID/Video Frames/Output/.gitkeep",
+      "After": "Tools/VID/Video Frames/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "VID/Video Frames/Video Frames.bat",
+      "After": "Tools/VID/Video Frames/Video Frames.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video Frames/Video Frames.md",
+      "After": "Tools/VID/Video Frames/Video Frames.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video Frames/Video Frames.ps1",
+      "After": "Tools/VID/Video Frames/Video Frames.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video Remux/Input/.gitkeep",
+      "After": "Tools/VID/Video Remux/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "VID/Video Remux/Output/.gitkeep",
+      "After": "Tools/VID/Video Remux/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "VID/Video Remux/Video Remux.bat",
+      "After": "Tools/VID/Video Remux/Video Remux.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video Remux/Video Remux.md",
+      "After": "Tools/VID/Video Remux/Video Remux.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video Remux/Video Remux.ps1",
+      "After": "Tools/VID/Video Remux/Video Remux.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video Resolution Converter/Input/.gitkeep",
+      "After": "Tools/VID/Video Resolution Converter/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "VID/Video Resolution Converter/Output/.gitkeep",
+      "After": "Tools/VID/Video Resolution Converter/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "VID/Video Resolution Converter/Video Resolution Converter — FFmpeg.md",
+      "After": "Tools/VID/Video Resolution Converter/Video Resolution Converter — FFmpeg.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video Resolution Converter/Video Resolution Converter.bat",
+      "After": "Tools/VID/Video Resolution Converter/Video Resolution Converter.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video Resolution Converter/Video Resolution Converter.md",
+      "After": "Tools/VID/Video Resolution Converter/Video Resolution Converter.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video Rotate/Input/.gitkeep",
+      "After": "Tools/VID/Video Rotate/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "VID/Video Rotate/Output/.gitkeep",
+      "After": "Tools/VID/Video Rotate/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "VID/Video Rotate/Video Rotate.bat",
+      "After": "Tools/VID/Video Rotate/Video Rotate.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video Rotate/Video Rotate.md",
+      "After": "Tools/VID/Video Rotate/Video Rotate.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video Rotate/Video Rotate.ps1",
+      "After": "Tools/VID/Video Rotate/Video Rotate.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video Speed/Input/.gitkeep",
+      "After": "Tools/VID/Video Speed/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "VID/Video Speed/Output/.gitkeep",
+      "After": "Tools/VID/Video Speed/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "VID/Video Speed/Video Speed — FFmpeg.md",
+      "After": "Tools/VID/Video Speed/Video Speed — FFmpeg.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video Speed/Video Speed.bat",
+      "After": "Tools/VID/Video Speed/Video Speed.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video Speed/Video Speed.md",
+      "After": "Tools/VID/Video Speed/Video Speed.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video Thumbnail/Input/.gitkeep",
+      "After": "Tools/VID/Video Thumbnail/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "VID/Video Thumbnail/Output/.gitkeep",
+      "After": "Tools/VID/Video Thumbnail/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "VID/Video Thumbnail/Video Thumbnail.bat",
+      "After": "Tools/VID/Video Thumbnail/Video Thumbnail.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video Thumbnail/Video Thumbnail.md",
+      "After": "Tools/VID/Video Thumbnail/Video Thumbnail.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video To GIF/Input/.gitkeep",
+      "After": "Tools/VID/Video To GIF/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "VID/Video To GIF/Output/.gitkeep",
+      "After": "Tools/VID/Video To GIF/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "VID/Video To GIF/Video To GIF.bat",
+      "After": "Tools/VID/Video To GIF/Video To GIF.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video To GIF/Video To GIF.md",
+      "After": "Tools/VID/Video To GIF/Video To GIF.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video To GIF/Video To GIF.ps1",
+      "After": "Tools/VID/Video To GIF/Video To GIF.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video Trim/Input/.gitkeep",
+      "After": "Tools/VID/Video Trim/Input/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "VID/Video Trim/Output/.gitkeep",
+      "After": "Tools/VID/Video Trim/Output/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "VID/Video Trim/Video Trim.bat",
+      "After": "Tools/VID/Video Trim/Video Trim.bat",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video Trim/Video Trim.md",
+      "After": "Tools/VID/Video Trim/Video Trim.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "VID/Video Trim/Video Trim.ps1",
+      "After": "Tools/VID/Video Trim/Video Trim.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "_bin/.gitkeep",
+      "After": "System/Bin/.gitkeep",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "_original/Restore-ToFolder.ps1",
+      "After": "Development/Original/Restore-ToFolder.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "_original/directories.json",
+      "After": "Development/Original/directories.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "_original/manifest.json",
+      "After": "Development/Original/manifest.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "_original/original.zip",
+      "After": "Development/Original/original.zip",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "_original/review-transform.ps1",
+      "After": "Development/Original/review-transform.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "_shared/Archives.ps1",
+      "After": "System/Shared/Archives.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "_shared/Build.ps1",
+      "After": "System/Shared/Build.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "_shared/Check.ps1",
+      "After": "System/Shared/Check.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "_shared/Core.ps1",
+      "After": "System/Shared/Core.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "_shared/Download.ps1",
+      "After": "System/Shared/Download.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "_shared/NewTool.ps1",
+      "After": "System/Shared/NewTool.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "_shared/Setup.ps1",
+      "After": "System/Shared/Setup.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "_shared/ToolRunner.ps1",
+      "After": "System/Shared/ToolRunner.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "_shared/Validate.ps1",
+      "After": "System/Shared/Validate.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "_shared/packages.json",
+      "After": "System/Shared/packages.json",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "_shared/tools.json",
+      "After": "System/Shared/tools.json",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "docs/DEPENDENCIES.md",
+      "After": "System/Docs/DEPENDENCIES.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "docs/DISTRIBUTION.md",
+      "After": "System/Docs/DISTRIBUTION.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "docs/IMPROVEMENTS_REPORT_AR.md",
+      "After": "Development/Reports/IMPROVEMENTS_REPORT_AR.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "docs/ORIGINAL_COMPARISON_AR.md",
+      "After": "Development/Reports/ORIGINAL_COMPARISON_AR.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "docs/PRIORITIES.md",
+      "After": "Development/Reports/PRIORITIES.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "docs/REVIEW_REPORT_AR.md",
+      "After": "Development/Reports/REVIEW_REPORT_AR.md",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "tests/Extended-Tests.ps1",
+      "After": "Development/tests/Extended-Tests.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "tests/Run-Tests.ps1",
+      "After": "Development/tests/Run-Tests.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "tests/Test-Distribution.ps1",
+      "After": "Development/tests/Test-Distribution.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "tests/Test-EdgeCases.ps1",
+      "After": "Development/tests/Test-EdgeCases.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "tests/Test-Improvements.ps1",
+      "After": "Development/tests/Test-Improvements.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "tests/Test-LocalPortable.ps1",
+      "After": "Development/tests/Test-LocalPortable.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "tests/Test-OriginalDesign.ps1",
+      "After": "Development/tests/Test-OriginalDesign.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "tests/Test-RootBats.ps1",
+      "After": "Development/tests/Test-RootBats.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "tests/Verify-Project.ps1",
+      "After": "Development/tests/Verify-Project.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/AUD/Audio Converter/Audio Converter.bat",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/AUD/Audio Converter/Audio Converter.bat",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/AUD/Audio Converter/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].wav",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/AUD/Audio Converter/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].wav",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/AUD/Audio Converter/Output/عينة ! %TB_UNDEFINED% & ^ (test) [1].mp3",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/AUD/Audio Converter/Output/عينة ! %TB_UNDEFINED% & ^ (test) [1].mp3",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Background Color Remover/Background Color Remover.bat",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Background Color Remover/Background Color Remover.bat",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Background Color Remover/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Background Color Remover/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Background Color Remover/Output/عينة ! %TB_UNDEFINED% & ^ (test) [1].png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Background Color Remover/Output/عينة ! %TB_UNDEFINED% & ^ (test) [1].png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Compression/Image Compression.bat",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Compression/Image Compression.bat",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Compression/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Compression/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Compression/Output/عينة ! %TB_UNDEFINED% & ^ (test) [1].png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Compression/Output/عينة ! %TB_UNDEFINED% & ^ (test) [1].png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Converter/Image Convert.bat",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Converter/Image Convert.bat",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Converter/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Converter/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Converter/Output/عينة ! %TB_UNDEFINED% & ^ (test) [1].jpg",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Converter/Output/عينة ! %TB_UNDEFINED% & ^ (test) [1].jpg",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Converter/Output/عينة ! %TB_UNDEFINED% & ^ (test) [1].png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Converter/Output/عينة ! %TB_UNDEFINED% & ^ (test) [1].png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Crop/Image Crop.bat",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Crop/Image Crop.bat",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Crop/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Crop/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Crop/Output/عينة ! %TB_UNDEFINED% & ^ (test) [1].png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Crop/Output/عينة ! %TB_UNDEFINED% & ^ (test) [1].png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Enhance/Image Enhance.bat",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Enhance/Image Enhance.bat",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Enhance/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Enhance/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Enhance/Output/عينة ! %TB_UNDEFINED% & ^ (test) [1].png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Enhance/Output/عينة ! %TB_UNDEFINED% & ^ (test) [1].png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Grid/Image Contact Sheet.bat",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Grid/Image Contact Sheet.bat",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Grid/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Grid/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Grid/Output/contact-sheet.png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Grid/Output/contact-sheet.png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Metadata Cleaner/Image Metadata Cleaner.bat",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Metadata Cleaner/Image Metadata Cleaner.bat",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Metadata Cleaner/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Metadata Cleaner/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Metadata Cleaner/Output/عينة ! %TB_UNDEFINED% & ^ (test) [1].png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Metadata Cleaner/Output/عينة ! %TB_UNDEFINED% & ^ (test) [1].png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Resize/Image Resize.bat",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Resize/Image Resize.bat",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Resize/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Resize/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Resize/Output/عينة ! %TB_UNDEFINED% & ^ (test) [1].png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Resize/Output/عينة ! %TB_UNDEFINED% & ^ (test) [1].png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Watermark/Image Watermark.bat",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Watermark/Image Watermark.bat",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Watermark/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Watermark/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Watermark/Output/عينة ! %TB_UNDEFINED% & ^ (test) [1].png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Watermark/Output/عينة ! %TB_UNDEFINED% & ^ (test) [1].png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Watermark/Watermark/logo.png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/IMG/Image Watermark/Watermark/logo.png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/PDF/Compress PDF/Compress PDF.bat",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/PDF/Compress PDF/Compress PDF.bat",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/PDF/Compress PDF/Input/001 عينة ! %TB_UNDEFINED% & ^ (test) [1].pdf",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/PDF/Compress PDF/Input/001 عينة ! %TB_UNDEFINED% & ^ (test) [1].pdf",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/PDF/Compress PDF/Output/001 عينة ! %TB_UNDEFINED% & ^ (test) [1].pdf",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/PDF/Compress PDF/Output/001 عينة ! %TB_UNDEFINED% & ^ (test) [1].pdf",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/PDF/Merge PDF/Input/001 عينة ! %TB_UNDEFINED% & ^ (test) [1].pdf",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/PDF/Merge PDF/Input/001 عينة ! %TB_UNDEFINED% & ^ (test) [1].pdf",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/PDF/Merge PDF/Input/002.pdf",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/PDF/Merge PDF/Input/002.pdf",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/PDF/Merge PDF/Merge PDF.bat",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/PDF/Merge PDF/Merge PDF.bat",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/PDF/Merge PDF/Output/merged.pdf",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/PDF/Merge PDF/Output/merged.pdf",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/START_HERE.bat",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/START_HERE.bat",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/Duplicate Finder/Duplicate Finder.bat",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/Duplicate Finder/Duplicate Finder.bat",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/Duplicate Finder/Input/hidden.txt",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/Duplicate Finder/Input/hidden.txt",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/Duplicate Finder/Input/nested/copy.txt",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/Duplicate Finder/Input/nested/copy.txt",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/Duplicate Finder/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].txt",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/Duplicate Finder/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].txt",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/Duplicate Finder/Output/duplicates.csv",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/Duplicate Finder/Output/duplicates.csv",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/File Hashes/File Hashes.bat",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/File Hashes/File Hashes.bat",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/File Hashes/Input/hidden.txt",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/File Hashes/Input/hidden.txt",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/File Hashes/Input/nested/copy.txt",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/File Hashes/Input/nested/copy.txt",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/File Hashes/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].txt",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/File Hashes/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].txt",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/File Hashes/Output/hashes.csv",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/File Hashes/Output/hashes.csv",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/File Inventory/File Inventory.bat",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/File Inventory/File Inventory.bat",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/File Inventory/Input/hidden.txt",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/File Inventory/Input/hidden.txt",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/File Inventory/Input/nested/copy.txt",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/File Inventory/Input/nested/copy.txt",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/File Inventory/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].txt",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/File Inventory/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].txt",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/File Inventory/Output/inventory.csv",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/File Inventory/Output/inventory.csv",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/Media Info/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].mp4",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/Media Info/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].mp4",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/Media Info/Media Info.bat",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/Media Info/Media Info.bat",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/Media Info/Output/عينة ! %TB_UNDEFINED% & ^ (test) [1].mp4.json",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/Media Info/Output/عينة ! %TB_UNDEFINED% & ^ (test) [1].mp4.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/ZIP Backup/Input/hidden.txt",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/ZIP Backup/Input/hidden.txt",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/ZIP Backup/Input/nested/copy.txt",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/ZIP Backup/Input/nested/copy.txt",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/ZIP Backup/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].txt",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/ZIP Backup/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].txt",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/ZIP Backup/Output/backup.zip",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/ZIP Backup/Output/backup.zip",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/ZIP Backup/ZIP Backup.bat",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/ZIP Backup/ZIP Backup.bat",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/ZIP Extract/Input/hidden.txt",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/ZIP Extract/Input/hidden.txt",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/ZIP Extract/Input/nested/copy.txt",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/ZIP Extract/Input/nested/copy.txt",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/ZIP Extract/Input/sample.zip",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/ZIP Extract/Input/sample.zip",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/ZIP Extract/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].txt",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/ZIP Extract/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].txt",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/ZIP Extract/Output/sample.zip.extracted/hidden.txt",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/ZIP Extract/Output/sample.zip.extracted/hidden.txt",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/ZIP Extract/Output/sample.zip.extracted/nested/copy.txt",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/ZIP Extract/Output/sample.zip.extracted/nested/copy.txt",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/ZIP Extract/Output/sample.zip.extracted/عينة ! %TB_UNDEFINED% & ^ (test) [1].txt",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/ZIP Extract/Output/sample.zip.extracted/عينة ! %TB_UNDEFINED% & ^ (test) [1].txt",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/ZIP Extract/ZIP Extract.bat",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/UTI/ZIP Extract/ZIP Extract.bat",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video  Compression/Compress Video.bat",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video  Compression/Compress Video.bat",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video  Compression/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].mp4",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video  Compression/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].mp4",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video  Compression/Output/عينة ! %TB_UNDEFINED% & ^ (test) [1].mp4",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video  Compression/Output/عينة ! %TB_UNDEFINED% & ^ (test) [1].mp4",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video - Audio/Convert Audio.bat",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video - Audio/Convert Audio.bat",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video - Audio/Extract Audio.bat",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video - Audio/Extract Audio.bat",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video - Audio/Increase Volume.bat",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video - Audio/Increase Volume.bat",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video - Audio/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].mp4",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video - Audio/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].mp4",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video - Audio/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].wav",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video - Audio/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].wav",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video - Audio/Merge Audio.bat",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video - Audio/Merge Audio.bat",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video - Audio/Normalize Audio.bat",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video - Audio/Normalize Audio.bat",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video - Audio/Output/عينة ! %TB_UNDEFINED% & ^ (test) [1].mp4",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video - Audio/Output/عينة ! %TB_UNDEFINED% & ^ (test) [1].mp4",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video - Audio/Remove Audio.bat",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video - Audio/Remove Audio.bat",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video - Audio/Replace Audio.bat",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video - Audio/Replace Audio.bat",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video FPS Converter/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].mp4",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video FPS Converter/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].mp4",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video FPS Converter/Output/عينة ! %TB_UNDEFINED% & ^ (test) [1]_30fps.mp4",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video FPS Converter/Output/عينة ! %TB_UNDEFINED% & ^ (test) [1]_30fps.mp4",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video FPS Converter/Output/عينة ! %TB_UNDEFINED% & ^ (test) [1]_60fps.mp4",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video FPS Converter/Output/عينة ! %TB_UNDEFINED% & ^ (test) [1]_60fps.mp4",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video FPS Converter/Video FPS Converter.bat",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video FPS Converter/Video FPS Converter.bat",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video Resolution Converter/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].mp4",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video Resolution Converter/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].mp4",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video Resolution Converter/Output/عينة ! %TB_UNDEFINED% & ^ (test) [1]_1080p.mp4",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video Resolution Converter/Output/عينة ! %TB_UNDEFINED% & ^ (test) [1]_1080p.mp4",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video Resolution Converter/Video Resolution Converter.bat",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video Resolution Converter/Video Resolution Converter.bat",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video Speed/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].mp4",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video Speed/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].mp4",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video Speed/Output/عينة ! %TB_UNDEFINED% & ^ (test) [1]_1.5x.mp4",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video Speed/Output/عينة ! %TB_UNDEFINED% & ^ (test) [1]_1.5x.mp4",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video Speed/Video Speed.bat",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video Speed/Video Speed.bat",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video Thumbnail/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].mp4",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video Thumbnail/Input/عينة ! %TB_UNDEFINED% & ^ (test) [1].mp4",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video Thumbnail/Output/عينة ! %TB_UNDEFINED% & ^ (test) [1].png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video Thumbnail/Output/عينة ! %TB_UNDEFINED% & ^ (test) [1].png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video Thumbnail/Video Thumbnail.bat",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/VID/Video Thumbnail/Video Thumbnail.bat",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/_shared/Archives.ps1",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/_shared/Archives.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/_shared/Check.ps1",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/_shared/Check.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/_shared/Core.ps1",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/_shared/Core.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/_shared/Download.ps1",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/_shared/Download.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/_shared/NewTool.ps1",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/_shared/NewTool.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/_shared/Setup.ps1",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/_shared/Setup.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/_shared/ToolRunner.ps1",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/_shared/ToolRunner.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/_shared/Validate.ps1",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/_shared/Validate.ps1",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/_shared/packages.json",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/_shared/packages.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/_shared/tools.json",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/Portable نقل (1) & ! %TB_UNDEFINED% [ar]/_shared/tools.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Ambiguous_replacement_rejected/Input/audio.wav",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Ambiguous_replacement_rejected/Input/audio.wav",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Ambiguous_replacement_rejected/Input/silent.mp4",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Ambiguous_replacement_rejected/Input/silent.mp4",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Ambiguous_replacement_rejected/Input/video.mp4",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Ambiguous_replacement_rejected/Input/video.mp4",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Ambiguous_replacement_rejected/run.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Ambiguous_replacement_rejected/run.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Ambiguous_replacement_rejected/settings.json",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Ambiguous_replacement_rejected/settings.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Animated_GIF_preserve/Input/animated.gif",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Animated_GIF_preserve/Input/animated.gif",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Animated_GIF_preserve/Output/animated.gif",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Animated_GIF_preserve/Output/animated.gif",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Animated_GIF_preserve/run.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Animated_GIF_preserve/run.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Animated_GIF_preserve/settings.json",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Animated_GIF_preserve/settings.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Animated_to_static_rejected/Input/animated.gif",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Animated_to_static_rejected/Input/animated.gif",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Animated_to_static_rejected/run.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Animated_to_static_rejected/run.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Animated_to_static_rejected/settings.json",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Animated_to_static_rejected/settings.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Audio_convert_flac/Input/audio.wav",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Audio_convert_flac/Input/audio.wav",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Audio_convert_flac/Output/audio.flac",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Audio_convert_flac/Output/audio.flac",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Audio_convert_flac/run.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Audio_convert_flac/run.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Audio_convert_flac/settings.json",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Audio_convert_flac/settings.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Audio_convert_m4a/Input/audio.wav",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Audio_convert_m4a/Input/audio.wav",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Audio_convert_m4a/Output/audio.m4a",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Audio_convert_m4a/Output/audio.m4a",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Audio_convert_m4a/run.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Audio_convert_m4a/run.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Audio_convert_m4a/settings.json",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Audio_convert_m4a/settings.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Audio_convert_mp3/Input/audio.wav",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Audio_convert_mp3/Input/audio.wav",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Audio_convert_mp3/Output/audio.mp3",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Audio_convert_mp3/Output/audio.mp3",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Audio_convert_mp3/run.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Audio_convert_mp3/run.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Audio_convert_mp3/settings.json",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Audio_convert_mp3/settings.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Audio_convert_opus/Input/audio.wav",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Audio_convert_opus/Input/audio.wav",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Audio_convert_opus/Output/audio.opus",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Audio_convert_opus/Output/audio.opus",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Audio_convert_opus/run.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Audio_convert_opus/run.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Audio_convert_opus/settings.json",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Audio_convert_opus/settings.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Audio_convert_wav/Input/audio.wav",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Audio_convert_wav/Input/audio.wav",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Audio_convert_wav/Output/audio.wav",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Audio_convert_wav/Output/audio.wav",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Audio_convert_wav/run.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Audio_convert_wav/run.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Audio_convert_wav/settings.json",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Audio_convert_wav/settings.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Bad_PDF/Input/broken.pdf",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Bad_PDF/Input/broken.pdf",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Bad_PDF/run.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Bad_PDF/run.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Bad_PDF/settings.json",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Bad_PDF/settings.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Bad_ZIP/Input/broken.zip",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Bad_ZIP/Input/broken.zip",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Bad_ZIP/run.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Bad_ZIP/run.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Bad_ZIP/settings.json",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Bad_ZIP/settings.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Bad_image/Input/broken.png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Bad_image/Input/broken.png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Bad_image/run.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Bad_image/run.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Bad_image/settings.json",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Bad_image/settings.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Bad_video/Input/broken.mp4",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Bad_video/Input/broken.mp4",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Bad_video/run.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Bad_video/run.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Bad_video/settings.json",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Bad_video/settings.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Custom_image_resize/Input/image.png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Custom_image_resize/Input/image.png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Custom_image_resize/Output/image.png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Custom_image_resize/Output/image.png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Custom_image_resize/run.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Custom_image_resize/run.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Custom_image_resize/settings.json",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Custom_image_resize/settings.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/HEVC_encode/Input/video.mp4",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/HEVC_encode/Input/video.mp4",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/HEVC_encode/Output/video.mp4",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/HEVC_encode/Output/video.mp4",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/HEVC_encode/run.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/HEVC_encode/run.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/HEVC_encode/settings.json",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/HEVC_encode/settings.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_avif/Input/image.jpg",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_avif/Input/image.jpg",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_avif/Output/image.avif",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_avif/Output/image.avif",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_avif/run.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_avif/run.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_avif/settings.json",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_avif/settings.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_bmp/Input/image.jpg",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_bmp/Input/image.jpg",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_bmp/Output/image.bmp",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_bmp/Output/image.bmp",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_bmp/run.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_bmp/run.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_bmp/settings.json",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_bmp/settings.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_gif/Input/image.jpg",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_gif/Input/image.jpg",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_gif/Output/image.gif",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_gif/Output/image.gif",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_gif/run.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_gif/run.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_gif/settings.json",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_gif/settings.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_jpg/Input/image.jpg",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_jpg/Input/image.jpg",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_jpg/Output/image.jpg",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_jpg/Output/image.jpg",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_jpg/run.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_jpg/run.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_jpg/settings.json",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_jpg/settings.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_png/Input/image.jpg",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_png/Input/image.jpg",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_png/Output/image.png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_png/Output/image.png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_png/run.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_png/run.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_png/settings.json",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_png/settings.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_tiff/Input/image.jpg",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_tiff/Input/image.jpg",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_tiff/Output/image.tiff",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_tiff/Output/image.tiff",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_tiff/run.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_tiff/run.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_tiff/settings.json",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_tiff/settings.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_webp/Input/image.jpg",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_webp/Input/image.jpg",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_webp/Output/image.webp",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_webp/Output/image.webp",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_webp/run.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_webp/run.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_webp/settings.json",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Image_convert_webp/settings.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Invalid_quality_rejected/Input/image.png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Invalid_quality_rejected/Input/image.png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Invalid_quality_rejected/run.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Invalid_quality_rejected/run.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Invalid_quality_rejected/settings.json",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Invalid_quality_rejected/settings.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/No_audio_extraction_rejected/Input/silent.mp4",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/No_audio_extraction_rejected/Input/silent.mp4",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/No_audio_extraction_rejected/run.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/No_audio_extraction_rejected/run.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/No_audio_extraction_rejected/settings.json",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/No_audio_extraction_rejected/settings.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_merge_pages/Input/document.pdf",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_merge_pages/Input/document.pdf",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_merge_pages/Input/document2.pdf",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_merge_pages/Input/document2.pdf",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_merge_pages/Output/merged.pdf",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_merge_pages/Output/merged.pdf",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_merge_pages/run.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_merge_pages/run.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_merge_pages/settings.json",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_merge_pages/settings.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_preset_default/Input/document.pdf",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_preset_default/Input/document.pdf",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_preset_default/Output/document.pdf",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_preset_default/Output/document.pdf",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_preset_default/run.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_preset_default/run.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_preset_default/settings.json",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_preset_default/settings.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_preset_ebook/Input/document.pdf",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_preset_ebook/Input/document.pdf",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_preset_ebook/Output/document.pdf",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_preset_ebook/Output/document.pdf",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_preset_ebook/run.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_preset_ebook/run.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_preset_ebook/settings.json",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_preset_ebook/settings.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_preset_prepress/Input/document.pdf",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_preset_prepress/Input/document.pdf",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_preset_prepress/Output/document.pdf",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_preset_prepress/Output/document.pdf",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_preset_prepress/run.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_preset_prepress/run.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_preset_prepress/settings.json",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_preset_prepress/settings.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_preset_printer/Input/document.pdf",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_preset_printer/Input/document.pdf",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_preset_printer/Output/document.pdf",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_preset_printer/Output/document.pdf",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_preset_printer/run.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_preset_printer/run.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_preset_printer/settings.json",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_preset_printer/settings.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_preset_screen/Input/document.pdf",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_preset_screen/Input/document.pdf",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_preset_screen/Output/document.pdf",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_preset_screen/Output/document.pdf",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_preset_screen/run.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_preset_screen/run.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_preset_screen/settings.json",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/PDF_preset_screen/settings.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Remove_white_transparency/Input/image.png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Remove_white_transparency/Input/image.png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Remove_white_transparency/Output/image.png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Remove_white_transparency/Output/image.png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Remove_white_transparency/run.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Remove_white_transparency/run.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Remove_white_transparency/settings.json",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Remove_white_transparency/settings.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Same_basename_collision/Input/image.jpg",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Same_basename_collision/Input/image.jpg",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Same_basename_collision/Input/image.png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Same_basename_collision/Input/image.png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Same_basename_collision/Output/image.png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Same_basename_collision/Output/image.png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Same_basename_collision/run.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Same_basename_collision/run.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Same_basename_collision/settings.json",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Same_basename_collision/settings.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Silent_fps/Input/silent.mp4",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Silent_fps/Input/silent.mp4",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Silent_fps/Output/silent_60fps.mp4",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Silent_fps/Output/silent_60fps.mp4",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Silent_fps/run.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Silent_fps/run.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Silent_fps/settings.json",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Silent_fps/settings.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Silent_speed/Input/silent.mp4",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Silent_speed/Input/silent.mp4",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Silent_speed/Output/silent_2x.mp4",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Silent_speed/Output/silent_2x.mp4",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Silent_speed/run.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Silent_speed/run.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Silent_speed/settings.json",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Silent_speed/settings.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Watermark_logo_opacity_100/Input/image.png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Watermark_logo_opacity_100/Input/image.png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Watermark_logo_opacity_100/Output/image.png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Watermark_logo_opacity_100/Output/image.png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Watermark_logo_opacity_100/Watermark/logo.png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Watermark_logo_opacity_100/Watermark/logo.png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Watermark_logo_opacity_100/run.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Watermark_logo_opacity_100/run.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Watermark_logo_opacity_100/settings.json",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Watermark_logo_opacity_100/settings.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Watermark_nine_positions/Input/image.png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Watermark_nine_positions/Input/image.png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Watermark_nine_positions/Output/image.png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Watermark_nine_positions/Output/image.png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Watermark_nine_positions/Watermark/logo.png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Watermark_nine_positions/Watermark/logo.png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Watermark_nine_positions/run.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Watermark_nine_positions/run.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Watermark_nine_positions/settings.json",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/cases/Watermark_nine_positions/settings.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/07c5c2fd26924955bd74ee041c6dd548.zip",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/07c5c2fd26924955bd74ee041c6dd548.zip",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/49ed1ac0eee140fdac82c8003d2ed422.zip",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/49ed1ac0eee140fdac82c8003d2ed422.zip",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/7ea396016bcf40ecb3a8432b9af4299c.zip",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/7ea396016bcf40ecb3a8432b9af4299c.zip",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Audio Converter.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Audio Converter.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Background Color Remover.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Background Color Remover.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Compress PDF.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Compress PDF.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Compress Video.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Compress Video.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Convert Audio.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Convert Audio.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Duplicate Finder.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Duplicate Finder.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Extract Audio.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Extract Audio.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/File Hashes.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/File Hashes.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/File Inventory.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/File Inventory.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Image Compression.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Image Compression.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Image Contact Sheet.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Image Contact Sheet.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Image Convert.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Image Convert.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Image Crop.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Image Crop.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Image Enhance.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Image Enhance.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Image Metadata Cleaner.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Image Metadata Cleaner.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Image Resize.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Image Resize.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Image Watermark.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Image Watermark.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Increase Volume.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Increase Volume.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Media Info.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Media Info.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Merge Audio.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Merge Audio.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Merge PDF.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Merge PDF.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Normalize Audio.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Normalize Audio.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Remove Audio.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Remove Audio.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Replace Audio.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Replace Audio.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Video FPS Converter.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Video FPS Converter.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Video Resolution Converter.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Video Resolution Converter.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Video Speed.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Video Speed.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Video Thumbnail.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/Video Thumbnail.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/ZIP Backup.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/ZIP Backup.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/ZIP Extract.log",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/ZIP Extract.log",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/animated.gif",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/animated.gif",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/audio.wav",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/audio.wav",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/black.png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/black.png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/broken.mp4",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/broken.mp4",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/broken.pdf",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/broken.pdf",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/broken.png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/broken.png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/broken.zip",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/broken.zip",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/document.pdf",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/document.pdf",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/document2.pdf",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/document2.pdf",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/empty-hidden-extracted/hidden-dir/hidden.txt",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/empty-hidden-extracted/hidden-dir/hidden.txt",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/empty-hidden.zip",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/empty-hidden.zip",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/f648085fcd0845eea3fb6b1e54afe670.zip",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/f648085fcd0845eea3fb6b1e54afe670.zip",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/image.jpg",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/image.jpg",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/image.png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/image.png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/inspect.gif",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/inspect.gif",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/inspect.pdf",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/inspect.pdf",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/inspect.png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/inspect.png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/merge-page-1.png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/merge-page-1.png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/merge-page-2.png",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/merge-page-2.png",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/package-source/LICENSE.txt",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/package-source/LICENSE.txt",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/package-source/magick.exe",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/package-source/magick.exe",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/safe.zip",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/safe.zip",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/silent.mp4",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/silent.mp4",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/tool-output/Convert Audio/عينة ! %TB_UNDEFINED% & ^ (test) [1].mp4",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/tool-output/Convert Audio/عينة ! %TB_UNDEFINED% & ^ (test) [1].mp4",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/tool-output/Extract Audio/عينة ! %TB_UNDEFINED% & ^ (test) [1].mp3",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/tool-output/Extract Audio/عينة ! %TB_UNDEFINED% & ^ (test) [1].mp3",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/tool-output/Increase Volume/عينة ! %TB_UNDEFINED% & ^ (test) [1].mp4",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/tool-output/Increase Volume/عينة ! %TB_UNDEFINED% & ^ (test) [1].mp4",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/tool-output/Merge Audio/merged.mp4",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/tool-output/Merge Audio/merged.mp4",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/tool-output/Normalize Audio/عينة ! %TB_UNDEFINED% & ^ (test) [1].mp4",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/tool-output/Normalize Audio/عينة ! %TB_UNDEFINED% & ^ (test) [1].mp4",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/tool-output/Remove Audio/عينة ! %TB_UNDEFINED% & ^ (test) [1].mp4",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/tool-output/Remove Audio/عينة ! %TB_UNDEFINED% & ^ (test) [1].mp4",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/tool-output/Replace Audio/replaced.mp4",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/tool-output/Replace Audio/replaced.mp4",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/traversal.zip",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/traversal.zip",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/valid-package.7z",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/valid-package.7z",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/valid-package.zip",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/valid-package.zip",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/video.mp4",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/fixtures/video.mp4",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/valid-download/_bin/fixture/LICENSE.txt",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/valid-download/_bin/fixture/LICENSE.txt",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/valid-download/_bin/fixture/magick.exe",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/valid-download/_bin/fixture/magick.exe",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/valid-download/_bin/fixture7z/LICENSE.txt",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/valid-download/_bin/fixture7z/LICENSE.txt",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/valid-download/_bin/fixture7z/magick.exe",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/valid-download/_bin/fixture7z/magick.exe",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/valid-download/_downloads/fixture.7z",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/valid-download/_downloads/fixture.7z",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/valid-download/_downloads/fixture.exe",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/valid-download/_downloads/fixture.exe",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/valid-download/_downloads/fixture.zip",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/valid-download/_downloads/fixture.zip",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/zip-empty-hidden/hidden-dir/hidden.txt",
+      "After": "Development/tests/_sandbox/run-cd126aa997f64bceaf7b2caee3ef4ee0/zip-empty-hidden/hidden-dir/hidden.txt",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/distribution-results.json",
+      "After": "Development/tests/distribution-results.json",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "tests/edge-results.json",
+      "After": "Development/tests/edge-results.json",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "tests/improvements-All-AudioConcatenate-results.json",
+      "After": "Development/tests/improvements-All-AudioConcatenate-results.json",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "tests/improvements-All-AudioNormalize-results.json",
+      "After": "Development/tests/improvements-All-AudioNormalize-results.json",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "tests/improvements-All-AudioTrim-results.json",
+      "After": "Development/tests/improvements-All-AudioTrim-results.json",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "tests/improvements-All-JSONFormat-results.json",
+      "After": "Development/tests/improvements-All-JSONFormat-results.json",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "tests/improvements-All-VideoToGIF-results.json",
+      "After": "Development/tests/improvements-All-VideoToGIF-results.json",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "tests/improvements-All-VideoTrim-results.json",
+      "After": "Development/tests/improvements-All-VideoTrim-results.json",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "tests/improvements-All-results.json",
+      "After": "Development/tests/improvements-All-results.json",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "tests/improvements-AudioPDF-results.json",
+      "After": "Development/tests/improvements-AudioPDF-results.json",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "tests/improvements-FilesNetwork-results.json",
+      "After": "Development/tests/improvements-FilesNetwork-results.json",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "tests/improvements-ImagesVideo-results.json",
+      "After": "Development/tests/improvements-ImagesVideo-results.json",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "tests/improvements-final-results.json",
+      "After": "Development/tests/improvements-final-results.json",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "tests/initial-results.json",
+      "After": "Development/tests/initial-results.json",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "tests/local-portable-results.json",
+      "After": "Development/tests/local-portable-results.json",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "tests/original-comparison-results.json",
+      "After": "Development/tests/original-comparison-results.json",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "tests/recorded/edge-results.json",
+      "After": "Development/tests/recorded/edge-results.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/recorded/local-portable-results.json",
+      "After": "Development/tests/recorded/local-portable-results.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/recorded/results.json",
+      "After": "Development/tests/recorded/results.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/recorded/verification-results.json",
+      "After": "Development/tests/recorded/verification-results.json",
+      "Exists": true,
+      "ImmutableHashVerified": true
+    },
+    {
+      "Before": "tests/results.json",
+      "After": "Development/tests/results.json",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "tests/root-bat-results.json",
+      "After": "Development/tests/root-bat-results.json",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    },
+    {
+      "Before": "tests/verification-results.json",
+      "After": "Development/tests/verification-results.json",
+      "Exists": true,
+      "ImmutableHashVerified": false
+    }
+  ]
+}

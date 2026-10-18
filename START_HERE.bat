@@ -15,13 +15,13 @@ if /i "%~1"=="--help" (
     echo See START_HERE.md for offline setup, licenses and manual Ghostscript steps.
     exit /b 0
 )
-"%TB_PS%" -NoLogo -NoProfile -ExecutionPolicy Bypass -File "%~dp0_shared\Setup.ps1"
+"%TB_PS%" -NoLogo -NoProfile -ExecutionPolicy Bypass -File "%~dp0System\Shared\Setup.ps1"
 goto FINISH
 :PORTABLE
-"%TB_PS%" -NoLogo -NoProfile -ExecutionPolicy Bypass -File "%~dp0_shared\Setup.ps1" -MakePortable
+"%TB_PS%" -NoLogo -NoProfile -ExecutionPolicy Bypass -File "%~dp0System\Shared\Setup.ps1" -MakePortable
 goto FINISH
 :CHECK
-"%TB_PS%" -NoLogo -NoProfile -ExecutionPolicy Bypass -File "%~dp0_shared\Setup.ps1" -CheckOnly
+"%TB_PS%" -NoLogo -NoProfile -ExecutionPolicy Bypass -File "%~dp0System\Shared\Setup.ps1" -CheckOnly
 :FINISH
 set "TB_EXIT=%errorlevel%"
 if not defined TB_NO_PAUSE pause

@@ -1,0 +1,366 @@
+[
+  {
+    "Name": "Background Color Remover",
+    "Path": "Tools\\IMG\\Image Background Color Remover\\Background Color Remover.bat",
+    "Dependency": "magick",
+    "Original": true
+  },
+  {
+    "Name": "Image Compression",
+    "Path": "Tools\\IMG\\Image Compression\\Image Compression.bat",
+    "Dependency": "magick",
+    "Original": true
+  },
+  {
+    "Name": "Image Convert",
+    "Path": "Tools\\IMG\\Image Converter\\Image Convert.bat",
+    "Dependency": "magick",
+    "Original": true
+  },
+  {
+    "Name": "Image Crop",
+    "Path": "Tools\\IMG\\Image Crop\\Image Crop.bat",
+    "Dependency": "magick",
+    "Original": true
+  },
+  {
+    "Name": "Image Enhance",
+    "Path": "Tools\\IMG\\Image Enhance\\Image Enhance.bat",
+    "Dependency": "magick",
+    "Original": true
+  },
+  {
+    "Name": "Image Contact Sheet",
+    "Path": "Tools\\IMG\\Image Grid\\Image Contact Sheet.bat",
+    "Dependency": "magick",
+    "Original": true
+  },
+  {
+    "Name": "Image Metadata Cleaner",
+    "Path": "Tools\\IMG\\Image Metadata Cleaner\\Image Metadata Cleaner.bat",
+    "Dependency": "magick",
+    "Original": true
+  },
+  {
+    "Name": "Image Resize",
+    "Path": "Tools\\IMG\\Image Resize\\Image Resize.bat",
+    "Dependency": "magick",
+    "Original": true
+  },
+  {
+    "Name": "Image Watermark",
+    "Path": "Tools\\IMG\\Image Watermark\\Image Watermark.bat",
+    "Dependency": "magick",
+    "Original": true
+  },
+  {
+    "Name": "Compress Video",
+    "Path": "Tools\\VID\\Video  Compression\\Compress Video.bat",
+    "Dependency": "ffmpeg",
+    "Original": true
+  },
+  {
+    "Name": "Convert Audio",
+    "Path": "Tools\\VID\\Video - Audio\\Convert Audio.bat",
+    "Dependency": "ffmpeg",
+    "Original": true
+  },
+  {
+    "Name": "Extract Audio",
+    "Path": "Tools\\VID\\Video - Audio\\Extract Audio.bat",
+    "Dependency": "ffmpeg",
+    "Original": true
+  },
+  {
+    "Name": "Increase Volume",
+    "Path": "Tools\\VID\\Video - Audio\\Increase Volume.bat",
+    "Dependency": "ffmpeg",
+    "Original": true
+  },
+  {
+    "Name": "Merge Audio",
+    "Path": "Tools\\VID\\Video - Audio\\Merge Audio.bat",
+    "Dependency": "ffmpeg",
+    "Original": true
+  },
+  {
+    "Name": "Normalize Audio",
+    "Path": "Tools\\VID\\Video - Audio\\Normalize Audio.bat",
+    "Dependency": "ffmpeg",
+    "Original": true
+  },
+  {
+    "Name": "Remove Audio",
+    "Path": "Tools\\VID\\Video - Audio\\Remove Audio.bat",
+    "Dependency": "ffmpeg",
+    "Original": true
+  },
+  {
+    "Name": "Replace Audio",
+    "Path": "Tools\\VID\\Video - Audio\\Replace Audio.bat",
+    "Dependency": "ffmpeg",
+    "Original": true
+  },
+  {
+    "Name": "Video FPS Converter",
+    "Path": "Tools\\VID\\Video FPS Converter\\Video FPS Converter.bat",
+    "Dependency": "ffmpeg",
+    "Original": true
+  },
+  {
+    "Name": "Video Resolution Converter",
+    "Path": "Tools\\VID\\Video Resolution Converter\\Video Resolution Converter.bat",
+    "Dependency": "ffmpeg",
+    "Original": true
+  },
+  {
+    "Name": "Video Speed",
+    "Path": "Tools\\VID\\Video Speed\\Video Speed.bat",
+    "Dependency": "ffmpeg",
+    "Original": true
+  },
+  {
+    "Name": "Video Thumbnail",
+    "Path": "Tools\\VID\\Video Thumbnail\\Video Thumbnail.bat",
+    "Dependency": "ffmpeg",
+    "Original": false
+  },
+  {
+    "Name": "Compress PDF",
+    "Path": "Tools\\PDF\\Compress PDF\\Compress PDF.bat",
+    "Dependency": "ghostscript",
+    "Original": true
+  },
+  {
+    "Name": "Merge PDF",
+    "Path": "Tools\\PDF\\Merge PDF\\Merge PDF.bat",
+    "Dependency": "ghostscript",
+    "Original": false
+  },
+  {
+    "Name": "Audio Converter",
+    "Path": "Tools\\AUD\\Audio Converter\\Audio Converter.bat",
+    "Dependency": "ffmpeg",
+    "Original": false
+  },
+  {
+    "Name": "Duplicate Finder",
+    "Path": "Tools\\UTI\\Duplicate Finder\\Duplicate Finder.bat",
+    "Dependency": "",
+    "Original": false
+  },
+  {
+    "Name": "File Hashes",
+    "Path": "Tools\\UTI\\File Hashes\\File Hashes.bat",
+    "Dependency": "",
+    "Original": false
+  },
+  {
+    "Name": "File Inventory",
+    "Path": "Tools\\UTI\\File Inventory\\File Inventory.bat",
+    "Dependency": "",
+    "Original": false
+  },
+  {
+    "Name": "Media Info",
+    "Path": "Tools\\UTI\\Media Info\\Media Info.bat",
+    "Dependency": "ffprobe",
+    "Original": false
+  },
+  {
+    "Name": "ZIP Backup",
+    "Path": "Tools\\UTI\\ZIP Backup\\ZIP Backup.bat",
+    "Dependency": "",
+    "Original": false
+  },
+  {
+    "Name": "ZIP Extract",
+    "Path": "Tools\\UTI\\ZIP Extract\\ZIP Extract.bat",
+    "Dependency": "",
+    "Original": false
+  },
+  {
+    "Name": "Image Rotate",
+    "Path": "Tools\\IMG\\Image Rotate\\Image Rotate.bat",
+    "Dependency": "magick",
+    "Original": false,
+    "Standalone": true
+  },
+  {
+    "Name": "Image Flip",
+    "Path": "Tools\\IMG\\Image Flip\\Image Flip.bat",
+    "Dependency": "magick",
+    "Original": false,
+    "Standalone": true
+  },
+  {
+    "Name": "Image Grayscale",
+    "Path": "Tools\\IMG\\Image Grayscale\\Image Grayscale.bat",
+    "Dependency": "magick",
+    "Original": false,
+    "Standalone": true
+  },
+  {
+    "Name": "Image Border",
+    "Path": "Tools\\IMG\\Image Border\\Image Border.bat",
+    "Dependency": "magick",
+    "Original": false,
+    "Standalone": true
+  },
+  {
+    "Name": "Image Info",
+    "Path": "Tools\\IMG\\Image Info\\Image Info.bat",
+    "Dependency": "magick",
+    "Original": false,
+    "Standalone": true
+  },
+  {
+    "Name": "Video Trim",
+    "Path": "Tools\\VID\\Video Trim\\Video Trim.bat",
+    "Dependency": "ffmpeg",
+    "Original": false,
+    "Standalone": true,
+    "AdditionalDependencies": [
+      "ffprobe"
+    ]
+  },
+  {
+    "Name": "Video Rotate",
+    "Path": "Tools\\VID\\Video Rotate\\Video Rotate.bat",
+    "Dependency": "ffmpeg",
+    "Original": false,
+    "Standalone": true
+  },
+  {
+    "Name": "Video To GIF",
+    "Path": "Tools\\VID\\Video To GIF\\Video To GIF.bat",
+    "Dependency": "ffmpeg",
+    "Original": false,
+    "Standalone": true
+  },
+  {
+    "Name": "Video Remux",
+    "Path": "Tools\\VID\\Video Remux\\Video Remux.bat",
+    "Dependency": "ffmpeg",
+    "Original": false,
+    "Standalone": true
+  },
+  {
+    "Name": "Video Frames",
+    "Path": "Tools\\VID\\Video Frames\\Video Frames.bat",
+    "Dependency": "ffmpeg",
+    "Original": false,
+    "Standalone": true
+  },
+  {
+    "Name": "Audio Trim",
+    "Path": "Tools\\AUD\\Audio Trim\\Audio Trim.bat",
+    "Dependency": "ffmpeg",
+    "Original": false,
+    "Standalone": true,
+    "AdditionalDependencies": [
+      "ffprobe"
+    ]
+  },
+  {
+    "Name": "Audio Normalize",
+    "Path": "Tools\\AUD\\Audio Normalize\\Audio Normalize.bat",
+    "Dependency": "ffmpeg",
+    "Original": false,
+    "Standalone": true
+  },
+  {
+    "Name": "Audio Fade",
+    "Path": "Tools\\AUD\\Audio Fade\\Audio Fade.bat",
+    "Dependency": "ffmpeg",
+    "Original": false,
+    "Standalone": true,
+    "AdditionalDependencies": [
+      "ffprobe"
+    ]
+  },
+  {
+    "Name": "Audio Channels",
+    "Path": "Tools\\AUD\\Audio Channels\\Audio Channels.bat",
+    "Dependency": "ffmpeg",
+    "Original": false,
+    "Standalone": true
+  },
+  {
+    "Name": "Audio Concatenate",
+    "Path": "Tools\\AUD\\Audio Concatenate\\Audio Concatenate.bat",
+    "Dependency": "ffmpeg",
+    "Original": false,
+    "Standalone": true
+  },
+  {
+    "Name": "PDF Split",
+    "Path": "Tools\\PDF\\PDF Split\\PDF Split.bat",
+    "Dependency": "ghostscript",
+    "Original": false,
+    "Standalone": true
+  },
+  {
+    "Name": "PDF To Images",
+    "Path": "Tools\\PDF\\PDF To Images\\PDF To Images.bat",
+    "Dependency": "ghostscript",
+    "Original": false,
+    "Standalone": true
+  },
+  {
+    "Name": "PDF Text",
+    "Path": "Tools\\PDF\\PDF Text\\PDF Text.bat",
+    "Dependency": "ghostscript",
+    "Original": false,
+    "Standalone": true
+  },
+  {
+    "Name": "Rename Copies",
+    "Path": "Tools\\UTI\\Rename Copies\\Rename Copies.bat",
+    "Dependency": "",
+    "Original": false,
+    "Standalone": true
+  },
+  {
+    "Name": "Sort Copies",
+    "Path": "Tools\\UTI\\Sort Copies\\Sort Copies.bat",
+    "Dependency": "",
+    "Original": false,
+    "Standalone": true
+  },
+  {
+    "Name": "Text Encoding",
+    "Path": "Tools\\UTI\\Text Encoding\\Text Encoding.bat",
+    "Dependency": "",
+    "Original": false,
+    "Standalone": true
+  },
+  {
+    "Name": "Folder Compare",
+    "Path": "Tools\\UTI\\Folder Compare\\Folder Compare.bat",
+    "Dependency": "",
+    "Original": false,
+    "Standalone": true
+  },
+  {
+    "Name": "JSON Format",
+    "Path": "Tools\\UTI\\JSON Format\\JSON Format.bat",
+    "Dependency": "",
+    "Original": false,
+    "Standalone": true
+  },
+  {
+    "Name": "Network Info",
+    "Path": "Tools\\NET\\Network Info\\Network Info.bat",
+    "Dependency": "",
+    "Original": false,
+    "Standalone": true
+  },
+  {
+    "Name": "Ping Host",
+    "Path": "Tools\\NET\\Ping Host\\Ping Host.bat",
+    "Dependency": "",
+    "Original": false,
+    "Standalone": true
+  }
+]

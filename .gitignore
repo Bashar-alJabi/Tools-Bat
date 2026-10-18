@@ -1,5 +1,6 @@
 # Existing backup/test files remain tracked. New temporary runs and distribution
 # builds stay local; the build script creates a clean delivery folder explicitly.
-/tests/_work/
-/tests/_sandbox/
+/Development/tests/_work/
+/Development/tests/_sandbox/
 /dist/
+/System/Downloads/

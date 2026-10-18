@@ -1,0 +1,17 @@
+{
+  "DateUTC": "2026-10-18T17:40:06.5618659Z",
+  "ExplicitUserConsent": true,
+  "UserConfirmedNotSoleCopy": true,
+  "FinalZIP": "dist\\tOOls Bat Organized 20261018.zip",
+  "FinalSHA256": "DB6AC92885A4B1A694E1C14A1A7CA99E7748AED4456D22E55C971716EC95C104",
+  "Deleted": [
+    "dist\\tOOls Bat 20261018-192912-892",
+    "dist\\tOOls Bat 20261018-193659-242",
+    "dist\\tOOls Bat 20261018-200713-087",
+    "dist\\tOOls Bat 20261018-192912-892.zip",
+    "dist\\tOOls Bat 20261018-193659-242.zip",
+    "dist\\tOOls Bat 20261018-200713-087.zip"
+  ],
+  "Bytes": 3325756,
+  "OtherArtifactsDeleted": false
+}

@@ -1,0 +1,27 @@
+﻿[
+    {
+        "Test":  "Clean folder and manifest",
+        "Passed":  true,
+        "Detail":  "55 BATs and individual manuals; SHA-256 matched; no tests, backups, downloads or user files."
+    },
+    {
+        "Test":  "Clean ZIP",
+        "Passed":  true,
+        "Detail":  "Every manifest file and empty Input/Output/Left/Right folder present."
+    },
+    {
+        "Test":  "Build repeat safety",
+        "Passed":  true,
+        "Detail":  "An existing destination was rejected; all original output hashes preserved."
+    },
+    {
+        "Test":  "Installed Ghostscript portable preparation",
+        "Passed":  true,
+        "Detail":  "Copied full installed tree into isolated test folder; hash checks, local discovery and real PDF rendering succeeded; no installer/download."
+    },
+    {
+        "Test":  "Distribution with local dependencies",
+        "Passed":  true,
+        "Detail":  "Complete copied Ghostscript tree/resources preserved; rebuilding excluded private Input and test files."
+    }
+]

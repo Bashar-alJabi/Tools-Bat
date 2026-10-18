@@ -1,0 +1,54 @@
+{
+  "DateUTC": "2026-10-18T17:41:16.2382090Z",
+  "Passed": 370.0,
+  "Failed": 0.0,
+  "Suites": [
+    {
+      "File": "results.json",
+      "Passed": 123,
+      "Failed": 0
+    },
+    {
+      "File": "improvements-All-results.json",
+      "Passed": 127,
+      "Failed": 0
+    },
+    {
+      "File": "original-comparison-results.json",
+      "Passed": 23,
+      "Failed": 0
+    },
+    {
+      "File": "verification-results.json",
+      "Passed": 6,
+      "Failed": 0
+    },
+    {
+      "File": "distribution-results.json",
+      "Passed": 5,
+      "Failed": 0
+    },
+    {
+      "File": "root-bat-results.json",
+      "Passed": 5,
+      "Failed": 0
+    },
+    {
+      "File": "edge-results.json",
+      "Passed": 9,
+      "Failed": 0
+    },
+    {
+      "File": "local-portable-results.json",
+      "Passed": 6,
+      "Failed": 0
+    },
+    {
+      "File": "reorganization-results.json",
+      "Passed": 66,
+      "Failed": 0
+    }
+  ],
+  "Windows": "10.0.26300.0",
+  "PowerShell": "5.1.26100.9549"
+}

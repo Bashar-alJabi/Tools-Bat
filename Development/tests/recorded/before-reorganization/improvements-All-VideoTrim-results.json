@@ -1,0 +1,43 @@
+﻿{
+    "DateUTC":  "2026-10-18T16:28:01.5609800Z",
+    "Batch":  "All",
+    "Windows":  "10.0.26300.0",
+    "PowerShell":  "5.1.26100.9549",
+    "Results":  [
+                    {
+                        "Test":  "Video Trim",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Video Trim missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only mode refused absent dependency without downloads."
+                    },
+                    {
+                        "Test":  "Video Trim menu validation",
+                        "Passed":  true,
+                        "Detail":  "Invalid metacharacter input rejected; Q exited without processing."
+                    },
+                    {
+                        "Test":  "Video Trim corrupt video",
+                        "Passed":  true,
+                        "Detail":  "Rejected; source unchanged, prior results preserved, no partial result published."
+                    },
+                    {
+                        "Test":  "Video Trim range beyond end",
+                        "Passed":  true,
+                        "Detail":  "Rejected; source unchanged, prior results preserved, no partial result published."
+                    },
+                    {
+                        "Test":  "Video Trim custom range",
+                        "Passed":  true,
+                        "Detail":  "Interactive start=0.5/duration=0.5 produced a measured half-second clip; original bytes preserved."
+                    },
+                    {
+                        "Test":  "Video Trim empty input",
+                        "Passed":  true,
+                        "Detail":  "Empty input handled without processing or source loss."
+                    }
+                ]
+}

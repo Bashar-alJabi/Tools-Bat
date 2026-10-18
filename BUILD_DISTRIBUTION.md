@@ -4,7 +4,7 @@
 
 ## 🎯 الوظيفة
 
-فصل مستودع النسخة الاحتياطية عن النسخة التي تسلّمها إلى مستخدم آخر. يتضمن التوزيع 55 أداة و MD مستقلًا لكل منها و START_HERE وملفات التشغيل اللازمة داخل _shared.
+فصل مستودع النسخة الاحتياطية عن النسخة التي تسلّمها إلى مستخدم آخر. يتضمن التوزيع 55 أداة و MD مستقلًا لكل منها و START_HERE وملفات التشغيل اللازمة داخل System/Shared.
 
 ## 📦 المتطلبات والصيغ
 
@@ -13,7 +13,7 @@ Windows 10/11 و PowerShell 5.1 و.NET المدمج. لا يحتاج برنام�
 ## ⭐ طريقة الاستخدام
 
 1. شغّل BUILD_DISTRIBUTION.bat في جذر المشروع.
-2. اختر [1] للأدوات مع مدير التجهيز فقط، أو[2] لتضمين التوزيعات المحلية الموجودة أصلًا في _bin.
+2. اختر [1] للأدوات مع مدير التجهيز فقط، أو[2] لتضمين التوزيعات المحلية الموجودة أصلًا في System/Bin.
 3. انتظر رسالتي نجاح المجلد و ZIP.
 4. افتح المجلد الجديد داخل dist وراجع README و START_HERE.
 5. انقل ZIP أو المجلد كاملًا إلى الجهاز الآخر.
@@ -21,7 +21,7 @@ Windows 10/11 و PowerShell 5.1 و.NET المدمج. لا يحتاج برنام�
 ## ⚙️ الخيارات
 
 - [1] لا يضم البرامج التنفيذية؛ START_HERE يكتشفها أو يعرض التنزيل الموافق عليه عند المستخدم.
-- [2] ينسخ شجرة _bin المحلية كاملة مع الموارد والرخص، ولا ينسخ البرامج المثبتة خارج المشروع تلقائيًا.
+- [2] ينسخ شجرة System/Bin المحلية كاملة مع الموارد والرخص، ولا ينسخ البرامج المثبتة خارج المشروع تلقائيًا.
 - [Q] خروج. --defaults يختار 1؛ --check يفحص وجود BAT و MD؛ --help يعرض المساعدة.
 
 ```bat
@@ -29,17 +29,17 @@ set "TB_NO_PAUSE=1"
 BUILD_DISTRIBUTION.bat --defaults
 ```
 
-وجهة مخصصة جديدة وتضمين _bin من PowerShell:
+وجهة مخصصة جديدة وتضمين System/Bin من PowerShell:
 
 ```powershell
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\_shared\Build.ps1 -Mode Defaults -Destination ".\dist\My portable copy" -IncludeLocalDependencies
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\System\Shared\Build.ps1 -Mode Defaults -Destination ".\dist\My portable copy" -IncludeLocalDependencies
 ```
 
 ## 📁 المدخلات والنتائج
 
-لا يحتاج مجلدي Input و Output؛ المدخل هو مصادر المشروع، والناتج في dist باسم يتضمن الوقت. لا يضم tests أو_original أو.git أو_downloads أوالسجلات أو محتويات Input/Output/Watermark الشخصية. يُنشئ Input و Output فارغين، ومجلد Watermark عند الحاجة و Left/Right لأداة المقارنة.
+لا يحتاج مجلدي Input و Output؛ المدخل هو مصادر المشروع، والناتج في dist باسم يتضمن الوقت. لا يضم Development أو .git أو System/Downloads أو السجلات أو محتويات Input/Output/Watermark الشخصية. يُنشئ Input و Output فارغين، ومجلد Watermark عند الحاجة و Left/Right لأداة المقارنة.
 
-يحفظ distribution-manifest.json أسماء الملفات وأحجامها وبصمات SHA-256 دون إدراج نفسه. ZIP يحفظ المجلدات الفارغة. النسخة لا تضم سكربت البناء نفسه أو تقارير التطوير؛ لا تحتاجها لتشغيل الأدوات.
+يحفظ distribution-manifest.json أسماء الملفات وأحجامها وبصمات SHA-256 دون إدراج نفسه. ZIP يحفظ المجلدات الفارغة. النسخة تضم سكربت البناء ودليله، ولا تضم تقارير التطوير؛ لا تحتاجها لتشغيل الأدوات.
 
 ## 🚨 الأخطاء
 
@@ -47,7 +47,7 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\_shared\Build.ps1 -Mod
 
 ## ⚠️ الاعتمادات والترخيص
 
-الخيار 2 يتطلب توزيعات كاملة مجهزة مسبقًا داخل _bin؛ لا يكفي EXE منفرد. راجع [سجل الاعتمادات](docs/DEPENDENCIES.md) والتزامات الرخص/المصدر قبل توزيع برنامج خارجي. لا ينزل البناء شيئًا ولا يشغّل مثبتًا. ابدأ بـ START_HERE.bat --portable على جهاز يحوي البرامج إذا أردت نسخها محليًا بعد موافقتك.
+الخيار 2 يتطلب توزيعات كاملة مجهزة مسبقًا داخل System/Bin؛ لا يكفي EXE منفرد. راجع [سجل الاعتمادات](<System/Docs/DEPENDENCIES.md>) والتزامات الرخص/المصدر قبل توزيع برنامج خارجي. لا ينزل البناء شيئًا ولا يشغّل مثبتًا. ابدأ بـ START_HERE.bat --portable على جهاز يحوي البرامج إذا أردت نسخها محليًا بعد موافقتك.
 
 ## 🛡️ الأصول والقيود
 

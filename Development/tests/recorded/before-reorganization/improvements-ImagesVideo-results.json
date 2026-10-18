@@ -1,0 +1,108 @@
+﻿{
+    "DateUTC":  "2026-10-18T16:07:34.8231961Z",
+    "Batch":  "ImagesVideo",
+    "Windows":  "10.0.26300.0",
+    "PowerShell":  "5.1.26100.9549",
+    "Results":  [
+                    {
+                        "Test":  "Image Rotate",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Image Rotate missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only mode refused absent dependency without downloads."
+                    },
+                    {
+                        "Test":  "Image Flip",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Image Flip missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only mode refused absent dependency without downloads."
+                    },
+                    {
+                        "Test":  "Image Grayscale",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Image Grayscale missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only mode refused absent dependency without downloads."
+                    },
+                    {
+                        "Test":  "Image Border",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Image Border missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only mode refused absent dependency without downloads."
+                    },
+                    {
+                        "Test":  "Image Info",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Image Info missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only mode refused absent dependency without downloads."
+                    },
+                    {
+                        "Test":  "Video Trim",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Video Trim missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only mode refused absent dependency without downloads."
+                    },
+                    {
+                        "Test":  "Video Rotate",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Video Rotate missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only mode refused absent dependency without downloads."
+                    },
+                    {
+                        "Test":  "Video To GIF",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Video To GIF missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only mode refused absent dependency without downloads."
+                    },
+                    {
+                        "Test":  "Video Remux",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Video Remux missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only mode refused absent dependency without downloads."
+                    },
+                    {
+                        "Test":  "Video Frames",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Video Frames missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only mode refused absent dependency without downloads."
+                    }
+                ]
+}

@@ -1,0 +1,106 @@
+﻿[
+    {
+        "Path":  "dist\\tOOls Bat 20261018-192912-892",
+        "Kind":  "Folder",
+        "Bytes":  776727,
+        "GeneratedVerified":  true,
+        "DataFiles":  [
+
+                      ],
+        "Issues":  [
+
+                   ],
+        "SHA256":  null
+    },
+    {
+        "Path":  "dist\\tOOls Bat 20261018-193659-242",
+        "Kind":  "Folder",
+        "Bytes":  776874,
+        "GeneratedVerified":  true,
+        "DataFiles":  [
+
+                      ],
+        "Issues":  [
+
+                   ],
+        "SHA256":  null
+    },
+    {
+        "Path":  "dist\\tOOls Bat 20261018-200713-087",
+        "Kind":  "Folder",
+        "Bytes":  776874,
+        "GeneratedVerified":  true,
+        "DataFiles":  [
+
+                      ],
+        "Issues":  [
+
+                   ],
+        "SHA256":  null
+    },
+    {
+        "Path":  "dist\\tOOls Bat Organized 20261018",
+        "Kind":  "Folder",
+        "Bytes":  794248,
+        "GeneratedVerified":  true,
+        "DataFiles":  [
+
+                      ],
+        "Issues":  [
+
+                   ],
+        "SHA256":  null
+    },
+    {
+        "Path":  "dist\\tOOls Bat 20261018-192912-892.zip",
+        "Kind":  "File",
+        "Bytes":  331737,
+        "GeneratedVerified":  true,
+        "DataFiles":  [
+
+                      ],
+        "Issues":  [
+
+                   ],
+        "SHA256":  "7EBD8E7001F6E65432D9F159DF7FCE99BABC0AF1736C3607501FAB47A01AA90A"
+    },
+    {
+        "Path":  "dist\\tOOls Bat 20261018-193659-242.zip",
+        "Kind":  "File",
+        "Bytes":  331772,
+        "GeneratedVerified":  true,
+        "DataFiles":  [
+
+                      ],
+        "Issues":  [
+
+                   ],
+        "SHA256":  "06E819C0CE974D78B1A2F92A0CAF0BEE20498F0719171476CB831492021731CF"
+    },
+    {
+        "Path":  "dist\\tOOls Bat 20261018-200713-087.zip",
+        "Kind":  "File",
+        "Bytes":  331772,
+        "GeneratedVerified":  true,
+        "DataFiles":  [
+
+                      ],
+        "Issues":  [
+
+                   ],
+        "SHA256":  "BD730A2C0BEA7B18764DAC0121CF1BB7FA794B6048BDD34402C6F49E2CD52C01"
+    },
+    {
+        "Path":  "dist\\tOOls Bat Organized 20261018.zip",
+        "Kind":  "File",
+        "Bytes":  342225,
+        "GeneratedVerified":  true,
+        "DataFiles":  [
+
+                      ],
+        "Issues":  [
+
+                   ],
+        "SHA256":  "DB6AC92885A4B1A694E1C14A1A7CA99E7748AED4456D22E55C971716EC95C104"
+    }
+]
