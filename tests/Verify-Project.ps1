@@ -13,6 +13,14 @@ try {
     $catalog=Get-Content -LiteralPath (Join-Path $root '_shared\tools.json') -Raw -Encoding UTF8 | ConvertFrom-Json
     foreach($tool in $catalog){
         if(-not (Test-Path -LiteralPath (Join-Path $root $tool.Path))){throw "Missing tool: $($tool.Path)"}
+        $manual=[IO.Path]::ChangeExtension((Join-Path $root $tool.Path),'.md')
+        if(-not (Test-Path -LiteralPath $manual)){throw "Missing individual manual: $($tool.Name)"}
+        if($tool.PSObject.Properties['Standalone'] -and $tool.Standalone){
+            $localScript=[IO.Path]::ChangeExtension((Join-Path $root $tool.Path),'.ps1')
+            $tokens=$null;$issues=$null
+            [void][Management.Automation.Language.Parser]::ParseFile($localScript,[ref]$tokens,[ref]$issues)
+            if($issues.Count){throw ($issues -join "`n")}
+        }
         if($tool.Dependency -and $tool.Dependency -notin @('ffmpeg','ffprobe','magick','ghostscript')){throw 'Unregistered dependency.'}
     }
     $results.Add([pscustomobject]@{Test='Catalog completeness';Passed=$true;Detail="$($catalog.Count) tool launchers, dependencies registered."})

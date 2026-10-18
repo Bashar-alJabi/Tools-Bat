@@ -178,5 +178,78 @@
     "Path": "UTI\\ZIP Extract\\ZIP Extract.bat",
     "Dependency": "",
     "Original": false
+  },
+  {
+    "Name": "Image Rotate",
+    "Path": "IMG\\Image Rotate\\Image Rotate.bat",
+    "Dependency": "magick",
+    "Original": false,
+    "Standalone": true
+  },
+  {
+    "Name": "Image Flip",
+    "Path": "IMG\\Image Flip\\Image Flip.bat",
+    "Dependency": "magick",
+    "Original": false,
+    "Standalone": true
+  },
+  {
+    "Name": "Image Grayscale",
+    "Path": "IMG\\Image Grayscale\\Image Grayscale.bat",
+    "Dependency": "magick",
+    "Original": false,
+    "Standalone": true
+  },
+  {
+    "Name": "Image Border",
+    "Path": "IMG\\Image Border\\Image Border.bat",
+    "Dependency": "magick",
+    "Original": false,
+    "Standalone": true
+  },
+  {
+    "Name": "Image Info",
+    "Path": "IMG\\Image Info\\Image Info.bat",
+    "Dependency": "magick",
+    "Original": false,
+    "Standalone": true
+  },
+  {
+    "Name": "Video Trim",
+    "Path": "VID\\Video Trim\\Video Trim.bat",
+    "Dependency": "ffmpeg",
+    "Original": false,
+    "Standalone": true,
+    "AdditionalDependencies": [
+      "ffprobe"
+    ]
+  },
+  {
+    "Name": "Video Rotate",
+    "Path": "VID\\Video Rotate\\Video Rotate.bat",
+    "Dependency": "ffmpeg",
+    "Original": false,
+    "Standalone": true
+  },
+  {
+    "Name": "Video To GIF",
+    "Path": "VID\\Video To GIF\\Video To GIF.bat",
+    "Dependency": "ffmpeg",
+    "Original": false,
+    "Standalone": true
+  },
+  {
+    "Name": "Video Remux",
+    "Path": "VID\\Video Remux\\Video Remux.bat",
+    "Dependency": "ffmpeg",
+    "Original": false,
+    "Standalone": true
+  },
+  {
+    "Name": "Video Frames",
+    "Path": "VID\\Video Frames\\Video Frames.bat",
+    "Dependency": "ffmpeg",
+    "Original": false,
+    "Standalone": true
   }
 ]

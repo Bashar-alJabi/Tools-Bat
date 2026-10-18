@@ -72,3 +72,37 @@ function Install-PortablePackage($Package,[string]$Root,[scriptblock]$Fetcher={ 
         Write-Host ('[SUCCESS] Portable package prepared: ' + $Package.Name)
     } finally { if ($work) { Remove-WorkDirectory $work $cache } }
 }
+
+function Copy-InstalledDependency($Dependency,[string]$Root) {
+    # Called only after explicit consent from START_HERE --portable. No installer,
+    # registry, Windows files or global PATH changes; preserve the entire tree.
+    if($Dependency.Local){Write-Host ('[OK] Already portable: '+$Dependency.Name);return}
+    $folder=if($Dependency.Name -eq 'magick'){'imagemagick'}else{$Dependency.Name}
+    if($folder -notin @('ffmpeg','imagemagick','ghostscript')){throw 'Copy the FFmpeg package for FFprobe.'}
+    $exeDir=[IO.Path]::GetDirectoryName($Dependency.Path)
+    $source=if([IO.Path]::GetFileName($exeDir) -ieq 'bin'){[IO.Path]::GetDirectoryName($exeDir)}else{$exeDir}
+    $leaf=[IO.Path]::GetFileName($source)
+    $allowed=switch($folder){'ffmpeg'{$leaf -match '^ffmpeg'};'imagemagick'{$leaf -match '^ImageMagick'};'ghostscript'{$leaf -match '^gs\d+\.\d+'}}
+    if(-not $allowed){throw 'The installation folder cannot be identified safely. Supply the full portable tree manually.'}
+    Ensure-Directory $source
+    $files=@(Get-SafeFiles $source $null -Recurse)
+    if(-not $files.Count -or $files.Count -gt 20000){throw 'Unexpected installation size.'}
+    $bytes=($files|Measure-Object Length -Sum).Sum
+    if($bytes -gt 4GB){throw 'Installation exceeds the 4 GB copy limit.'}
+    $bin=Join-Path $Root '_bin';Ensure-Directory $bin
+    $destination=Join-Path $bin $folder
+    if(Test-Path -LiteralPath $destination){throw 'Existing local folder preserved. Move or repair it manually before retrying.'}
+    Test-FreeSpace $bin ([long]$bytes+16MB)
+    $work=New-WorkDirectory $bin
+    try {
+        $stage=Join-Path $work 'package';Ensure-Directory $stage
+        foreach($directory in (Get-SafeDirectories $source)){Ensure-Directory (Join-Path $stage (Get-RelativeName $source $directory.FullName))}
+        foreach($file in $files){$target=Join-Path $stage (Get-RelativeName $source $file.FullName);Ensure-Directory ([IO.Path]::GetDirectoryName($target));[IO.File]::Copy($file.FullName,$target,$false);if((Get-FileHash -LiteralPath $file.FullName).Hash -ne (Get-FileHash -LiteralPath $target).Hash){throw 'Copied dependency checksum differs.'}}
+        $exe=Join-Path $stage (Get-RelativeName $source $Dependency.Path)
+        $arguments=if($folder -eq 'ghostscript'){@('-q','-dSAFER','-dNODISPLAY','-c','quit')}else{@('-version')}
+        $check=Invoke-Native $exe $arguments 15000
+        if($check.Code -ne 0){throw 'Copied program failed a local startup check.'}
+        [IO.Directory]::Move($stage,$destination)
+        Write-Host ('[SUCCESS] Complete installed tree copied to '+$destination)
+    } finally {Remove-WorkDirectory $work $bin}
+}

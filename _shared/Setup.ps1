@@ -1,4 +1,4 @@
-param([switch]$CheckOnly)
+param([switch]$CheckOnly,[switch]$MakePortable)
 . (Join-Path $PSScriptRoot 'Core.ps1')
 . (Join-Path $PSScriptRoot 'Archives.ps1')
 . (Join-Path $PSScriptRoot 'Download.ps1')
@@ -8,7 +8,7 @@ function Show-Dependencies {
         $dependency=Get-Dependency $name
         if ($dependency) { Write-Host ('[OK] {0} | {1} | {2}' -f $name,$(if($dependency.Local){'project local'}else{'system'}),$dependency.Path); Write-Host ('     ' + $dependency.Version) }
         else { Write-Host ('[MISSING] ' + $name); $missing.Add($name) }
-        $users=@($script:ToolCatalog | Where-Object Dependency -eq $name | ForEach-Object Name)
+        $users=@($script:ToolCatalog | Where-Object {$_.Dependency -eq $name -or ($_.PSObject.Properties['AdditionalDependencies'] -and $name -in $_.AdditionalDependencies)} | ForEach-Object Name)
         if($users.Count){Write-Host ('     Used by: ' + ($users -join ', '))}
     }
     return ,$missing
@@ -25,6 +25,18 @@ try {
     Write-Host 'Administrator is not required. No PATH, Registry or Windows settings are changed.'
     $packages=Get-Content -LiteralPath (Join-Path $PSScriptRoot 'packages.json') -Raw | ConvertFrom-Json
     $script:ToolCatalog=Get-Content -LiteralPath (Join-Path $PSScriptRoot 'tools.json') -Raw -Encoding UTF8 | ConvertFrom-Json
+    Write-Host ('Tools registered: '+$script:ToolCatalog.Count)
+    if(-not (Test-Path -LiteralPath (Join-Path $env:SystemRoot 'System32\tar.exe'))){Write-Host '[MANUAL] Windows tar.exe is unavailable; the verified ImageMagick 7z archive will need manual extraction.'}
+    if($MakePortable -and -not $CheckOnly){
+        foreach($name in @('ffmpeg','magick','ghostscript')){
+            $dependency=Get-Dependency $name
+            if(-not $dependency -or $dependency.Local){continue}
+            Write-Host ("`nInstalled: "+$dependency.Path)
+            Write-Host 'Copy the complete installation tree into this project for offline use. Preserve and review its license and source obligations.'
+            $answer=Read-Host 'Prepare this installed program as a local copy? [Y/N; default N]'
+            if($answer -match '^[Yy]$'){try{Copy-InstalledDependency $dependency $script:ProjectRoot}catch{Write-Host ('[FAILED] '+$_.Exception.Message)}}
+        }
+    }
     do {
         $missing=Show-Dependencies
         if ($CheckOnly) { if ($missing.Count) { exit 3 }; exit 0 }
@@ -46,6 +58,7 @@ try {
         }
         Write-Host "`nAfter setup: open the relevant BAT, place files in its Input folder, select options. Results are in Output."
         Write-Host 'README.md lists all tools and defaults. Every BAT supports --help and --check.'
+        Write-Host 'For offline transfer: START_HERE.bat --portable can copy a complete detected installation after your consent, then BUILD_DISTRIBUTION.bat can include _bin.'
         $missing=Show-Dependencies
         $again=Read-Host 'Recheck / retry missing packages? [Y/N; default N]'
     } while ($again -match '^[Yy]$')

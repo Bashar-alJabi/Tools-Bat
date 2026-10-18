@@ -1,3 +1,5 @@
-# Full backup mode: intentionally track all project files, including test
-# fixtures, generated results, logs, binaries and local Input/Output contents.
-# Git's own internal .git directory is managed by Git and is never staged.
+# Existing backup/test files remain tracked. New temporary runs and distribution
+# builds stay local; the build script creates a clean delivery folder explicitly.
+/tests/_work/
+/tests/_sandbox/
+/dist/

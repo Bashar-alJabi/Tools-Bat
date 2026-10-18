@@ -8,7 +8,17 @@ if not exist "%TB_PS%" (
     exit /b 3
 )
 if /i "%~1"=="--check" goto CHECK
+if /i "%~1"=="--portable" goto PORTABLE
+if /i "%~1"=="--help" (
+    echo START_HERE checks all tools and offers verified downloads for missing programs.
+    echo --check: check only. --portable: offer local copies of installed distributions.
+    echo See START_HERE.md for offline setup, licenses and manual Ghostscript steps.
+    exit /b 0
+)
 "%TB_PS%" -NoLogo -NoProfile -ExecutionPolicy Bypass -File "%~dp0_shared\Setup.ps1"
+goto FINISH
+:PORTABLE
+"%TB_PS%" -NoLogo -NoProfile -ExecutionPolicy Bypass -File "%~dp0_shared\Setup.ps1" -MakePortable
 goto FINISH
 :CHECK
 "%TB_PS%" -NoLogo -NoProfile -ExecutionPolicy Bypass -File "%~dp0_shared\Setup.ps1" -CheckOnly

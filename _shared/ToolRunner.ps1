@@ -38,10 +38,6 @@ function Number([string]$Name,[int]$Fallback,[int]$Min,[int]$Max) {
 }
 function IM([string[]]$Arguments) { [void](Invoke-Checked $script:Engine $Arguments) }
 function FF([string[]]$Arguments) { [void](Invoke-Checked $script:Engine (@('-hide_banner','-loglevel','error','-nostdin','-n') + $Arguments)) }
-function Get-Media([string]$Path) {
-    $probe = Require-Dependency 'ffprobe'
-    (Invoke-Checked $probe @('-v','error','-show_format','-show_streams','-of','json',$Path)) | ConvertFrom-Json
-}
 function Write-CSV([object[]]$Rows,[string]$Path,[string[]]$Headers) {
     if ($Rows.Count) { $Rows | Export-Csv -LiteralPath $Path -NoTypeInformation -Encoding UTF8 }
     else { ('"' + ($Headers -join '","') + '"') | Set-Content -LiteralPath $Path -Encoding UTF8 }

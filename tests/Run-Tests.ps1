@@ -5,6 +5,7 @@ $ErrorActionPreference='Stop'
 . (Join-Path $PSScriptRoot '..\_shared\Download.ps1')
 $sourceRoot=$script:ProjectRoot
 $catalog=Get-Content -LiteralPath (Join-Path $sourceRoot '_shared\tools.json') -Raw -Encoding UTF8 | ConvertFrom-Json
+$catalog=@($catalog | Where-Object {-not ($_.PSObject.Properties['Standalone'] -and $_.Standalone)})
 $runRoot=Join-Path $PSScriptRoot ('_sandbox\run-' + [guid]::NewGuid().ToString('N'))
 $arabicDirectory=-join ([char[]]@(0x0646,0x0642,0x0644))
 $project=Join-Path $runRoot ('Portable '+$arabicDirectory+' (1) & ! %TB_UNDEFINED% [ar]')

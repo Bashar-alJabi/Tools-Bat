@@ -1,4 +1,9 @@
 # Shared Windows PowerShell 5.1 runtime. No global environment changes.
+if ($PSVersionTable.PSVersion.Major -eq 5) {
+    # A PowerShell 7 parent can pass incompatible module directories to cmd/5.1.
+    # Limit this process to Windows' built-in modules; never persist this change.
+    $env:PSModulePath = (Join-Path $PSHOME 'Modules') + ';' + (Join-Path $env:ProgramFiles 'WindowsPowerShell\Modules')
+}
 Set-StrictMode -Version 2.0
 $ErrorActionPreference = 'Stop'
 try {
@@ -16,6 +21,9 @@ function Invoke-Native([string]$Executable, [string[]]$Arguments, [int]$Timeout 
     $info.FileName = $Executable
     $info.Arguments = (($Arguments | ForEach-Object { ConvertTo-NativeArgument $_ }) -join ' ')
     $info.UseShellExecute = $false
+    if ([IO.Path]::GetFileName($Executable) -ieq 'powershell.exe') {
+        $info.EnvironmentVariables['PSModulePath'] = (Join-Path $env:SystemRoot 'System32\WindowsPowerShell\v1.0\Modules') + ';' + (Join-Path $env:ProgramFiles 'WindowsPowerShell\Modules')
+    }
     $executableName=[IO.Path]::GetFileName($Executable)
     $executableDirectory=[IO.Path]::GetDirectoryName($Executable)
     if($executableName -ieq 'magick.exe') {
@@ -177,4 +185,79 @@ function Get-SafeDirectories([string]$Directory) {
         $entry
         Get-SafeDirectories $entry.FullName
     }
+}
+
+# Small I/O helpers used by the independent scripts inside each new tool folder.
+# Processing commands and menus belong to that tool, not a central dispatcher.
+function Show-LocalTool([string]$Name,[string]$Folder,[string]$Mode,[string]$Dependency,[string]$Description) {
+    if ($Mode -eq 'Help') { Write-Host $Description; Write-Host 'Put files in Input. Results go to Output. See the MD beside this BAT. --defaults / --check / --help'; exit 0 }
+    if ($Dependency) { $script:Engine=Require-Dependency $Dependency }
+    if ($Mode -eq 'Check') { Write-Host '[OK] Requirements available.'; exit 0 }
+    $script:ReportNativeProgress=$true
+    $script:InputDir=Join-Path $Folder 'Input'; $script:OutputDir=Join-Path $Folder 'Output'
+    Ensure-Directory $script:InputDir; Ensure-Directory $script:OutputDir
+    Write-Host "`n============================================================"
+    Write-Host ('                    ' + $Name.ToUpperInvariant())
+    Write-Host '============================================================'
+    Write-Host $Description
+    Write-Host ('Input : ' + $script:InputDir); Write-Host ('Output: ' + $script:OutputDir)
+}
+function Read-LocalChoice([string]$Mode,[string[]]$Labels,[int]$Default=1) {
+    if ($Mode -eq 'Defaults') { return $Default }
+    for ($i=0;$i -lt $Labels.Count;$i++) { Write-Host ('[{0}] {1}' -f ($i+1),$Labels[$i]) }
+    Write-Host '[Q] Quit'
+    while ($true) {
+        $answer=Read-Host 'Select an option'
+        if ($answer -match '^[Qq]$') { exit 0 }
+        if ($answer -match '^\d{1,2}$' -and [int]$answer -ge 1 -and [int]$answer -le $Labels.Count) { return [int]$answer }
+        Write-Host '[ERROR] Invalid selection.'
+        if ([Console]::IsInputRedirected -and -not $answer) { throw 'No selection received.' }
+    }
+}
+function Read-LocalNumber([string]$Prompt,[double]$Min,[double]$Max) {
+    $text=Read-Host $Prompt
+    if ($text -notmatch '^\d{1,7}(\.\d{1,3})?$') { throw 'Enter a number using a decimal point.' }
+    $value=[double]::Parse($text,[Globalization.CultureInfo]::InvariantCulture)
+    if ($value -lt $Min -or $value -gt $Max) { throw 'Number outside the documented range.' }
+    $text
+}
+function Invoke-LocalBatch([IO.FileInfo[]]$Files,[scriptblock]$Name,[scriptblock]$Action,[switch]$DirectoryResult,[switch]$Aggregate) {
+    if (-not $Files.Count) { Write-Host '[INFO] No supported input files. Add files to Input.'; exit 0 }
+    $jobs=@(if($Aggregate){,$Files}else{$Files})
+    $success=0; $failed=0; $skipped=0
+    foreach ($job in $jobs) {
+        $work=$null
+        try {
+            $file=if($Aggregate){$Files[0]}else{$job}
+            $outName=& $Name $file
+            if (-not $outName -or $outName -ne [IO.Path]::GetFileName($outName) -or $outName -match '[:*?"<>|]') { throw 'Invalid output name.' }
+            $destination=Join-Path $script:OutputDir $outName
+            if (Test-Path -LiteralPath $destination) { Write-Host ('[SKIPPED] '+$outName); $skipped++; continue }
+            foreach($sourceFile in $(if($Aggregate){$Files}else{@($file)})) { if($sourceFile.FullName.Length -gt 240){throw 'Input path exceeds 240 characters.'} }
+            if ($destination.Length -gt 200 -and $DirectoryResult) { throw 'Choose a shorter project path for directory output (maximum base 200 characters).' }
+            if ($destination.Length -gt 240) { throw 'Output path exceeds 240 characters.' }
+            Write-Host ('Processing: '+$(if($Aggregate){$Files.Count.ToString()+' files'}else{$file.Name}))
+            $bytes=if($Aggregate){($Files|Measure-Object Length -Sum).Sum}else{$file.Length}
+            Test-FreeSpace $script:OutputDir ([Math]::Max(16MB,[long]$bytes*3))
+            $work=New-WorkDirectory $script:OutputDir
+            $script:NativeWorkingDirectory=$work
+            $source=Join-Path $work ('source'+$file.Extension)
+            if(-not $Aggregate){Copy-Item -LiteralPath $file.FullName -Destination $source}
+            $result=Join-Path $work ('result'+[IO.Path]::GetExtension($outName))
+            if($DirectoryResult){$result=Join-Path $work 'result'; Ensure-Directory $result}
+            & $Action $source $result $file $Files
+            if ($DirectoryResult) {
+                if(-not @(Get-SafeFiles $result $null -Recurse).Count){throw 'No output files were created.'}
+                foreach($entry in (Get-SafeFiles $result $null -Recurse)){if((Join-Path $destination (Get-RelativeName $result $entry.FullName)).Length -gt 240){throw 'A result path exceeds 240 characters.'}}
+                [IO.Directory]::Move($result,$destination)
+            } else { Publish-File $result $destination }
+            Write-Host ('[SUCCESS] '+$outName); $success++
+        } catch { Write-Host ('[FAILED] '+$_.Exception.Message); $failed++ }
+        finally { if($work){Remove-WorkDirectory $work $script:OutputDir} }
+    }
+    Write-Host ('Total: {0}  Successful: {1}  Failed: {2}  Skipped: {3}' -f $jobs.Count,$success,$failed,$skipped)
+    if($failed){exit 1}; exit 0
+}
+function Invoke-LocalFF([string[]]$Arguments) {
+    [void](Invoke-Checked $script:Engine (@('-hide_banner','-loglevel','error','-nostdin','-n')+$Arguments))
 }
