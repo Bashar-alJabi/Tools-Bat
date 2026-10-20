@@ -1,0 +1,25 @@
+﻿{
+    "DateUTC":  "2026-10-20T17:09:54.8471633Z",
+    "Results":  [
+                    {
+                        "Test":  "Merge normalizes incompatible inputs",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "Merge copy-only refuses incompatible tracks",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "Merge normalization respects anamorphic display aspect",
+                        "Passed":  false,
+                        "Detail":  "The property \u0027Groups\u0027 cannot be found on this object. Verify that the property exists."
+                    },
+                    {
+                        "Test":  "Merge normalizes PCM audio incompatible with MP4",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    }
+                ]
+}

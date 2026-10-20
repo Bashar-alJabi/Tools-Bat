@@ -1,4 +1,4 @@
-param([ValidateSet('A','B','All')][string]$Batch='A',[string]$Only)
+﻿param([ValidateSet('A','B','All')][string]$Batch='A',[string]$Only)
 $ErrorActionPreference='Stop'
 . (Join-Path $PSScriptRoot '..\..\System\Shared\Core.ps1')
 $root=$script:ProjectRoot
@@ -50,6 +50,13 @@ try{
  [void](Invoke-Checked $ff @('-v','error','-nostdin','-n','-f','lavfi','-i','color=red:s=64x32:r=10:d=2,pad=96:64:16:16:black','-an','-c:v','libx264','-pix_fmt','yuv420p','bars.mp4'))
  $subtitle="1`r`n00:00:00,100 --> 00:00:01,900`r`n"+$arabic+" TEST`r`n";[IO.File]::WriteAllText((Join-Path $fixtures 'text.srt'),$subtitle,(New-Object Text.UTF8Encoding($false)))
  [void](Invoke-Checked $ff @('-v','error','-nostdin','-n','-i','video.mp4','-i','text.srt','-map','0:v','-map','0:a','-map','1:0','-c','copy','-c:s','srt','embedded.mkv'))
+ [void](Invoke-Checked $ff @('-v','error','-nostdin','-n','-f','lavfi','-i','sine=frequency=440:duration=2','-c:a','pcm_s16le','tone.wav'))
+ [void](Invoke-Checked $ff @('-v','error','-nostdin','-n','-i','tone.wav','-af','volume=0.1','quiet.wav'))
+ [void](Invoke-Checked $ff @('-v','error','-nostdin','-n','-f','lavfi','-i','anullsrc=r=44100:cl=mono:d=1','-f','lavfi','-i','sine=frequency=440:duration=1','-f','lavfi','-i','anullsrc=r=44100:cl=mono:d=1','-f','lavfi','-i','sine=frequency=880:duration=1','-f','lavfi','-i','anullsrc=r=44100:cl=mono:d=1','-filter_complex','[0:a][1:a][2:a][3:a][4:a]concat=n=5:v=0:a=1[a]','-map','[a]','-c:a','pcm_s16le','silence.wav'))
+ [void](Invoke-Checked $gs @('-q','-dSAFER','-dBATCH','-dNOPAUSE','-sDEVICE=pdfwrite','-sOutputFile=pages.pdf','-c','<</PageSize [300 400]>> setpagedevice /Helvetica findfont 20 scalefont setfont 50 300 moveto (PAGE ONE) show showpage 50 300 moveto (PAGE TWO) show showpage 50 300 moveto (PAGE THREE) show showpage [ /Title (PrivateTitleToken) /Author (PrivateAuthorToken) /DOCINFO pdfmark'))
+ [IO.File]::WriteAllText((Join-Path $fixtures 'notes.txt'),"TODO first`r`nTODO "+$arabic,(New-Object Text.UnicodeEncoding($false,$true,$true)))
+ $csv='"Name","Number","Note"'+"`r`n"+'"'+$arabic+'","123456789012345678901234567890","line1'+"`r`n"+'line2, ""quoted"""'+"`r`n"
+ [IO.File]::WriteAllText((Join-Path $fixtures 'table.csv'),$csv,(New-Object Text.UTF8Encoding($true)))
  foreach($tool in $catalog){
   try{
    $bat=Join-Path $project $tool.Path;$dir=Split-Path $bat;Ensure-Directory $dir
@@ -70,6 +77,17 @@ try{
     'Video Remove Black Bars' {Copy-Fixture 'bars.mp4' (Join-Path $inputDir ($name+'.mp4'))}
     'Video Subtitles Burn' {[void](Invoke-Checked $ff @('-v','error','-nostdin','-n','-i','video.mp4','-vf','scale=640:360','-c:v','libx264','-c:a','copy','subtitle-video.mp4'));Copy-Fixture 'subtitle-video.mp4' (Join-Path $inputDir ($name+'.mp4'));Copy-Fixture 'text.srt' (Join-Path $inputDir ('Subtitles\'+$name+'.srt'))}
     'Video Add Subtitle Track' {Copy-Fixture 'video.mp4' (Join-Path $inputDir ($name+'.mp4'));Copy-Fixture 'text.srt' (Join-Path $inputDir ('Subtitles\'+$name+'.srt'))}
+    'Audio to Video' {Copy-Fixture 'tone.wav' (Join-Path $inputDir ($name+'.wav'))}
+    'Video Metadata Report' {Copy-Fixture 'video.mp4' (Join-Path $inputDir '001.mp4');Copy-Fixture 'embedded.mkv' (Join-Path $inputDir '002.mkv')}
+    {$_ -in @('Audio Remove Silence','Audio Split by Silence')} {Copy-Fixture 'silence.wav' (Join-Path $inputDir ($name+'.wav'))}
+    'Audio Volume Report' {Copy-Fixture 'tone.wav' (Join-Path $inputDir 'tone.wav');Copy-Fixture 'quiet.wav' (Join-Path $inputDir 'quiet.wav')}
+    'Audio Reverse' {Copy-Fixture 'tone.wav' (Join-Path $inputDir ($name+'.wav'))}
+    {$_ -in @('PDF Rotate Pages','PDF Extract Pages','PDF Reorder Pages','PDF Metadata Cleaner')} {Copy-Fixture 'pages.pdf' (Join-Path $inputDir ($name+'.pdf'))}
+    'Batch Rename' {Copy-Fixture 'notes.txt' (Join-Path $inputDir ($name+'.txt'));Copy-Fixture 'table.csv' (Join-Path $inputDir 'second.csv')}
+    'Find Large Files' {Ensure-Directory (Join-Path $inputDir 'Nested');[IO.File]::WriteAllBytes((Join-Path $inputDir 'Nested\large.bin'),(New-Object byte[] 12345));[IO.File]::WriteAllBytes((Join-Path $inputDir ($name+'.bin')),(New-Object byte[] 123))}
+    'Empty Folders Report' {Ensure-Directory (Join-Path $inputDir 'Empty');Ensure-Directory (Join-Path $inputDir 'Filled');Copy-Fixture 'notes.txt' (Join-Path $inputDir 'Filled\notes.txt')}
+    'Text Find and Replace' {Copy-Fixture 'notes.txt' (Join-Path $inputDir ($name+'.txt'))}
+    'CSV to JSON' {Copy-Fixture 'table.csv' (Join-Path $inputDir ($name+'.csv'))}
     default {Copy-Fixture 'video.mp4' (Join-Path $inputDir ($name+'.mp4'))}
    }
    $before=HashTree $inputDir
@@ -94,6 +112,23 @@ try{
     'Video Remove Black Bars' {$row=Import-Csv -LiteralPath (Join-Path $output ($name+'.mp4.crop-preview\crop.csv'));Assert ([int]$row.CropWidth -eq 64 -and [int]$row.CropHeight -eq 32) 'Detected crop differs from fixture borders.';Assert (-not @($outputs|Where-Object Extension -eq '.mp4').Count) 'Default mode unexpectedly cropped a video.'}
     'Video Audio Sync' {$p=Probe $outputs[0].FullName;Assert ([Math]::Abs([double]$p.format.duration-2) -lt 0.15) 'Synced duration wrong.';$vol=Invoke-Native $ff @('-v','info','-i',$outputs[0].FullName,'-t','0.15','-af','volumedetect','-f','null','-');Assert ($vol.Err -match 'mean_volume: (-inf|-[789]\d(?:\.\d+)?) dB') 'Positive offset did not insert leading silence.'}
    }
+   switch($tool.Name){
+    'Audio to Video' {$p=Probe $outputs[0].FullName;Assert ($p.streams[0].width -eq 1280 -and $p.streams[0].height -eq 720 -and [Math]::Abs([double]$p.format.duration-2) -lt 0.2 -and @($p.streams|Where-Object codec_type -eq 'audio').Count -eq 1) 'Audio/video duration or streams wrong.'}
+    'Video Metadata Report' {$j=Get-Content -LiteralPath (Join-Path $output 'video-report\summary.json') -Raw|ConvertFrom-Json;$rows=@(Import-Csv -LiteralPath (Join-Path $output 'video-report\videos.csv'));Assert ($j.Count -eq 2 -and $j.TotalDurationSeconds -gt 3.9 -and @($rows|Where-Object SubtitleTracks -eq '1').Count -eq 1) 'Video batch statistics or subtitles wrong.'}
+    'Audio Remove Silence' {$p=Probe $outputs[0].FullName;Assert ([double]$p.format.duration -gt 2.9 -and [double]$p.format.duration -lt 3.1) 'Leading/trailing silence was not removed while preserving the middle gap.'}
+    'Audio Split by Silence' {$rows=@(Import-Csv -LiteralPath (Join-Path $output ($name+'.wav.segments\segments.csv')));Assert ($rows.Count -eq 2 -and [Math]::Abs([double]$rows[0].SourceStart-1) -lt 0.1 -and [Math]::Abs([double]$rows[-1].SourceEnd-4) -lt 0.1) 'Silence boundaries/segment count wrong.';foreach($r in $rows){$p=Probe (Join-Path $output ($name+'.wav.segments\'+$r.File));Assert ([Math]::Abs([double]$p.format.duration-[double]$r.Duration) -lt 0.02) 'Segment duration differs from source map.'}}
+    'Audio Volume Report' {$rows=@(Import-Csv -LiteralPath (Join-Path $output 'audio-volume.csv'));$loud=$rows|Where-Object File -eq 'tone.wav';$quiet=$rows|Where-Object File -eq 'quiet.wav';Assert ($rows.Count -eq 2 -and [Math]::Abs(([double]$loud.MeanDBFS-[double]$quiet.MeanDBFS)-20) -lt 1 -and $loud.IntegratedLUFS) 'Volume statistics wrong.'}
+    'Audio Reverse' {[void](Invoke-Checked $ff @('-v','error','-nostdin','-n','-i','tone.wav','-map','0:a:0','-f','s16le','input.raw'));[void](Invoke-Checked $ff @('-v','error','-nostdin','-n','-i',$outputs[0].FullName,'-map','0:a:0','-f','s16le','reverse.raw'));$a=[IO.File]::ReadAllBytes((Join-Path $fixtures 'input.raw'));$b=[IO.File]::ReadAllBytes((Join-Path $fixtures 'reverse.raw'));Assert ($a.Length -eq $b.Length) 'Reversed sample count changed.';for($i=0;$i -lt $a.Length;$i+=2){Assert ($b[$i] -eq $a[$a.Length-2-$i] -and $b[$i+1] -eq $a[$a.Length-1-$i]) 'Samples were not reversed exactly.'}}
+    'PDF Rotate Pages' {Assert ((PDF-Count $outputs[0].FullName) -eq 3) 'Rotated page count changed.';[void](Invoke-Checked $gs @('-q','-dSAFER','-dBATCH','-dNOPAUSE','-sDEVICE=png16m','-r72','-dFirstPage=1','-dLastPage=1','-sOutputFile=rotated.png','checked.pdf'));Assert ((Image-Info (Join-Path $fixtures 'rotated.png')) -eq '400 300') 'PDF orientation did not rotate the page geometry.'}
+    'PDF Extract Pages' {Assert ((PDF-Count $outputs[0].FullName) -eq 1) 'Default extraction did not produce one page.'}
+    'PDF Reorder Pages' {Assert ((PDF-Count $outputs[0].FullName) -eq 3) 'Reordered page count changed.';[void](Invoke-Checked $gs @('-q','-dSAFER','-dBATCH','-dNOPAUSE','-sDEVICE=txtwrite','-sOutputFile=order.txt','checked.pdf'));$text=[IO.File]::ReadAllText((Join-Path $fixtures 'order.txt'));Assert ($text.IndexOf('PAGE THREE') -lt $text.IndexOf('PAGE TWO') -and $text.IndexOf('PAGE TWO') -lt $text.IndexOf('PAGE ONE') -and $text.Contains('PAGE ONE')) 'PDF order was not reversed.'}
+    'PDF Metadata Cleaner' {$p=Invoke-Checked $gs @('-dSAFER','-dBATCH','-dNOPAUSE','-dPDFINFO','-sDEVICE=nullpage',$outputs[0].FullName);Assert ($p -notmatch 'PrivateTitleToken|PrivateAuthorToken' -and $p -match 'Producer: GPL Ghostscript') 'Selected metadata was not cleared as documented.';Assert ((PDF-Count $outputs[0].FullName) -eq 3) 'Metadata cleaning lost pages.'}
+    'Batch Rename' {$rows=@(Import-Csv -LiteralPath (Join-Path $output 'rename-plan\preview.csv'));Assert ($rows.Count -eq 2) 'Rename plan rows wrong.';foreach($r in $rows){Assert ($r.NewName -ceq ('copy_'+$r.Original) -and (Get-FileHash -LiteralPath (Join-Path $output ('rename-plan\Copies\'+$r.NewName))).Hash -eq $r.SHA256) 'Renamed copy bytes/name mismatch.'}}
+    'Find Large Files' {$j=Get-Content -LiteralPath (Join-Path $output 'large-files\summary.json') -Raw|ConvertFrom-Json;$rows=@(Import-Csv -LiteralPath (Join-Path $output 'large-files\largest-files.csv'));$folders=@(Import-Csv -LiteralPath (Join-Path $output 'large-files\folders.csv'));Assert ($j.TotalLogicalBytes -eq 12468 -and [long]$rows[0].Bytes -eq 12345 -and [long]($folders|Where-Object Path -eq 'Nested').CumulativeBytes -eq 12345) 'Largest file/folder totals wrong.'}
+    'Empty Folders Report' {$rows=@(Import-Csv -LiteralPath (Join-Path $output 'empty-folders.csv'));Assert ($rows.Count -eq 1 -and $rows[0].Path -eq 'Empty' -and [IO.Directory]::Exists((Join-Path $inputDir 'Empty'))) 'Empty-folder report or preservation wrong.'}
+    'Text Find and Replace' {$rows=@(Import-Csv -LiteralPath (Join-Path $output 'replacements\preview.csv'));Assert ($rows.Count -eq 1 -and $rows[0].Matches -eq '2' -and $rows[0].Encoding -eq 'UTF-16LE BOM' -and -not (Test-Path -LiteralPath (Join-Path $output 'replacements\Copies'))) 'Preview counts, encoding or default safety wrong.'}
+    'CSV to JSON' {$json=Get-Content -LiteralPath $outputs[0].FullName -Raw -Encoding UTF8|ConvertFrom-Json;Assert ($json[0].Name -ceq $arabic -and $json[0].Number -ceq '123456789012345678901234567890' -and $json[0].Note.Contains("`r`n") -and $json[0].Note.Contains('"quoted"')) 'CSV data, large numeric string, quoting or multiline content changed.'}
+   }
    Assert ((HashTree $inputDir) -eq $before) 'Original inputs changed.'
    $prior=HashTree $output;$repeat=Run-Bat $bat;Assert ($repeat.Code -eq 0 -and (HashTree $output) -eq $prior) 'Repeat overwrote output.'
    Record $tool.Name $true 'BAT help/check/processing/repeat in relocated Unicode/metacharacter path; semantic content verified; originals and existing outputs preserved.'
@@ -106,11 +141,20 @@ try{
    Prepare-SpecialFolders $inputDir $tool.Name;Ensure-Directory $output
    $empty=Run-Bat $bat;Assert ($empty.Code -eq 0 -and $empty.Text -match 'No supported input') ('Empty input failed: '+$empty.Text);Record ($tool.Name+' empty') $true 'Empty Input exits safely with no output.'
    if($tool.Name -eq 'Image Compare'){Copy-Fixture 'colors.png' (Join-Path $inputDir 'Right\good.png');$bad=Join-Path $inputDir 'Left\bad.png'}
-   else{$ext=if($tool.Path -match '\\IMG\\'){'.png'}else{'.mp4'};$bad=Join-Path $inputDir ('bad'+$ext)}
+   else{$ext=if($tool.Path -match '\\IMG\\'){'.png'}elseif($tool.Path -match '\\AUD\\' -or $tool.Name -eq 'Audio to Video'){'.wav'}elseif($tool.Path -match '\\PDF\\'){'.pdf'}elseif($tool.Name -eq 'CSV to JSON'){'.csv'}elseif($tool.Name -eq 'Text Find and Replace'){'.txt'}else{'.mp4'};$bad=Join-Path $inputDir ('bad'+$ext)}
    if($tool.Name -in @('Video Subtitles Burn','Video Add Subtitle Track')){Copy-Fixture 'text.srt' (Join-Path $inputDir 'Subtitles\bad.srt')}
-   [IO.File]::WriteAllText($bad,'not a supported media file');$badHash=(Get-FileHash -LiteralPath $bad).Hash
-   $invalid=Run-Bat $bat;Assert ($invalid.Code -in @(1,2) -and -not @(Get-SafeFiles $output $null -Recurse).Count) ('Corrupt input accepted: '+$invalid.Text)
-   Assert ((Get-FileHash -LiteralPath $bad).Hash -eq $badHash) 'Corrupt input was modified.';Record ($tool.Name+' corrupt') $true 'Rejected invalid input without publishing a partial result.'
+   if($tool.Name -eq 'CSV to JSON'){[IO.File]::WriteAllText($bad,"Name,Age`r`n"+'"unterminated')}
+   elseif($tool.Name -eq 'Text Find and Replace'){[IO.File]::WriteAllBytes($bad,([byte[]]@(65,0,66,0,67)))}
+   else{[IO.File]::WriteAllText($bad,'not a supported media file')}
+   $badHash=(Get-FileHash -LiteralPath $bad).Hash
+   if($tool.Name -in @('Batch Rename','Find Large Files','Empty Folders Report')){
+    if($tool.Name -eq 'Empty Folders Report'){Ensure-Directory (Join-Path $inputDir 'AnotherEmpty')}
+    $opaque=Run-Bat $bat;Assert ($opaque.Code -eq 0 -and @(Get-SafeFiles $output $null -Recurse).Count -gt 0) ('Opaque file handling failed: '+$opaque.Text)
+    Assert ((Get-FileHash -LiteralPath $bad).Hash -eq $badHash) 'Opaque input modified.';Record ($tool.Name+' arbitrary bytes') $true 'Opaque content handled without interpreting media/text or deleting source folders.'
+   }else{
+    $invalid=Run-Bat $bat;Assert ($invalid.Code -in @(1,2) -and -not @(Get-SafeFiles $output $null -Recurse).Count) ('Corrupt input accepted: '+$invalid.Text)
+    Assert ((Get-FileHash -LiteralPath $bad).Hash -eq $badHash) 'Corrupt input was modified.';Record ($tool.Name+' corrupt') $true 'Rejected invalid input without publishing a partial result.'
+   }
    [IO.Directory]::Move($inputDir,(Join-Path $failed 'Input'));[IO.Directory]::Move($output,(Join-Path $failed 'Output'));[IO.Directory]::Move((Join-Path $saved 'Input'),$inputDir);[IO.Directory]::Move((Join-Path $saved 'Output'),$output)
   }catch{Record $tool.Name $false $_.Exception.Message}
  }

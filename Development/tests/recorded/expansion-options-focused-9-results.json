@@ -1,0 +1,50 @@
+﻿{
+    "DateUTC":  "2026-10-20T17:07:35.6562008Z",
+    "Results":  [
+                    {
+                        "Test":  "Merge normalizes incompatible inputs",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "Merge copy-only refuses incompatible tracks",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "Merge normalizes PCM audio incompatible with MP4",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "Watermark custom position and opacity",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "Black-bar crop declined",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "Black-bar crop explicit APPLY",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "Black-bar detection handles rotated display",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "Watermark handles rotated display dimensions",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "Audio to video with still image",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    }
+                ]
+}

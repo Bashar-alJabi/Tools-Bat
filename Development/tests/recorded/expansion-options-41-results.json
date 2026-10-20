@@ -1,0 +1,210 @@
+﻿{
+    "DateUTC":  "2026-10-20T17:05:07.0543505Z",
+    "Results":  [
+                    {
+                        "Test":  "Compare rejects incompatible dimensions",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "Collage top template",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "Collage custom canvas and color",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "Palette single color",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "PDF image landscape option",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "Merge normalizes incompatible inputs",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "Merge copy-only refuses incompatible tracks",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "Screenshot custom time",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "Screenshot out-of-range refused",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "Watermark custom position and opacity",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "Subtitle track copies video bitstream",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "Black-bar crop declined",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "Black-bar crop explicit APPLY",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "Audio sync negative offset pads the tail",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "Invalid sync value refused",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "Audio to video with still image",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "Remove internal silence",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "Silence split minimum prevents tiny clips",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "Reverse refuses oversized buffered job",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "PDF selected rotation preserves other pages",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "PDF rotation pixel direction 1",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "PDF rotation pixel direction 2",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "PDF rotation pixel direction 3",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "PDF extract nonsequential order",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "PDF invalid selection 0",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "PDF invalid selection 4",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "PDF invalid selection 1,1",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "PDF invalid selection 3-1",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "PDF complete custom permutation",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "PDF reorder refuses omitted pages",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "Rename literal replacement",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "Rename collision refused",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "Rename original mode declined",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "Rename originals explicit consent and backups",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "Largest-files custom read-only scope",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "Empty report respects hidden content",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "Text replacement explicit WRITE preserves UTF16",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "Text replacement declined",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "CSV UTF16 semicolon quoted multiline",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "JSON string table to CSV round trip",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    },
+                    {
+                        "Test":  "JSON numeric reverse refused without rounding",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    }
+                ]
+}

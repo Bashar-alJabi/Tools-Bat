@@ -506,5 +506,140 @@
     "AdditionalDependencies": [
       "ffprobe"
     ]
+  },
+  {
+    "Name": "Audio to Video",
+    "Path": "Tools\\VID\\Audio to Video\\Audio to Video.bat",
+    "Dependency": "ffmpeg",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-20-B",
+    "AdditionalDependencies": [
+      "ffprobe"
+    ]
+  },
+  {
+    "Name": "Video Metadata Report",
+    "Path": "Tools\\VID\\Video Metadata Report\\Video Metadata Report.bat",
+    "Dependency": "ffprobe",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-20-B"
+  },
+  {
+    "Name": "Audio Remove Silence",
+    "Path": "Tools\\AUD\\Audio Remove Silence\\Audio Remove Silence.bat",
+    "Dependency": "ffmpeg",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-20-B",
+    "AdditionalDependencies": [
+      "ffprobe"
+    ]
+  },
+  {
+    "Name": "Audio Split by Silence",
+    "Path": "Tools\\AUD\\Audio Split by Silence\\Audio Split by Silence.bat",
+    "Dependency": "ffmpeg",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-20-B",
+    "AdditionalDependencies": [
+      "ffprobe"
+    ]
+  },
+  {
+    "Name": "Audio Volume Report",
+    "Path": "Tools\\AUD\\Audio Volume Report\\Audio Volume Report.bat",
+    "Dependency": "ffmpeg",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-20-B",
+    "AdditionalDependencies": [
+      "ffprobe"
+    ]
+  },
+  {
+    "Name": "Audio Reverse",
+    "Path": "Tools\\AUD\\Audio Reverse\\Audio Reverse.bat",
+    "Dependency": "ffmpeg",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-20-B",
+    "AdditionalDependencies": [
+      "ffprobe"
+    ]
+  },
+  {
+    "Name": "PDF Rotate Pages",
+    "Path": "Tools\\PDF\\PDF Rotate Pages\\PDF Rotate Pages.bat",
+    "Dependency": "ghostscript",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-20-B"
+  },
+  {
+    "Name": "PDF Extract Pages",
+    "Path": "Tools\\PDF\\PDF Extract Pages\\PDF Extract Pages.bat",
+    "Dependency": "ghostscript",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-20-B"
+  },
+  {
+    "Name": "PDF Reorder Pages",
+    "Path": "Tools\\PDF\\PDF Reorder Pages\\PDF Reorder Pages.bat",
+    "Dependency": "ghostscript",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-20-B"
+  },
+  {
+    "Name": "PDF Metadata Cleaner",
+    "Path": "Tools\\PDF\\PDF Metadata Cleaner\\PDF Metadata Cleaner.bat",
+    "Dependency": "ghostscript",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-20-B"
+  },
+  {
+    "Name": "Batch Rename",
+    "Path": "Tools\\UTI\\Batch Rename\\Batch Rename.bat",
+    "Dependency": "",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-20-B"
+  },
+  {
+    "Name": "Find Large Files",
+    "Path": "Tools\\UTI\\Find Large Files\\Find Large Files.bat",
+    "Dependency": "",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-20-B"
+  },
+  {
+    "Name": "Empty Folders Report",
+    "Path": "Tools\\UTI\\Empty Folders Report\\Empty Folders Report.bat",
+    "Dependency": "",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-20-B"
+  },
+  {
+    "Name": "Text Find and Replace",
+    "Path": "Tools\\UTI\\Text Find and Replace\\Text Find and Replace.bat",
+    "Dependency": "",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-20-B"
+  },
+  {
+    "Name": "CSV to JSON",
+    "Path": "Tools\\UTI\\CSV to JSON\\CSV to JSON.bat",
+    "Dependency": "",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-20-B"
   }
 ]

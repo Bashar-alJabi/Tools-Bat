@@ -3,7 +3,7 @@
 param([string]$FixtureDirectory)
 . (Join-Path $PSScriptRoot '..\..\System\Shared\Core.ps1')
 $sourceRoot=$script:ProjectRoot
-if(-not $FixtureDirectory){$previous=Get-Content -LiteralPath (Join-Path $PSScriptRoot 'results.json') -Raw -Encoding UTF8 | ConvertFrom-Json; $FixtureDirectory=Join-Path $previous.Sandbox 'fixtures'}
+if(-not $FixtureDirectory){$previous=Get-Content -LiteralPath (Join-Path $PSScriptRoot 'results.json') -Raw -Encoding UTF8 | ConvertFrom-Json; $FixtureDirectory=Join-Path ($previous.Sandbox.Replace('<PROJECT_ROOT>',$sourceRoot)) 'fixtures'}
 $parent=Join-Path $PSScriptRoot '_sandbox'
 Ensure-Directory $parent
 $localRoot=New-WorkDirectory $parent

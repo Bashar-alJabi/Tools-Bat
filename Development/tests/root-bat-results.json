@@ -22,6 +22,6 @@
     {
         "Test":  "START_HERE portable decline",
         "Passed":  true,
-        "Detail":  "55 tools registered; declined each copy; full readiness rescan succeeded; no production program copy or download."
+        "Detail":  "All catalog tools registered; declined each copy; full readiness rescan succeeded; no production program copy or download."
     }
 ]

@@ -1,6 +1,6 @@
 ﻿# tOOls Bat
 
-مجموعة أدوات Windows قابلة للنقل: **70 أداة** للصور والفيديو والصوت وPDF والملفات والشبكة، إضافة إلى `START_HERE.bat` للتجهيز. الأسماء والمجلدات والقوائم الأصلية محفوظة. كل أداة لها MD مستقل؛ الأدوات الـ25 الجديدة تضع المعالجة في PS1 داخل مجلدها وتشارك وظائف المسارات والأمان واكتشاف البرامج فقط.
+مجموعة أدوات Windows قابلة للنقل: **85 أداة** للصور والفيديو والصوت وPDF والملفات والشبكة، إضافة إلى `START_HERE.bat` للتجهيز. الأسماء والمجلدات والقوائم الأصلية محفوظة. كل أداة لها MD مستقل؛ الأدوات الأحدث تضع المعالجة في PS1 داخل مجلدها وتشارك وظائف المسارات والأمان واكتشاف البرامج فقط.
 
 ## التنظيم
 
@@ -201,3 +201,25 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File ".\Development\tests\Tes
 - [Video Add Subtitle Track](<Tools/VID/Video Add Subtitle Track/Video Add Subtitle Track.md>): إضافة ترجمة قابلة للإيقاف.
 - [Video Remove Black Bars](<Tools/VID/Video Remove Black Bars/Video Remove Black Bars.md>): معاينة اقتراح إزالة الحواف السوداء.
 - [Video Audio Sync](<Tools/VID/Video Audio Sync/Video Audio Sync.md>): تقديم أو تأخير الصوت.
+
+## توسعة 2026-10-20 — الدفعة الثانية
+
+- [Audio to Video](<Tools/VID/Audio to Video/Audio to Video.md>): تحويل الصوت إلى فيديو.
+- [Video Metadata Report](<Tools/VID/Video Metadata Report/Video Metadata Report.md>): تحليل جماعي لمكتبة الفيديو.
+- [Audio Remove Silence](<Tools/AUD/Audio Remove Silence/Audio Remove Silence.md>): إزالة الصمت من تسجيل صوتي.
+- [Audio Split by Silence](<Tools/AUD/Audio Split by Silence/Audio Split by Silence.md>): تقسيم الصوت عند فواصل الصمت.
+- [Audio Volume Report](<Tools/AUD/Audio Volume Report/Audio Volume Report.md>): تقرير مستويات الصوت دون تعديل.
+- [Audio Reverse](<Tools/AUD/Audio Reverse/Audio Reverse.md>): عكس التسجيل زمنيًا.
+- [PDF Rotate Pages](<Tools/PDF/PDF Rotate Pages/PDF Rotate Pages.md>): تدوير صفحات PDF مختارة.
+- [PDF Extract Pages](<Tools/PDF/PDF Extract Pages/PDF Extract Pages.md>): استخراج صفحات أو نطاقات مختارة.
+- [PDF Reorder Pages](<Tools/PDF/PDF Reorder Pages/PDF Reorder Pages.md>): إعادة ترتيب مستند PDF كامل.
+- [PDF Metadata Cleaner](<Tools/PDF/PDF Metadata Cleaner/PDF Metadata Cleaner.md>): مسح حقول وصفية مختارة من PDF.
+- [Batch Rename](<Tools/UTI/Batch Rename/Batch Rename.md>): إعادة تسمية بأنماط ومعاينة.
+- [Find Large Files](<Tools/UTI/Find Large Files/Find Large Files.md>): تقرير أكبر الملفات وأحجام المجلدات.
+- [Empty Folders Report](<Tools/UTI/Empty Folders Report/Empty Folders Report.md>): تقرير المجلدات الفارغة.
+- [Text Find and Replace](<Tools/UTI/Text Find and Replace/Text Find and Replace.md>): بحث واستبدال حرفي في نسخ نصية.
+- [CSV to JSON](<Tools/UTI/CSV to JSON/CSV to JSON.md>): تحويل جداول CSV إلى JSON والعكس المحدود.
+
+[تقرير توسعة85 أداة والاختبارات والقيود](Development/Reports/EXPANSION_20261020_AR.md).
+
+اختبارات التوسعة: Development/tests/Test-Expansion.ps1 -Batch All ثم Development/tests/Test-ExpansionOptions.ps1. البرامج المطلوبة نفسها، والنسخة النظيفة لا تضمها افتراضيًا.

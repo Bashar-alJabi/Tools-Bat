@@ -1,0 +1,68 @@
+{
+  "DateUTC": "2026-10-20T17:16:36.7486758Z",
+  "PreviousTools": 55,
+  "AddedTools": 30,
+  "TotalTools": 85,
+  "Passed": 595.0,
+  "Failed": 0.0,
+  "Suites": [
+    {
+      "Report": "results.json",
+      "Passed": 123,
+      "Failed": 0
+    },
+    {
+      "Report": "improvements-All-results.json",
+      "Passed": 127,
+      "Failed": 0
+    },
+    {
+      "Report": "original-comparison-results.json",
+      "Passed": 23,
+      "Failed": 0
+    },
+    {
+      "Report": "verification-results.json",
+      "Passed": 6,
+      "Failed": 0
+    },
+    {
+      "Report": "distribution-results.json",
+      "Passed": 5,
+      "Failed": 0
+    },
+    {
+      "Report": "root-bat-results.json",
+      "Passed": 5,
+      "Failed": 0
+    },
+    {
+      "Report": "edge-results.json",
+      "Passed": 9,
+      "Failed": 0
+    },
+    {
+      "Report": "local-portable-results.json",
+      "Passed": 6,
+      "Failed": 0
+    },
+    {
+      "Report": "reorganization-results.json",
+      "Passed": 101,
+      "Failed": 0
+    },
+    {
+      "Report": "expansion-All-results.json",
+      "Passed": 145,
+      "Failed": 0
+    },
+    {
+      "Report": "expansion-options-final-results.json",
+      "Passed": 45,
+      "Failed": 0
+    }
+  ],
+  "ZIP": "dist\\tOOls Bat 85 20261020.zip",
+  "ZIPBytes": 499647,
+  "ZIP_SHA256": "57070931232EF2102DA188210886017633414394BDD83A868BC53F4A23849F44"
+}

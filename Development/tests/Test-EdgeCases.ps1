@@ -3,7 +3,7 @@
 . (Join-Path $PSScriptRoot '..\..\System\Shared\Download.ps1')
 $sourceRoot=$script:ProjectRoot
 $last=Get-Content -LiteralPath (Join-Path $PSScriptRoot 'results.json') -Raw -Encoding UTF8 | ConvertFrom-Json
-$fixtures=Join-Path $last.Sandbox 'fixtures'
+$fixtures=Join-Path ($last.Sandbox.Replace('<PROJECT_ROOT>',$sourceRoot)) 'fixtures'
 $script:NativeWorkingDirectory=$fixtures
 $edgeRoot=New-WorkDirectory (Join-Path $PSScriptRoot '_sandbox')
 $results=New-Object 'Collections.Generic.List[object]'

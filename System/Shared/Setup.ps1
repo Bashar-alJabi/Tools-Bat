@@ -6,7 +6,16 @@ function Show-Dependencies {
     $missing=New-Object 'Collections.Generic.List[string]'
     foreach ($name in @('ffmpeg','ffprobe','magick','ghostscript')) {
         $dependency=Get-Dependency $name
-        if ($dependency) { Write-Host ('[OK] {0} | {1} | {2}' -f $name,$(if($dependency.Local){'project local'}else{'system'}),$dependency.Path); Write-Host ('     ' + $dependency.Version) }
+        if ($dependency) {
+            Write-Host ('[OK] {0} | {1} | {2}' -f $name,$(if($dependency.Local){'project local'}else{'system'}),$dependency.Path); Write-Host ('     ' + $dependency.Version)
+            if($name -eq 'ffmpeg' -and @($script:ToolCatalog|Where-Object Name -eq 'Video Subtitles Burn').Count){
+                $filters=Invoke-Native $dependency.Path @('-hide_banner','-filters') 15000
+                if($filters.Code -ne 0 -or $filters.Out -notmatch '\bsubtitles\s'){
+                    Write-Host '[MISSING CAPABILITY] Video Subtitles Burn needs an FFmpeg build with subtitles/libass. Other FFmpeg tools may still work.'
+                    $missing.Add('ffmpeg')
+                }else{Write-Host '     subtitles/libass filter: available; Arabic rendering still depends on fonts.'}
+            }
+        }
         else { Write-Host ('[MISSING] ' + $name); $missing.Add($name) }
         $users=@($script:ToolCatalog | Where-Object {$_.Dependency -eq $name -or ($_.PSObject.Properties['AdditionalDependencies'] -and $name -in $_.AdditionalDependencies)} | ForEach-Object Name)
         if($users.Count){Write-Host ('     Used by: ' + ($users -join ', '))}

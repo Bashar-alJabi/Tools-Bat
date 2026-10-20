@@ -40,6 +40,7 @@ try {
             if(Test-Path -LiteralPath (Join-Path $source 'Watermark')){Ensure-Directory (Join-Path $target 'Watermark')}
             if($tool.Name -in @('Folder Compare','Image Compare')){Ensure-Directory (Join-Path $target 'Input\Left');Ensure-Directory (Join-Path $target 'Input\Right')}
             if($tool.Name -in @('Video Subtitles Burn','Video Add Subtitle Track')){Ensure-Directory (Join-Path $target 'Input\Subtitles')}
+            if($tool.Name -eq 'Audio to Video'){Ensure-Directory (Join-Path $target 'Input\Picture')}
         }
         $docDir=Join-Path $stage 'System\Docs';Ensure-Directory $docDir
         foreach($name in @('DEPENDENCIES.md','DISTRIBUTION.md')){[IO.File]::Copy((Join-Path $script:ProjectRoot ('System\Docs\'+$name)),(Join-Path $docDir $name),$false)}

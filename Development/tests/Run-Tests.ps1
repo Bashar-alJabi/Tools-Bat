@@ -207,7 +207,7 @@ try {
 } catch { Record 'Test infrastructure' $false $_.Exception.Message }
 finally {
     $report=Join-Path $PSScriptRoot 'results.json'
-    [pscustomobject]@{DateUTC=[DateTime]::UtcNow.ToString('o');Windows=[Environment]::OSVersion.Version.ToString();PowerShell=$PSVersionTable.PSVersion.ToString();Sandbox=$runRoot;Results=@($script:Results.ToArray())} | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath $report -Encoding UTF8
+    [pscustomobject]@{DateUTC=[DateTime]::UtcNow.ToString('o');Windows=[Environment]::OSVersion.Version.ToString();PowerShell=$PSVersionTable.PSVersion.ToString();Sandbox=$runRoot.Replace($sourceRoot,'<PROJECT_ROOT>');Results=@($script:Results.ToArray())} | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath $report -Encoding UTF8
     Write-Host ('Results: '+$report)
     Write-Host ('Sandbox preserved: '+$runRoot)
 }

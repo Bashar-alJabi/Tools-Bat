@@ -7,7 +7,7 @@
     {
         "Test":  "Catalog completeness",
         "Passed":  true,
-        "Detail":  "70 tool launchers, dependencies registered; all local tool, root and development-report Markdown links resolve."
+        "Detail":  "85 tool launchers, dependencies registered; all local tool, root and development-report Markdown links resolve."
     },
     {
         "Test":  "Pinned packages",

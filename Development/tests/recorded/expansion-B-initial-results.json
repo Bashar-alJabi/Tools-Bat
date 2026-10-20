@@ -1,0 +1,338 @@
+﻿{
+    "DateUTC":  "2026-10-20T16:52:00.8901843Z",
+    "Batch":  "B",
+    "Windows":  "10.0.26300.0",
+    "PowerShell":  "5.1.26100.9549",
+    "Results":  [
+                    {
+                        "Test":  "Audio to Video",
+                        "Passed":  true,
+                        "Detail":  "BAT help/check/processing/repeat in relocated Unicode/metacharacter path; semantic content verified; originals and existing outputs preserved."
+                    },
+                    {
+                        "Test":  "Audio to Video menu",
+                        "Passed":  true,
+                        "Detail":  "Metacharacter input refused; Q exits without processing."
+                    },
+                    {
+                        "Test":  "Audio to Video missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only discovery refused missing programs; no download."
+                    },
+                    {
+                        "Test":  "Audio to Video empty",
+                        "Passed":  true,
+                        "Detail":  "Empty Input exits safely with no output."
+                    },
+                    {
+                        "Test":  "Audio to Video",
+                        "Passed":  false,
+                        "Detail":  "Corrupt input accepted: \n============================================================\n                    AUDIO TO VIDEO\n============================================================\nAudio to Video: use the local Input folder; originals and previous outputs are preserved. Read the MD for options and limits.\nInput : \u003cPROJECT_ROOT\u003e\\Development\\tests\\_work\\e-4a3d16ce\\p عربي \u0026 ! %X% [1]\\Tools\\VID\\Audio to Video\\Input\nOutput: \u003cPROJECT_ROOT\u003e\\Development\\tests\\_work\\e-4a3d16ce\\p عربي \u0026 ! %X% [1]\\Tools\\VID\\Audio to Video\\Output\n[INFO] No supported input files. Add files to Input.\n"
+                    },
+                    {
+                        "Test":  "Video Metadata Report",
+                        "Passed":  true,
+                        "Detail":  "BAT help/check/processing/repeat in relocated Unicode/metacharacter path; semantic content verified; originals and existing outputs preserved."
+                    },
+                    {
+                        "Test":  "Video Metadata Report menu",
+                        "Passed":  true,
+                        "Detail":  "Metacharacter input refused; Q exits without processing."
+                    },
+                    {
+                        "Test":  "Video Metadata Report missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only discovery refused missing programs; no download."
+                    },
+                    {
+                        "Test":  "Video Metadata Report empty",
+                        "Passed":  true,
+                        "Detail":  "Empty Input exits safely with no output."
+                    },
+                    {
+                        "Test":  "Video Metadata Report corrupt",
+                        "Passed":  true,
+                        "Detail":  "Rejected invalid input without publishing a partial result."
+                    },
+                    {
+                        "Test":  "Audio Remove Silence",
+                        "Passed":  true,
+                        "Detail":  "BAT help/check/processing/repeat in relocated Unicode/metacharacter path; semantic content verified; originals and existing outputs preserved."
+                    },
+                    {
+                        "Test":  "Audio Remove Silence menu",
+                        "Passed":  true,
+                        "Detail":  "Metacharacter input refused; Q exits without processing."
+                    },
+                    {
+                        "Test":  "Audio Remove Silence missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only discovery refused missing programs; no download."
+                    },
+                    {
+                        "Test":  "Audio Remove Silence empty",
+                        "Passed":  true,
+                        "Detail":  "Empty Input exits safely with no output."
+                    },
+                    {
+                        "Test":  "Audio Remove Silence corrupt",
+                        "Passed":  true,
+                        "Detail":  "Rejected invalid input without publishing a partial result."
+                    },
+                    {
+                        "Test":  "Audio Split by Silence",
+                        "Passed":  true,
+                        "Detail":  "BAT help/check/processing/repeat in relocated Unicode/metacharacter path; semantic content verified; originals and existing outputs preserved."
+                    },
+                    {
+                        "Test":  "Audio Split by Silence menu",
+                        "Passed":  true,
+                        "Detail":  "Metacharacter input refused; Q exits without processing."
+                    },
+                    {
+                        "Test":  "Audio Split by Silence missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only discovery refused missing programs; no download."
+                    },
+                    {
+                        "Test":  "Audio Split by Silence empty",
+                        "Passed":  true,
+                        "Detail":  "Empty Input exits safely with no output."
+                    },
+                    {
+                        "Test":  "Audio Split by Silence corrupt",
+                        "Passed":  true,
+                        "Detail":  "Rejected invalid input without publishing a partial result."
+                    },
+                    {
+                        "Test":  "Audio Volume Report",
+                        "Passed":  true,
+                        "Detail":  "BAT help/check/processing/repeat in relocated Unicode/metacharacter path; semantic content verified; originals and existing outputs preserved."
+                    },
+                    {
+                        "Test":  "Audio Volume Report menu",
+                        "Passed":  true,
+                        "Detail":  "Metacharacter input refused; Q exits without processing."
+                    },
+                    {
+                        "Test":  "Audio Volume Report missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only discovery refused missing programs; no download."
+                    },
+                    {
+                        "Test":  "Audio Volume Report empty",
+                        "Passed":  true,
+                        "Detail":  "Empty Input exits safely with no output."
+                    },
+                    {
+                        "Test":  "Audio Volume Report corrupt",
+                        "Passed":  true,
+                        "Detail":  "Rejected invalid input without publishing a partial result."
+                    },
+                    {
+                        "Test":  "Audio Reverse",
+                        "Passed":  true,
+                        "Detail":  "BAT help/check/processing/repeat in relocated Unicode/metacharacter path; semantic content verified; originals and existing outputs preserved."
+                    },
+                    {
+                        "Test":  "Audio Reverse menu",
+                        "Passed":  true,
+                        "Detail":  "Metacharacter input refused; Q exits without processing."
+                    },
+                    {
+                        "Test":  "Audio Reverse missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only discovery refused missing programs; no download."
+                    },
+                    {
+                        "Test":  "Audio Reverse empty",
+                        "Passed":  true,
+                        "Detail":  "Empty Input exits safely with no output."
+                    },
+                    {
+                        "Test":  "Audio Reverse corrupt",
+                        "Passed":  true,
+                        "Detail":  "Rejected invalid input without publishing a partial result."
+                    },
+                    {
+                        "Test":  "PDF Rotate Pages",
+                        "Passed":  true,
+                        "Detail":  "BAT help/check/processing/repeat in relocated Unicode/metacharacter path; semantic content verified; originals and existing outputs preserved."
+                    },
+                    {
+                        "Test":  "PDF Rotate Pages menu",
+                        "Passed":  true,
+                        "Detail":  "Metacharacter input refused; Q exits without processing."
+                    },
+                    {
+                        "Test":  "PDF Rotate Pages missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only discovery refused missing programs; no download."
+                    },
+                    {
+                        "Test":  "PDF Rotate Pages empty",
+                        "Passed":  true,
+                        "Detail":  "Empty Input exits safely with no output."
+                    },
+                    {
+                        "Test":  "PDF Rotate Pages corrupt",
+                        "Passed":  true,
+                        "Detail":  "Rejected invalid input without publishing a partial result."
+                    },
+                    {
+                        "Test":  "PDF Extract Pages",
+                        "Passed":  true,
+                        "Detail":  "BAT help/check/processing/repeat in relocated Unicode/metacharacter path; semantic content verified; originals and existing outputs preserved."
+                    },
+                    {
+                        "Test":  "PDF Extract Pages menu",
+                        "Passed":  true,
+                        "Detail":  "Metacharacter input refused; Q exits without processing."
+                    },
+                    {
+                        "Test":  "PDF Extract Pages missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only discovery refused missing programs; no download."
+                    },
+                    {
+                        "Test":  "PDF Extract Pages empty",
+                        "Passed":  true,
+                        "Detail":  "Empty Input exits safely with no output."
+                    },
+                    {
+                        "Test":  "PDF Extract Pages corrupt",
+                        "Passed":  true,
+                        "Detail":  "Rejected invalid input without publishing a partial result."
+                    },
+                    {
+                        "Test":  "PDF Reorder Pages",
+                        "Passed":  false,
+                        "Detail":  "Processing failed: \n============================================================\n                    PDF REORDER PAGES\n============================================================\nPDF Reorder Pages: use the local Input folder; originals and previous outputs are preserved. Read the MD for options and limits.\nInput : \u003cPROJECT_ROOT\u003e\\Development\\tests\\_work\\e-4a3d16ce\\p عربي \u0026 ! %X% [1]\\Tools\\PDF\\PDF Reorder Pages\\Input\nOutput: \u003cPROJECT_ROOT\u003e\\Development\\tests\\_work\\e-4a3d16ce\\p عربي \u0026 ! %X% [1]\\Tools\\PDF\\PDF Reorder Pages\\Output\nProcessing: عربي \u0026 ! %X% [1].pdf\n[FAILED] GPL Ghostscript 10.07.1: *** Bad PageList: Must be increasing order. ***\n**** Unable to open the initial device, quitting.\nUnrecoverable error: stackunderflow in .quit\nOperand stack:\n    1\nTotal: 1  Successful: 0  Failed: 1  Skipped: 0\n"
+                    },
+                    {
+                        "Test":  "PDF Metadata Cleaner",
+                        "Passed":  true,
+                        "Detail":  "BAT help/check/processing/repeat in relocated Unicode/metacharacter path; semantic content verified; originals and existing outputs preserved."
+                    },
+                    {
+                        "Test":  "PDF Metadata Cleaner menu",
+                        "Passed":  true,
+                        "Detail":  "Metacharacter input refused; Q exits without processing."
+                    },
+                    {
+                        "Test":  "PDF Metadata Cleaner missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only discovery refused missing programs; no download."
+                    },
+                    {
+                        "Test":  "PDF Metadata Cleaner empty",
+                        "Passed":  true,
+                        "Detail":  "Empty Input exits safely with no output."
+                    },
+                    {
+                        "Test":  "PDF Metadata Cleaner corrupt",
+                        "Passed":  true,
+                        "Detail":  "Rejected invalid input without publishing a partial result."
+                    },
+                    {
+                        "Test":  "Batch Rename",
+                        "Passed":  true,
+                        "Detail":  "BAT help/check/processing/repeat in relocated Unicode/metacharacter path; semantic content verified; originals and existing outputs preserved."
+                    },
+                    {
+                        "Test":  "Batch Rename menu",
+                        "Passed":  true,
+                        "Detail":  "Metacharacter input refused; Q exits without processing."
+                    },
+                    {
+                        "Test":  "Batch Rename empty",
+                        "Passed":  true,
+                        "Detail":  "Empty Input exits safely with no output."
+                    },
+                    {
+                        "Test":  "Batch Rename arbitrary bytes",
+                        "Passed":  true,
+                        "Detail":  "Opaque content handled without interpreting media/text or deleting source folders."
+                    },
+                    {
+                        "Test":  "Find Large Files",
+                        "Passed":  true,
+                        "Detail":  "BAT help/check/processing/repeat in relocated Unicode/metacharacter path; semantic content verified; originals and existing outputs preserved."
+                    },
+                    {
+                        "Test":  "Find Large Files menu",
+                        "Passed":  true,
+                        "Detail":  "Metacharacter input refused; Q exits without processing."
+                    },
+                    {
+                        "Test":  "Find Large Files empty",
+                        "Passed":  true,
+                        "Detail":  "Empty Input exits safely with no output."
+                    },
+                    {
+                        "Test":  "Find Large Files arbitrary bytes",
+                        "Passed":  true,
+                        "Detail":  "Opaque content handled without interpreting media/text or deleting source folders."
+                    },
+                    {
+                        "Test":  "Empty Folders Report",
+                        "Passed":  true,
+                        "Detail":  "BAT help/check/processing/repeat in relocated Unicode/metacharacter path; semantic content verified; originals and existing outputs preserved."
+                    },
+                    {
+                        "Test":  "Empty Folders Report menu",
+                        "Passed":  true,
+                        "Detail":  "Metacharacter input refused; Q exits without processing."
+                    },
+                    {
+                        "Test":  "Empty Folders Report empty",
+                        "Passed":  true,
+                        "Detail":  "Empty Input exits safely with no output."
+                    },
+                    {
+                        "Test":  "Empty Folders Report arbitrary bytes",
+                        "Passed":  true,
+                        "Detail":  "Opaque content handled without interpreting media/text or deleting source folders."
+                    },
+                    {
+                        "Test":  "Text Find and Replace",
+                        "Passed":  true,
+                        "Detail":  "BAT help/check/processing/repeat in relocated Unicode/metacharacter path; semantic content verified; originals and existing outputs preserved."
+                    },
+                    {
+                        "Test":  "Text Find and Replace menu",
+                        "Passed":  true,
+                        "Detail":  "Metacharacter input refused; Q exits without processing."
+                    },
+                    {
+                        "Test":  "Text Find and Replace empty",
+                        "Passed":  true,
+                        "Detail":  "Empty Input exits safely with no output."
+                    },
+                    {
+                        "Test":  "Text Find and Replace corrupt",
+                        "Passed":  true,
+                        "Detail":  "Rejected invalid input without publishing a partial result."
+                    },
+                    {
+                        "Test":  "CSV to JSON",
+                        "Passed":  true,
+                        "Detail":  "BAT help/check/processing/repeat in relocated Unicode/metacharacter path; semantic content verified; originals and existing outputs preserved."
+                    },
+                    {
+                        "Test":  "CSV to JSON menu",
+                        "Passed":  true,
+                        "Detail":  "Metacharacter input refused; Q exits without processing."
+                    },
+                    {
+                        "Test":  "CSV to JSON empty",
+                        "Passed":  true,
+                        "Detail":  "Empty Input exits safely with no output."
+                    },
+                    {
+                        "Test":  "CSV to JSON corrupt",
+                        "Passed":  true,
+                        "Detail":  "Rejected invalid input without publishing a partial result."
+                    }
+                ]
+}

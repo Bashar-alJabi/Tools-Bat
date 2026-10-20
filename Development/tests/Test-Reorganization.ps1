@@ -80,7 +80,7 @@ try{
     [void](Invoke-Checked $ffmpeg @('-v','error','-nostdin','-n','-f','lavfi','-i','sine=frequency=440:duration=1','audio.wav'))
     [void](Invoke-Checked $gs @('-q','-dSAFER','-dBATCH','-dNOPAUSE','-sDEVICE=pdfwrite','-sOutputFile=pages.pdf','-c','/Helvetica findfont 12 scalefont setfont 72 720 moveto (Moved PDF) show showpage'))
     [IO.File]::WriteAllText((Join-Path $fixtures 'sample.txt'),'preserve source bytes')
-    foreach($sample in @(@('Image Resize','image.png'),@('Video Speed','video.mp4'),@('Audio Channels','audio.wav'),@('PDF Split','pages.pdf'),@('File Inventory','sample.txt'),@('Network Info',''))){
+    foreach($sample in @(@('Image Resize','image.png'),@('Video Speed','video.mp4'),@('Audio Channels','audio.wav'),@('PDF Split','pages.pdf'),@('File Inventory','sample.txt'),@('Network Info',''),@('Image Auto Orient','image.png'),@('Video Audio Sync','video.mp4'),@('Audio Reverse','audio.wav'),@('PDF Extract Pages','pages.pdf'),@('Batch Rename','sample.txt'))){
         $tool=$catalog|Where-Object Name -eq $sample[0];$bat=Join-Path $copy $tool.Path;$folder=Split-Path $bat
         $inputDir=Join-Path $folder 'Input';$output=Join-Path $folder 'Output'
         if($sample[1]){[IO.File]::Copy((Join-Path $fixtures $sample[1]),(Join-Path $inputDir ($arabic+' & ! %X% [1]'+[IO.Path]::GetExtension($sample[1]))),$false)}

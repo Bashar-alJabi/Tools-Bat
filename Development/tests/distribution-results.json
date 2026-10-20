@@ -2,7 +2,7 @@
     {
         "Test":  "Clean folder and manifest",
         "Passed":  true,
-        "Detail":  "55 BATs and individual manuals; SHA-256 matched; no tests, backups, downloads or user files."
+        "Detail":  "All catalog BATs and individual manuals; SHA-256 matched; no tests, backups, downloads or user files."
     },
     {
         "Test":  "Clean ZIP",

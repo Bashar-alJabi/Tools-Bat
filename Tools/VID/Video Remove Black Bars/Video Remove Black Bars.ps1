@@ -7,12 +7,20 @@ Show-LocalTool 'Video Remove Black Bars' $PSScriptRoot $Mode 'ffmpeg' 'Video Rem
 $imageExt=@('.jpg','.jpeg','.png','.webp','.bmp','.tif','.tiff','.avif')
 $videoExt=@('.mp4','.mkv','.mov','.avi','.m4v','.webm')
 
+function Display-Size($Video){
+ $rotation=0.0
+ if($Video.PSObject.Properties['tags'] -and $Video.tags.PSObject.Properties['rotate']){$rotation=[double]$Video.tags.rotate}
+ if($Video.PSObject.Properties['side_data_list']){foreach($s in $Video.side_data_list){if($s.PSObject.Properties['rotation']){$rotation=[double]$s.rotation}}}
+ if([Math]::Abs($rotation%90) -gt 0.001){throw 'Only right-angle display rotation is supported; normalize a copy first.'}
+ if([Math]::Abs($rotation%180) -gt 0.001){return @([int]$Video.height,[int]$Video.width)}
+ return @([int]$Video.width,[int]$Video.height)
+}
 $choice=Read-LocalChoice $Mode @('Detection report and preview only','Preview, then APPLY confirmation for each crop')
 $files=@(Get-SafeFiles $script:InputDir $videoExt)
 Invoke-LocalBatch $files {param($f) $f.Name+'.crop-preview'} {
  param($source,$result)
  $p=Probe $source;$video=@($p.streams|Where-Object codec_type -eq 'video');if(-not $video.Count){throw 'No video stream.'}
- $width=[int]$video[0].width;$height=[int]$video[0].height
+ $display=Display-Size $video[0];$width=$display[0];$height=$display[1]
  $scan=Invoke-Native $script:Engine @('-hide_banner','-loglevel','info','-nostdin','-i',$source,'-t','30','-map','0:v:0','-vf','cropdetect=limit=24:round=2:reset=0','-an','-f','null','-')
  if($scan.Code -ne 0){throw $scan.Err}
  $rects=@([regex]::Matches($scan.Err,'crop=(\d+):(\d+):(\d+):(\d+)')|ForEach-Object {[pscustomobject]@{W=[int]$_.Groups[1].Value;H=[int]$_.Groups[2].Value;X=[int]$_.Groups[3].Value;Y=[int]$_.Groups[4].Value}}|Where-Object {$_.W -gt 0 -and $_.H -gt 0 -and ($_.X+$_.W) -le $width -and ($_.Y+$_.H) -le $height})

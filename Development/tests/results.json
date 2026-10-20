@@ -2,7 +2,7 @@
     "DateUTC":  "2026-10-20T16:37:05.6877891Z",
     "Windows":  "10.0.26300.0",
     "PowerShell":  "5.1.26100.9549",
-    "Sandbox":  "C:\\Bashar\\TOOLs\\Tools Bat\\Development\\tests\\_sandbox\\run-89becd79",
+    "Sandbox":  "<PROJECT_ROOT>\\Development\\tests\\_sandbox\\run-89becd79",
     "Results":  [
                     {
                         "Test":  "Background Color Remover",
