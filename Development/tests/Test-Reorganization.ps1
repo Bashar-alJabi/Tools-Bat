@@ -1,4 +1,4 @@
-param([string]$Archive)
+﻿param([string]$Archive)
 $ErrorActionPreference='Stop'
 . (Join-Path $PSScriptRoot '..\..\System\Shared\Core.ps1')
 . (Join-Path $PSScriptRoot '..\..\System\Shared\Archives.ps1')
@@ -28,9 +28,9 @@ function Run-Bat([string]$Path,[string]$Arguments){
 }
 try{
     $catalog=Get-Content -LiteralPath (Join-Path $root 'System\Shared\tools.json') -Raw -Encoding UTF8|ConvertFrom-Json
-    Assert ($catalog.Count -eq 55 -and @(Get-ChildItem Tools -Recurse -File -Filter *.bat).Count -eq 55) 'Tool count changed.'
+    Assert ($catalog.Count -ge 55 -and @(Get-ChildItem -LiteralPath (Join-Path $root 'Tools') -Recurse -File -Filter *.bat).Count -eq $catalog.Count) 'Tool count changed.'
     $git=(Get-Command git).Source
-    foreach($tool in $catalog){
+    foreach($tool in @($catalog|Where-Object {-not $_.PSObject.Properties['Expansion']})){
         $oldPath=$tool.Path.Substring(6).Replace('\','/')
         $before=Invoke-Native $git @('-C',$root,'show',('ed2f937:'+$oldPath)) 30000
         Assert ($before.Code -eq 0) ('Missing baseline BAT '+$oldPath)
@@ -61,7 +61,7 @@ try{
     }
     for($i=1;$i -le 2;$i++){
         $text=Run-Bat (Join-Path $copy 'START_HERE.bat') '--check'
-        Assert ($text -match 'Tools registered: 55' -and $text -notmatch '\[MISSING\]') 'START_HERE check failed.'
+        Assert ($text -match ('Tools registered: '+$catalog.Count) -and $text -notmatch '\[MISSING\]') 'START_HERE check failed.'
         Record ('Extracted START_HERE check '+$i) 'All four dependencies detected; no download, prompt, registry or persistent PATH change.'
     }
     $docs=@(Get-SafeFiles $copy @('.md') -Recurse)

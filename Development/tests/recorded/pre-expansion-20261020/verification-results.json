@@ -1,0 +1,32 @@
+﻿[
+    {
+        "Test":  "PowerShell parse",
+        "Passed":  true,
+        "Detail":  "All production and test scripts parsed."
+    },
+    {
+        "Test":  "Catalog completeness",
+        "Passed":  true,
+        "Detail":  "55 tool launchers, dependencies registered; all local tool, root and development-report Markdown links resolve."
+    },
+    {
+        "Test":  "Pinned packages",
+        "Passed":  true,
+        "Detail":  "All three package URLs and SHA-256 values are fixed."
+    },
+    {
+        "Test":  "Original snapshot integrity",
+        "Passed":  true,
+        "Detail":  "36 original file hashes and 51 directories restored; existing destination rejected."
+    },
+    {
+        "Test":  "Production input/output/bin isolation",
+        "Passed":  true,
+        "Detail":  "No test data, dependency installation, or program download in production folders."
+    },
+    {
+        "Test":  "Native progress/output",
+        "Passed":  true,
+        "Detail":  "Progress reporting, process completion and asynchronous output capture verified."
+    }
+]

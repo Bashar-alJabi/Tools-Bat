@@ -1,6 +1,6 @@
 ﻿# tOOls Bat
 
-مجموعة أدوات Windows قابلة للنقل: **55 أداة** للصور والفيديو والصوت وPDF والملفات والشبكة، إضافة إلى `START_HERE.bat` للتجهيز. الأسماء والمجلدات والقوائم الأصلية محفوظة. كل أداة لها MD مستقل؛ الأدوات الـ25 الجديدة تضع المعالجة في PS1 داخل مجلدها وتشارك وظائف المسارات والأمان واكتشاف البرامج فقط.
+مجموعة أدوات Windows قابلة للنقل: **70 أداة** للصور والفيديو والصوت وPDF والملفات والشبكة، إضافة إلى `START_HERE.bat` للتجهيز. الأسماء والمجلدات والقوائم الأصلية محفوظة. كل أداة لها MD مستقل؛ الأدوات الـ25 الجديدة تضع المعالجة في PS1 داخل مجلدها وتشارك وظائف المسارات والأمان واكتشاف البرامج فقط.
 
 ## التنظيم
 
@@ -183,3 +183,21 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File ".\Development\tests\Tes
 التقارير داخل Development/tests/recorded تحفظ نتائج المرحلة السابقة مع إزالة المسارات الشخصية. التقرير السابق Development/Reports/REVIEW_REPORT_AR.md تاريخي؛ [تقرير الفرع الحالي](<Development/Reports/IMPROVEMENTS_REPORT_AR.md>) يوضح الدفعات والاختبارات الجديدة، و[مقارنة الأصل](<Development/Reports/ORIGINAL_COMPARISON_AR.md>) توضح الحفاظ على التصميم. تحديث النسخة الاحتياطية يتطلب commit وpush، والتوزيع النظيف منفصل عنها.
 
 [تقرير إعادة التنظيم واختبار النقل](Development/Reports/REORGANIZATION_REPORT_AR.md).
+
+## توسعة 2026-10-20 — الدفعة الأولى
+
+- [Image Duplicates](<Tools/IMG/Image Duplicates/Image Duplicates.md>): البحث عن صور متشابهة بصريًا.
+- [Image to PDF](<Tools/IMG/Image to PDF/Image to PDF.md>): تحويل الصور إلى مستند PDF.
+- [Image Compare](<Tools/IMG/Image Compare/Image Compare.md>): مقارنة صورتين وإظهار اختلافهما.
+- [Image Collage](<Tools/IMG/Image Collage/Image Collage.md>): تركيب صور بتخطيط غير منتظم.
+- [Image Auto Orient](<Tools/IMG/Image Auto Orient/Image Auto Orient.md>): تصحيح اتجاه EXIF فقط.
+- [Image Color Palette](<Tools/IMG/Image Color Palette/Image Color Palette.md>): استخراج لوحة الألوان السائدة.
+- [Image Format Report](<Tools/IMG/Image Format Report/Image Format Report.md>): إحصاءات جماعية لصيغ وأحجام الصور.
+- [Video Merge](<Tools/VID/Video Merge/Video Merge.md>): دمج مقاطع الفيديو بالترتيب.
+- [Video Screenshot at Time](<Tools/VID/Video Screenshot at Time/Video Screenshot at Time.md>): استخراج لقطة عند ثانية محددة.
+- [Video Watermark](<Tools/VID/Video Watermark/Video Watermark.md>): إضافة شعار إلى الفيديو.
+- [Video Subtitles Burn](<Tools/VID/Video Subtitles Burn/Video Subtitles Burn.md>): حرق الترجمة داخل الصورة.
+- [Video Extract Subtitles](<Tools/VID/Video Extract Subtitles/Video Extract Subtitles.md>): استخراج مسارات الترجمة الأصلية.
+- [Video Add Subtitle Track](<Tools/VID/Video Add Subtitle Track/Video Add Subtitle Track.md>): إضافة ترجمة قابلة للإيقاف.
+- [Video Remove Black Bars](<Tools/VID/Video Remove Black Bars/Video Remove Black Bars.md>): معاينة اقتراح إزالة الحواف السوداء.
+- [Video Audio Sync](<Tools/VID/Video Audio Sync/Video Audio Sync.md>): تقديم أو تأخير الصوت.

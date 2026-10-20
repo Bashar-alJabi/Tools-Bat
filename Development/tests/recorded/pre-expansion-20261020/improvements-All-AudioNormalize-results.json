@@ -1,0 +1,33 @@
+﻿{
+    "DateUTC":  "2026-10-18T16:27:57.3321503Z",
+    "Batch":  "All",
+    "Windows":  "10.0.26300.0",
+    "PowerShell":  "5.1.26100.9549",
+    "Results":  [
+                    {
+                        "Test":  "Audio Normalize",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Audio Normalize missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only mode refused absent dependency without downloads."
+                    },
+                    {
+                        "Test":  "Audio Normalize menu validation",
+                        "Passed":  true,
+                        "Detail":  "Invalid metacharacter input rejected; Q exited without processing."
+                    },
+                    {
+                        "Test":  "Audio Normalize corrupt audio",
+                        "Passed":  true,
+                        "Detail":  "Rejected; source unchanged, prior results preserved, no partial result published."
+                    },
+                    {
+                        "Test":  "Audio Normalize empty input",
+                        "Passed":  true,
+                        "Detail":  "Empty input handled without processing or source loss."
+                    }
+                ]
+}

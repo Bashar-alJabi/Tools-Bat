@@ -1,0 +1,88 @@
+﻿{
+    "DateUTC":  "2026-10-18T16:06:42.5012891Z",
+    "Batch":  "AudioPDF",
+    "Windows":  "10.0.26300.0",
+    "PowerShell":  "5.1.26100.9549",
+    "Results":  [
+                    {
+                        "Test":  "Audio Trim",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Audio Trim missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only mode refused absent dependency without downloads."
+                    },
+                    {
+                        "Test":  "Audio Normalize",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Audio Normalize missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only mode refused absent dependency without downloads."
+                    },
+                    {
+                        "Test":  "Audio Fade",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Audio Fade missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only mode refused absent dependency without downloads."
+                    },
+                    {
+                        "Test":  "Audio Channels",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Audio Channels missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only mode refused absent dependency without downloads."
+                    },
+                    {
+                        "Test":  "Audio Concatenate",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Audio Concatenate missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only mode refused absent dependency without downloads."
+                    },
+                    {
+                        "Test":  "PDF Split",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "PDF Split missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only mode refused absent dependency without downloads."
+                    },
+                    {
+                        "Test":  "PDF To Images",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "PDF To Images missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only mode refused absent dependency without downloads."
+                    },
+                    {
+                        "Test":  "PDF Text",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "PDF Text missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only mode refused absent dependency without downloads."
+                    }
+                ]
+}

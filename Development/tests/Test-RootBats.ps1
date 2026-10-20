@@ -1,6 +1,8 @@
-$ErrorActionPreference='Stop'
+﻿$ErrorActionPreference='Stop'
 . (Join-Path $PSScriptRoot '..\..\System\Shared\Core.ps1')
 $root=$script:ProjectRoot
+$expectedCatalog=Get-Content -LiteralPath (Join-Path $root 'System\Shared\tools.json') -Raw -Encoding UTF8|ConvertFrom-Json
+$expectedCount=$expectedCatalog.Count
 $results=New-Object 'Collections.Generic.List[object]'
 function Run-RootBat([string]$Name,[string]$Arguments,[string]$InputText=''){
     $info=New-Object Diagnostics.ProcessStartInfo
@@ -20,9 +22,9 @@ try {
     $null=Run-RootBat 'START_HERE.bat' '--help'
     $results.Add([pscustomobject]@{Test='START_HERE help';Passed=$true;Detail='Real help BAT ran successfully.'})
     $text=Run-RootBat 'START_HERE.bat' '--portable' "n`nn`nn`nn`n"
-    if($text -notmatch 'Tools registered: 55' -or $text -notmatch '\[SUCCESS\] All project requirements'){throw 'Portable consent/readiness flow failed.'}
+    if($text -notmatch ('Tools registered: '+$expectedCount) -or $text -notmatch '\[SUCCESS\] All project requirements'){throw 'Portable consent/readiness flow failed.'}
     if(@(Get-ChildItem -LiteralPath (Join-Path $root 'System\Bin') -Recurse -Force -File|Where-Object Name -ne '.gitkeep').Count){throw 'Declined copies changed production System\Bin.'}
-    $results.Add([pscustomobject]@{Test='START_HERE portable decline';Passed=$true;Detail='55 tools registered; declined each copy; full readiness rescan succeeded; no production program copy or download.'})
+    $results.Add([pscustomobject]@{Test='START_HERE portable decline';Passed=$true;Detail='All catalog tools registered; declined each copy; full readiness rescan succeeded; no production program copy or download.'})
 }catch{$results.Add([pscustomobject]@{Test='Root BAT';Passed=$false;Detail=$_.Exception.Message.Replace($root,'<PROJECT_ROOT>')})}
 $results|ConvertTo-Json -Depth 4|Set-Content -LiteralPath (Join-Path $PSScriptRoot 'root-bat-results.json') -Encoding UTF8
 $results|ForEach-Object{Write-Host ($(if($_.Passed){'PASS '}else{'FAIL '})+$_.Test)}

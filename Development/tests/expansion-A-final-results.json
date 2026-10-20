@@ -1,0 +1,387 @@
+{
+  "Batch": "A",
+  "Passed": 75,
+  "Failed": 0,
+  "RawReports": [
+    "expansion-A-results.json",
+    "expansion-A-VideoSubtitlesBurn-results.json"
+  ],
+  "Superseded": "Tiny subtitle fixture did not meet pixel threshold; repeated all subtitle scenarios with readable 640x360 fixture.",
+  "Results": [
+    {
+      "Test": "Image Duplicates",
+      "Passed": true,
+      "Detail": "BAT help/check/processing/repeat in relocated Unicode/metacharacter path; semantic content verified; originals and existing outputs preserved."
+    },
+    {
+      "Test": "Image Duplicates menu",
+      "Passed": true,
+      "Detail": "Metacharacter input refused; Q exits without processing."
+    },
+    {
+      "Test": "Image Duplicates missing dependency",
+      "Passed": true,
+      "Detail": "Local-only discovery refused missing programs; no download."
+    },
+    {
+      "Test": "Image Duplicates empty",
+      "Passed": true,
+      "Detail": "Empty Input exits safely with no output."
+    },
+    {
+      "Test": "Image Duplicates corrupt",
+      "Passed": true,
+      "Detail": "Rejected invalid input without publishing a partial result."
+    },
+    {
+      "Test": "Image to PDF",
+      "Passed": true,
+      "Detail": "BAT help/check/processing/repeat in relocated Unicode/metacharacter path; semantic content verified; originals and existing outputs preserved."
+    },
+    {
+      "Test": "Image to PDF menu",
+      "Passed": true,
+      "Detail": "Metacharacter input refused; Q exits without processing."
+    },
+    {
+      "Test": "Image to PDF missing dependency",
+      "Passed": true,
+      "Detail": "Local-only discovery refused missing programs; no download."
+    },
+    {
+      "Test": "Image to PDF empty",
+      "Passed": true,
+      "Detail": "Empty Input exits safely with no output."
+    },
+    {
+      "Test": "Image to PDF corrupt",
+      "Passed": true,
+      "Detail": "Rejected invalid input without publishing a partial result."
+    },
+    {
+      "Test": "Image Compare",
+      "Passed": true,
+      "Detail": "BAT help/check/processing/repeat in relocated Unicode/metacharacter path; semantic content verified; originals and existing outputs preserved."
+    },
+    {
+      "Test": "Image Compare menu",
+      "Passed": true,
+      "Detail": "Metacharacter input refused; Q exits without processing."
+    },
+    {
+      "Test": "Image Compare missing dependency",
+      "Passed": true,
+      "Detail": "Local-only discovery refused missing programs; no download."
+    },
+    {
+      "Test": "Image Compare empty",
+      "Passed": true,
+      "Detail": "Empty Input exits safely with no output."
+    },
+    {
+      "Test": "Image Compare corrupt",
+      "Passed": true,
+      "Detail": "Rejected invalid input without publishing a partial result."
+    },
+    {
+      "Test": "Image Collage",
+      "Passed": true,
+      "Detail": "BAT help/check/processing/repeat in relocated Unicode/metacharacter path; semantic content verified; originals and existing outputs preserved."
+    },
+    {
+      "Test": "Image Collage menu",
+      "Passed": true,
+      "Detail": "Metacharacter input refused; Q exits without processing."
+    },
+    {
+      "Test": "Image Collage missing dependency",
+      "Passed": true,
+      "Detail": "Local-only discovery refused missing programs; no download."
+    },
+    {
+      "Test": "Image Collage empty",
+      "Passed": true,
+      "Detail": "Empty Input exits safely with no output."
+    },
+    {
+      "Test": "Image Collage corrupt",
+      "Passed": true,
+      "Detail": "Rejected invalid input without publishing a partial result."
+    },
+    {
+      "Test": "Image Auto Orient",
+      "Passed": true,
+      "Detail": "BAT help/check/processing/repeat in relocated Unicode/metacharacter path; semantic content verified; originals and existing outputs preserved."
+    },
+    {
+      "Test": "Image Auto Orient menu",
+      "Passed": true,
+      "Detail": "Metacharacter input refused; Q exits without processing."
+    },
+    {
+      "Test": "Image Auto Orient missing dependency",
+      "Passed": true,
+      "Detail": "Local-only discovery refused missing programs; no download."
+    },
+    {
+      "Test": "Image Auto Orient empty",
+      "Passed": true,
+      "Detail": "Empty Input exits safely with no output."
+    },
+    {
+      "Test": "Image Auto Orient corrupt",
+      "Passed": true,
+      "Detail": "Rejected invalid input without publishing a partial result."
+    },
+    {
+      "Test": "Image Color Palette",
+      "Passed": true,
+      "Detail": "BAT help/check/processing/repeat in relocated Unicode/metacharacter path; semantic content verified; originals and existing outputs preserved."
+    },
+    {
+      "Test": "Image Color Palette menu",
+      "Passed": true,
+      "Detail": "Metacharacter input refused; Q exits without processing."
+    },
+    {
+      "Test": "Image Color Palette missing dependency",
+      "Passed": true,
+      "Detail": "Local-only discovery refused missing programs; no download."
+    },
+    {
+      "Test": "Image Color Palette empty",
+      "Passed": true,
+      "Detail": "Empty Input exits safely with no output."
+    },
+    {
+      "Test": "Image Color Palette corrupt",
+      "Passed": true,
+      "Detail": "Rejected invalid input without publishing a partial result."
+    },
+    {
+      "Test": "Image Format Report",
+      "Passed": true,
+      "Detail": "BAT help/check/processing/repeat in relocated Unicode/metacharacter path; semantic content verified; originals and existing outputs preserved."
+    },
+    {
+      "Test": "Image Format Report menu",
+      "Passed": true,
+      "Detail": "Metacharacter input refused; Q exits without processing."
+    },
+    {
+      "Test": "Image Format Report missing dependency",
+      "Passed": true,
+      "Detail": "Local-only discovery refused missing programs; no download."
+    },
+    {
+      "Test": "Image Format Report empty",
+      "Passed": true,
+      "Detail": "Empty Input exits safely with no output."
+    },
+    {
+      "Test": "Image Format Report corrupt",
+      "Passed": true,
+      "Detail": "Rejected invalid input without publishing a partial result."
+    },
+    {
+      "Test": "Video Merge",
+      "Passed": true,
+      "Detail": "BAT help/check/processing/repeat in relocated Unicode/metacharacter path; semantic content verified; originals and existing outputs preserved."
+    },
+    {
+      "Test": "Video Merge menu",
+      "Passed": true,
+      "Detail": "Metacharacter input refused; Q exits without processing."
+    },
+    {
+      "Test": "Video Merge missing dependency",
+      "Passed": true,
+      "Detail": "Local-only discovery refused missing programs; no download."
+    },
+    {
+      "Test": "Video Merge empty",
+      "Passed": true,
+      "Detail": "Empty Input exits safely with no output."
+    },
+    {
+      "Test": "Video Merge corrupt",
+      "Passed": true,
+      "Detail": "Rejected invalid input without publishing a partial result."
+    },
+    {
+      "Test": "Video Screenshot at Time",
+      "Passed": true,
+      "Detail": "BAT help/check/processing/repeat in relocated Unicode/metacharacter path; semantic content verified; originals and existing outputs preserved."
+    },
+    {
+      "Test": "Video Screenshot at Time menu",
+      "Passed": true,
+      "Detail": "Metacharacter input refused; Q exits without processing."
+    },
+    {
+      "Test": "Video Screenshot at Time missing dependency",
+      "Passed": true,
+      "Detail": "Local-only discovery refused missing programs; no download."
+    },
+    {
+      "Test": "Video Screenshot at Time empty",
+      "Passed": true,
+      "Detail": "Empty Input exits safely with no output."
+    },
+    {
+      "Test": "Video Screenshot at Time corrupt",
+      "Passed": true,
+      "Detail": "Rejected invalid input without publishing a partial result."
+    },
+    {
+      "Test": "Video Watermark",
+      "Passed": true,
+      "Detail": "BAT help/check/processing/repeat in relocated Unicode/metacharacter path; semantic content verified; originals and existing outputs preserved."
+    },
+    {
+      "Test": "Video Watermark menu",
+      "Passed": true,
+      "Detail": "Metacharacter input refused; Q exits without processing."
+    },
+    {
+      "Test": "Video Watermark missing dependency",
+      "Passed": true,
+      "Detail": "Local-only discovery refused missing programs; no download."
+    },
+    {
+      "Test": "Video Watermark empty",
+      "Passed": true,
+      "Detail": "Empty Input exits safely with no output."
+    },
+    {
+      "Test": "Video Watermark corrupt",
+      "Passed": true,
+      "Detail": "Rejected invalid input without publishing a partial result."
+    },
+    {
+      "Test": "Video Extract Subtitles",
+      "Passed": true,
+      "Detail": "BAT help/check/processing/repeat in relocated Unicode/metacharacter path; semantic content verified; originals and existing outputs preserved."
+    },
+    {
+      "Test": "Video Extract Subtitles menu",
+      "Passed": true,
+      "Detail": "Metacharacter input refused; Q exits without processing."
+    },
+    {
+      "Test": "Video Extract Subtitles missing dependency",
+      "Passed": true,
+      "Detail": "Local-only discovery refused missing programs; no download."
+    },
+    {
+      "Test": "Video Extract Subtitles empty",
+      "Passed": true,
+      "Detail": "Empty Input exits safely with no output."
+    },
+    {
+      "Test": "Video Extract Subtitles corrupt",
+      "Passed": true,
+      "Detail": "Rejected invalid input without publishing a partial result."
+    },
+    {
+      "Test": "Video Add Subtitle Track",
+      "Passed": true,
+      "Detail": "BAT help/check/processing/repeat in relocated Unicode/metacharacter path; semantic content verified; originals and existing outputs preserved."
+    },
+    {
+      "Test": "Video Add Subtitle Track menu",
+      "Passed": true,
+      "Detail": "Metacharacter input refused; Q exits without processing."
+    },
+    {
+      "Test": "Video Add Subtitle Track missing dependency",
+      "Passed": true,
+      "Detail": "Local-only discovery refused missing programs; no download."
+    },
+    {
+      "Test": "Video Add Subtitle Track empty",
+      "Passed": true,
+      "Detail": "Empty Input exits safely with no output."
+    },
+    {
+      "Test": "Video Add Subtitle Track corrupt",
+      "Passed": true,
+      "Detail": "Rejected invalid input without publishing a partial result."
+    },
+    {
+      "Test": "Video Remove Black Bars",
+      "Passed": true,
+      "Detail": "BAT help/check/processing/repeat in relocated Unicode/metacharacter path; semantic content verified; originals and existing outputs preserved."
+    },
+    {
+      "Test": "Video Remove Black Bars menu",
+      "Passed": true,
+      "Detail": "Metacharacter input refused; Q exits without processing."
+    },
+    {
+      "Test": "Video Remove Black Bars missing dependency",
+      "Passed": true,
+      "Detail": "Local-only discovery refused missing programs; no download."
+    },
+    {
+      "Test": "Video Remove Black Bars empty",
+      "Passed": true,
+      "Detail": "Empty Input exits safely with no output."
+    },
+    {
+      "Test": "Video Remove Black Bars corrupt",
+      "Passed": true,
+      "Detail": "Rejected invalid input without publishing a partial result."
+    },
+    {
+      "Test": "Video Audio Sync",
+      "Passed": true,
+      "Detail": "BAT help/check/processing/repeat in relocated Unicode/metacharacter path; semantic content verified; originals and existing outputs preserved."
+    },
+    {
+      "Test": "Video Audio Sync menu",
+      "Passed": true,
+      "Detail": "Metacharacter input refused; Q exits without processing."
+    },
+    {
+      "Test": "Video Audio Sync missing dependency",
+      "Passed": true,
+      "Detail": "Local-only discovery refused missing programs; no download."
+    },
+    {
+      "Test": "Video Audio Sync empty",
+      "Passed": true,
+      "Detail": "Empty Input exits safely with no output."
+    },
+    {
+      "Test": "Video Audio Sync corrupt",
+      "Passed": true,
+      "Detail": "Rejected invalid input without publishing a partial result."
+    },
+    {
+      "Test": "Video Subtitles Burn",
+      "Passed": true,
+      "Detail": "BAT help/check/processing/repeat in relocated Unicode/metacharacter path; semantic content verified; originals and existing outputs preserved."
+    },
+    {
+      "Test": "Video Subtitles Burn menu",
+      "Passed": true,
+      "Detail": "Metacharacter input refused; Q exits without processing."
+    },
+    {
+      "Test": "Video Subtitles Burn missing dependency",
+      "Passed": true,
+      "Detail": "Local-only discovery refused missing programs; no download."
+    },
+    {
+      "Test": "Video Subtitles Burn empty",
+      "Passed": true,
+      "Detail": "Empty Input exits safely with no output."
+    },
+    {
+      "Test": "Video Subtitles Burn corrupt",
+      "Passed": true,
+      "Detail": "Rejected invalid input without publishing a partial result."
+    }
+  ]
+}

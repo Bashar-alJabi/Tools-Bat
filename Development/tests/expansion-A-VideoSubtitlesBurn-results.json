@@ -1,0 +1,33 @@
+﻿{
+    "DateUTC":  "2026-10-20T16:36:42.7652262Z",
+    "Batch":  "A",
+    "Windows":  "10.0.26300.0",
+    "PowerShell":  "5.1.26100.9549",
+    "Results":  [
+                    {
+                        "Test":  "Video Subtitles Burn",
+                        "Passed":  true,
+                        "Detail":  "BAT help/check/processing/repeat in relocated Unicode/metacharacter path; semantic content verified; originals and existing outputs preserved."
+                    },
+                    {
+                        "Test":  "Video Subtitles Burn menu",
+                        "Passed":  true,
+                        "Detail":  "Metacharacter input refused; Q exits without processing."
+                    },
+                    {
+                        "Test":  "Video Subtitles Burn missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only discovery refused missing programs; no download."
+                    },
+                    {
+                        "Test":  "Video Subtitles Burn empty",
+                        "Passed":  true,
+                        "Detail":  "Empty Input exits safely with no output."
+                    },
+                    {
+                        "Test":  "Video Subtitles Burn corrupt",
+                        "Passed":  true,
+                        "Detail":  "Rejected invalid input without publishing a partial result."
+                    }
+                ]
+}

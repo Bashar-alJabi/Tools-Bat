@@ -1,4 +1,4 @@
-$ErrorActionPreference='Stop'
+﻿$ErrorActionPreference='Stop'
 . (Join-Path $PSScriptRoot '..\..\System\Shared\Core.ps1')
 . (Join-Path $PSScriptRoot '..\..\System\Shared\Download.ps1')
 $root=$script:ProjectRoot
@@ -17,9 +17,10 @@ try {
     foreach($row in $manifest){Assert ((Get-FileHash -LiteralPath (Join-Path $destination $row.Path)).Hash -eq $row.SHA256) ('Manifest mismatch: '+$row.Path)}
     foreach($name in @('Development','tests','.git','System\Downloads')){Assert (-not (Test-Path -LiteralPath (Join-Path $destination $name))) ('Leaked '+$name)}
     $catalog=Get-Content -LiteralPath (Join-Path $destination 'System\Shared\tools.json') -Raw -Encoding UTF8|ConvertFrom-Json
-    Assert ($catalog.Count -eq 55) 'Not all tools exported.'
+    $expectedCatalog=Get-Content -LiteralPath (Join-Path $root 'System\Shared\tools.json') -Raw -Encoding UTF8|ConvertFrom-Json
+    Assert ($catalog.Count -eq $expectedCatalog.Count) 'Not all tools exported.'
     foreach($tool in $catalog){$bat=Join-Path $destination $tool.Path;Assert (Test-Path -LiteralPath $bat) 'Missing BAT.';Assert (Test-Path -LiteralPath ([IO.Path]::ChangeExtension($bat,'.md'))) 'Missing MD.';foreach($name in @('Input','Output')){Assert ([IO.Directory]::Exists((Join-Path (Split-Path $bat) $name))) 'Missing empty folder.'}}
-    Record 'Clean folder and manifest' '55 BATs and individual manuals; SHA-256 matched; no tests, backups, downloads or user files.'
+    Record 'Clean folder and manifest' 'All catalog BATs and individual manuals; SHA-256 matched; no tests, backups, downloads or user files.'
     Add-Type -AssemblyName System.IO.Compression.FileSystem
     $zip=[IO.Compression.ZipFile]::OpenRead($destination+'.zip')
     try{Assert ($null -ne $zip.GetEntry('Tools/UTI/Folder Compare/Input/Left/')) 'ZIP lost empty folders.';foreach($row in $manifest){Assert ($null -ne $zip.GetEntry($row.Path.Replace('\','/'))) 'ZIP lost a file.'}}finally{$zip.Dispose()}

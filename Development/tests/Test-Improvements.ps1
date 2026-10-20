@@ -3,7 +3,7 @@ $ErrorActionPreference='Stop'
 . (Join-Path $PSScriptRoot '..\..\System\Shared\Core.ps1')
 $root=$script:ProjectRoot
 $catalog=Get-Content -LiteralPath (Join-Path $root 'System\Shared\tools.json') -Raw -Encoding UTF8|ConvertFrom-Json
-$catalog=@($catalog|Where-Object {$_.PSObject.Properties['Standalone'] -and $_.Standalone})
+$catalog=@($catalog|Where-Object {$_.PSObject.Properties['Standalone'] -and $_.Standalone -and -not $_.PSObject.Properties['Expansion']})
 if($Batch -eq 'ImagesVideo'){$catalog=@($catalog|Where-Object {$_.Path -match '^Tools\\(IMG|VID)\\'})}
 if($Batch -eq 'AudioPDF'){$catalog=@($catalog|Where-Object {$_.Path -match '^Tools\\(AUD|PDF)\\'})}
 if($Batch -eq 'FilesNetwork'){$catalog=@($catalog|Where-Object {$_.Path -match '^Tools\\(UTI|NET)\\'})}

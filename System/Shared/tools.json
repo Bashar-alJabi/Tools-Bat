@@ -362,5 +362,149 @@
     "Dependency": "",
     "Original": false,
     "Standalone": true
+  },
+  {
+    "Name": "Image Duplicates",
+    "Path": "Tools\\IMG\\Image Duplicates\\Image Duplicates.bat",
+    "Dependency": "magick",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-20-A"
+  },
+  {
+    "Name": "Image to PDF",
+    "Path": "Tools\\IMG\\Image to PDF\\Image to PDF.bat",
+    "Dependency": "magick",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-20-A"
+  },
+  {
+    "Name": "Image Compare",
+    "Path": "Tools\\IMG\\Image Compare\\Image Compare.bat",
+    "Dependency": "magick",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-20-A"
+  },
+  {
+    "Name": "Image Collage",
+    "Path": "Tools\\IMG\\Image Collage\\Image Collage.bat",
+    "Dependency": "magick",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-20-A"
+  },
+  {
+    "Name": "Image Auto Orient",
+    "Path": "Tools\\IMG\\Image Auto Orient\\Image Auto Orient.bat",
+    "Dependency": "magick",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-20-A"
+  },
+  {
+    "Name": "Image Color Palette",
+    "Path": "Tools\\IMG\\Image Color Palette\\Image Color Palette.bat",
+    "Dependency": "magick",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-20-A"
+  },
+  {
+    "Name": "Image Format Report",
+    "Path": "Tools\\IMG\\Image Format Report\\Image Format Report.bat",
+    "Dependency": "magick",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-20-A"
+  },
+  {
+    "Name": "Video Merge",
+    "Path": "Tools\\VID\\Video Merge\\Video Merge.bat",
+    "Dependency": "ffmpeg",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-20-A",
+    "AdditionalDependencies": [
+      "ffprobe"
+    ]
+  },
+  {
+    "Name": "Video Screenshot at Time",
+    "Path": "Tools\\VID\\Video Screenshot at Time\\Video Screenshot at Time.bat",
+    "Dependency": "ffmpeg",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-20-A",
+    "AdditionalDependencies": [
+      "ffprobe"
+    ]
+  },
+  {
+    "Name": "Video Watermark",
+    "Path": "Tools\\VID\\Video Watermark\\Video Watermark.bat",
+    "Dependency": "ffmpeg",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-20-A",
+    "AdditionalDependencies": [
+      "ffprobe"
+    ]
+  },
+  {
+    "Name": "Video Subtitles Burn",
+    "Path": "Tools\\VID\\Video Subtitles Burn\\Video Subtitles Burn.bat",
+    "Dependency": "ffmpeg",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-20-A",
+    "AdditionalDependencies": [
+      "ffprobe"
+    ]
+  },
+  {
+    "Name": "Video Extract Subtitles",
+    "Path": "Tools\\VID\\Video Extract Subtitles\\Video Extract Subtitles.bat",
+    "Dependency": "ffmpeg",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-20-A",
+    "AdditionalDependencies": [
+      "ffprobe"
+    ]
+  },
+  {
+    "Name": "Video Add Subtitle Track",
+    "Path": "Tools\\VID\\Video Add Subtitle Track\\Video Add Subtitle Track.bat",
+    "Dependency": "ffmpeg",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-20-A",
+    "AdditionalDependencies": [
+      "ffprobe"
+    ]
+  },
+  {
+    "Name": "Video Remove Black Bars",
+    "Path": "Tools\\VID\\Video Remove Black Bars\\Video Remove Black Bars.bat",
+    "Dependency": "ffmpeg",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-20-A",
+    "AdditionalDependencies": [
+      "ffprobe"
+    ]
+  },
+  {
+    "Name": "Video Audio Sync",
+    "Path": "Tools\\VID\\Video Audio Sync\\Video Audio Sync.bat",
+    "Dependency": "ffmpeg",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-20-A",
+    "AdditionalDependencies": [
+      "ffprobe"
+    ]
   }
 ]

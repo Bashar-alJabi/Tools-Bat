@@ -1,0 +1,1587 @@
+[
+  {
+    "Name": "Background Color Remover",
+    "Path": "Tools\\IMG\\Image Background Color Remover\\Background Color Remover.bat",
+    "Description": "جعل لون خلفية موحد شفافًا",
+    "Files": [
+      {
+        "Name": "Background Color Remover — ImageMagick.md",
+        "SHA256": "44E0E8264F2375FBB8737A0C9331272A2C916B813FB7E5ABFBB650645E28C474",
+        "Characters": 4489
+      },
+      {
+        "Name": "Background Color Remover.bat",
+        "SHA256": "70F235238D04D7270D02B3C49A5688D7E5749EC3B057F0F3637465EA8990580B",
+        "Characters": 4597
+      },
+      {
+        "Name": "Background Color Remover.md",
+        "SHA256": "EF25CF800BCF2E452C8AEE226FCD12B09CEEAFA0AC2A094F03A21550B181FC43",
+        "Characters": 4297
+      }
+    ]
+  },
+  {
+    "Name": "Image Compression",
+    "Path": "Tools\\IMG\\Image Compression\\Image Compression.bat",
+    "Description": "ضغط الصور بنفس الصيغة",
+    "Files": [
+      {
+        "Name": "Compression Image — ImageMagick.md",
+        "SHA256": "22CDDD75951C3BF3AD8A848BF61A9C62D730C5D62D36F57EEF619456028D6C38",
+        "Characters": 5047
+      },
+      {
+        "Name": "Image Compression.bat",
+        "SHA256": "3C65CC06A49CF276ACF60AFDF0E5478C5C20ED3E78E06E7CE579E6E5F9623F07",
+        "Characters": 3766
+      },
+      {
+        "Name": "Image Compression.md",
+        "SHA256": "FE118E592EC280006BB3C25F3FCB244241A48DFD4C11A9925CE1643630F7A0B2",
+        "Characters": 4289
+      }
+    ]
+  },
+  {
+    "Name": "Image Convert",
+    "Path": "Tools\\IMG\\Image Converter\\Image Convert.bat",
+    "Description": "تحويل صيغة الصور",
+    "Files": [
+      {
+        "Name": "Converting Image — ImageMagick.md",
+        "SHA256": "EA1FE7D78EC47C76CE497AEC98EA0EEC19C0BAE7AA8D9A5A05DB663F07F15CA6",
+        "Characters": 6194
+      },
+      {
+        "Name": "Image Convert.bat",
+        "SHA256": "930F7A888570D4B87EDD61CD05C8CB97C3D7FD66F0F2FE24F8E03063E8309E23",
+        "Characters": 4859
+      },
+      {
+        "Name": "Image Convert.md",
+        "SHA256": "684B7911C10C148BE00C10829867EF1E2FE83DE0ACCFEAE020F6E699C441A69C",
+        "Characters": 4152
+      }
+    ]
+  },
+  {
+    "Name": "Image Crop",
+    "Path": "Tools\\IMG\\Image Crop\\Image Crop.bat",
+    "Description": "قص مركزي حسب النسبة",
+    "Files": [
+      {
+        "Name": "Crop Image — ImageMagick.md",
+        "SHA256": "D0013F0317D72D176D09BFFBF6CA93321B81C85864BA8E8F7C37CCE922A69BE5",
+        "Characters": 3383
+      },
+      {
+        "Name": "Image Crop.bat",
+        "SHA256": "A2F7FBB18534AB03B897061408099B82FAF77B805C3DDFC7BB95CB339DF4AFC4",
+        "Characters": 3971
+      },
+      {
+        "Name": "Image Crop.md",
+        "SHA256": "9CD270616BEA06CA794EF03416DF4C5267BBB25A3694A49A834A4485E07A8094",
+        "Characters": 4059
+      }
+    ]
+  },
+  {
+    "Name": "Image Enhance",
+    "Path": "Tools\\IMG\\Image Enhance\\Image Enhance.bat",
+    "Description": "تكبير وزيادة الحدة",
+    "Files": [
+      {
+        "Name": "Enhancing Image — ImageMagick.md",
+        "SHA256": "2EB23A875079518C692811B3CDCEF2EDACD2CB3B12CC57BDC6BB64E98E257A8C",
+        "Characters": 5352
+      },
+      {
+        "Name": "Image Enhance.bat",
+        "SHA256": "5C5FB77BC3B5C809994E417673278E02CF948388AA738B76370F9ED6A3761206",
+        "Characters": 2958
+      },
+      {
+        "Name": "Image Enhance.md",
+        "SHA256": "F0555F531CF0C9F8E26910FA28A5E67FFA9E98AEDE8DFF7176802097F7FC2E99",
+        "Characters": 4063
+      }
+    ]
+  },
+  {
+    "Name": "Image Contact Sheet",
+    "Path": "Tools\\IMG\\Image Grid\\Image Contact Sheet.bat",
+    "Description": "لوحة صور مع أسماء الملفات",
+    "Files": [
+      {
+        "Name": "Image Contact Sheet.bat",
+        "SHA256": "19BDACED2468EAED314F0A26B870ACA638EE1721356678E34BE1A82CCC55C73A",
+        "Characters": 3486
+      },
+      {
+        "Name": "Image Contact Sheet.md",
+        "SHA256": "8CCDBB1453AD6FF4DE2ED4A51FFBB87E6B35B326C2C3A129585E2B0952B32232",
+        "Characters": 4203
+      },
+      {
+        "Name": "Image Grid Contact Sheet — ImageMagick.md",
+        "SHA256": "0F5C8D7BB5EE60799F36737C8141A857207B5FE911A7ACFB1FEAF9FCD45BFF56",
+        "Characters": 5317
+      }
+    ]
+  },
+  {
+    "Name": "Image Metadata Cleaner",
+    "Path": "Tools\\IMG\\Image Metadata Cleaner\\Image Metadata Cleaner.bat",
+    "Description": "إزالة البيانات التي يحذفها `-strip`",
+    "Files": [
+      {
+        "Name": "Image Metadata Cleaner — ImageMagick.md",
+        "SHA256": "D267A7F87DD6887194707462B511B3E30BCF8923808C15D6AD2DBC681270BA58",
+        "Characters": 5035
+      },
+      {
+        "Name": "Image Metadata Cleaner.bat",
+        "SHA256": "295BF0A84BA74C897DCF4379EEC9BF1D83789F01A65E3AC2E4B6549672B60437",
+        "Characters": 2973
+      },
+      {
+        "Name": "Image Metadata Cleaner.md",
+        "SHA256": "542BFE70A96DAA1506D8728ED5E24CBDB9B1111A01FFB6E924D7C222FAE7F86C",
+        "Characters": 4218
+      }
+    ]
+  },
+  {
+    "Name": "Image Resize",
+    "Path": "Tools\\IMG\\Image Resize\\Image Resize.bat",
+    "Description": "تصغير مع حفظ النسبة",
+    "Files": [
+      {
+        "Name": "Image Resize.bat",
+        "SHA256": "4D2991112469D6137FEEF9D6BEA2260000AE6FFB8481F89CB6F9657D6BEA4F98",
+        "Characters": 4171
+      },
+      {
+        "Name": "Image Resize.md",
+        "SHA256": "ED7086293EB60715E9638C278DE1EADC721FFA141671DEDDAF5B1F27CE716004",
+        "Characters": 4079
+      },
+      {
+        "Name": "Resizing Image — ImageMagick.md",
+        "SHA256": "FB8116005F7158015E3018299DF8B61E34A658655F9116B9FEC3A6878DEAC8C7",
+        "Characters": 4560
+      }
+    ]
+  },
+  {
+    "Name": "Image Watermark",
+    "Path": "Tools\\IMG\\Image Watermark\\Image Watermark.bat",
+    "Description": "علامة نصية أو شعار حتى 9 مواضع",
+    "Files": [
+      {
+        "Name": "Image Watermark.bat",
+        "SHA256": "A22E84D5956B5D7DF01873A2E901756055BB1D6364C04F4824D7E39B15C70733",
+        "Characters": 13694
+      },
+      {
+        "Name": "Image Watermark.md",
+        "SHA256": "B291775537B995D2FBFD07CAA461A700BB9EEAFE69840D76738B9D1BE9AEB725",
+        "Characters": 4862
+      },
+      {
+        "Name": "Watermarking Images — ImageMagick.md",
+        "SHA256": "996A4D24433A86F5B8C5E6729BC948202B88158AD0599498B77110D973A9291E",
+        "Characters": 7971
+      }
+    ]
+  },
+  {
+    "Name": "Compress Video",
+    "Path": "Tools\\VID\\Video  Compression\\Compress Video.bat",
+    "Description": "ضغط H.264 أو HEVC",
+    "Files": [
+      {
+        "Name": "Compress Video.bat",
+        "SHA256": "38F4964C36560823C37F3FE33EC53ECA875BA55DB09AEDEC7B06A311D1BA792C",
+        "Characters": 6619
+      },
+      {
+        "Name": "Compress Video.md",
+        "SHA256": "D63D21FDA38C8D18565E2FE9B3FACE48A56F4C849896E7FDEB10EE774DB34736",
+        "Characters": 4280
+      },
+      {
+        "Name": "Video Compression — FFmpeg.md",
+        "SHA256": "3532D81B1B13D5F4735FA454387DACDBB6178BDAB38CFC053E5CCCAACF689048",
+        "Characters": 6836
+      }
+    ]
+  },
+  {
+    "Name": "Convert Audio",
+    "Path": "Tools\\VID\\Video - Audio\\Convert Audio.bat",
+    "Description": "تحويل صوت **الفيديو** إلى AAC مع نسخ الفيديو",
+    "Files": [
+      {
+        "Name": "Audio-Video — FFmpeg.md",
+        "SHA256": "4C22CF611C9249399EFDB4CFBC35424A2662AF02463A1A3D18DE85A5C8F54E50",
+        "Characters": 8309
+      },
+      {
+        "Name": "Convert Audio.bat",
+        "SHA256": "F5869A582B9E12E339D526CDAE440DBF0EE160C4D35ED594ABF358366BFE2652",
+        "Characters": 3766
+      },
+      {
+        "Name": "Convert Audio.md",
+        "SHA256": "3A235C7FBEDFC6B1774AB26CA8D204550D42D75C886E7992855E168031528827",
+        "Characters": 4223
+      },
+      {
+        "Name": "Extract Audio.bat",
+        "SHA256": "E95B07F1FD5FC86C43BA07E946E9CADC6CE43347DF593A7C7C3D7AABBD6A9BD2",
+        "Characters": 3722
+      },
+      {
+        "Name": "Extract Audio.md",
+        "SHA256": "BFDA19C4DE78C232626E7E0DEE6CBEAFF8E2A4DF7FCC6DA85214B11118F72666",
+        "Characters": 4094
+      },
+      {
+        "Name": "Increase Volume.bat",
+        "SHA256": "79EFD7645AFBAC7CECFE67C3695AD955A872376BC75E323E289B4A8822AD36FD",
+        "Characters": 5306
+      },
+      {
+        "Name": "Increase Volume.md",
+        "SHA256": "5DF4710F904DC285C4845591F02EBD0CC8D374FDABF579C1D7DBE0DDA3561D25",
+        "Characters": 4175
+      },
+      {
+        "Name": "Merge Audio.bat",
+        "SHA256": "C0D205D5DEAF22CDAA6FCAE2D331F53ECBA84AFD68F1037DADC6A535B4F826A5",
+        "Characters": 6060
+      },
+      {
+        "Name": "Merge Audio.md",
+        "SHA256": "986FA1810376D427AE7AB2CA36A5AC190E409691F3F8C7588DBF564BC464A9D0",
+        "Characters": 4215
+      },
+      {
+        "Name": "Normalize Audio.bat",
+        "SHA256": "EA240B2F6ECC1C1D15BD6CDDC16583E3A178A2FA1A64AA9F566A3B230102033A",
+        "Characters": 3968
+      },
+      {
+        "Name": "Normalize Audio.md",
+        "SHA256": "F9025D377DE7A26732F741ACBDA8CF459C51D782689DDD20D62E68B2C9FBE703",
+        "Characters": 4144
+      },
+      {
+        "Name": "Remove Audio.bat",
+        "SHA256": "9DBCCA9AA47E47523639A053862DE692F6CD6663151D1AB18DB9975197109FB7",
+        "Characters": 3856
+      },
+      {
+        "Name": "Remove Audio.md",
+        "SHA256": "AF44963D9AC9DA908D36AB4187606A76904FC61AC7ADE07EF120A0BF6AA391A4",
+        "Characters": 4125
+      },
+      {
+        "Name": "Replace Audio.bat",
+        "SHA256": "80462B411961C5692FC4EDC89F44C4FC63B3AC6A52AD9D7B48ACA141FAC7C4B7",
+        "Characters": 3774
+      },
+      {
+        "Name": "Replace Audio.md",
+        "SHA256": "C26CD34F83189D394ABA204E47DF62B9F51E2DF8140F1E8D3D0D80968DBD0255",
+        "Characters": 4129
+      }
+    ]
+  },
+  {
+    "Name": "Extract Audio",
+    "Path": "Tools\\VID\\Video - Audio\\Extract Audio.bat",
+    "Description": "استخراج الصوت من الفيديو",
+    "Files": [
+      {
+        "Name": "Audio-Video — FFmpeg.md",
+        "SHA256": "4C22CF611C9249399EFDB4CFBC35424A2662AF02463A1A3D18DE85A5C8F54E50",
+        "Characters": 8309
+      },
+      {
+        "Name": "Convert Audio.bat",
+        "SHA256": "F5869A582B9E12E339D526CDAE440DBF0EE160C4D35ED594ABF358366BFE2652",
+        "Characters": 3766
+      },
+      {
+        "Name": "Convert Audio.md",
+        "SHA256": "3A235C7FBEDFC6B1774AB26CA8D204550D42D75C886E7992855E168031528827",
+        "Characters": 4223
+      },
+      {
+        "Name": "Extract Audio.bat",
+        "SHA256": "E95B07F1FD5FC86C43BA07E946E9CADC6CE43347DF593A7C7C3D7AABBD6A9BD2",
+        "Characters": 3722
+      },
+      {
+        "Name": "Extract Audio.md",
+        "SHA256": "BFDA19C4DE78C232626E7E0DEE6CBEAFF8E2A4DF7FCC6DA85214B11118F72666",
+        "Characters": 4094
+      },
+      {
+        "Name": "Increase Volume.bat",
+        "SHA256": "79EFD7645AFBAC7CECFE67C3695AD955A872376BC75E323E289B4A8822AD36FD",
+        "Characters": 5306
+      },
+      {
+        "Name": "Increase Volume.md",
+        "SHA256": "5DF4710F904DC285C4845591F02EBD0CC8D374FDABF579C1D7DBE0DDA3561D25",
+        "Characters": 4175
+      },
+      {
+        "Name": "Merge Audio.bat",
+        "SHA256": "C0D205D5DEAF22CDAA6FCAE2D331F53ECBA84AFD68F1037DADC6A535B4F826A5",
+        "Characters": 6060
+      },
+      {
+        "Name": "Merge Audio.md",
+        "SHA256": "986FA1810376D427AE7AB2CA36A5AC190E409691F3F8C7588DBF564BC464A9D0",
+        "Characters": 4215
+      },
+      {
+        "Name": "Normalize Audio.bat",
+        "SHA256": "EA240B2F6ECC1C1D15BD6CDDC16583E3A178A2FA1A64AA9F566A3B230102033A",
+        "Characters": 3968
+      },
+      {
+        "Name": "Normalize Audio.md",
+        "SHA256": "F9025D377DE7A26732F741ACBDA8CF459C51D782689DDD20D62E68B2C9FBE703",
+        "Characters": 4144
+      },
+      {
+        "Name": "Remove Audio.bat",
+        "SHA256": "9DBCCA9AA47E47523639A053862DE692F6CD6663151D1AB18DB9975197109FB7",
+        "Characters": 3856
+      },
+      {
+        "Name": "Remove Audio.md",
+        "SHA256": "AF44963D9AC9DA908D36AB4187606A76904FC61AC7ADE07EF120A0BF6AA391A4",
+        "Characters": 4125
+      },
+      {
+        "Name": "Replace Audio.bat",
+        "SHA256": "80462B411961C5692FC4EDC89F44C4FC63B3AC6A52AD9D7B48ACA141FAC7C4B7",
+        "Characters": 3774
+      },
+      {
+        "Name": "Replace Audio.md",
+        "SHA256": "C26CD34F83189D394ABA204E47DF62B9F51E2DF8140F1E8D3D0D80968DBD0255",
+        "Characters": 4129
+      }
+    ]
+  },
+  {
+    "Name": "Increase Volume",
+    "Path": "Tools\\VID\\Video - Audio\\Increase Volume.bat",
+    "Description": "رفع صوت الفيديو",
+    "Files": [
+      {
+        "Name": "Audio-Video — FFmpeg.md",
+        "SHA256": "4C22CF611C9249399EFDB4CFBC35424A2662AF02463A1A3D18DE85A5C8F54E50",
+        "Characters": 8309
+      },
+      {
+        "Name": "Convert Audio.bat",
+        "SHA256": "F5869A582B9E12E339D526CDAE440DBF0EE160C4D35ED594ABF358366BFE2652",
+        "Characters": 3766
+      },
+      {
+        "Name": "Convert Audio.md",
+        "SHA256": "3A235C7FBEDFC6B1774AB26CA8D204550D42D75C886E7992855E168031528827",
+        "Characters": 4223
+      },
+      {
+        "Name": "Extract Audio.bat",
+        "SHA256": "E95B07F1FD5FC86C43BA07E946E9CADC6CE43347DF593A7C7C3D7AABBD6A9BD2",
+        "Characters": 3722
+      },
+      {
+        "Name": "Extract Audio.md",
+        "SHA256": "BFDA19C4DE78C232626E7E0DEE6CBEAFF8E2A4DF7FCC6DA85214B11118F72666",
+        "Characters": 4094
+      },
+      {
+        "Name": "Increase Volume.bat",
+        "SHA256": "79EFD7645AFBAC7CECFE67C3695AD955A872376BC75E323E289B4A8822AD36FD",
+        "Characters": 5306
+      },
+      {
+        "Name": "Increase Volume.md",
+        "SHA256": "5DF4710F904DC285C4845591F02EBD0CC8D374FDABF579C1D7DBE0DDA3561D25",
+        "Characters": 4175
+      },
+      {
+        "Name": "Merge Audio.bat",
+        "SHA256": "C0D205D5DEAF22CDAA6FCAE2D331F53ECBA84AFD68F1037DADC6A535B4F826A5",
+        "Characters": 6060
+      },
+      {
+        "Name": "Merge Audio.md",
+        "SHA256": "986FA1810376D427AE7AB2CA36A5AC190E409691F3F8C7588DBF564BC464A9D0",
+        "Characters": 4215
+      },
+      {
+        "Name": "Normalize Audio.bat",
+        "SHA256": "EA240B2F6ECC1C1D15BD6CDDC16583E3A178A2FA1A64AA9F566A3B230102033A",
+        "Characters": 3968
+      },
+      {
+        "Name": "Normalize Audio.md",
+        "SHA256": "F9025D377DE7A26732F741ACBDA8CF459C51D782689DDD20D62E68B2C9FBE703",
+        "Characters": 4144
+      },
+      {
+        "Name": "Remove Audio.bat",
+        "SHA256": "9DBCCA9AA47E47523639A053862DE692F6CD6663151D1AB18DB9975197109FB7",
+        "Characters": 3856
+      },
+      {
+        "Name": "Remove Audio.md",
+        "SHA256": "AF44963D9AC9DA908D36AB4187606A76904FC61AC7ADE07EF120A0BF6AA391A4",
+        "Characters": 4125
+      },
+      {
+        "Name": "Replace Audio.bat",
+        "SHA256": "80462B411961C5692FC4EDC89F44C4FC63B3AC6A52AD9D7B48ACA141FAC7C4B7",
+        "Characters": 3774
+      },
+      {
+        "Name": "Replace Audio.md",
+        "SHA256": "C26CD34F83189D394ABA204E47DF62B9F51E2DF8140F1E8D3D0D80968DBD0255",
+        "Characters": 4129
+      }
+    ]
+  },
+  {
+    "Name": "Merge Audio",
+    "Path": "Tools\\VID\\Video - Audio\\Merge Audio.bat",
+    "Description": "مزج الصوت الأصلي بصوت مضاف",
+    "Files": [
+      {
+        "Name": "Audio-Video — FFmpeg.md",
+        "SHA256": "4C22CF611C9249399EFDB4CFBC35424A2662AF02463A1A3D18DE85A5C8F54E50",
+        "Characters": 8309
+      },
+      {
+        "Name": "Convert Audio.bat",
+        "SHA256": "F5869A582B9E12E339D526CDAE440DBF0EE160C4D35ED594ABF358366BFE2652",
+        "Characters": 3766
+      },
+      {
+        "Name": "Convert Audio.md",
+        "SHA256": "3A235C7FBEDFC6B1774AB26CA8D204550D42D75C886E7992855E168031528827",
+        "Characters": 4223
+      },
+      {
+        "Name": "Extract Audio.bat",
+        "SHA256": "E95B07F1FD5FC86C43BA07E946E9CADC6CE43347DF593A7C7C3D7AABBD6A9BD2",
+        "Characters": 3722
+      },
+      {
+        "Name": "Extract Audio.md",
+        "SHA256": "BFDA19C4DE78C232626E7E0DEE6CBEAFF8E2A4DF7FCC6DA85214B11118F72666",
+        "Characters": 4094
+      },
+      {
+        "Name": "Increase Volume.bat",
+        "SHA256": "79EFD7645AFBAC7CECFE67C3695AD955A872376BC75E323E289B4A8822AD36FD",
+        "Characters": 5306
+      },
+      {
+        "Name": "Increase Volume.md",
+        "SHA256": "5DF4710F904DC285C4845591F02EBD0CC8D374FDABF579C1D7DBE0DDA3561D25",
+        "Characters": 4175
+      },
+      {
+        "Name": "Merge Audio.bat",
+        "SHA256": "C0D205D5DEAF22CDAA6FCAE2D331F53ECBA84AFD68F1037DADC6A535B4F826A5",
+        "Characters": 6060
+      },
+      {
+        "Name": "Merge Audio.md",
+        "SHA256": "986FA1810376D427AE7AB2CA36A5AC190E409691F3F8C7588DBF564BC464A9D0",
+        "Characters": 4215
+      },
+      {
+        "Name": "Normalize Audio.bat",
+        "SHA256": "EA240B2F6ECC1C1D15BD6CDDC16583E3A178A2FA1A64AA9F566A3B230102033A",
+        "Characters": 3968
+      },
+      {
+        "Name": "Normalize Audio.md",
+        "SHA256": "F9025D377DE7A26732F741ACBDA8CF459C51D782689DDD20D62E68B2C9FBE703",
+        "Characters": 4144
+      },
+      {
+        "Name": "Remove Audio.bat",
+        "SHA256": "9DBCCA9AA47E47523639A053862DE692F6CD6663151D1AB18DB9975197109FB7",
+        "Characters": 3856
+      },
+      {
+        "Name": "Remove Audio.md",
+        "SHA256": "AF44963D9AC9DA908D36AB4187606A76904FC61AC7ADE07EF120A0BF6AA391A4",
+        "Characters": 4125
+      },
+      {
+        "Name": "Replace Audio.bat",
+        "SHA256": "80462B411961C5692FC4EDC89F44C4FC63B3AC6A52AD9D7B48ACA141FAC7C4B7",
+        "Characters": 3774
+      },
+      {
+        "Name": "Replace Audio.md",
+        "SHA256": "C26CD34F83189D394ABA204E47DF62B9F51E2DF8140F1E8D3D0D80968DBD0255",
+        "Characters": 4129
+      }
+    ]
+  },
+  {
+    "Name": "Normalize Audio",
+    "Path": "Tools\\VID\\Video - Audio\\Normalize Audio.bat",
+    "Description": "موازنة شدة الصوت",
+    "Files": [
+      {
+        "Name": "Audio-Video — FFmpeg.md",
+        "SHA256": "4C22CF611C9249399EFDB4CFBC35424A2662AF02463A1A3D18DE85A5C8F54E50",
+        "Characters": 8309
+      },
+      {
+        "Name": "Convert Audio.bat",
+        "SHA256": "F5869A582B9E12E339D526CDAE440DBF0EE160C4D35ED594ABF358366BFE2652",
+        "Characters": 3766
+      },
+      {
+        "Name": "Convert Audio.md",
+        "SHA256": "3A235C7FBEDFC6B1774AB26CA8D204550D42D75C886E7992855E168031528827",
+        "Characters": 4223
+      },
+      {
+        "Name": "Extract Audio.bat",
+        "SHA256": "E95B07F1FD5FC86C43BA07E946E9CADC6CE43347DF593A7C7C3D7AABBD6A9BD2",
+        "Characters": 3722
+      },
+      {
+        "Name": "Extract Audio.md",
+        "SHA256": "BFDA19C4DE78C232626E7E0DEE6CBEAFF8E2A4DF7FCC6DA85214B11118F72666",
+        "Characters": 4094
+      },
+      {
+        "Name": "Increase Volume.bat",
+        "SHA256": "79EFD7645AFBAC7CECFE67C3695AD955A872376BC75E323E289B4A8822AD36FD",
+        "Characters": 5306
+      },
+      {
+        "Name": "Increase Volume.md",
+        "SHA256": "5DF4710F904DC285C4845591F02EBD0CC8D374FDABF579C1D7DBE0DDA3561D25",
+        "Characters": 4175
+      },
+      {
+        "Name": "Merge Audio.bat",
+        "SHA256": "C0D205D5DEAF22CDAA6FCAE2D331F53ECBA84AFD68F1037DADC6A535B4F826A5",
+        "Characters": 6060
+      },
+      {
+        "Name": "Merge Audio.md",
+        "SHA256": "986FA1810376D427AE7AB2CA36A5AC190E409691F3F8C7588DBF564BC464A9D0",
+        "Characters": 4215
+      },
+      {
+        "Name": "Normalize Audio.bat",
+        "SHA256": "EA240B2F6ECC1C1D15BD6CDDC16583E3A178A2FA1A64AA9F566A3B230102033A",
+        "Characters": 3968
+      },
+      {
+        "Name": "Normalize Audio.md",
+        "SHA256": "F9025D377DE7A26732F741ACBDA8CF459C51D782689DDD20D62E68B2C9FBE703",
+        "Characters": 4144
+      },
+      {
+        "Name": "Remove Audio.bat",
+        "SHA256": "9DBCCA9AA47E47523639A053862DE692F6CD6663151D1AB18DB9975197109FB7",
+        "Characters": 3856
+      },
+      {
+        "Name": "Remove Audio.md",
+        "SHA256": "AF44963D9AC9DA908D36AB4187606A76904FC61AC7ADE07EF120A0BF6AA391A4",
+        "Characters": 4125
+      },
+      {
+        "Name": "Replace Audio.bat",
+        "SHA256": "80462B411961C5692FC4EDC89F44C4FC63B3AC6A52AD9D7B48ACA141FAC7C4B7",
+        "Characters": 3774
+      },
+      {
+        "Name": "Replace Audio.md",
+        "SHA256": "C26CD34F83189D394ABA204E47DF62B9F51E2DF8140F1E8D3D0D80968DBD0255",
+        "Characters": 4129
+      }
+    ]
+  },
+  {
+    "Name": "Remove Audio",
+    "Path": "Tools\\VID\\Video - Audio\\Remove Audio.bat",
+    "Description": "حذف الصوت من نسخة جديدة",
+    "Files": [
+      {
+        "Name": "Audio-Video — FFmpeg.md",
+        "SHA256": "4C22CF611C9249399EFDB4CFBC35424A2662AF02463A1A3D18DE85A5C8F54E50",
+        "Characters": 8309
+      },
+      {
+        "Name": "Convert Audio.bat",
+        "SHA256": "F5869A582B9E12E339D526CDAE440DBF0EE160C4D35ED594ABF358366BFE2652",
+        "Characters": 3766
+      },
+      {
+        "Name": "Convert Audio.md",
+        "SHA256": "3A235C7FBEDFC6B1774AB26CA8D204550D42D75C886E7992855E168031528827",
+        "Characters": 4223
+      },
+      {
+        "Name": "Extract Audio.bat",
+        "SHA256": "E95B07F1FD5FC86C43BA07E946E9CADC6CE43347DF593A7C7C3D7AABBD6A9BD2",
+        "Characters": 3722
+      },
+      {
+        "Name": "Extract Audio.md",
+        "SHA256": "BFDA19C4DE78C232626E7E0DEE6CBEAFF8E2A4DF7FCC6DA85214B11118F72666",
+        "Characters": 4094
+      },
+      {
+        "Name": "Increase Volume.bat",
+        "SHA256": "79EFD7645AFBAC7CECFE67C3695AD955A872376BC75E323E289B4A8822AD36FD",
+        "Characters": 5306
+      },
+      {
+        "Name": "Increase Volume.md",
+        "SHA256": "5DF4710F904DC285C4845591F02EBD0CC8D374FDABF579C1D7DBE0DDA3561D25",
+        "Characters": 4175
+      },
+      {
+        "Name": "Merge Audio.bat",
+        "SHA256": "C0D205D5DEAF22CDAA6FCAE2D331F53ECBA84AFD68F1037DADC6A535B4F826A5",
+        "Characters": 6060
+      },
+      {
+        "Name": "Merge Audio.md",
+        "SHA256": "986FA1810376D427AE7AB2CA36A5AC190E409691F3F8C7588DBF564BC464A9D0",
+        "Characters": 4215
+      },
+      {
+        "Name": "Normalize Audio.bat",
+        "SHA256": "EA240B2F6ECC1C1D15BD6CDDC16583E3A178A2FA1A64AA9F566A3B230102033A",
+        "Characters": 3968
+      },
+      {
+        "Name": "Normalize Audio.md",
+        "SHA256": "F9025D377DE7A26732F741ACBDA8CF459C51D782689DDD20D62E68B2C9FBE703",
+        "Characters": 4144
+      },
+      {
+        "Name": "Remove Audio.bat",
+        "SHA256": "9DBCCA9AA47E47523639A053862DE692F6CD6663151D1AB18DB9975197109FB7",
+        "Characters": 3856
+      },
+      {
+        "Name": "Remove Audio.md",
+        "SHA256": "AF44963D9AC9DA908D36AB4187606A76904FC61AC7ADE07EF120A0BF6AA391A4",
+        "Characters": 4125
+      },
+      {
+        "Name": "Replace Audio.bat",
+        "SHA256": "80462B411961C5692FC4EDC89F44C4FC63B3AC6A52AD9D7B48ACA141FAC7C4B7",
+        "Characters": 3774
+      },
+      {
+        "Name": "Replace Audio.md",
+        "SHA256": "C26CD34F83189D394ABA204E47DF62B9F51E2DF8140F1E8D3D0D80968DBD0255",
+        "Characters": 4129
+      }
+    ]
+  },
+  {
+    "Name": "Replace Audio",
+    "Path": "Tools\\VID\\Video - Audio\\Replace Audio.bat",
+    "Description": "استبدال الصوت بصوت خارجي",
+    "Files": [
+      {
+        "Name": "Audio-Video — FFmpeg.md",
+        "SHA256": "4C22CF611C9249399EFDB4CFBC35424A2662AF02463A1A3D18DE85A5C8F54E50",
+        "Characters": 8309
+      },
+      {
+        "Name": "Convert Audio.bat",
+        "SHA256": "F5869A582B9E12E339D526CDAE440DBF0EE160C4D35ED594ABF358366BFE2652",
+        "Characters": 3766
+      },
+      {
+        "Name": "Convert Audio.md",
+        "SHA256": "3A235C7FBEDFC6B1774AB26CA8D204550D42D75C886E7992855E168031528827",
+        "Characters": 4223
+      },
+      {
+        "Name": "Extract Audio.bat",
+        "SHA256": "E95B07F1FD5FC86C43BA07E946E9CADC6CE43347DF593A7C7C3D7AABBD6A9BD2",
+        "Characters": 3722
+      },
+      {
+        "Name": "Extract Audio.md",
+        "SHA256": "BFDA19C4DE78C232626E7E0DEE6CBEAFF8E2A4DF7FCC6DA85214B11118F72666",
+        "Characters": 4094
+      },
+      {
+        "Name": "Increase Volume.bat",
+        "SHA256": "79EFD7645AFBAC7CECFE67C3695AD955A872376BC75E323E289B4A8822AD36FD",
+        "Characters": 5306
+      },
+      {
+        "Name": "Increase Volume.md",
+        "SHA256": "5DF4710F904DC285C4845591F02EBD0CC8D374FDABF579C1D7DBE0DDA3561D25",
+        "Characters": 4175
+      },
+      {
+        "Name": "Merge Audio.bat",
+        "SHA256": "C0D205D5DEAF22CDAA6FCAE2D331F53ECBA84AFD68F1037DADC6A535B4F826A5",
+        "Characters": 6060
+      },
+      {
+        "Name": "Merge Audio.md",
+        "SHA256": "986FA1810376D427AE7AB2CA36A5AC190E409691F3F8C7588DBF564BC464A9D0",
+        "Characters": 4215
+      },
+      {
+        "Name": "Normalize Audio.bat",
+        "SHA256": "EA240B2F6ECC1C1D15BD6CDDC16583E3A178A2FA1A64AA9F566A3B230102033A",
+        "Characters": 3968
+      },
+      {
+        "Name": "Normalize Audio.md",
+        "SHA256": "F9025D377DE7A26732F741ACBDA8CF459C51D782689DDD20D62E68B2C9FBE703",
+        "Characters": 4144
+      },
+      {
+        "Name": "Remove Audio.bat",
+        "SHA256": "9DBCCA9AA47E47523639A053862DE692F6CD6663151D1AB18DB9975197109FB7",
+        "Characters": 3856
+      },
+      {
+        "Name": "Remove Audio.md",
+        "SHA256": "AF44963D9AC9DA908D36AB4187606A76904FC61AC7ADE07EF120A0BF6AA391A4",
+        "Characters": 4125
+      },
+      {
+        "Name": "Replace Audio.bat",
+        "SHA256": "80462B411961C5692FC4EDC89F44C4FC63B3AC6A52AD9D7B48ACA141FAC7C4B7",
+        "Characters": 3774
+      },
+      {
+        "Name": "Replace Audio.md",
+        "SHA256": "C26CD34F83189D394ABA204E47DF62B9F51E2DF8140F1E8D3D0D80968DBD0255",
+        "Characters": 4129
+      }
+    ]
+  },
+  {
+    "Name": "Video FPS Converter",
+    "Path": "Tools\\VID\\Video FPS Converter\\Video FPS Converter.bat",
+    "Description": "تحويل معدل الإطارات",
+    "Files": [
+      {
+        "Name": "Video FPS Conversion — FFmpeg.md",
+        "SHA256": "55A5140F54C3E14C4ACC36FCA6A0D1CE2F84BF13F74CD897F3996BB411E16181",
+        "Characters": 9288
+      },
+      {
+        "Name": "Video FPS Converter.bat",
+        "SHA256": "D4E2F0B9EB0637FE4DF5A54F3B528F1400CB7219A9F77F89B4C61F7143AC15F8",
+        "Characters": 3732
+      },
+      {
+        "Name": "Video FPS Converter.md",
+        "SHA256": "A5EE842ECA4CFDBAFF56BF53F9EC1FE9D4C7A0B03C30C0D14BFC2F64D4111D44",
+        "Characters": 4130
+      }
+    ]
+  },
+  {
+    "Name": "Video Resolution Converter",
+    "Path": "Tools\\VID\\Video Resolution Converter\\Video Resolution Converter.bat",
+    "Description": "تغيير دقة الفيديو مع حفظ النسبة",
+    "Files": [
+      {
+        "Name": "Video Resolution Converter — FFmpeg.md",
+        "SHA256": "99D6860552749ED3B9762157F4D9A92E96D3B8C239FF04C6406EBB409B3F8DB2",
+        "Characters": 9260
+      },
+      {
+        "Name": "Video Resolution Converter.bat",
+        "SHA256": "74BE343CDB7593C433D0A89F0BE09D9AAF98864C649D511F58068E865C7EB4F3",
+        "Characters": 3901
+      },
+      {
+        "Name": "Video Resolution Converter.md",
+        "SHA256": "8E3B6E711D8EC0429DF89149E32AE5913A9D24E1DA8424AA92E6EC5D32504C89",
+        "Characters": 4356
+      }
+    ]
+  },
+  {
+    "Name": "Video Speed",
+    "Path": "Tools\\VID\\Video Speed\\Video Speed.bat",
+    "Description": "تغيير سرعة الفيديو والصوت",
+    "Files": [
+      {
+        "Name": "Video Speed — FFmpeg.md",
+        "SHA256": "0E373C1A680280955E0A9286BD93C1BCA436C4536C0B15B5F8A300FCA0BC172F",
+        "Characters": 9793
+      },
+      {
+        "Name": "Video Speed.bat",
+        "SHA256": "BFA7284AB3FAEB54B379F89878F338931FC630950E8B2DE863A8DAC269DAC0A2",
+        "Characters": 4034
+      },
+      {
+        "Name": "Video Speed.md",
+        "SHA256": "6D395E1F399B0ECF2F2E75EEEC7E75572813F96729C4B3504440BF34EA9D4C99",
+        "Characters": 4108
+      }
+    ]
+  },
+  {
+    "Name": "Video Thumbnail",
+    "Path": "Tools\\VID\\Video Thumbnail\\Video Thumbnail.bat",
+    "Description": "أول إطار من كل فيديو إلى PNG دون تعديل الفيديو",
+    "Files": [
+      {
+        "Name": "Video Thumbnail.bat",
+        "SHA256": "E4D7811308288EDB1EF038BF031F892ABF9C2E77F7E74A38BCB49B1AD1C3F33E",
+        "Characters": 642
+      },
+      {
+        "Name": "Video Thumbnail.md",
+        "SHA256": "EDCE99A2274F9D70D8D2A006955459A4EAD03EB2BB4C4B8DB967BC94A8F46777",
+        "Characters": 4066
+      }
+    ]
+  },
+  {
+    "Name": "Compress PDF",
+    "Path": "Tools\\PDF\\Compress PDF\\Compress PDF.bat",
+    "Description": "إعادة كتابة PDF بضغط مختار",
+    "Files": [
+      {
+        "Name": "Compress PDF.bat",
+        "SHA256": "BFE57A7390CB2291C7CAB9643A1A51263389E469893F7F7B88093046741824BB",
+        "Characters": 4737
+      },
+      {
+        "Name": "Compress PDF.md",
+        "SHA256": "80E724A32D6DC8F2E4F8B6166A1DB9FEFC5AB807115838DD47115B625E09FFC4",
+        "Characters": 4170
+      },
+      {
+        "Name": "PDF Compression — Ghostscript.md",
+        "SHA256": "15D501D031B6CAD8580B80FBFE0F1F0C7B4A5127846E110E06A0B65BD17404B6",
+        "Characters": 6466
+      }
+    ]
+  },
+  {
+    "Name": "Merge PDF",
+    "Path": "Tools\\PDF\\Merge PDF\\Merge PDF.bat",
+    "Description": "دمج PDF حسب ترتيب أسماء الملفات في merged.pdf؛ استخدم بادئات 001 و 002 لتحديد الترتيب",
+    "Files": [
+      {
+        "Name": "Merge PDF.bat",
+        "SHA256": "60C956F0F71921396DD2A4858885B5FB969685DC0746E556167D8266A6EBFAA6",
+        "Characters": 630
+      },
+      {
+        "Name": "Merge PDF.md",
+        "SHA256": "717CA0D71D932CCBCFDA4DCCF2FD11F5296F3FD312867E267E6C3D8CCA5D4806",
+        "Characters": 4130
+      }
+    ]
+  },
+  {
+    "Name": "Audio Converter",
+    "Path": "Tools\\AUD\\Audio Converter\\Audio Converter.bat",
+    "Description": "تحويل ملفات الصوت الفعلية إلى MP3/WAV/FLAC/M4A/Opus. الافتراضي MP3 VBR q=2",
+    "Files": [
+      {
+        "Name": "Audio Converter.bat",
+        "SHA256": "2EB72A9B2F25A538C36D42DF6756D62D6CE279EFFFAF787A88ABC0ACB30CEACF",
+        "Characters": 642
+      },
+      {
+        "Name": "Audio Converter.md",
+        "SHA256": "51B0E9DEF07FA00F85448F408BEB3799958C9AB00EFAADB37596E0C6EC1EE072",
+        "Characters": 4140
+      }
+    ]
+  },
+  {
+    "Name": "Duplicate Finder",
+    "Path": "Tools\\UTI\\Duplicate Finder\\Duplicate Finder.bat",
+    "Description": "تقرير duplicates.csv بالأحجام والبصمات المتساوية؛ **لا يحذف شيئًا**",
+    "Files": [
+      {
+        "Name": "Duplicate Finder.bat",
+        "SHA256": "797519F02868E48F7B04F42DDCCBF15EA197514C8314981DD58223BE1B3239E2",
+        "Characters": 644
+      },
+      {
+        "Name": "Duplicate Finder.md",
+        "SHA256": "6C79B136C4548FC91656684A5BB86D8523432DCF2FDD08C5A78EF057DCC805E4",
+        "Characters": 4168
+      }
+    ]
+  },
+  {
+    "Name": "File Hashes",
+    "Path": "Tools\\UTI\\File Hashes\\File Hashes.bat",
+    "Description": "إنشاء Output/hashes.csv ببصمات SHA-256 لكل شجرة Input، والتحقق لاحقًا من الملفات والبصمات ووجود ملفات إضافية",
+    "Files": [
+      {
+        "Name": "File Hashes.bat",
+        "SHA256": "E00CA3D2D2B18014C21973331E85A01CD356DE43AA8D4D8C86650F30D9920B55",
+        "Characters": 634
+      },
+      {
+        "Name": "File Hashes.md",
+        "SHA256": "CB09299560CC0D7767D324ABB7B354AE0740813E60A05195E14E74F4569BF0FF",
+        "Characters": 4286
+      }
+    ]
+  },
+  {
+    "Name": "File Inventory",
+    "Path": "Tools\\UTI\\File Inventory\\File Inventory.bat",
+    "Description": "جرد inventory.csv بالمسار النسبي والامتداد والحجم وتاريخ التعديل UTC",
+    "Files": [
+      {
+        "Name": "File Inventory.bat",
+        "SHA256": "BBFE253A87D34D7757A49E95004601F3BB2997739FF9A7E68FDB4486C6305028",
+        "Characters": 640
+      },
+      {
+        "Name": "File Inventory.md",
+        "SHA256": "AD9D8F60AEF0657D0E7B407D013851131EC8A044FF7E378B29C7D28BAF60F74F",
+        "Characters": 4143
+      }
+    ]
+  },
+  {
+    "Name": "Media Info",
+    "Path": "Tools\\UTI\\Media Info\\Media Info.bat",
+    "Description": "تقرير JSON لكل ملف: المسارات والترميزات والأبعاد والمدة والبيانات الوصفية",
+    "Files": [
+      {
+        "Name": "Media Info.bat",
+        "SHA256": "0530F80065D62961E363A0BB6B6F0822376C7372E7019C13861975B63195747D",
+        "Characters": 632
+      },
+      {
+        "Name": "Media Info.md",
+        "SHA256": "09782497E28F481CBB3BAC2EF9FA7AFDF8DA703751708835D905B2130DF9F0FA",
+        "Characters": 4140
+      }
+    ]
+  },
+  {
+    "Name": "ZIP Backup",
+    "Path": "Tools\\UTI\\ZIP Backup\\ZIP Backup.bat",
+    "Description": "ضغط شجرة Input في backup.zip؛ يشمل الملفات المخفية والمجلدات الفارغة ويتجاوز الروابط",
+    "Files": [
+      {
+        "Name": "ZIP Backup.bat",
+        "SHA256": "88407D0B9D899767DA04A4324F8A7581C57D8447A4701F8F46571B6FC76E0971",
+        "Characters": 632
+      },
+      {
+        "Name": "ZIP Backup.md",
+        "SHA256": "02983DD824BEBA49D2B3A5DAA2DC36BDFB0FD2C51988A36718C9EF08D70AF7B6",
+        "Characters": 4159
+      }
+    ]
+  },
+  {
+    "Name": "ZIP Extract",
+    "Path": "Tools\\UTI\\ZIP Extract\\ZIP Extract.bat",
+    "Description": "استخراج كل ZIP في مجلد مستقل جديد باسم الملف مع `.extracted`؛ يرفض المسارات الخارجة والروابط والأسماء غير الآمنة",
+    "Files": [
+      {
+        "Name": "ZIP Extract.bat",
+        "SHA256": "90E69839FC56D173C169FA1A32378DA0905F4FA73F30CDB5AD516D379F5EEB0A",
+        "Characters": 634
+      },
+      {
+        "Name": "ZIP Extract.md",
+        "SHA256": "B41F82BF295768F24397F319709CFFDA157E43ADB986B01F01C82137DF8FB6EA",
+        "Characters": 4227
+      }
+    ]
+  },
+  {
+    "Name": "Image Rotate",
+    "Path": "Tools\\IMG\\Image Rotate\\Image Rotate.bat",
+    "Description": "تدوير بكسلات الصورة 90° مع الساعة أو عكسها أو 180° بعد تصحيح اتجاه EXIF.",
+    "Files": [
+      {
+        "Name": "Image Rotate.bat",
+        "SHA256": "8699015F507CC684F7F28D103BADB1E3DBDEF122CA97A4C2B34FD6E6EC6D3824",
+        "Characters": 627
+      },
+      {
+        "Name": "Image Rotate.md",
+        "SHA256": "B750D9EED9909EF41F1649673890BC066E8D4DACDECD8B6FF8A0C261AB72493C",
+        "Characters": 4365
+      },
+      {
+        "Name": "Image Rotate.ps1",
+        "SHA256": "969838D011A2B5B4E55106E677BD3642913CB9E8BD857579AF49E7EC71FFA77E",
+        "Characters": 1078
+      }
+    ]
+  },
+  {
+    "Name": "Image Flip",
+    "Path": "Tools\\IMG\\Image Flip\\Image Flip.bat",
+    "Description": "إنشاء انعكاس أفقي أو رأسي للصورة دون قصها أو تعديل الأصل.",
+    "Files": [
+      {
+        "Name": "Image Flip.bat",
+        "SHA256": "3B1502419211995BD1357DA28A5FCA4726E6C926B35FFB6FF6E69A6B5BE995F8",
+        "Characters": 623
+      },
+      {
+        "Name": "Image Flip.md",
+        "SHA256": "A8CF47D85C6D7A8ACE0A035358B7378349DEE864B0047C160D1317CFF8D4AEF3",
+        "Characters": 4246
+      },
+      {
+        "Name": "Image Flip.ps1",
+        "SHA256": "BBB6986F6E9F5344C24E6E9C7583DE4735FE4036497CB2A762F12B011A7E722D",
+        "Characters": 1010
+      }
+    ]
+  },
+  {
+    "Name": "Image Grayscale",
+    "Path": "Tools\\IMG\\Image Grayscale\\Image Grayscale.bat",
+    "Description": "تحويل الألوان إلى تدرج رمادي مع إبقاء قناة الشفافية وإنتاج PNG مستقل.",
+    "Files": [
+      {
+        "Name": "Image Grayscale.bat",
+        "SHA256": "EC114A83825BE424A78FD3AB2D983276ABEFD9F0E6BD2F98E7BB8E4170F55D9B",
+        "Characters": 633
+      },
+      {
+        "Name": "Image Grayscale.md",
+        "SHA256": "CDFD6C02E5EA97C983829FD9500E9AA3AE7146961EB033021AE66FE7FA14AB32",
+        "Characters": 4363
+      },
+      {
+        "Name": "Image Grayscale.ps1",
+        "SHA256": "4B5E5FCB0A997D0326F2FECB4BFA27CB30A36BE7DF05ADA1B8F6D2321022B764",
+        "Characters": 969
+      }
+    ]
+  },
+  {
+    "Name": "Image Border",
+    "Path": "Tools\\IMG\\Image Border\\Image Border.bat",
+    "Description": "إضافة مساحة إطار بلون ثابت خارج كامل الصورة دون اقتطاع محتواها.",
+    "Files": [
+      {
+        "Name": "Image Border.bat",
+        "SHA256": "C588B196F9C2D7343F77E1BDDFE21F56FC1E66980BB55EA502625351DE699D88",
+        "Characters": 627
+      },
+      {
+        "Name": "Image Border.md",
+        "SHA256": "3BC52523C3B81243C4D355E171E155CB023C1E964ED90ED13FA2E7F16595778D",
+        "Characters": 4344
+      },
+      {
+        "Name": "Image Border.ps1",
+        "SHA256": "0CE98985411BA2623C43A0EDD2EA83C5C25B0AF3532847482E9B085DBA61ACBD",
+        "Characters": 1356
+      }
+    ]
+  },
+  {
+    "Name": "Image Info",
+    "Path": "Tools\\IMG\\Image Info\\Image Info.bat",
+    "Description": "قراءة معلومات الصورة والإطارات والضغط وفضاء اللون والبيانات الوصفية في تقرير نصي.",
+    "Files": [
+      {
+        "Name": "Image Info.bat",
+        "SHA256": "7ED0D3D6E3F48DA5FA47758C51A3B101945561D18F38DE2ECA2B13C302AF2FF5",
+        "Characters": 623
+      },
+      {
+        "Name": "Image Info.md",
+        "SHA256": "5FF609AFEA0A12CA28EF5FB0A34EE704C202EC4F47531523F4B87FF9C8E89C2E",
+        "Characters": 4358
+      },
+      {
+        "Name": "Image Info.ps1",
+        "SHA256": "27426C7B1A2649658B623BC3E069AFEADDEC0B17F14CC1DB990F16B8A7DA21FC",
+        "Characters": 872
+      }
+    ]
+  },
+  {
+    "Name": "Video Trim",
+    "Path": "Tools\\VID\\Video Trim\\Video Trim.bat",
+    "Description": "إنتاج مقطع زمني دقيق بإعادة ترميز الفيديو إلى H.264 والصوت إن وجد إلى AAC.",
+    "Files": [
+      {
+        "Name": "Video Trim.bat",
+        "SHA256": "0D06311B175FCD4C4A9F779167D7AD2EE5F5A9F0BBA0E6887DBF94A4C6C5D28B",
+        "Characters": 623
+      },
+      {
+        "Name": "Video Trim.md",
+        "SHA256": "96DB092438660521A28FA348856E673718931994BB312DF5D47C2703BE33E800",
+        "Characters": 4388
+      },
+      {
+        "Name": "Video Trim.ps1",
+        "SHA256": "CCAE5E26D5E80E5B8FB65292FB9CDBB3C74DBD626DEDFD4591029D54116A341A",
+        "Characters": 1373
+      }
+    ]
+  },
+  {
+    "Name": "Video Rotate",
+    "Path": "Tools\\VID\\Video Rotate\\Video Rotate.bat",
+    "Description": "تدوير بكسلات الفيديو فعليًا مع إعادة ترميز MP4 وتشغيل تصحيح اتجاه المصدر الافتراضي في FFmpeg.",
+    "Files": [
+      {
+        "Name": "Video Rotate.bat",
+        "SHA256": "32025ED2F4BED5B075BA2FE77EECA436EF2C350F624CBDE73DD896277CB1891A",
+        "Characters": 627
+      },
+      {
+        "Name": "Video Rotate.md",
+        "SHA256": "890C77A0873C0E2F8AFC9E3BB752F3550AE4DD99AC360A26FB67136219A830CA",
+        "Characters": 4354
+      },
+      {
+        "Name": "Video Rotate.ps1",
+        "SHA256": "9C5B33C933D8C282A5BF7156E799E8190D1AE386446F23711CE465B8D3EACE99",
+        "Characters": 942
+      }
+    ]
+  },
+  {
+    "Name": "Video To GIF",
+    "Path": "Tools\\VID\\Video To GIF\\Video To GIF.bat",
+    "Description": "إنشاء GIF متحرك صامت ومتكرر باستخدام لوحة ألوان محسوبة من المقطع.",
+    "Files": [
+      {
+        "Name": "Video To GIF.bat",
+        "SHA256": "BF28A7F1807E4CC3B13347DDAD1980A7B02C7B542DE4E28248BC363C2AC68892",
+        "Characters": 627
+      },
+      {
+        "Name": "Video To GIF.md",
+        "SHA256": "203E19846BF8230ECA18FD898E36BD7E03F4B8CC228AF29066FE67ADCC764827",
+        "Characters": 4352
+      },
+      {
+        "Name": "Video To GIF.ps1",
+        "SHA256": "0D426856761C1EAFE7F38D2B67A7BD737837CF6EF1297CD0AA13556C2F5C1950",
+        "Characters": 976
+      }
+    ]
+  },
+  {
+    "Name": "Video Remux",
+    "Path": "Tools\\VID\\Video Remux\\Video Remux.bat",
+    "Description": "نسخ مسارات الفيديو والصوت والترجمة إلى حاوية جديدة دون إعادة ترميز.",
+    "Files": [
+      {
+        "Name": "Video Remux.bat",
+        "SHA256": "F5A429D2D28CC51E00A2912705A9909B2D341F75BBCFFFFAD884286D669005B2",
+        "Characters": 625
+      },
+      {
+        "Name": "Video Remux.md",
+        "SHA256": "7044FED49301F29F631E516AEA6C3F12724EA4221627254566F990E6003841CA",
+        "Characters": 4341
+      },
+      {
+        "Name": "Video Remux.ps1",
+        "SHA256": "07FBC77E8F2B426F66095AAE7437C821E049A1A36DA168BE7C75086D3495EC0C",
+        "Characters": 811
+      }
+    ]
+  },
+  {
+    "Name": "Video Frames",
+    "Path": "Tools\\VID\\Video Frames\\Video Frames.bat",
+    "Description": "تصدير سلسلة إطارات PNG متباعدة زمنيًا في مجلد مستقل لكل فيديو.",
+    "Files": [
+      {
+        "Name": "Video Frames.bat",
+        "SHA256": "ABACE32AB6375AB2DD1D1A4120674D37128BCB7CD8CFF4F57260C130AA99ACA1",
+        "Characters": 627
+      },
+      {
+        "Name": "Video Frames.md",
+        "SHA256": "2736F6CE413C781ECAF330725FF0B5519606D37F705A4D1FEDD38423D63F595E",
+        "Characters": 4353
+      },
+      {
+        "Name": "Video Frames.ps1",
+        "SHA256": "7DBB1DD05AAB564110AB1709D1FDD913EE330E39B330E8DFD7A60B03CDDAF0C8",
+        "Characters": 1009
+      }
+    ]
+  },
+  {
+    "Name": "Audio Trim",
+    "Path": "Tools\\AUD\\Audio Trim\\Audio Trim.bat",
+    "Description": "قص جزء من ملف صوت مستقل وإخراجه WAV PCM 16-bit.",
+    "Files": [
+      {
+        "Name": "Audio Trim.bat",
+        "SHA256": "85BEBC28DF51942E35B1F4BD77DC6EC13EB990B80EB37D8169A0E69B1A605A53",
+        "Characters": 623
+      },
+      {
+        "Name": "Audio Trim.md",
+        "SHA256": "46E74E59C4B9F191D8A91BE5E2561182073A0269CB01AF8D97FDE9D93711E845",
+        "Characters": 4254
+      },
+      {
+        "Name": "Audio Trim.ps1",
+        "SHA256": "C5D57C16EE4CDC3C6B74B105B1C8906C09C3D2CC6C65D564A61E0B4F0A2BAECC",
+        "Characters": 1326
+      }
+    ]
+  },
+  {
+    "Name": "Audio Normalize",
+    "Path": "Tools\\AUD\\Audio Normalize\\Audio Normalize.bat",
+    "Description": "معالجة loudnorm بمرور واحد لملفات الصوت المستقلة إلى WAV 48 kHz.",
+    "Files": [
+      {
+        "Name": "Audio Normalize.bat",
+        "SHA256": "62FF1239442CF5A68A3B054E63E118A5744D4E8A5A8631D992E34D41857F84D4",
+        "Characters": 633
+      },
+      {
+        "Name": "Audio Normalize.md",
+        "SHA256": "BEDA2D90D8E51B5B150D6A98315068B5B8A7134F173B2E970C8A2505A0AF012E",
+        "Characters": 4359
+      },
+      {
+        "Name": "Audio Normalize.ps1",
+        "SHA256": "149F060672707CF9EE83810F44AAF394EFB96C64676F5D9D5B58486506AACCD8",
+        "Characters": 840
+      }
+    ]
+  },
+  {
+    "Name": "Audio Fade",
+    "Path": "Tools\\AUD\\Audio Fade\\Audio Fade.bat",
+    "Description": "تخفيف تدريجي لبداية الصوت أو نهايته أو كليهما وإنتاج WAV جديد.",
+    "Files": [
+      {
+        "Name": "Audio Fade.bat",
+        "SHA256": "AB1C47BC8C368C7BD93B27187CBED6554E23939C6444FE1FCCFFEB5B6104AA45",
+        "Characters": 623
+      },
+      {
+        "Name": "Audio Fade.md",
+        "SHA256": "B235BF8AA489BA7475DF3EA2B59D81CA412C8603ED456482D137F0413530AAC6",
+        "Characters": 4296
+      },
+      {
+        "Name": "Audio Fade.ps1",
+        "SHA256": "2393BB79613102C7489A9ADBB940D4D305242091521B2453FA63206AF54B161E",
+        "Characters": 1468
+      }
+    ]
+  },
+  {
+    "Name": "Audio Channels",
+    "Path": "Tools\\AUD\\Audio Channels\\Audio Channels.bat",
+    "Description": "إنشاء ملف Mono أو Stereo من ملف صوت مستقل مع توزيع القنوات بواسطة FFmpeg.",
+    "Files": [
+      {
+        "Name": "Audio Channels.bat",
+        "SHA256": "A162C2790F6C497C93A80777AC9663A4F3BDBC8F99686C205582629E278A1AD6",
+        "Characters": 631
+      },
+      {
+        "Name": "Audio Channels.md",
+        "SHA256": "834211440FDF151A8FEF5424513E3069A07A1EE89AC7544F111F948B6C787039",
+        "Characters": 4354
+      },
+      {
+        "Name": "Audio Channels.ps1",
+        "SHA256": "8C1EF480C5DFE7E738297C7397AF15B6B073C0A457DCC0663285AA50952181FB",
+        "Characters": 765
+      }
+    ]
+  },
+  {
+    "Name": "Audio Concatenate",
+    "Path": "Tools\\AUD\\Audio Concatenate\\Audio Concatenate.bat",
+    "Description": "وصل المقاطع واحدًا بعد الآخر حسب ترتيب أسمائها، مع توحيدها إلى Stereo 48 kHz WAV قبل الوصل.",
+    "Files": [
+      {
+        "Name": "Audio Concatenate.bat",
+        "SHA256": "92DDB1CD2A054E477B145D448088D30C759C2D6F64BFF5FFCDA80713D5E80438",
+        "Characters": 637
+      },
+      {
+        "Name": "Audio Concatenate.md",
+        "SHA256": "07FE6213993D304CEC2C098045DDC42754C7F415C8744E4C77B094D70CF4CE9F",
+        "Characters": 4468
+      },
+      {
+        "Name": "Audio Concatenate.ps1",
+        "SHA256": "1A00CC1A0570F9C4319FB5BB9A7F2381BC36D27CD41574A8DE200B8DBFC353FA",
+        "Characters": 1204
+      }
+    ]
+  },
+  {
+    "Name": "PDF Split",
+    "Path": "Tools\\PDF\\PDF Split\\PDF Split.bat",
+    "Description": "كتابة ملف PDF مستقل لكل صفحة ضمن مجلد جديد.",
+    "Files": [
+      {
+        "Name": "PDF Split.bat",
+        "SHA256": "169CA50FE6B1E8B9FDE2909AF90BB2EE5CF6BEE77368EBE751549DE04907028E",
+        "Characters": 621
+      },
+      {
+        "Name": "PDF Split.md",
+        "SHA256": "B4C1A81817A380D42D555661D407920875BBFF130922F9AE54A39B627C02D59B",
+        "Characters": 4272
+      },
+      {
+        "Name": "PDF Split.ps1",
+        "SHA256": "1293E16540EA6302368AD0D5219269712D8054C50C373CDF4BC89AF6C971C1BB",
+        "Characters": 814
+      }
+    ]
+  },
+  {
+    "Name": "PDF To Images",
+    "Path": "Tools\\PDF\\PDF To Images\\PDF To Images.bat",
+    "Description": "تصيير صفحات PDF كصور PNG ملونة مستقلة، بحد أول 100 صفحة.",
+    "Files": [
+      {
+        "Name": "PDF To Images.bat",
+        "SHA256": "F0C7B07CB29656D88F04E301661AC0DFCDE416451906ED89385B52DFBB75B293",
+        "Characters": 629
+      },
+      {
+        "Name": "PDF To Images.md",
+        "SHA256": "90360BC6D90F6A1457B96F8CACCBC95AD1AAC25BC2BD5A2787B6B649717079E7",
+        "Characters": 4333
+      },
+      {
+        "Name": "PDF To Images.ps1",
+        "SHA256": "EEE97019D6CFEA70FF7D344496DB8AD344DEA4CF3D6B496FA3DEFCE868E6BA75",
+        "Characters": 892
+      }
+    ]
+  },
+  {
+    "Name": "PDF Text",
+    "Path": "Tools\\PDF\\PDF Text\\PDF Text.bat",
+    "Description": "استخراج طبقة النص الموجودة في PDF إلى ملف UTF-8 مستقل.",
+    "Files": [
+      {
+        "Name": "PDF Text.bat",
+        "SHA256": "5279FCBA127AC5098F287F461F0442752D59D84A8B5D0FB0C1BC8078EBC1B53A",
+        "Characters": 619
+      },
+      {
+        "Name": "PDF Text.md",
+        "SHA256": "A01CCE542D7F84766CA4A7244D7F15531601B51F2FF5FD26469F925C28BCA5BD",
+        "Characters": 4244
+      },
+      {
+        "Name": "PDF Text.ps1",
+        "SHA256": "6F26F9EAF9B2413096A0D8D2485AE4B6E2D48FD058F44BFF1807BC2BE13AF97E",
+        "Characters": 935
+      }
+    ]
+  },
+  {
+    "Name": "Rename Copies",
+    "Path": "Tools\\UTI\\Rename Copies\\Rename Copies.bat",
+    "Description": "إنشاء نسخ بأسماء رقمية مرتبة مع خريطة تربط الاسم الأصلي بالاسم الجديد.",
+    "Files": [
+      {
+        "Name": "Rename Copies.bat",
+        "SHA256": "2349F91EE9F30ACD25E5E486DF023220F26551F0BAFADD585A658103A6482283",
+        "Characters": 629
+      },
+      {
+        "Name": "Rename Copies.md",
+        "SHA256": "E85E473C1CACA14EC07DB40E0945707CB349F78018809337091B475BA545FB00",
+        "Characters": 4324
+      },
+      {
+        "Name": "Rename Copies.ps1",
+        "SHA256": "4D1F76E6F97FE8E6701227CB24F298BE24DB502A366AAFD9F0CB2C8167B28085",
+        "Characters": 926
+      }
+    ]
+  },
+  {
+    "Name": "Sort Copies",
+    "Path": "Tools\\UTI\\Sort Copies\\Sort Copies.bat",
+    "Description": "توزيع نسخ الملفات المباشرة إلى مجلد لكل امتداد.",
+    "Files": [
+      {
+        "Name": "Sort Copies.bat",
+        "SHA256": "E7E5EDD7E566DC8E6543FE052B6669BF0DBF865C47C6CAB3106A18DCD078CFA1",
+        "Characters": 625
+      },
+      {
+        "Name": "Sort Copies.md",
+        "SHA256": "49A96F3ABFD5ADAED8F299F6512EF523B00B8DC1D9606C5F8FE5C41F0765F80D",
+        "Characters": 4237
+      },
+      {
+        "Name": "Sort Copies.ps1",
+        "SHA256": "5983852DBF14FB6CC05E1C082E2DC35156D8CEAC4AC5AEC5714277FAD2829D61",
+        "Characters": 1002
+      }
+    ]
+  },
+  {
+    "Name": "Text Encoding",
+    "Path": "Tools\\UTI\\Text Encoding\\Text Encoding.bat",
+    "Description": "قراءة UTF-8 الصالح أو UTF-16 ذي BOM وكتابة نسخة UTF-8 دون تخمين ترميزات ANSI.",
+    "Files": [
+      {
+        "Name": "Text Encoding.bat",
+        "SHA256": "CEBCBC2FD6FD956780027DE6E0C4BB6B6C468738976B3CBF1841DE33DA57395C",
+        "Characters": 629
+      },
+      {
+        "Name": "Text Encoding.md",
+        "SHA256": "4075324860A3A8A510D79CACF183F2F7EB0392165BDF9B6E4BE2A772244C87C4",
+        "Characters": 4361
+      },
+      {
+        "Name": "Text Encoding.ps1",
+        "SHA256": "B635A525F286D4A90A6C04CC9D588FF66CCB76E77AB7940DA41D613A9B033E1C",
+        "Characters": 1960
+      }
+    ]
+  },
+  {
+    "Name": "Folder Compare",
+    "Path": "Tools\\UTI\\Folder Compare\\Folder Compare.bat",
+    "Description": "مقارنة ملفات Input/Left و Input/Right recursively بحسب الاسم النسبي والحجم و SHA-256.",
+    "Files": [
+      {
+        "Name": "Folder Compare.bat",
+        "SHA256": "DB8D6831E09718A381028CF1445AB2529752A05012AC03D42D87A7B621AFBA22",
+        "Characters": 631
+      },
+      {
+        "Name": "Folder Compare.md",
+        "SHA256": "40E897E637ABCFEC6576AD3398C6928EBA29B46F21E4AD682B73FB91AA09D995",
+        "Characters": 4379
+      },
+      {
+        "Name": "Folder Compare.ps1",
+        "SHA256": "197F2C913B43C35C8623161314065E794F0C3D3077198158029C744D5D824A2B",
+        "Characters": 1670
+      }
+    ]
+  },
+  {
+    "Name": "JSON Format",
+    "Path": "Tools\\UTI\\JSON Format\\JSON Format.bat",
+    "Description": "التحقق من مستند JSON وتنسيق المسافات دون إعادة تفسير الأرقام والتواريخ أو إعادة ترتيب المفاتيح.",
+    "Files": [
+      {
+        "Name": "JSON Format.bat",
+        "SHA256": "300FCD393F463A1361D42D4ED556E9C66415720D3DDA34C23918E2D4FF4A140D",
+        "Characters": 625
+      },
+      {
+        "Name": "JSON Format.md",
+        "SHA256": "15E8F9FBBB720CD2702459F0BADFB21F76D497DE15EAD74B99F2EA833E04EFCD",
+        "Characters": 4436
+      },
+      {
+        "Name": "JSON Format.ps1",
+        "SHA256": "6D6A99DE89205B178D16FC0C0F5CF50B142EF87E5031E186E59FBD61E1C87C24",
+        "Characters": 4626
+      }
+    ]
+  },
+  {
+    "Name": "Network Info",
+    "Path": "Tools\\NET\\Network Info\\Network Info.bat",
+    "Description": "إنشاء تقرير عن محولات الشبكة والعناوين وبوابات الاتصال وخوادم DNS من واجهات Windows المحلية.",
+    "Files": [
+      {
+        "Name": "Network Info.bat",
+        "SHA256": "0D21EA8091CD1B2A3DD1D06811D1A1C098F1B28CD56C9E028D46812DBF1C4DFA",
+        "Characters": 627
+      },
+      {
+        "Name": "Network Info.md",
+        "SHA256": "C48215CE093D5E21197567B059C6D8E4594DF48081B60CF9F61F33E63CADB88E",
+        "Characters": 4364
+      },
+      {
+        "Name": "Network Info.ps1",
+        "SHA256": "F570336816B2556B4DA8142D6FBC3EF62C39017C5DCF41B2A98884E6441AAB19",
+        "Characters": 1445
+      }
+    ]
+  },
+  {
+    "Name": "Ping Host",
+    "Path": "Tools\\NET\\Ping Host\\Ping Host.bat",
+    "Description": "أربع طلبات ICMP بمهلة ثانية لكل طلب، وحفظ حالة كل محاولة في CSV.",
+    "Files": [
+      {
+        "Name": "Ping Host.bat",
+        "SHA256": "E462FFD566B036B212A6A80E86740BC0024018DB7B60370546DB80104BB54276",
+        "Characters": 621
+      },
+      {
+        "Name": "Ping Host.md",
+        "SHA256": "ED2328F55357FBFFE627D79A33F27B0335274AFF6058E099D9AE87B1B36C536D",
+        "Characters": 4349
+      },
+      {
+        "Name": "Ping Host.ps1",
+        "SHA256": "568D4DE1EB528836DD776C68A50E2861E10E1C005465C1F4BBF0FB5D404F3E3A",
+        "Characters": 1893
+      }
+    ]
+  }
+]

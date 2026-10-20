@@ -28,7 +28,7 @@ try {
         $manual=[IO.Path]::ChangeExtension((Join-Path $root $tool.Path),'.md');$text=Get-Content -LiteralPath $manual -Raw -Encoding UTF8
         foreach($term in @('Input','Output','--defaults','--check','مثال','خيارات','المتطلبات','القيود')){if($text -notmatch [regex]::Escape($term)){throw ('Incomplete manual '+$tool.Name+': '+$term)}}
     }
-    $results.Add([pscustomobject]@{Test='Individual manual coverage';Passed=$true;Detail='55 separate per-BAT manuals cover inputs, outputs, requirements, menus, examples, errors and limits.'})
+    $results.Add([pscustomobject]@{Test='Individual manual coverage';Passed=$true;Detail='All registered per-BAT manuals cover inputs, outputs, requirements, menus, examples, errors and limits.'})
 }catch{$results.Add([pscustomobject]@{Test='Original design comparison';Passed=$false;Detail=$_.Exception.Message})}
 $results|ConvertTo-Json -Depth 4|Set-Content -LiteralPath (Join-Path $PSScriptRoot 'original-comparison-results.json') -Encoding UTF8
 $results|ForEach-Object{Write-Host ($(if($_.Passed){'PASS '}else{'FAIL '})+$_.Test+': '+$_.Detail)}

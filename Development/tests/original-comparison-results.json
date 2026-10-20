@@ -112,6 +112,6 @@
     {
         "Test":  "Individual manual coverage",
         "Passed":  true,
-        "Detail":  "55 separate per-BAT manuals cover inputs, outputs, requirements, menus, examples, errors and limits."
+        "Detail":  "All registered per-BAT manuals cover inputs, outputs, requirements, menus, examples, errors and limits."
     }
 ]

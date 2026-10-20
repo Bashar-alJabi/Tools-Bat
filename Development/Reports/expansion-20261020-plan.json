@@ -1,0 +1,236 @@
+[
+  {
+    "Name": "Image Duplicates",
+    "Category": "IMG",
+    "Dependency": "magick",
+    "Title": "البحث عن صور متشابهة بصريًا",
+    "Description": "مقارنة dHash مع بصمة SHA-256 لتمييز التطابق بالبايتات عن التشابه التقريبي؛ تقرير مجموعات دون حذف.",
+    "Menu": "[1] مسافة Hamming حتى 5؛ [2] حتى 10؛ [3] قيمة مخصصة 0–16. الافتراضي 1.",
+    "Formats": "JPG/JPEG/PNG/WebP/BMP/TIF/TIFF/AVIF ثابتة، حتى 500 صورة.",
+    "Output": "Output/similarity/pairs.csv وimages.csv؛ درجة التشابه تخص dHash فقط.",
+    "Example": "نسخة مصغرة من photo.jpg باسم small.png تُدرج كمرشح تقريبي، ونسخة بايتية تحمل BytesIdentical.",
+    "Limits": "الخوارزمية تقريبية وتتجاهل اللون، وقد تجمع صورًا مختلفة ذات توزيع إضاءة مشابه؛ راجع المجموعات بصريًا. الصور المتحركة مرفوضة.",
+    "Batch": "A",
+    "Index": 1
+  },
+  {
+    "Name": "Image to PDF",
+    "Category": "IMG",
+    "Dependency": "magick",
+    "Title": "تحويل الصور إلى مستند PDF",
+    "Description": "تجميع صور مرتبة بالاسم في صفحات PDF مستقلة مع خلفية بيضاء وخيارات ورق.",
+    "Menu": "[1] A4 عمودي؛ [2] A4 أفقي؛ [3] أبعاد الصورة عند 150 DPI. الافتراضي 1.",
+    "Formats": "صور ثابتة JPG/JPEG/PNG/WebP/BMP/TIF/TIFF/AVIF، حتى 200 صورة.",
+    "Output": "Output/images.pdf، صفحة لكل صورة.",
+    "Example": "001-front.png و002-back.jpg ينتجان مستندًا من صفحتين بالترتيب نفسه.",
+    "Limits": "A4 يُرسم عند 150 DPI وقد يغيّر عدد بكسلات الصورة؛ هذا ليس دمج PDF قائم. تُرفض الصور متعددة الإطارات. إذا منعت سياسة ImageMagick كتابة PDF تظهر رسالة فشل دون تغيير السياسة.",
+    "Batch": "A",
+    "Index": 2
+  },
+  {
+    "Name": "Image Compare",
+    "Category": "IMG",
+    "Dependency": "magick",
+    "Title": "مقارنة صورتين وإظهار اختلافهما",
+    "Description": "يحسب RMSE ويكتب صورة توضح الفروق؛ لا يمدد الصور تلقائيًا.",
+    "Menu": "[1] مقارنة صورتي Left وRight بأبعادهما الأصلية؛ [Q] خروج.",
+    "Formats": "صورة ثابتة واحدة في Input/Left وأخرى في Input/Right، من صيغ الصور المعتادة.",
+    "Output": "Output/difference/diff.png وcomparison.csv وفيه NormalizedRMSE وIdenticalPixels.",
+    "Example": "ضع before.png في Left وafter.png في Right؛ قيمة RMSE صفر تعني تطابق البكسلات.",
+    "Limits": "الأبعاد المختلفة مرفوضة؛ يدعم إطارًا واحدًا فقط. التطابق البكسلي لا يعني تطابق بيانات الملف أو metadata.",
+    "Batch": "A",
+    "Index": 3
+  },
+  {
+    "Name": "Image Collage",
+    "Category": "IMG",
+    "Dependency": "magick",
+    "Title": "تركيب صور بتخطيط غير منتظم",
+    "Description": "ثلاث صور: صورة رئيسية كبيرة وصورتان أصغر، أو صورة رئيسية علوية مع صورتين تحتها؛ مختلف عن شبكة Contact Sheet.",
+    "Menu": "[1] رئيسية يسار 1200×800؛ [2] رئيسية أعلى 1200×1000؛ [3] يسار مع عرض 400–6000 وفاصل 0–100 ولون #RRGGBB. الافتراضي 1: فاصل20 وخلفية بيضاء.",
+    "Formats": "ثلاث صور ثابتة بالضبط، مرتبة بأسمائها.",
+    "Output": "Output/collage.png.",
+    "Example": "001-hero.jpg ثم 002.jpg و003.jpg؛ الخيار1 يضع الأولى في المساحة الكبيرة اليسرى.",
+    "Limits": "التعبئة بقص مركزي وليست تمديدًا؛ قد تقطع أطرافًا. لا يدعم نصوصًا أو رسومًا متحركة.",
+    "Batch": "A",
+    "Index": 4
+  },
+  {
+    "Name": "Image Auto Orient",
+    "Category": "IMG",
+    "Dependency": "magick",
+    "Title": "تصحيح اتجاه EXIF فقط",
+    "Description": "يفحص Orientation؛ يدير أو يعكس الصورة عند حاجتها، وينسخ الصور السليمة كما هي دون إعادة ترميز.",
+    "Menu": "[1] تصحيح EXIF أو نسخ مطابق إذا لم يلزم؛ [Q] خروج.",
+    "Formats": "صور ثابتة JPG/JPEG/PNG/WebP/BMP/TIF/TIFF/AVIF.",
+    "Output": "Output/photo.jpg.oriented.jpg مثلًا، بنفس امتداد المصدر.",
+    "Example": "صورة هاتف ذات RightTop تتحول لاتجاه عرض صحيح؛ صورة بلا Orientation تُنسخ ببايتاتها.",
+    "Limits": "الصور التي يلزم تصحيحها قد يعاد ترميزها، بخلاف الصور المنسوخة. لا يستنتج اتجاه المشهد بصريًا ولا يصلح EXIF خاطئًا.",
+    "Batch": "A",
+    "Index": 5
+  },
+  {
+    "Name": "Image Color Palette",
+    "Category": "IMG",
+    "Dependency": "magick",
+    "Title": "استخراج لوحة الألوان السائدة",
+    "Description": "تكميم ألوان الصورة وإنشاء قائمة بتكرار الألوان وشريط عينات؛ بديل Image Add Text المتداخلة مع Image Watermark.",
+    "Menu": "[1] 8 ألوان؛ [2] 16 لونًا؛ [3] 4 ألوان. الافتراضي 1.",
+    "Formats": "صور ثابتة JPG/JPEG/PNG/WebP/BMP/TIF/TIFF/AVIF.",
+    "Output": "Output/photo.png.palette/colors.csv وswatches.png.",
+    "Example": "صورة حمراء وزرقاء تعطي صفين تقريبًا مع تكراراتهما وصورة عينات.",
+    "Limits": "ألوان ممثلة بعد التكميم، وليست قائمة بكل لون أصلي. تُركب الشفافية على أبيض وتُرفض الصور المتحركة.",
+    "Batch": "A",
+    "Index": 6
+  },
+  {
+    "Name": "Image Format Report",
+    "Category": "IMG",
+    "Dependency": "magick",
+    "Title": "إحصاءات جماعية لصيغ وأحجام الصور",
+    "Description": "CSV مجمع وJSON يلخص العدد والحجم وتوزيع الصيغ وأكبر الصور؛ يختلف عن Image Info الفردي.",
+    "Menu": "[1] تقرير جماعي للصور المباشرة؛ [Q] خروج.",
+    "Formats": "JPG/JPEG/PNG/WebP/BMP/TIF/TIFF/GIF/AVIF؛ الإحصاءات الهندسية تخص أول إطار.",
+    "Output": "Output/image-report/images.csv وsummary.json.",
+    "Example": "مجلد فيه JPEG وPNG ينتج CountsByFormat وTotalBytes وأكبر10 بالحجم والبكسلات.",
+    "Limits": "لا يعدل الملفات، ولا يعتبر الامتداد دليلًا على الصيغة؛ يقرأ الصيغة الفعلية. الملف التالف يفشل التقرير كله دون نشر تقرير جزئي.",
+    "Batch": "A",
+    "Index": 7
+  },
+  {
+    "Name": "Video Merge",
+    "Category": "VID",
+    "Dependency": "ffmpeg",
+    "AdditionalDependencies": [
+      "ffprobe"
+    ],
+    "Title": "دمج مقاطع الفيديو بالترتيب",
+    "Description": "دمج تلقائي مباشر عند تطابق خصائص المسارات، وإلا توحيد H.264/AAC مع إطارات مناسبة؛ ليس مزج الصوت في فيديو.",
+    "Menu": "[1] تلقائي؛ [2] توحيد دائم 1280×720 و30FPS وصوت48k stereo؛ [3] نسخ مسارات متطابقة فقط. الافتراضي1.",
+    "Output": "Output/merged.mp4.",
+    "Example": "001.mp4 و002.mp4 ينتجان مقطعًا متتابعًا؛ يطبع المسار المختار.",
+    "Limits": "مقطعان إلى50؛ يأخذ أول فيديو وأول صوت فقط، ولا ينقل الترجمات والفصول. التوحيد يعيد الترميز وقد يغيّر الجودة؛ عدم تطابق أي خصائص يمنع النسخ المباشر.",
+    "Formats": "MP4/MKV/MOV/AVI/M4V/WebM؛ حسب توفر مفكك الترميز في FFmpeg.",
+    "Batch": "A",
+    "Index": 8
+  },
+  {
+    "Name": "Video Screenshot at Time",
+    "Category": "VID",
+    "Dependency": "ffmpeg",
+    "AdditionalDependencies": [
+      "ffprobe"
+    ],
+    "Title": "استخراج لقطة عند ثانية محددة",
+    "Description": "صورة واحدة من وقت دقيق يحدده المستخدم؛ Video Thumbnail القديمة تبدأ عند الإطار الأول ولا تتيح اختيار الوقت.",
+    "Menu": "[1] عند1 ثانية؛ [2] وقت مخصص 0–86400 ثانية بدقة حتى3 منازل. الافتراضي1.",
+    "Output": "Output/clip.mp4.at-time.png.",
+    "Example": "اختر2 وأدخل1.5 لالتقاط الإطار عند1.5 ثانية.",
+    "Limits": "الوقت يجب أن يكون قبل نهاية الفيديو؛ الدقة محدودة بمعدل الإطارات. يُستخدم أول مسار فيديو ولا تُنتج سلسلة صور.",
+    "Formats": "MP4/MKV/MOV/AVI/M4V/WebM؛ حسب توفر مفكك الترميز في FFmpeg.",
+    "Batch": "A",
+    "Index": 9
+  },
+  {
+    "Name": "Video Watermark",
+    "Category": "VID",
+    "Dependency": "ffmpeg",
+    "AdditionalDependencies": [
+      "ffprobe"
+    ],
+    "Title": "إضافة شعار إلى الفيديو",
+    "Description": "شعار واحد مع قياس نسبي وشفافية فوق كل فيديو، مع إعادة ترميز النسخة.",
+    "Menu": "[1] أسفل اليمين، عرض20% وشفافية60%؛ [2] أعلى اليسار بالقيم نفسها؛ [3] موضع من خمسة، وعرض1–80%، وشفافية1–100%. الافتراضي1.",
+    "Output": "Output/clip.mp4.watermarked.mp4.",
+    "Example": "ضع logo.png في Watermark وclip.mp4 في Input ثم اختر1.",
+    "Limits": "صورة شعار ثابتة واحدة؛ يخرج أول فيديو وأول صوت اختياري H.264/AAC، ولا ينقل مسارات إضافية. احتفظ بهوامش داخل الشعار إذا أردت إبعاد الرسم عن الحواف.",
+    "Formats": "MP4/MKV/MOV/AVI/M4V/WebM؛ حسب توفر مفكك الترميز في FFmpeg.",
+    "Batch": "A",
+    "Index": 10
+  },
+  {
+    "Name": "Video Subtitles Burn",
+    "Category": "VID",
+    "Dependency": "ffmpeg",
+    "AdditionalDependencies": [
+      "ffprobe"
+    ],
+    "Title": "حرق الترجمة داخل الصورة",
+    "Description": "يربط كل فيديو بترجمة SRT أوASS لها الاسم الأساسي نفسه في Input/Subtitles، ويتحقق من subtitles filter.",
+    "Menu": "[1] حرق ترجمة مطابقة بالاسم باستخدام خطوط النظام؛ [Q] خروج.",
+    "Output": "Output/clip.mp4.subtitled.mp4.",
+    "Example": "clip.mp4 مع Input/Subtitles/clip.srt. العربية يجب أن تكون UTF-8 مع خط يدعمها.",
+    "Limits": "الحرق دائم في النسخة الجديدة؛ العربية تعتمد على libass وخطوط الجهاز. ASS قد يغير الخط والتنسيق. لا OCR ولا ترجمة آلية؛ غياب المرشح يوقف --check.",
+    "Formats": "MP4/MKV/MOV/AVI/M4V/WebM؛ حسب توفر مفكك الترميز في FFmpeg.",
+    "Batch": "A",
+    "Index": 11
+  },
+  {
+    "Name": "Video Extract Subtitles",
+    "Category": "VID",
+    "Dependency": "ffmpeg",
+    "AdditionalDependencies": [
+      "ffprobe"
+    ],
+    "Title": "استخراج مسارات الترجمة الأصلية",
+    "Description": "يستخرج المسارات النصية إلى SRT أوASS، والصورية إلىSUP أوMKS دون تحويلها إلى نص.",
+    "Menu": "[1] استخراج جميع مسارات الترجمة؛ [Q] خروج.",
+    "Output": "Output/clip.mkv.subtitles/track-INDEX.srt أو.ass أو.sup أو.mks، ومعهاtracks.csv.",
+    "Example": "فيديو ذو مساريSRT ينتج ملفين مع فهرس المصدر والترميز.",
+    "Limits": "غياب الترجمات يظهر كفشل ملف مفهوم. ASS يحتفظ بصيغته؛ PGS يبقىSUP والصور الأخرى تُنسخ إلىMKS إن قبلتها الحاوية. لا OCR، وقد تتعذر حاوية لبعض الترميزات.",
+    "Formats": "MP4/MKV/MOV/AVI/M4V/WebM؛ حسب توفر مفكك الترميز في FFmpeg.",
+    "Batch": "A",
+    "Index": 12
+  },
+  {
+    "Name": "Video Add Subtitle Track",
+    "Category": "VID",
+    "Dependency": "ffmpeg",
+    "AdditionalDependencies": [
+      "ffprobe"
+    ],
+    "Title": "إضافة ترجمة قابلة للإيقاف",
+    "Description": "إضافة SRT/ASS كمسار جديد داخل Matroska مع نسخ الفيديو والصوت والترجمات الموجودة.",
+    "Menu": "[1] إضافة ملف مطابق بالاسم من Input/Subtitles؛ [Q] خروج.",
+    "Output": "Output/clip.mp4.with-subtitle.mkv.",
+    "Example": "clip.mp4 وInput/Subtitles/clip.srt ينتجان MKV بترجمة اختيارية.",
+    "Limits": "لا يحرق النص في الصورة ولا يعيد ترميز الفيديو والصوت. بعض الترميزات لا تقبلها Matroska؛ عند فشل النسخ لا تنشر نتيجة. يجب وجود ترجمة واحدة مطابقة.",
+    "Formats": "MP4/MKV/MOV/AVI/M4V/WebM؛ حسب توفر مفكك الترميز في FFmpeg.",
+    "Batch": "A",
+    "Index": 13
+  },
+  {
+    "Name": "Video Remove Black Bars",
+    "Category": "VID",
+    "Dependency": "ffmpeg",
+    "AdditionalDependencies": [
+      "ffprobe"
+    ],
+    "Title": "معاينة اقتراح إزالة الحواف السوداء",
+    "Description": "يفحص أول30 ثانية ويعرض قصًا محافظًا ويكتب لقطة معاينة؛ القص الفعلي يتطلب موافقة APPLY لكل فيديو.",
+    "Menu": "[1] تقرير ومعاينة فقط؛ [2] عرض الاقتراح ثم طلب APPLY لإنشاء نسخة مقصوصة. --defaults معاينة فقط.",
+    "Output": "Output/clip.mp4.crop-preview/crop.csv وpreview.png، ومعهاcropped.mp4 إذا وافقت.",
+    "Example": "الفيديو المحاط بإطار أسود يعطي CropWidth/CropHeight وX/Y قبل أي قص فعلي.",
+    "Limits": "كشف تقريبي على عينة زمنية؛ قد لا يكتشف الحواف أو يفسر مشهدًا مظلمًا كحافة. افحص الأبعاد والمعاينة ولا تعتمد على الاكتشاف وحده؛ القص يعيد ترميز H.264/AAC.",
+    "Formats": "MP4/MKV/MOV/AVI/M4V/WebM؛ حسب توفر مفكك الترميز في FFmpeg.",
+    "Batch": "A",
+    "Index": 14
+  },
+  {
+    "Name": "Video Audio Sync",
+    "Category": "VID",
+    "Dependency": "ffmpeg",
+    "AdditionalDependencies": [
+      "ffprobe"
+    ],
+    "Title": "تقديم أو تأخير الصوت",
+    "Description": "إزاحة أول مسار صوت بالنسبة لأول فيديو؛ الموجب يؤخر الصوت والسالب يقدم بدايته.",
+    "Menu": "[1] تأخير0.250 ثانية؛ [2] قيمة موقعة من-60 إلى60 بثلاث منازل عشرية كحد أقصى. الافتراضي1.",
+    "Output": "Output/clip.mp4.synced.mkv.",
+    "Example": "أدخل-0.500 لإزالة نصف ثانية من بداية الصوت وتقديم الباقي.",
+    "Limits": "الفيديو ينسخ والصوت يعاد ترميزهAAC؛ تُملأ النهاية/البداية بصمت للمحافظة على مدة الفيديو. السالب يزيل عينات البداية من النسخة فقط. يتطلب صوتًا ومدة صالحة ولا ينقل بقية المسارات.",
+    "Formats": "MP4/MKV/MOV/AVI/M4V/WebM؛ حسب توفر مفكك الترميز في FFmpeg.",
+    "Batch": "A",
+    "Index": 15
+  }
+]
