@@ -1,0 +1,17 @@
+{
+  "DateUTC": "2026-10-21T08:48:47.2720392Z",
+  "Branch": "codex-improvements",
+  "OriginalRuntimeFilesUnchanged": 1120,
+  "PreviousImageMagickFilesPreserved": 404,
+  "Backup": "Development/tests/_work/portability-20261021-before/imagemagick-7.1.2-30",
+  "ToolFilesChanged": [],
+  "NewImageMagick": {
+    "Bytes": 12019095,
+    "Consent": "Explicit interactive user approval during portability audit",
+    "SHA256": "8DCFD3644B7FC20A92AEEDEB4798024E5947F25F4D7C0C313C883FBCA3D723E6",
+    "Url": "https://github.com/ImageMagick/ImageMagick/releases/download/7.1.2-34/ImageMagick-7.1.2-34-portable-Q16-HDRI-x64.7z",
+    "InstallerExecuted": false
+  },
+  "OldDistributionsDeleted": [],
+  "OtherRuntimesDownloaded": []
+}

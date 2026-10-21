@@ -16,11 +16,22 @@ function ConvertTo-NativeArgument([string]$Value) {
     # CommandLineToArgvW / Microsoft CRT quoting; never invoke cmd.exe.
     '"' + [regex]::Replace([regex]::Replace($Value, '(\\*)"', '$1$1\"'), '(\\+)$', '$1$1') + '"'
 }
+function Set-GhostscriptProcessEnvironment($Info,[string]$GSRoot,[string]$Dll) {
+    $Info.EnvironmentVariables['GS_OPTIONS']=''
+    $Info.EnvironmentVariables['GS_DLL']=$Dll
+    $libraries=@('%rom%Resource/Init/','%rom%lib/')
+    foreach($relative in @('lib','Resource\Init','Resource\Font','fonts','iccprofiles')){
+        $library=Join-Path $GSRoot $relative
+        if(Test-Path -LiteralPath $library){$libraries+=$library}
+    }
+    $Info.EnvironmentVariables['GS_LIB']=$libraries -join ';'
+}
 function Invoke-Native([string]$Executable, [string[]]$Arguments, [int]$Timeout = 0, [string]$InputText = '') {
     $info = New-Object Diagnostics.ProcessStartInfo
     $info.FileName = $Executable
     $info.Arguments = (($Arguments | ForEach-Object { ConvertTo-NativeArgument $_ }) -join ' ')
     $info.UseShellExecute = $false
+    if (Get-Variable NativeWorkingDirectory -Scope Script -ErrorAction SilentlyContinue) { $info.WorkingDirectory = $script:NativeWorkingDirectory }
     if ([IO.Path]::GetFileName($Executable) -ieq 'powershell.exe') {
         $info.EnvironmentVariables['PSModulePath'] = (Join-Path $env:SystemRoot 'System32\WindowsPowerShell\v1.0\Modules') + ';' + (Join-Path $env:ProgramFiles 'WindowsPowerShell\Modules')
     }
@@ -31,18 +42,30 @@ function Invoke-Native([string]$Executable, [string[]]$Arguments, [int]$Timeout 
         $info.EnvironmentVariables['MAGICK_CONFIGURE_PATH']=$executableDirectory
         $coders=Join-Path $executableDirectory 'modules\coders'
         if(Test-Path -LiteralPath $coders){$info.EnvironmentVariables['MAGICK_CODER_MODULE_PATH']=$coders}
+        $filters=Join-Path $executableDirectory 'modules\filters'
+        if(Test-Path -LiteralPath $filters){$info.EnvironmentVariables['MAGICK_FILTER_MODULE_PATH']=$filters}
+        # ImageMagick's Windows DLL delegate otherwise discovers GS in Registry.
+        $localGS=Join-Path $script:ProjectRoot 'System\Bin\ghostscript'
+        if(Test-Path -LiteralPath $localGS){
+            $dll=Get-SafeFiles $localGS @('.dll') -Recurse|Where-Object Name -in @('gsdll64.dll','gsdll32.dll')|Sort-Object Name -Descending|Select-Object -First 1
+            if($dll){
+                # ImageMagick interpolates the GS executable into a printf template.
+                # A relative path removes a project-root '%' from that template.
+                $nativeBase=if($info.WorkingDirectory){$info.WorkingDirectory}else{[Environment]::CurrentDirectory}
+                $baseUri=New-Object Uri([IO.Path]::GetFullPath($nativeBase).TrimEnd('\')+'\')
+                $gsUri=New-Object Uri($dll.DirectoryName.TrimEnd('\')+'\')
+                $gsRelative=[uri]::UnescapeDataString($baseUri.MakeRelativeUri($gsUri).ToString()).Replace('/','\')
+                $info.EnvironmentVariables['MAGICK_GHOSTSCRIPT_PATH']=if($gsRelative -and -not [IO.Path]::IsPathRooted($gsRelative) -and $gsRelative -notmatch '%'){$gsRelative}else{$dll.DirectoryName}
+                $localGSRoot=if($dll.Directory.Name -ieq 'bin'){$dll.Directory.Parent.FullName}else{$dll.DirectoryName}
+                Set-GhostscriptProcessEnvironment $info $localGSRoot $dll.FullName
+            }
+        }
     }
     if($executableName -imatch '^gswin(32|64)c\.exe$') {
-        $info.EnvironmentVariables['GS_OPTIONS']=''
         $gsHome=if([IO.Path]::GetFileName($executableDirectory) -ieq 'bin'){[IO.Path]::GetDirectoryName($executableDirectory)}else{$executableDirectory}
-        $gsLibraries=@('%rom%Resource/Init/','%rom%lib/')
-        foreach($relative in @('lib','Resource\Init','Resource\Font','fonts','iccprofiles')){
-            $library=Join-Path $gsHome $relative
-            if(Test-Path -LiteralPath $library){$gsLibraries+=$library}
-        }
-        $info.EnvironmentVariables['GS_LIB']=$gsLibraries -join ';'
+        $dll=Join-Path $executableDirectory $(if($executableName -imatch '64'){'gsdll64.dll'}else{'gsdll32.dll'})
+        Set-GhostscriptProcessEnvironment $info $gsHome $dll
     }
-    if (Get-Variable NativeWorkingDirectory -Scope Script -ErrorAction SilentlyContinue) { $info.WorkingDirectory = $script:NativeWorkingDirectory }
     $info.CreateNoWindow = $true
     $info.RedirectStandardOutput = $true
     $info.RedirectStandardError = $true
@@ -137,7 +160,8 @@ function Get-Dependency([ValidateSet('ffmpeg','ffprobe','magick','ghostscript','
             }
             if ($valid -and $Name -eq 'magick') {
                 $capabilities=Invoke-Native $candidate @('-list','format') 15000
-                $valid=$capabilities.Code -eq 0 -and $capabilities.Out -match '(?m)^\s*PNG\*?\s+PNG\s+rw' -and $capabilities.Out -match '(?m)^\s*JPEG\*?\s+JPEG\s+rw'
+                # Static portable builds omit the separate Module column.
+                $valid=$capabilities.Code -eq 0 -and $capabilities.Out -match '(?m)^\s*PNG\*?\s+(?:PNG\s+)?rw' -and $capabilities.Out -match '(?m)^\s*JPEG\*?\s+(?:JPEG\s+)?rw'
             }
             if ($valid -and $Name -eq 'ghostscript') {
                 $capabilities=Invoke-Native $candidate @('-h') 15000

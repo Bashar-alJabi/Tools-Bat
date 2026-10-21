@@ -1,0 +1,623 @@
+﻿{
+    "DateUTC":  "2026-10-21T08:51:47.7454646Z",
+    "Archive":  "dist\\tOOls Bat 100 portable 20261021-114809-249.zip",
+    "ExtractedRoot":  "\u003cPROJECT_ROOT\u003e\\Development\\tests\\_work\\r-b69e0844\\USB نقل \u0026 ! %X% [1]",
+    "LocalOnly":  true,
+    "Results":  [
+                    {
+                        "Test":  "All 55 BAT bodies preserved",
+                        "Passed":  true,
+                        "Detail":  "Compared with ed2f937; only the shared runtime path changed, including original menus and defaults."
+                    },
+                    {
+                        "Test":  "Real ZIP extraction and hashes",
+                        "Passed":  true,
+                        "Detail":  "New Arabic/spaces/metacharacter path; expected Tools/System layout; all hashes matched; no development or personal data."
+                    },
+                    {
+                        "Test":  "Background Color Remover extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Image Compression extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Image Convert extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Image Crop extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Image Enhance extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Image Contact Sheet extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Image Metadata Cleaner extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Image Resize extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Image Watermark extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Compress Video extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Convert Audio extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Extract Audio extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Increase Volume extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Merge Audio extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Normalize Audio extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Remove Audio extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Replace Audio extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Video FPS Converter extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Video Resolution Converter extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Video Speed extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Video Thumbnail extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Compress PDF extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Merge PDF extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Audio Converter extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Duplicate Finder extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "File Hashes extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "File Inventory extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Media Info extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "ZIP Backup extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "ZIP Extract extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Image Rotate extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Image Flip extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Image Grayscale extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Image Border extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Image Info extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Video Trim extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Video Rotate extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Video To GIF extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Video Remux extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Video Frames extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Audio Trim extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Audio Normalize extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Audio Fade extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Audio Channels extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Audio Concatenate extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "PDF Split extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "PDF To Images extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "PDF Text extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Rename Copies extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Sort Copies extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Text Encoding extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Folder Compare extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "JSON Format extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Network Info extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Ping Host extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Image Duplicates extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Image to PDF extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Image Compare extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Image Collage extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Image Auto Orient extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Image Color Palette extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Image Format Report extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Video Merge extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Video Screenshot at Time extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Video Watermark extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Video Subtitles Burn extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Video Extract Subtitles extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Video Add Subtitle Track extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Video Remove Black Bars extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Video Audio Sync extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Audio to Video extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Video Metadata Report extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Audio Remove Silence extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Audio Split by Silence extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Audio Volume Report extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Audio Reverse extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "PDF Rotate Pages extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "PDF Extract Pages extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "PDF Reorder Pages extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "PDF Metadata Cleaner extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Batch Rename extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Find Large Files extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Empty Folders Report extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Text Find and Replace extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "CSV to JSON extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "PDF Search extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "PDF Add Page Numbers extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "PDF Protect extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "PDF Unlock extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "PDF Watermark extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "PDF Compare extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "PDF Blank Page Remover extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Files to ZIP by Size extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "File Type Organizer extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "File Date Organizer extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Video Contact Sheet extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Subtitle Tools extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Image OCR extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "PDF OCR extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Document Scanner extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Extracted START_HERE check 1",
+                        "Passed":  true,
+                        "Detail":  "All registered programs and OCR languages detected; no download, prompt, registry or persistent PATH change."
+                    },
+                    {
+                        "Test":  "Extracted START_HERE check 2",
+                        "Passed":  true,
+                        "Detail":  "All registered programs and OCR languages detected; no download, prompt, registry or persistent PATH change."
+                    },
+                    {
+                        "Test":  "Release Markdown links",
+                        "Passed":  true,
+                        "Detail":  "Every local link in all exported Markdown files resolves inside the extracted release."
+                    },
+                    {
+                        "Test":  "Image Resize extracted processing",
+                        "Passed":  true,
+                        "Detail":  "Real fixture processing and repeat in extracted ZIP; original input and existing output hashes unchanged."
+                    },
+                    {
+                        "Test":  "Video Speed extracted processing",
+                        "Passed":  true,
+                        "Detail":  "Real fixture processing and repeat in extracted ZIP; original input and existing output hashes unchanged."
+                    },
+                    {
+                        "Test":  "Audio Channels extracted processing",
+                        "Passed":  true,
+                        "Detail":  "Real fixture processing and repeat in extracted ZIP; original input and existing output hashes unchanged."
+                    },
+                    {
+                        "Test":  "PDF Split extracted processing",
+                        "Passed":  true,
+                        "Detail":  "Real fixture processing and repeat in extracted ZIP; original input and existing output hashes unchanged."
+                    },
+                    {
+                        "Test":  "File Inventory extracted processing",
+                        "Passed":  true,
+                        "Detail":  "Real fixture processing and repeat in extracted ZIP; original input and existing output hashes unchanged."
+                    },
+                    {
+                        "Test":  "Network Info extracted processing",
+                        "Passed":  true,
+                        "Detail":  "Real fixture processing and repeat in extracted ZIP; original input and existing output hashes unchanged."
+                    },
+                    {
+                        "Test":  "Image Auto Orient extracted processing",
+                        "Passed":  true,
+                        "Detail":  "Real fixture processing and repeat in extracted ZIP; original input and existing output hashes unchanged."
+                    },
+                    {
+                        "Test":  "Video Audio Sync extracted processing",
+                        "Passed":  true,
+                        "Detail":  "Real fixture processing and repeat in extracted ZIP; original input and existing output hashes unchanged."
+                    },
+                    {
+                        "Test":  "Audio Reverse extracted processing",
+                        "Passed":  true,
+                        "Detail":  "Real fixture processing and repeat in extracted ZIP; original input and existing output hashes unchanged."
+                    },
+                    {
+                        "Test":  "PDF Extract Pages extracted processing",
+                        "Passed":  true,
+                        "Detail":  "Real fixture processing and repeat in extracted ZIP; original input and existing output hashes unchanged."
+                    },
+                    {
+                        "Test":  "Batch Rename extracted processing",
+                        "Passed":  true,
+                        "Detail":  "Real fixture processing and repeat in extracted ZIP; original input and existing output hashes unchanged."
+                    },
+                    {
+                        "Test":  "PDF Add Page Numbers extracted processing",
+                        "Passed":  true,
+                        "Detail":  "Real fixture processing and repeat in extracted ZIP; original input and existing output hashes unchanged."
+                    },
+                    {
+                        "Test":  "File Type Organizer extracted processing",
+                        "Passed":  true,
+                        "Detail":  "Real fixture processing and repeat in extracted ZIP; original input and existing output hashes unchanged."
+                    },
+                    {
+                        "Test":  "File Date Organizer extracted processing",
+                        "Passed":  true,
+                        "Detail":  "Real fixture processing and repeat in extracted ZIP; original input and existing output hashes unchanged."
+                    },
+                    {
+                        "Test":  "Video Contact Sheet extracted processing",
+                        "Passed":  true,
+                        "Detail":  "Real fixture processing and repeat in extracted ZIP; original input and existing output hashes unchanged."
+                    },
+                    {
+                        "Test":  "Image OCR extracted processing",
+                        "Passed":  true,
+                        "Detail":  "Real fixture processing and repeat in extracted ZIP; original input and existing output hashes unchanged."
+                    },
+                    {
+                        "Test":  "PDF OCR extracted processing",
+                        "Passed":  true,
+                        "Detail":  "Real fixture processing and repeat in extracted ZIP; original input and existing output hashes unchanged."
+                    },
+                    {
+                        "Test":  "Document Scanner extracted processing",
+                        "Passed":  true,
+                        "Detail":  "Real fixture processing and repeat in extracted ZIP; original input and existing output hashes unchanged."
+                    }
+                ]
+}

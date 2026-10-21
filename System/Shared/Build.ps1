@@ -1,8 +1,8 @@
-﻿param([ValidateSet('Interactive','Defaults','Check','Help')][string]$Mode='Interactive',[string]$Destination,[switch]$IncludeLocalDependencies)
+param([ValidateSet('Interactive','Defaults','Check','Help')][string]$Mode='Interactive',[string]$Destination,[switch]$IncludeLocalDependencies)
 . (Join-Path $PSScriptRoot 'Core.ps1')
 . (Join-Path $PSScriptRoot 'Archives.ps1')
 try {
-    if($Mode -eq 'Help'){Write-Host 'Build a clean folder and ZIP without tests, logs, user inputs or backups. See BUILD_DISTRIBUTION.md. --defaults excludes local program binaries.';exit 0}
+    if($Mode -eq 'Help'){Write-Host 'Build a clean folder and ZIP without tests, logs, user inputs or backups. --light / --defaults exclude programs; --portable requires all six local executables and OCR resources. See BUILD_DISTRIBUTION.md.';exit 0}
     $catalog=Get-Content -LiteralPath (Join-Path $PSScriptRoot 'tools.json') -Raw -Encoding UTF8|ConvertFrom-Json
     foreach($tool in $catalog){$bat=Join-Path $script:ProjectRoot $tool.Path;if(-not (Test-Path -LiteralPath $bat) -or -not (Test-Path -LiteralPath ([IO.Path]::ChangeExtension($bat,'.md')))){throw ('Missing BAT/manual: '+$tool.Name)}}
     if($Mode -eq 'Check'){Write-Host ('[OK] '+$catalog.Count+' tools with individual manuals.');exit 0}
@@ -15,7 +15,8 @@ try {
         $choice=Read-LocalChoice $Mode @('Tools and START_HERE (no program binaries)','Tools plus existing local System\Bin distributions')
         $IncludeLocalDependencies=$choice -eq 2
     }
-    if(-not $Destination){$Destination=Join-Path $script:ProjectRoot ('dist\tOOls Bat '+[datetime]::Now.ToString('yyyyMMdd-HHmmss-fff'))}
+    $edition=if($IncludeLocalDependencies){'portable'}else{'light'}
+    if(-not $Destination){$Destination=Join-Path $script:ProjectRoot ('dist\tOOls Bat '+$catalog.Count+' '+$edition+' '+[datetime]::Now.ToString('yyyyMMdd-HHmmss-fff'))}
     $Destination=[IO.Path]::GetFullPath($Destination).TrimEnd('\')
     $zipDestination=$Destination+'.zip'
     if(Test-Path -LiteralPath $Destination){throw 'Choose a NEW output folder. Existing distributions are preserved.'}
@@ -44,9 +45,13 @@ try {
             if($tool.Name -eq 'Document Scanner'){Ensure-Directory (Join-Path $target 'Input\Corners')}
         }
         $docDir=Join-Path $stage 'System\Docs';Ensure-Directory $docDir
-        foreach($name in @('DEPENDENCIES.md','DISTRIBUTION.md')){[IO.File]::Copy((Join-Path $script:ProjectRoot ('System\Docs\'+$name)),(Join-Path $docDir $name),$false)}
+        foreach($name in @('DEPENDENCIES.md','DISTRIBUTION.md','PORTABILITY.md')){[IO.File]::Copy((Join-Path $script:ProjectRoot ('System\Docs\'+$name)),(Join-Path $docDir $name),$false)}
         $bin=Join-Path $stage 'System\Bin';Ensure-Directory $bin
         if($IncludeLocalDependencies){
+            foreach($required in @('ffmpeg','ffprobe','magick','ghostscript','qpdf','tesseract')){
+                if(-not (Get-Dependency $required -LocalOnly)){throw ('Full portable edition requires a compatible LOCAL '+$required+'. No installed fallback or download is used by the builder.')}
+            }
+            Write-Host '[INFO] Binary inclusion preserves supplied licenses/notices. See System/Docs/PORTABILITY.md for reviewed licenses and remaining redistribution obligations; this is not a public redistribution clearance.'
             foreach($directory in (Get-ChildItem -LiteralPath (Join-Path $script:ProjectRoot 'System\Bin') -Directory)){
                 $name=if($directory.Name -ieq 'imagemagick'){'magick'}else{$directory.Name.ToLowerInvariant()}
                 if($name -notin @('ffmpeg','magick','ghostscript','qpdf','tesseract')){throw 'Unrecognized local runtime; review its contents and license before including it.'}
@@ -63,7 +68,7 @@ try {
             foreach($directory in (Get-SafeDirectories $source)){Ensure-Directory (Join-Path $bin (Get-RelativeName $source $directory.FullName))}
             foreach($file in $files){$target=Join-Path $bin (Get-RelativeName $source $file.FullName);Ensure-Directory ([IO.Path]::GetDirectoryName($target));[IO.File]::Copy($file.FullName,$target,$false)}
         }
-        $readme=@('# tOOls Bat - Portable distribution','','Windows 10/11; Windows PowerShell 5.1. No Administrator required.','',('Tools: '+$catalog.Count),'- Run START_HERE.bat to check and prepare only the programs you need.','- START_HERE.bat --portable offers consented copies of already installed full program trees.','- Put source files in the chosen tool Input folder; run its BAT; find results in Output.','- Read the individual MD beside each BAT for menus, examples, limits and errors.','- Existing outputs and original files are preserved.','- Read System/Docs/DEPENDENCIES.md before redistributing bundled programs.','- This folder contains no development tests or source backups.','','## Tools','')
+        $readme=@(('# tOOls Bat - '+$edition+' distribution'),'','Windows 10/11; Windows PowerShell 5.1. No Administrator required.','',('Tools: '+$catalog.Count),('Edition: '+$edition+'; included local programs: '+[bool]$IncludeLocalDependencies),'- Run START_HERE.bat --check first. The portable edition includes existing local runtime trees; the light edition needs dependency preparation.','- START_HERE.bat --portable offers consented copies of complete installed trees when a local runtime is missing.','- Put source files in the chosen tool Input folder; run its BAT; find results in Output.','- Read the individual MD beside each BAT for menus, examples, limits and errors.','- Existing outputs and original files are preserved.','- Read System/Docs/PORTABILITY.md and DEPENDENCIES.md before transferring or redistributing bundled programs.','- This folder contains no development tests or source backups.','','## Tools','')
         foreach($tool in $catalog){$readme+='- ['+$tool.Name+'](<'+([IO.Path]::ChangeExtension($tool.Path,'.md').Replace('\','/'))+'>)'}
         [IO.File]::WriteAllLines((Join-Path $stage 'README.md'),$readme,(New-Object Text.UTF8Encoding($true)))
         $manifest=@(Get-SafeFiles $stage $null -Recurse|ForEach-Object{[pscustomobject]@{Path=(Get-RelativeName $stage $_.FullName);Bytes=$_.Length;SHA256=(Get-FileHash -LiteralPath $_.FullName).Hash}})

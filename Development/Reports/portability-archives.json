@@ -1,0 +1,19 @@
+{
+  "DateUTC": "2026-10-21T14:24:31.4531177Z",
+  "FilesMatchWorkingSource": 1449,
+  "Archives": [
+    {
+      "Path": "dist\\tOOls Bat 100 light 20261021-114803-139.zip",
+      "Bytes": 596397,
+      "SHA256": "201DC5BFBB9F099367F621D9AED09882B65E0B4DF83F58F97D47AC47734E02F4"
+    },
+    {
+      "Path": "dist\\tOOls Bat 100 portable 20261021-114809-249.zip",
+      "Bytes": 338880108,
+      "SHA256": "265A521672C7BF109B164EDDC29DB7F1D500CA863E12B1676ECE029316A6A286"
+    }
+  ],
+  "AllToolsUnchanged": true,
+  "OldDistributionsDeleted": [],
+  "SourceBranch": "codex-improvements"
+}

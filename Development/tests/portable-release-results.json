@@ -1,0 +1,100 @@
+﻿{
+    "DateUTC":  "2026-10-21T08:50:17.4821613Z",
+    "Sandbox":  "\u003cPROJECT_ROOT\u003e\\Development\\tests\\_work\\p-8421af0c",
+    "FullRoot":  "\u003cPROJECT_ROOT\u003e\\Development\\tests\\_work\\p-8421af0c\\نقل \u0026 ! %X% [1]",
+    "LightArchive":  "dist\\tOOls Bat 100 light 20261021-114803-139.zip",
+    "FullArchive":  "dist\\tOOls Bat 100 portable 20261021-114809-249.zip",
+    "Isolation":  "Child process PATH=Windows/System32;Windows, TB_LOCAL_ONLY=1, program resource variables cleared. Built-in Windows DLLs/fonts/.NET remain; no other PC/VM tested.",
+    "Results":  [
+                    {
+                        "Test":  "light ZIP integrity/layout",
+                        "Passed":  true,
+                        "Detail":  "307 file hashes verified; 100 BAT+MD; no development, Git, downloads or user inputs/outputs."
+                    },
+                    {
+                        "Test":  "portable ZIP integrity/layout",
+                        "Passed":  true,
+                        "Detail":  "1450 file hashes verified; 100 BAT+MD; no development, Git, downloads or user inputs/outputs."
+                    },
+                    {
+                        "Test":  "Light ZIP honest missing dependencies",
+                        "Passed":  true,
+                        "Detail":  "All six programs missing with system discovery disabled; START_HERE exit 3, no silent installed fallback."
+                    },
+                    {
+                        "Test":  "Incomplete portable build refused",
+                        "Passed":  true,
+                        "Detail":  "Full edition cannot be built from an empty Bin and cannot use installed programs to pretend completeness."
+                    },
+                    {
+                        "Test":  "Light native Windows tool",
+                        "Passed":  true,
+                        "Detail":  "File Inventory actually runs without external programs after extraction."
+                    },
+                    {
+                        "Test":  "ffmpeg extracted local version/capability",
+                        "Passed":  true,
+                        "Detail":  "ffmpeg version 9.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers"
+                    },
+                    {
+                        "Test":  "ffprobe extracted local version/capability",
+                        "Passed":  true,
+                        "Detail":  "ffprobe version 9.0.1-essentials_build-www.gyan.dev Copyright (c) 2007-2026 the FFmpeg developers"
+                    },
+                    {
+                        "Test":  "magick extracted local version/capability",
+                        "Passed":  true,
+                        "Detail":  "Version: ImageMagick 7.1.2-34 Q16-HDRI x64 a0c4bf7:20261014 https://imagemagick.org"
+                    },
+                    {
+                        "Test":  "ghostscript extracted local version/capability",
+                        "Passed":  true,
+                        "Detail":  "10.07.1"
+                    },
+                    {
+                        "Test":  "qpdf extracted local version/capability",
+                        "Passed":  true,
+                        "Detail":  "qpdf version 12.4.2"
+                    },
+                    {
+                        "Test":  "tesseract extracted local version/capability",
+                        "Passed":  true,
+                        "Detail":  "tesseract v5.5.3.20260724"
+                    },
+                    {
+                        "Test":  "OCR baseline resources",
+                        "Passed":  true,
+                        "Detail":  "ara+eng initialized; all three model SHA-256 match pinned packages; pdf.ttf present."
+                    },
+                    {
+                        "Test":  "Full START_HERE --check",
+                        "Passed":  true,
+                        "Detail":  "All six executable paths local, ara/eng/osd available; no download offer/consent; Bin hashes unchanged checked below."
+                    },
+                    {
+                        "Test":  "Full START_HERE --check",
+                        "Passed":  true,
+                        "Detail":  "All six executable paths local, ara/eng/osd available; no download offer/consent; Bin hashes unchanged checked below."
+                    },
+                    {
+                        "Test":  "Full START_HERE interactive with optional language skipped",
+                        "Passed":  true,
+                        "Detail":  "All six executable paths local, ara/eng/osd available; no download offer/consent; Bin hashes unchanged checked below."
+                    },
+                    {
+                        "Test":  "Idempotent setup without downloading",
+                        "Passed":  true,
+                        "Detail":  "Repeated --check and interactive run preserved every Bin byte; no Downloads folder created. No network firewall was installed."
+                    },
+                    {
+                        "Test":  "Local Ghostscript PDF/font and ImageMagick PDF delegate",
+                        "Passed":  true,
+                        "Detail":  "Created a real PDF with local GS fonts, rendered page through ImageMagick local GS delegate and checked its structure using extracted qpdf."
+                    },
+                    {
+                        "Test":  "Extracted qpdf AES-256 and decryption",
+                        "Passed":  true,
+                        "Detail":  "Private stdin encryption; wrong password refused; right password produced a structurally valid PDF. No passwords recorded."
+                    }
+                ]
+}

@@ -1,13 +1,17 @@
-﻿param([string]$Archive)
+﻿param([string]$Archive,[string]$WorkDirectory,[string]$ReportPath,[string]$GitPath,[switch]$LocalOnly)
 $ErrorActionPreference='Stop'
 . (Join-Path $PSScriptRoot '..\..\System\Shared\Core.ps1')
 . (Join-Path $PSScriptRoot '..\..\System\Shared\Archives.ps1')
 $root=$script:ProjectRoot
 $results=New-Object 'Collections.Generic.List[object]'
-$work=Join-Path $PSScriptRoot ('_work\layout-'+[guid]::NewGuid().ToString('N').Substring(0,8));Ensure-Directory $work
+$copy=''
+$work=if($WorkDirectory){[IO.Path]::GetFullPath($WorkDirectory)}else{Join-Path $PSScriptRoot ('_work\layout-'+[guid]::NewGuid().ToString('N').Substring(0,8))};Ensure-Directory $work
 $fixtures=Join-Path $work 'fixtures';Ensure-Directory $fixtures
 $script:NativeWorkingDirectory=$fixtures
 $ps=Join-Path $env:SystemRoot 'System32\WindowsPowerShell\v1.0\powershell.exe'
+$previousPath=$env:PATH;$previousLocal=$env:TB_LOCAL_ONLY
+if(-not $GitPath){$GitPath=(Get-Command git).Source}
+if($LocalOnly){$env:PATH=$env:SystemRoot+'\System32;'+$env:SystemRoot;$env:TB_LOCAL_ONLY='1'}
 function Assert([bool]$Condition,[string]$Message){if(-not $Condition){throw $Message}}
 function Record([string]$Name,[string]$Detail){$results.Add([pscustomobject]@{Test=$Name;Passed=$true;Detail=$Detail});Write-Host ('PASS '+$Name)}
 function HashTree([string]$Path){@(Get-SafeFiles $Path $null -Recurse|Sort-Object FullName|ForEach-Object{(Get-RelativeName $Path $_.FullName)+'|'+(Get-FileHash -LiteralPath $_.FullName).Hash}) -join "`n"}
@@ -29,7 +33,7 @@ function Run-Bat([string]$Path,[string]$Arguments){
 try{
     $catalog=Get-Content -LiteralPath (Join-Path $root 'System\Shared\tools.json') -Raw -Encoding UTF8|ConvertFrom-Json
     Assert ($catalog.Count -ge 55 -and @(Get-ChildItem -LiteralPath (Join-Path $root 'Tools') -Recurse -File -Filter *.bat).Count -eq $catalog.Count) 'Tool count changed.'
-    $git=(Get-Command git).Source
+    $git=$GitPath
     foreach($tool in @($catalog|Where-Object {-not $_.PSObject.Properties['Expansion']})){
         $oldPath=$tool.Path.Substring(6).Replace('\','/')
         $before=Invoke-Native $git @('-C',$root,'show',('ed2f937:'+$oldPath)) 30000
@@ -74,6 +78,8 @@ try{
         }
     }
     Record 'Release Markdown links' 'Every local link in all exported Markdown files resolves inside the extracted release.'
+    # Fixture creation and output inspection must use the extracted runtime too.
+    if($LocalOnly){$script:ProjectRoot=$copy}
     $magick=Require-Dependency 'magick';$ffmpeg=Require-Dependency 'ffmpeg';$gs=Require-Dependency 'ghostscript'
     [void](Invoke-Checked $magick @('-size','32x24','xc:red','image.png'))
     [void](Invoke-Checked $ffmpeg @('-v','error','-nostdin','-n','-f','lavfi','-i','color=c=blue:s=32x24:r=10:d=1','-f','lavfi','-i','sine=frequency=440:duration=1','-c:v','libx264','-pix_fmt','yuv420p','-c:a','aac','-shortest','video.mp4'))
@@ -114,5 +120,7 @@ try{
         Record ($tool.Name+' extracted processing') 'Real fixture processing and repeat in extracted ZIP; original input and existing output hashes unchanged.'
     }
 }catch{$results.Add([pscustomobject]@{Test='Reorganization';Passed=$false;Detail=$_.Exception.Message.Replace($root,'<PROJECT_ROOT>')});Write-Host ('FAIL '+$_.Exception.Message)}
-[pscustomobject]@{DateUTC=[datetime]::UtcNow.ToString('o');Archive=$Archive.Replace($root,'<PROJECT_ROOT>');Results=$results}|ConvertTo-Json -Depth 6|Set-Content -LiteralPath (Join-Path $PSScriptRoot 'reorganization-results.json') -Encoding UTF8
+$env:PATH=$previousPath;$env:TB_LOCAL_ONLY=$previousLocal
+if(-not $ReportPath){$ReportPath=Join-Path $PSScriptRoot 'reorganization-results.json'}
+[pscustomobject]@{DateUTC=[datetime]::UtcNow.ToString('o');Archive=$Archive.Replace($root,'<PROJECT_ROOT>');ExtractedRoot=$copy.Replace($root,'<PROJECT_ROOT>');LocalOnly=[bool]$LocalOnly;Results=$results}|ConvertTo-Json -Depth 6|Set-Content -LiteralPath $ReportPath -Encoding UTF8
 if(@($results|Where-Object {-not $_.Passed}).Count){exit 1};exit 0
