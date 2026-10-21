@@ -4,3 +4,5 @@
 /Development/tests/_sandbox/
 /dist/
 /System/Downloads/
+/System/Bin/*
+!/System/Bin/.gitkeep

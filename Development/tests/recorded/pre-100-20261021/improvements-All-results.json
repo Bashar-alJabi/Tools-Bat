@@ -1,0 +1,643 @@
+﻿{
+    "DateUTC":  "2026-10-20T16:38:31.1253322Z",
+    "Batch":  "All",
+    "Windows":  "10.0.26300.0",
+    "PowerShell":  "5.1.26100.9549",
+    "Results":  [
+                    {
+                        "Test":  "Image Rotate",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Image Rotate missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only mode refused absent dependency without downloads."
+                    },
+                    {
+                        "Test":  "Image Rotate menu validation",
+                        "Passed":  true,
+                        "Detail":  "Invalid metacharacter input rejected; Q exited without processing."
+                    },
+                    {
+                        "Test":  "Image Rotate corrupt image",
+                        "Passed":  true,
+                        "Detail":  "Rejected; source unchanged, prior results preserved, no partial result published."
+                    },
+                    {
+                        "Test":  "Image Rotate animation guard",
+                        "Passed":  true,
+                        "Detail":  "Rejected; source unchanged, prior results preserved, no partial result published."
+                    },
+                    {
+                        "Test":  "Image Rotate empty input",
+                        "Passed":  true,
+                        "Detail":  "Empty input handled without processing or source loss."
+                    },
+                    {
+                        "Test":  "Image Flip",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Image Flip missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only mode refused absent dependency without downloads."
+                    },
+                    {
+                        "Test":  "Image Flip menu validation",
+                        "Passed":  true,
+                        "Detail":  "Invalid metacharacter input rejected; Q exited without processing."
+                    },
+                    {
+                        "Test":  "Image Flip corrupt image",
+                        "Passed":  true,
+                        "Detail":  "Rejected; source unchanged, prior results preserved, no partial result published."
+                    },
+                    {
+                        "Test":  "Image Flip animation guard",
+                        "Passed":  true,
+                        "Detail":  "Rejected; source unchanged, prior results preserved, no partial result published."
+                    },
+                    {
+                        "Test":  "Image Flip empty input",
+                        "Passed":  true,
+                        "Detail":  "Empty input handled without processing or source loss."
+                    },
+                    {
+                        "Test":  "Image Grayscale",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Image Grayscale missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only mode refused absent dependency without downloads."
+                    },
+                    {
+                        "Test":  "Image Grayscale menu validation",
+                        "Passed":  true,
+                        "Detail":  "Invalid metacharacter input rejected; Q exited without processing."
+                    },
+                    {
+                        "Test":  "Image Grayscale corrupt image",
+                        "Passed":  true,
+                        "Detail":  "Rejected; source unchanged, prior results preserved, no partial result published."
+                    },
+                    {
+                        "Test":  "Image Grayscale animation guard",
+                        "Passed":  true,
+                        "Detail":  "Rejected; source unchanged, prior results preserved, no partial result published."
+                    },
+                    {
+                        "Test":  "Image Grayscale empty input",
+                        "Passed":  true,
+                        "Detail":  "Empty input handled without processing or source loss."
+                    },
+                    {
+                        "Test":  "Image Border",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Image Border missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only mode refused absent dependency without downloads."
+                    },
+                    {
+                        "Test":  "Image Border menu validation",
+                        "Passed":  true,
+                        "Detail":  "Invalid metacharacter input rejected; Q exited without processing."
+                    },
+                    {
+                        "Test":  "Image Border corrupt image",
+                        "Passed":  true,
+                        "Detail":  "Rejected; source unchanged, prior results preserved, no partial result published."
+                    },
+                    {
+                        "Test":  "Image Border animation guard",
+                        "Passed":  true,
+                        "Detail":  "Rejected; source unchanged, prior results preserved, no partial result published."
+                    },
+                    {
+                        "Test":  "Image Border empty input",
+                        "Passed":  true,
+                        "Detail":  "Empty input handled without processing or source loss."
+                    },
+                    {
+                        "Test":  "Image Info",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Image Info missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only mode refused absent dependency without downloads."
+                    },
+                    {
+                        "Test":  "Image Info menu validation",
+                        "Passed":  true,
+                        "Detail":  "Invalid metacharacter input rejected; Q exited without processing."
+                    },
+                    {
+                        "Test":  "Image Info corrupt image",
+                        "Passed":  true,
+                        "Detail":  "Rejected; source unchanged, prior results preserved, no partial result published."
+                    },
+                    {
+                        "Test":  "Image Info empty input",
+                        "Passed":  true,
+                        "Detail":  "Empty input handled without processing or source loss."
+                    },
+                    {
+                        "Test":  "Video Trim",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Video Trim missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only mode refused absent dependency without downloads."
+                    },
+                    {
+                        "Test":  "Video Trim menu validation",
+                        "Passed":  true,
+                        "Detail":  "Invalid metacharacter input rejected; Q exited without processing."
+                    },
+                    {
+                        "Test":  "Video Trim corrupt video",
+                        "Passed":  true,
+                        "Detail":  "Rejected; source unchanged, prior results preserved, no partial result published."
+                    },
+                    {
+                        "Test":  "Video Trim range beyond end",
+                        "Passed":  true,
+                        "Detail":  "Rejected; source unchanged, prior results preserved, no partial result published."
+                    },
+                    {
+                        "Test":  "Video Trim custom range",
+                        "Passed":  true,
+                        "Detail":  "Interactive start=0.5/duration=0.5 produced a measured half-second clip; original bytes preserved."
+                    },
+                    {
+                        "Test":  "Video Trim empty input",
+                        "Passed":  true,
+                        "Detail":  "Empty input handled without processing or source loss."
+                    },
+                    {
+                        "Test":  "Video Rotate",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Video Rotate missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only mode refused absent dependency without downloads."
+                    },
+                    {
+                        "Test":  "Video Rotate menu validation",
+                        "Passed":  true,
+                        "Detail":  "Invalid metacharacter input rejected; Q exited without processing."
+                    },
+                    {
+                        "Test":  "Video Rotate corrupt video",
+                        "Passed":  true,
+                        "Detail":  "Rejected; source unchanged, prior results preserved, no partial result published."
+                    },
+                    {
+                        "Test":  "Video Rotate empty input",
+                        "Passed":  true,
+                        "Detail":  "Empty input handled without processing or source loss."
+                    },
+                    {
+                        "Test":  "Video To GIF",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Video To GIF missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only mode refused absent dependency without downloads."
+                    },
+                    {
+                        "Test":  "Video To GIF menu validation",
+                        "Passed":  true,
+                        "Detail":  "Invalid metacharacter input rejected; Q exited without processing."
+                    },
+                    {
+                        "Test":  "Video To GIF corrupt video",
+                        "Passed":  true,
+                        "Detail":  "Rejected; source unchanged, prior results preserved, no partial result published."
+                    },
+                    {
+                        "Test":  "Video To GIF empty input",
+                        "Passed":  true,
+                        "Detail":  "Empty input handled without processing or source loss."
+                    },
+                    {
+                        "Test":  "Video Remux",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Video Remux missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only mode refused absent dependency without downloads."
+                    },
+                    {
+                        "Test":  "Video Remux menu validation",
+                        "Passed":  true,
+                        "Detail":  "Invalid metacharacter input rejected; Q exited without processing."
+                    },
+                    {
+                        "Test":  "Video Remux corrupt video",
+                        "Passed":  true,
+                        "Detail":  "Rejected; source unchanged, prior results preserved, no partial result published."
+                    },
+                    {
+                        "Test":  "Video Remux empty input",
+                        "Passed":  true,
+                        "Detail":  "Empty input handled without processing or source loss."
+                    },
+                    {
+                        "Test":  "Video Frames",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Video Frames missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only mode refused absent dependency without downloads."
+                    },
+                    {
+                        "Test":  "Video Frames menu validation",
+                        "Passed":  true,
+                        "Detail":  "Invalid metacharacter input rejected; Q exited without processing."
+                    },
+                    {
+                        "Test":  "Video Frames corrupt video",
+                        "Passed":  true,
+                        "Detail":  "Rejected; source unchanged, prior results preserved, no partial result published."
+                    },
+                    {
+                        "Test":  "Video Frames empty input",
+                        "Passed":  true,
+                        "Detail":  "Empty input handled without processing or source loss."
+                    },
+                    {
+                        "Test":  "Audio Trim",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Audio Trim missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only mode refused absent dependency without downloads."
+                    },
+                    {
+                        "Test":  "Audio Trim menu validation",
+                        "Passed":  true,
+                        "Detail":  "Invalid metacharacter input rejected; Q exited without processing."
+                    },
+                    {
+                        "Test":  "Audio Trim corrupt audio",
+                        "Passed":  true,
+                        "Detail":  "Rejected; source unchanged, prior results preserved, no partial result published."
+                    },
+                    {
+                        "Test":  "Audio Trim range beyond end",
+                        "Passed":  true,
+                        "Detail":  "Rejected; source unchanged, prior results preserved, no partial result published."
+                    },
+                    {
+                        "Test":  "Audio Trim custom range",
+                        "Passed":  true,
+                        "Detail":  "Interactive start=0.5/duration=0.5 produced a measured half-second clip; original bytes preserved."
+                    },
+                    {
+                        "Test":  "Audio Trim empty input",
+                        "Passed":  true,
+                        "Detail":  "Empty input handled without processing or source loss."
+                    },
+                    {
+                        "Test":  "Audio Normalize",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Audio Normalize missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only mode refused absent dependency without downloads."
+                    },
+                    {
+                        "Test":  "Audio Normalize menu validation",
+                        "Passed":  true,
+                        "Detail":  "Invalid metacharacter input rejected; Q exited without processing."
+                    },
+                    {
+                        "Test":  "Audio Normalize corrupt audio",
+                        "Passed":  true,
+                        "Detail":  "Rejected; source unchanged, prior results preserved, no partial result published."
+                    },
+                    {
+                        "Test":  "Audio Normalize empty input",
+                        "Passed":  true,
+                        "Detail":  "Empty input handled without processing or source loss."
+                    },
+                    {
+                        "Test":  "Audio Fade",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Audio Fade missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only mode refused absent dependency without downloads."
+                    },
+                    {
+                        "Test":  "Audio Fade menu validation",
+                        "Passed":  true,
+                        "Detail":  "Invalid metacharacter input rejected; Q exited without processing."
+                    },
+                    {
+                        "Test":  "Audio Fade corrupt audio",
+                        "Passed":  true,
+                        "Detail":  "Rejected; source unchanged, prior results preserved, no partial result published."
+                    },
+                    {
+                        "Test":  "Audio Fade empty input",
+                        "Passed":  true,
+                        "Detail":  "Empty input handled without processing or source loss."
+                    },
+                    {
+                        "Test":  "Audio Channels",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Audio Channels missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only mode refused absent dependency without downloads."
+                    },
+                    {
+                        "Test":  "Audio Channels menu validation",
+                        "Passed":  true,
+                        "Detail":  "Invalid metacharacter input rejected; Q exited without processing."
+                    },
+                    {
+                        "Test":  "Audio Channels corrupt audio",
+                        "Passed":  true,
+                        "Detail":  "Rejected; source unchanged, prior results preserved, no partial result published."
+                    },
+                    {
+                        "Test":  "Audio Channels empty input",
+                        "Passed":  true,
+                        "Detail":  "Empty input handled without processing or source loss."
+                    },
+                    {
+                        "Test":  "Audio Concatenate",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Audio Concatenate missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only mode refused absent dependency without downloads."
+                    },
+                    {
+                        "Test":  "Audio Concatenate menu validation",
+                        "Passed":  true,
+                        "Detail":  "Invalid metacharacter input rejected; Q exited without processing."
+                    },
+                    {
+                        "Test":  "Audio Concatenate corrupt audio",
+                        "Passed":  true,
+                        "Detail":  "Rejected; source unchanged, prior results preserved, no partial result published."
+                    },
+                    {
+                        "Test":  "Audio Concatenate empty input",
+                        "Passed":  true,
+                        "Detail":  "Empty input handled without processing or source loss."
+                    },
+                    {
+                        "Test":  "PDF Split",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "PDF Split missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only mode refused absent dependency without downloads."
+                    },
+                    {
+                        "Test":  "PDF Split menu validation",
+                        "Passed":  true,
+                        "Detail":  "Invalid metacharacter input rejected; Q exited without processing."
+                    },
+                    {
+                        "Test":  "PDF Split corrupt PDF",
+                        "Passed":  true,
+                        "Detail":  "Rejected; source unchanged, prior results preserved, no partial result published."
+                    },
+                    {
+                        "Test":  "PDF Split empty input",
+                        "Passed":  true,
+                        "Detail":  "Empty input handled without processing or source loss."
+                    },
+                    {
+                        "Test":  "PDF To Images",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "PDF To Images missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only mode refused absent dependency without downloads."
+                    },
+                    {
+                        "Test":  "PDF To Images menu validation",
+                        "Passed":  true,
+                        "Detail":  "Invalid metacharacter input rejected; Q exited without processing."
+                    },
+                    {
+                        "Test":  "PDF To Images corrupt PDF",
+                        "Passed":  true,
+                        "Detail":  "Rejected; source unchanged, prior results preserved, no partial result published."
+                    },
+                    {
+                        "Test":  "PDF To Images empty input",
+                        "Passed":  true,
+                        "Detail":  "Empty input handled without processing or source loss."
+                    },
+                    {
+                        "Test":  "PDF Text",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "PDF Text missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Local-only mode refused absent dependency without downloads."
+                    },
+                    {
+                        "Test":  "PDF Text menu validation",
+                        "Passed":  true,
+                        "Detail":  "Invalid metacharacter input rejected; Q exited without processing."
+                    },
+                    {
+                        "Test":  "PDF Text corrupt PDF",
+                        "Passed":  true,
+                        "Detail":  "Rejected; source unchanged, prior results preserved, no partial result published."
+                    },
+                    {
+                        "Test":  "PDF Text empty input",
+                        "Passed":  true,
+                        "Detail":  "Empty input handled without processing or source loss."
+                    },
+                    {
+                        "Test":  "Rename Copies",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Rename Copies menu validation",
+                        "Passed":  true,
+                        "Detail":  "Invalid metacharacter input rejected; Q exited without processing."
+                    },
+                    {
+                        "Test":  "Rename Copies empty input",
+                        "Passed":  true,
+                        "Detail":  "Empty input handled without processing or source loss."
+                    },
+                    {
+                        "Test":  "Sort Copies",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Sort Copies menu validation",
+                        "Passed":  true,
+                        "Detail":  "Invalid metacharacter input rejected; Q exited without processing."
+                    },
+                    {
+                        "Test":  "Sort Copies empty input",
+                        "Passed":  true,
+                        "Detail":  "Empty input handled without processing or source loss."
+                    },
+                    {
+                        "Test":  "Text Encoding",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Text Encoding menu validation",
+                        "Passed":  true,
+                        "Detail":  "Invalid metacharacter input rejected; Q exited without processing."
+                    },
+                    {
+                        "Test":  "Text Encoding invalid UTF-8",
+                        "Passed":  true,
+                        "Detail":  "Rejected; source unchanged, prior results preserved, no partial result published."
+                    },
+                    {
+                        "Test":  "Text Encoding UTF-32 guard",
+                        "Passed":  true,
+                        "Detail":  "Rejected; source unchanged, prior results preserved, no partial result published."
+                    },
+                    {
+                        "Test":  "Text Encoding empty input",
+                        "Passed":  true,
+                        "Detail":  "Empty input handled without processing or source loss."
+                    },
+                    {
+                        "Test":  "Folder Compare",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Folder Compare menu validation",
+                        "Passed":  true,
+                        "Detail":  "Invalid metacharacter input rejected; Q exited without processing."
+                    },
+                    {
+                        "Test":  "Folder Compare empty input",
+                        "Passed":  true,
+                        "Detail":  "Empty input handled without processing or source loss."
+                    },
+                    {
+                        "Test":  "JSON Format",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "JSON Format menu validation",
+                        "Passed":  true,
+                        "Detail":  "Invalid metacharacter input rejected; Q exited without processing."
+                    },
+                    {
+                        "Test":  "JSON Format strict JSON grammar",
+                        "Passed":  true,
+                        "Detail":  "Rejected; source unchanged, prior results preserved, no partial result published."
+                    },
+                    {
+                        "Test":  "JSON Format strict JSON grammar",
+                        "Passed":  true,
+                        "Detail":  "Rejected; source unchanged, prior results preserved, no partial result published."
+                    },
+                    {
+                        "Test":  "JSON Format strict JSON grammar",
+                        "Passed":  true,
+                        "Detail":  "Rejected; source unchanged, prior results preserved, no partial result published."
+                    },
+                    {
+                        "Test":  "JSON Format strict JSON grammar",
+                        "Passed":  true,
+                        "Detail":  "Rejected; source unchanged, prior results preserved, no partial result published."
+                    },
+                    {
+                        "Test":  "JSON Format strict JSON grammar",
+                        "Passed":  true,
+                        "Detail":  "Rejected; source unchanged, prior results preserved, no partial result published."
+                    },
+                    {
+                        "Test":  "JSON Format strict JSON grammar",
+                        "Passed":  true,
+                        "Detail":  "Rejected; source unchanged, prior results preserved, no partial result published."
+                    },
+                    {
+                        "Test":  "JSON Format strict JSON grammar",
+                        "Passed":  true,
+                        "Detail":  "Rejected; source unchanged, prior results preserved, no partial result published."
+                    },
+                    {
+                        "Test":  "JSON Format empty input",
+                        "Passed":  true,
+                        "Detail":  "Empty input handled without processing or source loss."
+                    },
+                    {
+                        "Test":  "Network Info",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Network Info menu validation",
+                        "Passed":  true,
+                        "Detail":  "Invalid metacharacter input rejected; Q exited without processing."
+                    },
+                    {
+                        "Test":  "Ping Host",
+                        "Passed":  true,
+                        "Detail":  "Real BAT help/check/process/repeat; semantic output checked; moved Arabic/special path; originals unchanged."
+                    },
+                    {
+                        "Test":  "Ping Host menu validation",
+                        "Passed":  true,
+                        "Detail":  "Invalid metacharacter input rejected; Q exited without processing."
+                    },
+                    {
+                        "Test":  "Ping Host target validation",
+                        "Passed":  true,
+                        "Detail":  "Shell syntax in a target was refused before any ICMP request."
+                    }
+                ]
+}

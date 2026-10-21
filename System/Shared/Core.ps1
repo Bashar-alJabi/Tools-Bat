@@ -16,7 +16,7 @@ function ConvertTo-NativeArgument([string]$Value) {
     # CommandLineToArgvW / Microsoft CRT quoting; never invoke cmd.exe.
     '"' + [regex]::Replace([regex]::Replace($Value, '(\\*)"', '$1$1\"'), '(\\+)$', '$1$1') + '"'
 }
-function Invoke-Native([string]$Executable, [string[]]$Arguments, [int]$Timeout = 0) {
+function Invoke-Native([string]$Executable, [string[]]$Arguments, [int]$Timeout = 0, [string]$InputText = '') {
     $info = New-Object Diagnostics.ProcessStartInfo
     $info.FileName = $Executable
     $info.Arguments = (($Arguments | ForEach-Object { ConvertTo-NativeArgument $_ }) -join ' ')
@@ -53,9 +53,15 @@ function Invoke-Native([string]$Executable, [string[]]$Arguments, [int]$Timeout 
     $process.StartInfo = $info
     try {
         [void]$process.Start()
-        $process.StandardInput.Close()
         $outTask = $process.StandardOutput.ReadToEndAsync()
         $errTask = $process.StandardError.ReadToEndAsync()
+        if ($InputText) {
+            # .NET Framework (PowerShell 5.1) has no StandardInputEncoding property.
+            $inputBytes=(New-Object Text.UTF8Encoding($false)).GetBytes($InputText)
+            try { $process.StandardInput.BaseStream.Write($inputBytes,0,$inputBytes.Length); $process.StandardInput.BaseStream.Flush() }
+            finally { [Array]::Clear($inputBytes,0,$inputBytes.Length) }
+        }
+        $process.StandardInput.Close()
         if ($Timeout -gt 0 -and -not $process.WaitForExit($Timeout)) {
             $process.Kill()
             $process.WaitForExit()
@@ -77,7 +83,7 @@ function Invoke-Checked([string]$Executable, [string[]]$Arguments) {
     if ($result.Code -ne 0) { throw ($result.Err + $result.Out).Trim() }
     $result.Out
 }
-function Get-Dependency([ValidateSet('ffmpeg','ffprobe','magick','ghostscript')][string]$Name, [switch]$LocalOnly) {
+function Get-Dependency([ValidateSet('ffmpeg','ffprobe','magick','ghostscript','qpdf','tesseract')][string]$Name, [switch]$LocalOnly) {
     $candidates = New-Object 'Collections.Generic.List[string]'
     $names = @($Name + '.exe')
     if ($Name -eq 'ghostscript') { $names = @('gswin64c.exe','gswin32c.exe') }
@@ -102,13 +108,18 @@ function Get-Dependency([ValidateSet('ffmpeg','ffprobe','magick','ghostscript')]
                 if (Test-Path -LiteralPath $gsRoot) {
                     foreach ($exeName in $names) { Get-ChildItem -LiteralPath $gsRoot -Filter $exeName -File -Recurse | Sort-Object FullName -Descending | ForEach-Object { $candidates.Add($_.FullName) } }
                 }
+            } elseif ($Name -in @('qpdf','tesseract')) {
+                $pattern=if($Name -eq 'tesseract'){'Tesseract*'}else{'qpdf*'}
+                foreach($directory in (Get-ChildItem -LiteralPath $programRoot -Directory -Filter $pattern)) {
+                    foreach($file in (Get-SafeFiles $directory.FullName @('.exe') -Recurse | Where-Object Name -eq ($Name+'.exe'))){$candidates.Add($file.FullName)}
+                }
             }
         }
     }
     foreach ($candidate in ($candidates | Select-Object -Unique)) {
         if (-not (Test-Path -LiteralPath $candidate -PathType Leaf)) { continue }
         try {
-            $versionArgs = if ($Name -eq 'ghostscript') { @('--version') } else { @('-version') }
+            $versionArgs = if ($Name -in @('ghostscript','qpdf','tesseract')) { @('--version') } else { @('-version') }
             $version = Invoke-Native $candidate $versionArgs 15000
             $text = $version.Out + $version.Err
             $valid = $version.Code -eq 0
@@ -117,6 +128,8 @@ function Get-Dependency([ValidateSet('ffmpeg','ffprobe','magick','ghostscript')]
                 'ffmpeg' { $valid = $valid -and $text -match 'ffmpeg version (?:n)?(\d+)' -and [int]$Matches[1] -ge 6 }
                 'ffprobe' { $valid = $valid -and $text -match 'ffprobe version (?:n)?(\d+)' -and [int]$Matches[1] -ge 6 }
                 'ghostscript' { $valid = $valid -and $text.Trim() -match '^\d+\.\d+' -and [version]$text.Trim() -ge [version]'10.05.0' }
+                'qpdf' { $valid = $valid -and $text -match 'qpdf version (\d+)' -and [int]$Matches[1] -ge 12 }
+                'tesseract' { $valid = $valid -and $text -match 'tesseract (?:v)?(\d+)' -and [int]$Matches[1] -ge 5 }
             }
             if ($valid -and $Name -eq 'ffmpeg') {
                 $capabilities=Invoke-Native $candidate @('-hide_banner','-encoders') 15000

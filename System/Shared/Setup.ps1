@@ -4,7 +4,7 @@ param([switch]$CheckOnly,[switch]$MakePortable)
 . (Join-Path $PSScriptRoot 'Download.ps1')
 function Show-Dependencies {
     $missing=New-Object 'Collections.Generic.List[string]'
-    foreach ($name in @('ffmpeg','ffprobe','magick','ghostscript')) {
+    foreach ($name in @('ffmpeg','ffprobe','magick','ghostscript','qpdf')) {
         $dependency=Get-Dependency $name
         if ($dependency) {
             Write-Host ('[OK] {0} | {1} | {2}' -f $name,$(if($dependency.Local){'project local'}else{'system'}),$dependency.Path); Write-Host ('     ' + $dependency.Version)

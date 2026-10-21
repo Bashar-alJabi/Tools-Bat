@@ -28,7 +28,7 @@ try {
     try {
         $stage=Join-Path $work 'package';Ensure-Directory $stage
         $shared=Join-Path $stage 'System\Shared';Ensure-Directory $shared
-        foreach($name in @('Core.ps1','Archives.ps1','Download.ps1','Setup.ps1','Check.ps1','Validate.ps1','ToolRunner.ps1','NewTool.ps1','Build.ps1','tools.json','packages.json')){[IO.File]::Copy((Join-Path $PSScriptRoot $name),(Join-Path $shared $name),$false)}
+        foreach($name in @('Core.ps1','PDF.ps1','Archives.ps1','Download.ps1','Setup.ps1','Check.ps1','Validate.ps1','ToolRunner.ps1','NewTool.ps1','Build.ps1','tools.json','packages.json')){[IO.File]::Copy((Join-Path $PSScriptRoot $name),(Join-Path $shared $name),$false)}
         foreach($name in @('START_HERE.bat','START_HERE.md','BUILD_DISTRIBUTION.bat','BUILD_DISTRIBUTION.md')){[IO.File]::Copy((Join-Path $script:ProjectRoot $name),(Join-Path $stage $name),$false)}
         $seen=@{}
         foreach($tool in $catalog){
@@ -38,7 +38,7 @@ try {
             foreach($file in (Get-SafeFiles $source @('.bat','.cmd','.ps1','.md'))){[IO.File]::Copy($file.FullName,(Join-Path $target $file.Name),$false)}
             foreach($name in @('Input','Output')){Ensure-Directory (Join-Path $target $name)}
             if(Test-Path -LiteralPath (Join-Path $source 'Watermark')){Ensure-Directory (Join-Path $target 'Watermark')}
-            if($tool.Name -in @('Folder Compare','Image Compare')){Ensure-Directory (Join-Path $target 'Input\Left');Ensure-Directory (Join-Path $target 'Input\Right')}
+            if($tool.Name -in @('Folder Compare','Image Compare','PDF Compare')){Ensure-Directory (Join-Path $target 'Input\Left');Ensure-Directory (Join-Path $target 'Input\Right')}
             if($tool.Name -in @('Video Subtitles Burn','Video Add Subtitle Track')){Ensure-Directory (Join-Path $target 'Input\Subtitles')}
             if($tool.Name -eq 'Audio to Video'){Ensure-Directory (Join-Path $target 'Input\Picture')}
         }

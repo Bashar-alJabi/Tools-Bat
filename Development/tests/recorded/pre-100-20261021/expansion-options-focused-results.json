@@ -1,0 +1,10 @@
+﻿{
+    "DateUTC":  "2026-10-20T17:12:02.8888120Z",
+    "Results":  [
+                    {
+                        "Test":  "Merge normalization respects anamorphic display aspect",
+                        "Passed":  true,
+                        "Detail":  "Real interactive BAT; option-specific content/result and source safety verified in isolated fixtures."
+                    }
+                ]
+}

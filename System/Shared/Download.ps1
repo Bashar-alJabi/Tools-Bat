@@ -61,10 +61,10 @@ function Install-PortablePackage($Package,[string]$Root,[scriptblock]$Fetcher={ 
             Ensure-Directory $stage
             [void](Invoke-Checked $tar @('-xf',$download,'-C',$stage))
         } else { throw 'Unsupported package type.' }
-        $exeName=if ($Package.Id -eq 'ffmpeg') { 'ffmpeg.exe' } else { 'magick.exe' }
+        $exeName=if ($Package.Id -eq 'ffmpeg') { 'ffmpeg.exe' } elseif($Package.Id -eq 'qpdf'){'qpdf.exe'} else { 'magick.exe' }
         $exe=@(Get-ChildItem -LiteralPath $stage -Filter $exeName -Recurse -File)
         if (-not $exe.Count) { throw 'Package does not contain the expected executable.' }
-        $check=Invoke-Native $exe[0].FullName @('-version') 15000
+        $check=Invoke-Native $exe[0].FullName @($(if($Package.Id -eq 'qpdf'){'--version'}else{'-version'})) 15000
         if ($check.Code -ne 0 -or ($check.Out+$check.Err) -notmatch [regex]::Escape($Package.Version)) { throw 'Package executable failed version validation.' }
         if ($Package.Id -eq 'ffmpeg' -and -not (Get-ChildItem -LiteralPath $stage -Filter 'ffprobe.exe' -Recurse -File)) { throw 'FFprobe is missing from the FFmpeg package.' }
         # Preserve the whole distribution, including licensing and resources.

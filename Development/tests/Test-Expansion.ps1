@@ -3,7 +3,7 @@ $ErrorActionPreference='Stop'
 . (Join-Path $PSScriptRoot '..\..\System\Shared\Core.ps1')
 $root=$script:ProjectRoot
 $catalog=Get-Content -LiteralPath (Join-Path $root 'System\Shared\tools.json') -Raw -Encoding UTF8|ConvertFrom-Json
-$catalog=@($catalog|Where-Object {$_.PSObject.Properties['Expansion'] -and ($Batch -eq 'All' -or $_.Expansion -eq ('2026-10-20-'+$Batch)) -and (-not $Only -or $_.Name -eq $Only)})
+$catalog=@($catalog|Where-Object {$_.PSObject.Properties['Expansion'] -and $_.Expansion -like '2026-10-20-*' -and ($Batch -eq 'All' -or $_.Expansion -eq ('2026-10-20-'+$Batch)) -and (-not $Only -or $_.Name -eq $Only)})
 if(-not $catalog.Count){throw 'No expansion tools selected.'}
 $work=Join-Path $PSScriptRoot ('_work\e-'+[guid]::NewGuid().ToString('N').Substring(0,8));Ensure-Directory $work
 $arabic=-join([char[]]@(0x0639,0x0631,0x0628,0x064A))

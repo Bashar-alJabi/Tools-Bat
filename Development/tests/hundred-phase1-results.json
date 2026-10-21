@@ -1,0 +1,349 @@
+﻿{
+    "Sandbox":  "\u003cPROJECT_ROOT\u003e\\Development\\tests\\_work\\hundred-e0bc1c1b",
+    "PowerShell":  "5.1.26100.9549",
+    "Windows":  "10.0.26300.0",
+    "Date":  "2026-10-21T09:26:21.9982591+03:00",
+    "Phase":  "1",
+    "Results":  [
+                    {
+                        "Test":  "PDF Search launch",
+                        "Passed":  true,
+                        "Detail":  "Actual BAT help/check from a different working directory in relocated Arabic/metacharacter path."
+                    },
+                    {
+                        "Test":  "PDF Search empty",
+                        "Passed":  true,
+                        "Detail":  "Empty Input handled without publishing output."
+                    },
+                    {
+                        "Test":  "PDF Search processing",
+                        "Passed":  true,
+                        "Detail":  "Actual BAT operation, semantic output checks, original SHA-256 and repeated-output preservation."
+                    },
+                    {
+                        "Test":  "PDF Search menu",
+                        "Passed":  true,
+                        "Detail":  "Shell metacharacters rejected as menu input."
+                    },
+                    {
+                        "Test":  "PDF Search missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Absent local/system dependencies refused without downloading."
+                    },
+                    {
+                        "Test":  "PDF Search invalid input",
+                        "Passed":  true,
+                        "Detail":  "Corrupt media refused or opaque file handled according to tool semantics; source bytes preserved."
+                    },
+                    {
+                        "Test":  "PDF Add Page Numbers launch",
+                        "Passed":  true,
+                        "Detail":  "Actual BAT help/check from a different working directory in relocated Arabic/metacharacter path."
+                    },
+                    {
+                        "Test":  "PDF Add Page Numbers empty",
+                        "Passed":  true,
+                        "Detail":  "Empty Input handled without publishing output."
+                    },
+                    {
+                        "Test":  "PDF Add Page Numbers processing",
+                        "Passed":  true,
+                        "Detail":  "Actual BAT operation, semantic output checks, original SHA-256 and repeated-output preservation."
+                    },
+                    {
+                        "Test":  "PDF Add Page Numbers menu",
+                        "Passed":  true,
+                        "Detail":  "Shell metacharacters rejected as menu input."
+                    },
+                    {
+                        "Test":  "PDF Add Page Numbers missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Absent local/system dependencies refused without downloading."
+                    },
+                    {
+                        "Test":  "PDF Add Page Numbers invalid input",
+                        "Passed":  true,
+                        "Detail":  "Corrupt media refused or opaque file handled according to tool semantics; source bytes preserved."
+                    },
+                    {
+                        "Test":  "PDF Protect launch",
+                        "Passed":  true,
+                        "Detail":  "Actual BAT help/check from a different working directory in relocated Arabic/metacharacter path."
+                    },
+                    {
+                        "Test":  "PDF Protect empty",
+                        "Passed":  true,
+                        "Detail":  "Empty Input handled without publishing output."
+                    },
+                    {
+                        "Test":  "PDF Protect processing",
+                        "Passed":  true,
+                        "Detail":  "Actual BAT operation, semantic output checks, original SHA-256 and repeated-output preservation."
+                    },
+                    {
+                        "Test":  "PDF Protect menu",
+                        "Passed":  true,
+                        "Detail":  "Shell metacharacters rejected as menu input."
+                    },
+                    {
+                        "Test":  "PDF Protect missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Absent local/system dependencies refused without downloading."
+                    },
+                    {
+                        "Test":  "PDF Protect invalid input",
+                        "Passed":  true,
+                        "Detail":  "Corrupt media refused or opaque file handled according to tool semantics; source bytes preserved."
+                    },
+                    {
+                        "Test":  "PDF Unlock launch",
+                        "Passed":  true,
+                        "Detail":  "Actual BAT help/check from a different working directory in relocated Arabic/metacharacter path."
+                    },
+                    {
+                        "Test":  "PDF Unlock empty",
+                        "Passed":  true,
+                        "Detail":  "Empty Input handled without publishing output."
+                    },
+                    {
+                        "Test":  "PDF Unlock processing",
+                        "Passed":  true,
+                        "Detail":  "Actual BAT operation, semantic output checks, original SHA-256 and repeated-output preservation."
+                    },
+                    {
+                        "Test":  "PDF Unlock menu",
+                        "Passed":  true,
+                        "Detail":  "Shell metacharacters rejected as menu input."
+                    },
+                    {
+                        "Test":  "PDF Unlock missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Absent local/system dependencies refused without downloading."
+                    },
+                    {
+                        "Test":  "PDF Unlock invalid input",
+                        "Passed":  true,
+                        "Detail":  "Corrupt media refused or opaque file handled according to tool semantics; source bytes preserved."
+                    },
+                    {
+                        "Test":  "PDF Watermark launch",
+                        "Passed":  true,
+                        "Detail":  "Actual BAT help/check from a different working directory in relocated Arabic/metacharacter path."
+                    },
+                    {
+                        "Test":  "PDF Watermark empty",
+                        "Passed":  true,
+                        "Detail":  "Empty Input handled without publishing output."
+                    },
+                    {
+                        "Test":  "PDF Watermark processing",
+                        "Passed":  true,
+                        "Detail":  "Actual BAT operation, semantic output checks, original SHA-256 and repeated-output preservation."
+                    },
+                    {
+                        "Test":  "PDF Watermark menu",
+                        "Passed":  true,
+                        "Detail":  "Shell metacharacters rejected as menu input."
+                    },
+                    {
+                        "Test":  "PDF Watermark missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Absent local/system dependencies refused without downloading."
+                    },
+                    {
+                        "Test":  "PDF Watermark invalid input",
+                        "Passed":  true,
+                        "Detail":  "Corrupt media refused or opaque file handled according to tool semantics; source bytes preserved."
+                    },
+                    {
+                        "Test":  "PDF Compare launch",
+                        "Passed":  true,
+                        "Detail":  "Actual BAT help/check from a different working directory in relocated Arabic/metacharacter path."
+                    },
+                    {
+                        "Test":  "PDF Compare empty",
+                        "Passed":  true,
+                        "Detail":  "Empty Input handled without publishing output."
+                    },
+                    {
+                        "Test":  "PDF Compare processing",
+                        "Passed":  true,
+                        "Detail":  "Actual BAT operation, semantic output checks, original SHA-256 and repeated-output preservation."
+                    },
+                    {
+                        "Test":  "PDF Compare menu",
+                        "Passed":  true,
+                        "Detail":  "Shell metacharacters rejected as menu input."
+                    },
+                    {
+                        "Test":  "PDF Compare missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Absent local/system dependencies refused without downloading."
+                    },
+                    {
+                        "Test":  "PDF Compare invalid input",
+                        "Passed":  true,
+                        "Detail":  "Corrupt media refused or opaque file handled according to tool semantics; source bytes preserved."
+                    },
+                    {
+                        "Test":  "PDF Blank Page Remover launch",
+                        "Passed":  true,
+                        "Detail":  "Actual BAT help/check from a different working directory in relocated Arabic/metacharacter path."
+                    },
+                    {
+                        "Test":  "PDF Blank Page Remover empty",
+                        "Passed":  true,
+                        "Detail":  "Empty Input handled without publishing output."
+                    },
+                    {
+                        "Test":  "PDF Blank Page Remover processing",
+                        "Passed":  true,
+                        "Detail":  "Actual BAT operation, semantic output checks, original SHA-256 and repeated-output preservation."
+                    },
+                    {
+                        "Test":  "PDF Blank Page Remover menu",
+                        "Passed":  true,
+                        "Detail":  "Shell metacharacters rejected as menu input."
+                    },
+                    {
+                        "Test":  "PDF Blank Page Remover missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Absent local/system dependencies refused without downloading."
+                    },
+                    {
+                        "Test":  "PDF Blank Page Remover invalid input",
+                        "Passed":  true,
+                        "Detail":  "Corrupt media refused or opaque file handled according to tool semantics; source bytes preserved."
+                    },
+                    {
+                        "Test":  "Files to ZIP by Size launch",
+                        "Passed":  true,
+                        "Detail":  "Actual BAT help/check from a different working directory in relocated Arabic/metacharacter path."
+                    },
+                    {
+                        "Test":  "Files to ZIP by Size empty",
+                        "Passed":  true,
+                        "Detail":  "Empty Input handled without publishing output."
+                    },
+                    {
+                        "Test":  "Files to ZIP by Size processing",
+                        "Passed":  true,
+                        "Detail":  "Actual BAT operation, semantic output checks, original SHA-256 and repeated-output preservation."
+                    },
+                    {
+                        "Test":  "Files to ZIP by Size menu",
+                        "Passed":  true,
+                        "Detail":  "Shell metacharacters rejected as menu input."
+                    },
+                    {
+                        "Test":  "Files to ZIP by Size invalid input",
+                        "Passed":  true,
+                        "Detail":  "Corrupt media refused or opaque file handled according to tool semantics; source bytes preserved."
+                    },
+                    {
+                        "Test":  "File Type Organizer launch",
+                        "Passed":  true,
+                        "Detail":  "Actual BAT help/check from a different working directory in relocated Arabic/metacharacter path."
+                    },
+                    {
+                        "Test":  "File Type Organizer empty",
+                        "Passed":  true,
+                        "Detail":  "Empty Input handled without publishing output."
+                    },
+                    {
+                        "Test":  "File Type Organizer processing",
+                        "Passed":  true,
+                        "Detail":  "Actual BAT operation, semantic output checks, original SHA-256 and repeated-output preservation."
+                    },
+                    {
+                        "Test":  "File Type Organizer menu",
+                        "Passed":  true,
+                        "Detail":  "Shell metacharacters rejected as menu input."
+                    },
+                    {
+                        "Test":  "File Type Organizer invalid input",
+                        "Passed":  true,
+                        "Detail":  "Corrupt media refused or opaque file handled according to tool semantics; source bytes preserved."
+                    },
+                    {
+                        "Test":  "File Date Organizer launch",
+                        "Passed":  true,
+                        "Detail":  "Actual BAT help/check from a different working directory in relocated Arabic/metacharacter path."
+                    },
+                    {
+                        "Test":  "File Date Organizer empty",
+                        "Passed":  true,
+                        "Detail":  "Empty Input handled without publishing output."
+                    },
+                    {
+                        "Test":  "File Date Organizer processing",
+                        "Passed":  true,
+                        "Detail":  "Actual BAT operation, semantic output checks, original SHA-256 and repeated-output preservation."
+                    },
+                    {
+                        "Test":  "File Date Organizer menu",
+                        "Passed":  true,
+                        "Detail":  "Shell metacharacters rejected as menu input."
+                    },
+                    {
+                        "Test":  "File Date Organizer invalid input",
+                        "Passed":  true,
+                        "Detail":  "Corrupt media refused or opaque file handled according to tool semantics; source bytes preserved."
+                    },
+                    {
+                        "Test":  "Video Contact Sheet launch",
+                        "Passed":  true,
+                        "Detail":  "Actual BAT help/check from a different working directory in relocated Arabic/metacharacter path."
+                    },
+                    {
+                        "Test":  "Video Contact Sheet empty",
+                        "Passed":  true,
+                        "Detail":  "Empty Input handled without publishing output."
+                    },
+                    {
+                        "Test":  "Video Contact Sheet processing",
+                        "Passed":  true,
+                        "Detail":  "Actual BAT operation, semantic output checks, original SHA-256 and repeated-output preservation."
+                    },
+                    {
+                        "Test":  "Video Contact Sheet menu",
+                        "Passed":  true,
+                        "Detail":  "Shell metacharacters rejected as menu input."
+                    },
+                    {
+                        "Test":  "Video Contact Sheet missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Absent local/system dependencies refused without downloading."
+                    },
+                    {
+                        "Test":  "Video Contact Sheet invalid input",
+                        "Passed":  true,
+                        "Detail":  "Corrupt media refused or opaque file handled according to tool semantics; source bytes preserved."
+                    },
+                    {
+                        "Test":  "Subtitle Tools launch",
+                        "Passed":  true,
+                        "Detail":  "Actual BAT help/check from a different working directory in relocated Arabic/metacharacter path."
+                    },
+                    {
+                        "Test":  "Subtitle Tools empty",
+                        "Passed":  true,
+                        "Detail":  "Empty Input handled without publishing output."
+                    },
+                    {
+                        "Test":  "Subtitle Tools processing",
+                        "Passed":  true,
+                        "Detail":  "Actual BAT operation, semantic output checks, original SHA-256 and repeated-output preservation."
+                    },
+                    {
+                        "Test":  "Subtitle Tools menu",
+                        "Passed":  true,
+                        "Detail":  "Shell metacharacters rejected as menu input."
+                    },
+                    {
+                        "Test":  "Subtitle Tools invalid input",
+                        "Passed":  true,
+                        "Detail":  "Corrupt media refused or opaque file handled according to tool semantics; source bytes preserved."
+                    }
+                ]
+}

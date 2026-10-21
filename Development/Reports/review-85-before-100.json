@@ -1,0 +1,2406 @@
+[
+  {
+    "Name": "Background Color Remover",
+    "Files": [
+      {
+        "Name": "Background Color Remover — ImageMagick.md",
+        "SHA256": "44E0E8264F2375FBB8737A0C9331272A2C916B813FB7E5ABFBB650645E28C474",
+        "Characters": 4489
+      },
+      {
+        "Name": "Background Color Remover.bat",
+        "SHA256": "70F235238D04D7270D02B3C49A5688D7E5749EC3B057F0F3637465EA8990580B",
+        "Characters": 4597
+      },
+      {
+        "Name": "Background Color Remover.md",
+        "SHA256": "46A417FAECB45C65A105B2769A5AD07BE368180DCD12A4FD4E3B294284CB3324",
+        "Characters": 4303
+      }
+    ],
+    "Choices": []
+  },
+  {
+    "Name": "Image Compression",
+    "Files": [
+      {
+        "Name": "Compression Image — ImageMagick.md",
+        "SHA256": "22CDDD75951C3BF3AD8A848BF61A9C62D730C5D62D36F57EEF619456028D6C38",
+        "Characters": 5047
+      },
+      {
+        "Name": "Image Compression.bat",
+        "SHA256": "3C65CC06A49CF276ACF60AFDF0E5478C5C20ED3E78E06E7CE579E6E5F9623F07",
+        "Characters": 3766
+      },
+      {
+        "Name": "Image Compression.md",
+        "SHA256": "5549278321BE50B9445E11CC1394453E364047ABF8A7773AC36462F83D93E8F4",
+        "Characters": 4295
+      }
+    ],
+    "Choices": []
+  },
+  {
+    "Name": "Image Convert",
+    "Files": [
+      {
+        "Name": "Converting Image — ImageMagick.md",
+        "SHA256": "EA1FE7D78EC47C76CE497AEC98EA0EEC19C0BAE7AA8D9A5A05DB663F07F15CA6",
+        "Characters": 6194
+      },
+      {
+        "Name": "Image Convert.bat",
+        "SHA256": "930F7A888570D4B87EDD61CD05C8CB97C3D7FD66F0F2FE24F8E03063E8309E23",
+        "Characters": 4859
+      },
+      {
+        "Name": "Image Convert.md",
+        "SHA256": "EF09BEC7A60E89A965B44566065CA4AFAED8BD1E66D85B2CD3182963B2EEBFC3",
+        "Characters": 4158
+      }
+    ],
+    "Choices": []
+  },
+  {
+    "Name": "Image Crop",
+    "Files": [
+      {
+        "Name": "Crop Image — ImageMagick.md",
+        "SHA256": "D0013F0317D72D176D09BFFBF6CA93321B81C85864BA8E8F7C37CCE922A69BE5",
+        "Characters": 3383
+      },
+      {
+        "Name": "Image Crop.bat",
+        "SHA256": "A2F7FBB18534AB03B897061408099B82FAF77B805C3DDFC7BB95CB339DF4AFC4",
+        "Characters": 3971
+      },
+      {
+        "Name": "Image Crop.md",
+        "SHA256": "48E2AB029311E242CDC0083BFBEFBA99B2591FFACD99A00C328158B43A2DB760",
+        "Characters": 4065
+      }
+    ],
+    "Choices": []
+  },
+  {
+    "Name": "Image Enhance",
+    "Files": [
+      {
+        "Name": "Enhancing Image — ImageMagick.md",
+        "SHA256": "2EB23A875079518C692811B3CDCEF2EDACD2CB3B12CC57BDC6BB64E98E257A8C",
+        "Characters": 5352
+      },
+      {
+        "Name": "Image Enhance.bat",
+        "SHA256": "5C5FB77BC3B5C809994E417673278E02CF948388AA738B76370F9ED6A3761206",
+        "Characters": 2958
+      },
+      {
+        "Name": "Image Enhance.md",
+        "SHA256": "3A8155DE14AA48CCA160FE56F782A2AD107354AFA984BC45C2B4744A64E30A6B",
+        "Characters": 4069
+      }
+    ],
+    "Choices": []
+  },
+  {
+    "Name": "Image Contact Sheet",
+    "Files": [
+      {
+        "Name": "Image Contact Sheet.bat",
+        "SHA256": "19BDACED2468EAED314F0A26B870ACA638EE1721356678E34BE1A82CCC55C73A",
+        "Characters": 3486
+      },
+      {
+        "Name": "Image Contact Sheet.md",
+        "SHA256": "A697C683B05936AADB6114C7B8D2D3D8804C297653A572587797BB8C758713DA",
+        "Characters": 4209
+      },
+      {
+        "Name": "Image Grid Contact Sheet — ImageMagick.md",
+        "SHA256": "0F5C8D7BB5EE60799F36737C8141A857207B5FE911A7ACFB1FEAF9FCD45BFF56",
+        "Characters": 5317
+      }
+    ],
+    "Choices": []
+  },
+  {
+    "Name": "Image Metadata Cleaner",
+    "Files": [
+      {
+        "Name": "Image Metadata Cleaner — ImageMagick.md",
+        "SHA256": "D267A7F87DD6887194707462B511B3E30BCF8923808C15D6AD2DBC681270BA58",
+        "Characters": 5035
+      },
+      {
+        "Name": "Image Metadata Cleaner.bat",
+        "SHA256": "295BF0A84BA74C897DCF4379EEC9BF1D83789F01A65E3AC2E4B6549672B60437",
+        "Characters": 2973
+      },
+      {
+        "Name": "Image Metadata Cleaner.md",
+        "SHA256": "3AD86CFCEBF39DBFEE1CBA36B9196E4764DF85C6F687F2867BD3F933569B1541",
+        "Characters": 4224
+      }
+    ],
+    "Choices": []
+  },
+  {
+    "Name": "Image Resize",
+    "Files": [
+      {
+        "Name": "Image Resize.bat",
+        "SHA256": "4D2991112469D6137FEEF9D6BEA2260000AE6FFB8481F89CB6F9657D6BEA4F98",
+        "Characters": 4171
+      },
+      {
+        "Name": "Image Resize.md",
+        "SHA256": "203214E67A47EE0D3DDE5BC7E05F7A3929FF5A7306225BFF2DFCBF89E7D7B228",
+        "Characters": 4085
+      },
+      {
+        "Name": "Resizing Image — ImageMagick.md",
+        "SHA256": "FB8116005F7158015E3018299DF8B61E34A658655F9116B9FEC3A6878DEAC8C7",
+        "Characters": 4560
+      }
+    ],
+    "Choices": []
+  },
+  {
+    "Name": "Image Watermark",
+    "Files": [
+      {
+        "Name": "Image Watermark.bat",
+        "SHA256": "A22E84D5956B5D7DF01873A2E901756055BB1D6364C04F4824D7E39B15C70733",
+        "Characters": 13694
+      },
+      {
+        "Name": "Image Watermark.md",
+        "SHA256": "0938A44C8761A9D42AB5FCAFAA8ADC5454AC07672AE8180F231A1F27E5E13065",
+        "Characters": 4868
+      },
+      {
+        "Name": "Watermarking Images — ImageMagick.md",
+        "SHA256": "996A4D24433A86F5B8C5E6729BC948202B88158AD0599498B77110D973A9291E",
+        "Characters": 7971
+      }
+    ],
+    "Choices": []
+  },
+  {
+    "Name": "Compress Video",
+    "Files": [
+      {
+        "Name": "Compress Video.bat",
+        "SHA256": "38F4964C36560823C37F3FE33EC53ECA875BA55DB09AEDEC7B06A311D1BA792C",
+        "Characters": 6619
+      },
+      {
+        "Name": "Compress Video.md",
+        "SHA256": "0EC0439D792DB2C32D74EC633D9D4178478E7847B05DF8B71D8E1D80D3875108",
+        "Characters": 4286
+      },
+      {
+        "Name": "Video Compression — FFmpeg.md",
+        "SHA256": "3532D81B1B13D5F4735FA454387DACDBB6178BDAB38CFC053E5CCCAACF689048",
+        "Characters": 6836
+      }
+    ],
+    "Choices": []
+  },
+  {
+    "Name": "Convert Audio",
+    "Files": [
+      {
+        "Name": "Audio-Video — FFmpeg.md",
+        "SHA256": "4C22CF611C9249399EFDB4CFBC35424A2662AF02463A1A3D18DE85A5C8F54E50",
+        "Characters": 8309
+      },
+      {
+        "Name": "Convert Audio.bat",
+        "SHA256": "F5869A582B9E12E339D526CDAE440DBF0EE160C4D35ED594ABF358366BFE2652",
+        "Characters": 3766
+      },
+      {
+        "Name": "Convert Audio.md",
+        "SHA256": "47B404AEAC5F9E6B78744B0EA5ADD4ADFAD26477DA0B9C92466C68EC5D912DD6",
+        "Characters": 4229
+      },
+      {
+        "Name": "Extract Audio.bat",
+        "SHA256": "E95B07F1FD5FC86C43BA07E946E9CADC6CE43347DF593A7C7C3D7AABBD6A9BD2",
+        "Characters": 3722
+      },
+      {
+        "Name": "Extract Audio.md",
+        "SHA256": "4C676B2469AAFDFBA25B4D28F45D37DEF0F421617CDEFEFD2169D5E5E5E9DE01",
+        "Characters": 4100
+      },
+      {
+        "Name": "Increase Volume.bat",
+        "SHA256": "79EFD7645AFBAC7CECFE67C3695AD955A872376BC75E323E289B4A8822AD36FD",
+        "Characters": 5306
+      },
+      {
+        "Name": "Increase Volume.md",
+        "SHA256": "BBC111687B8324BE860326AA781C4DE4B784B57B4BC6EE087B6EEF580E6BFEB5",
+        "Characters": 4181
+      },
+      {
+        "Name": "Merge Audio.bat",
+        "SHA256": "C0D205D5DEAF22CDAA6FCAE2D331F53ECBA84AFD68F1037DADC6A535B4F826A5",
+        "Characters": 6060
+      },
+      {
+        "Name": "Merge Audio.md",
+        "SHA256": "0D9FF1E7BBFB1090793F7002CCB42CC5932735C65CFD5ECDBA90AF8B59FF5262",
+        "Characters": 4221
+      },
+      {
+        "Name": "Normalize Audio.bat",
+        "SHA256": "EA240B2F6ECC1C1D15BD6CDDC16583E3A178A2FA1A64AA9F566A3B230102033A",
+        "Characters": 3968
+      },
+      {
+        "Name": "Normalize Audio.md",
+        "SHA256": "59E984F6F4100AC5620F9E3245AA7FC8B1BACAA4FF3315E16D92D2A8D3473918",
+        "Characters": 4150
+      },
+      {
+        "Name": "Remove Audio.bat",
+        "SHA256": "9DBCCA9AA47E47523639A053862DE692F6CD6663151D1AB18DB9975197109FB7",
+        "Characters": 3856
+      },
+      {
+        "Name": "Remove Audio.md",
+        "SHA256": "49DD7CD29517B7ED05C9BE0502208EBF37BE0E914F464687ED63D9AA72B3D35E",
+        "Characters": 4131
+      },
+      {
+        "Name": "Replace Audio.bat",
+        "SHA256": "80462B411961C5692FC4EDC89F44C4FC63B3AC6A52AD9D7B48ACA141FAC7C4B7",
+        "Characters": 3774
+      },
+      {
+        "Name": "Replace Audio.md",
+        "SHA256": "8EF21D0E457D7C4D9D15C5DC17A69FA21D3241B885830ABF8EA879D7FEE76B74",
+        "Characters": 4135
+      }
+    ],
+    "Choices": []
+  },
+  {
+    "Name": "Extract Audio",
+    "Files": [
+      {
+        "Name": "Audio-Video — FFmpeg.md",
+        "SHA256": "4C22CF611C9249399EFDB4CFBC35424A2662AF02463A1A3D18DE85A5C8F54E50",
+        "Characters": 8309
+      },
+      {
+        "Name": "Convert Audio.bat",
+        "SHA256": "F5869A582B9E12E339D526CDAE440DBF0EE160C4D35ED594ABF358366BFE2652",
+        "Characters": 3766
+      },
+      {
+        "Name": "Convert Audio.md",
+        "SHA256": "47B404AEAC5F9E6B78744B0EA5ADD4ADFAD26477DA0B9C92466C68EC5D912DD6",
+        "Characters": 4229
+      },
+      {
+        "Name": "Extract Audio.bat",
+        "SHA256": "E95B07F1FD5FC86C43BA07E946E9CADC6CE43347DF593A7C7C3D7AABBD6A9BD2",
+        "Characters": 3722
+      },
+      {
+        "Name": "Extract Audio.md",
+        "SHA256": "4C676B2469AAFDFBA25B4D28F45D37DEF0F421617CDEFEFD2169D5E5E5E9DE01",
+        "Characters": 4100
+      },
+      {
+        "Name": "Increase Volume.bat",
+        "SHA256": "79EFD7645AFBAC7CECFE67C3695AD955A872376BC75E323E289B4A8822AD36FD",
+        "Characters": 5306
+      },
+      {
+        "Name": "Increase Volume.md",
+        "SHA256": "BBC111687B8324BE860326AA781C4DE4B784B57B4BC6EE087B6EEF580E6BFEB5",
+        "Characters": 4181
+      },
+      {
+        "Name": "Merge Audio.bat",
+        "SHA256": "C0D205D5DEAF22CDAA6FCAE2D331F53ECBA84AFD68F1037DADC6A535B4F826A5",
+        "Characters": 6060
+      },
+      {
+        "Name": "Merge Audio.md",
+        "SHA256": "0D9FF1E7BBFB1090793F7002CCB42CC5932735C65CFD5ECDBA90AF8B59FF5262",
+        "Characters": 4221
+      },
+      {
+        "Name": "Normalize Audio.bat",
+        "SHA256": "EA240B2F6ECC1C1D15BD6CDDC16583E3A178A2FA1A64AA9F566A3B230102033A",
+        "Characters": 3968
+      },
+      {
+        "Name": "Normalize Audio.md",
+        "SHA256": "59E984F6F4100AC5620F9E3245AA7FC8B1BACAA4FF3315E16D92D2A8D3473918",
+        "Characters": 4150
+      },
+      {
+        "Name": "Remove Audio.bat",
+        "SHA256": "9DBCCA9AA47E47523639A053862DE692F6CD6663151D1AB18DB9975197109FB7",
+        "Characters": 3856
+      },
+      {
+        "Name": "Remove Audio.md",
+        "SHA256": "49DD7CD29517B7ED05C9BE0502208EBF37BE0E914F464687ED63D9AA72B3D35E",
+        "Characters": 4131
+      },
+      {
+        "Name": "Replace Audio.bat",
+        "SHA256": "80462B411961C5692FC4EDC89F44C4FC63B3AC6A52AD9D7B48ACA141FAC7C4B7",
+        "Characters": 3774
+      },
+      {
+        "Name": "Replace Audio.md",
+        "SHA256": "8EF21D0E457D7C4D9D15C5DC17A69FA21D3241B885830ABF8EA879D7FEE76B74",
+        "Characters": 4135
+      }
+    ],
+    "Choices": []
+  },
+  {
+    "Name": "Increase Volume",
+    "Files": [
+      {
+        "Name": "Audio-Video — FFmpeg.md",
+        "SHA256": "4C22CF611C9249399EFDB4CFBC35424A2662AF02463A1A3D18DE85A5C8F54E50",
+        "Characters": 8309
+      },
+      {
+        "Name": "Convert Audio.bat",
+        "SHA256": "F5869A582B9E12E339D526CDAE440DBF0EE160C4D35ED594ABF358366BFE2652",
+        "Characters": 3766
+      },
+      {
+        "Name": "Convert Audio.md",
+        "SHA256": "47B404AEAC5F9E6B78744B0EA5ADD4ADFAD26477DA0B9C92466C68EC5D912DD6",
+        "Characters": 4229
+      },
+      {
+        "Name": "Extract Audio.bat",
+        "SHA256": "E95B07F1FD5FC86C43BA07E946E9CADC6CE43347DF593A7C7C3D7AABBD6A9BD2",
+        "Characters": 3722
+      },
+      {
+        "Name": "Extract Audio.md",
+        "SHA256": "4C676B2469AAFDFBA25B4D28F45D37DEF0F421617CDEFEFD2169D5E5E5E9DE01",
+        "Characters": 4100
+      },
+      {
+        "Name": "Increase Volume.bat",
+        "SHA256": "79EFD7645AFBAC7CECFE67C3695AD955A872376BC75E323E289B4A8822AD36FD",
+        "Characters": 5306
+      },
+      {
+        "Name": "Increase Volume.md",
+        "SHA256": "BBC111687B8324BE860326AA781C4DE4B784B57B4BC6EE087B6EEF580E6BFEB5",
+        "Characters": 4181
+      },
+      {
+        "Name": "Merge Audio.bat",
+        "SHA256": "C0D205D5DEAF22CDAA6FCAE2D331F53ECBA84AFD68F1037DADC6A535B4F826A5",
+        "Characters": 6060
+      },
+      {
+        "Name": "Merge Audio.md",
+        "SHA256": "0D9FF1E7BBFB1090793F7002CCB42CC5932735C65CFD5ECDBA90AF8B59FF5262",
+        "Characters": 4221
+      },
+      {
+        "Name": "Normalize Audio.bat",
+        "SHA256": "EA240B2F6ECC1C1D15BD6CDDC16583E3A178A2FA1A64AA9F566A3B230102033A",
+        "Characters": 3968
+      },
+      {
+        "Name": "Normalize Audio.md",
+        "SHA256": "59E984F6F4100AC5620F9E3245AA7FC8B1BACAA4FF3315E16D92D2A8D3473918",
+        "Characters": 4150
+      },
+      {
+        "Name": "Remove Audio.bat",
+        "SHA256": "9DBCCA9AA47E47523639A053862DE692F6CD6663151D1AB18DB9975197109FB7",
+        "Characters": 3856
+      },
+      {
+        "Name": "Remove Audio.md",
+        "SHA256": "49DD7CD29517B7ED05C9BE0502208EBF37BE0E914F464687ED63D9AA72B3D35E",
+        "Characters": 4131
+      },
+      {
+        "Name": "Replace Audio.bat",
+        "SHA256": "80462B411961C5692FC4EDC89F44C4FC63B3AC6A52AD9D7B48ACA141FAC7C4B7",
+        "Characters": 3774
+      },
+      {
+        "Name": "Replace Audio.md",
+        "SHA256": "8EF21D0E457D7C4D9D15C5DC17A69FA21D3241B885830ABF8EA879D7FEE76B74",
+        "Characters": 4135
+      }
+    ],
+    "Choices": []
+  },
+  {
+    "Name": "Merge Audio",
+    "Files": [
+      {
+        "Name": "Audio-Video — FFmpeg.md",
+        "SHA256": "4C22CF611C9249399EFDB4CFBC35424A2662AF02463A1A3D18DE85A5C8F54E50",
+        "Characters": 8309
+      },
+      {
+        "Name": "Convert Audio.bat",
+        "SHA256": "F5869A582B9E12E339D526CDAE440DBF0EE160C4D35ED594ABF358366BFE2652",
+        "Characters": 3766
+      },
+      {
+        "Name": "Convert Audio.md",
+        "SHA256": "47B404AEAC5F9E6B78744B0EA5ADD4ADFAD26477DA0B9C92466C68EC5D912DD6",
+        "Characters": 4229
+      },
+      {
+        "Name": "Extract Audio.bat",
+        "SHA256": "E95B07F1FD5FC86C43BA07E946E9CADC6CE43347DF593A7C7C3D7AABBD6A9BD2",
+        "Characters": 3722
+      },
+      {
+        "Name": "Extract Audio.md",
+        "SHA256": "4C676B2469AAFDFBA25B4D28F45D37DEF0F421617CDEFEFD2169D5E5E5E9DE01",
+        "Characters": 4100
+      },
+      {
+        "Name": "Increase Volume.bat",
+        "SHA256": "79EFD7645AFBAC7CECFE67C3695AD955A872376BC75E323E289B4A8822AD36FD",
+        "Characters": 5306
+      },
+      {
+        "Name": "Increase Volume.md",
+        "SHA256": "BBC111687B8324BE860326AA781C4DE4B784B57B4BC6EE087B6EEF580E6BFEB5",
+        "Characters": 4181
+      },
+      {
+        "Name": "Merge Audio.bat",
+        "SHA256": "C0D205D5DEAF22CDAA6FCAE2D331F53ECBA84AFD68F1037DADC6A535B4F826A5",
+        "Characters": 6060
+      },
+      {
+        "Name": "Merge Audio.md",
+        "SHA256": "0D9FF1E7BBFB1090793F7002CCB42CC5932735C65CFD5ECDBA90AF8B59FF5262",
+        "Characters": 4221
+      },
+      {
+        "Name": "Normalize Audio.bat",
+        "SHA256": "EA240B2F6ECC1C1D15BD6CDDC16583E3A178A2FA1A64AA9F566A3B230102033A",
+        "Characters": 3968
+      },
+      {
+        "Name": "Normalize Audio.md",
+        "SHA256": "59E984F6F4100AC5620F9E3245AA7FC8B1BACAA4FF3315E16D92D2A8D3473918",
+        "Characters": 4150
+      },
+      {
+        "Name": "Remove Audio.bat",
+        "SHA256": "9DBCCA9AA47E47523639A053862DE692F6CD6663151D1AB18DB9975197109FB7",
+        "Characters": 3856
+      },
+      {
+        "Name": "Remove Audio.md",
+        "SHA256": "49DD7CD29517B7ED05C9BE0502208EBF37BE0E914F464687ED63D9AA72B3D35E",
+        "Characters": 4131
+      },
+      {
+        "Name": "Replace Audio.bat",
+        "SHA256": "80462B411961C5692FC4EDC89F44C4FC63B3AC6A52AD9D7B48ACA141FAC7C4B7",
+        "Characters": 3774
+      },
+      {
+        "Name": "Replace Audio.md",
+        "SHA256": "8EF21D0E457D7C4D9D15C5DC17A69FA21D3241B885830ABF8EA879D7FEE76B74",
+        "Characters": 4135
+      }
+    ],
+    "Choices": []
+  },
+  {
+    "Name": "Normalize Audio",
+    "Files": [
+      {
+        "Name": "Audio-Video — FFmpeg.md",
+        "SHA256": "4C22CF611C9249399EFDB4CFBC35424A2662AF02463A1A3D18DE85A5C8F54E50",
+        "Characters": 8309
+      },
+      {
+        "Name": "Convert Audio.bat",
+        "SHA256": "F5869A582B9E12E339D526CDAE440DBF0EE160C4D35ED594ABF358366BFE2652",
+        "Characters": 3766
+      },
+      {
+        "Name": "Convert Audio.md",
+        "SHA256": "47B404AEAC5F9E6B78744B0EA5ADD4ADFAD26477DA0B9C92466C68EC5D912DD6",
+        "Characters": 4229
+      },
+      {
+        "Name": "Extract Audio.bat",
+        "SHA256": "E95B07F1FD5FC86C43BA07E946E9CADC6CE43347DF593A7C7C3D7AABBD6A9BD2",
+        "Characters": 3722
+      },
+      {
+        "Name": "Extract Audio.md",
+        "SHA256": "4C676B2469AAFDFBA25B4D28F45D37DEF0F421617CDEFEFD2169D5E5E5E9DE01",
+        "Characters": 4100
+      },
+      {
+        "Name": "Increase Volume.bat",
+        "SHA256": "79EFD7645AFBAC7CECFE67C3695AD955A872376BC75E323E289B4A8822AD36FD",
+        "Characters": 5306
+      },
+      {
+        "Name": "Increase Volume.md",
+        "SHA256": "BBC111687B8324BE860326AA781C4DE4B784B57B4BC6EE087B6EEF580E6BFEB5",
+        "Characters": 4181
+      },
+      {
+        "Name": "Merge Audio.bat",
+        "SHA256": "C0D205D5DEAF22CDAA6FCAE2D331F53ECBA84AFD68F1037DADC6A535B4F826A5",
+        "Characters": 6060
+      },
+      {
+        "Name": "Merge Audio.md",
+        "SHA256": "0D9FF1E7BBFB1090793F7002CCB42CC5932735C65CFD5ECDBA90AF8B59FF5262",
+        "Characters": 4221
+      },
+      {
+        "Name": "Normalize Audio.bat",
+        "SHA256": "EA240B2F6ECC1C1D15BD6CDDC16583E3A178A2FA1A64AA9F566A3B230102033A",
+        "Characters": 3968
+      },
+      {
+        "Name": "Normalize Audio.md",
+        "SHA256": "59E984F6F4100AC5620F9E3245AA7FC8B1BACAA4FF3315E16D92D2A8D3473918",
+        "Characters": 4150
+      },
+      {
+        "Name": "Remove Audio.bat",
+        "SHA256": "9DBCCA9AA47E47523639A053862DE692F6CD6663151D1AB18DB9975197109FB7",
+        "Characters": 3856
+      },
+      {
+        "Name": "Remove Audio.md",
+        "SHA256": "49DD7CD29517B7ED05C9BE0502208EBF37BE0E914F464687ED63D9AA72B3D35E",
+        "Characters": 4131
+      },
+      {
+        "Name": "Replace Audio.bat",
+        "SHA256": "80462B411961C5692FC4EDC89F44C4FC63B3AC6A52AD9D7B48ACA141FAC7C4B7",
+        "Characters": 3774
+      },
+      {
+        "Name": "Replace Audio.md",
+        "SHA256": "8EF21D0E457D7C4D9D15C5DC17A69FA21D3241B885830ABF8EA879D7FEE76B74",
+        "Characters": 4135
+      }
+    ],
+    "Choices": []
+  },
+  {
+    "Name": "Remove Audio",
+    "Files": [
+      {
+        "Name": "Audio-Video — FFmpeg.md",
+        "SHA256": "4C22CF611C9249399EFDB4CFBC35424A2662AF02463A1A3D18DE85A5C8F54E50",
+        "Characters": 8309
+      },
+      {
+        "Name": "Convert Audio.bat",
+        "SHA256": "F5869A582B9E12E339D526CDAE440DBF0EE160C4D35ED594ABF358366BFE2652",
+        "Characters": 3766
+      },
+      {
+        "Name": "Convert Audio.md",
+        "SHA256": "47B404AEAC5F9E6B78744B0EA5ADD4ADFAD26477DA0B9C92466C68EC5D912DD6",
+        "Characters": 4229
+      },
+      {
+        "Name": "Extract Audio.bat",
+        "SHA256": "E95B07F1FD5FC86C43BA07E946E9CADC6CE43347DF593A7C7C3D7AABBD6A9BD2",
+        "Characters": 3722
+      },
+      {
+        "Name": "Extract Audio.md",
+        "SHA256": "4C676B2469AAFDFBA25B4D28F45D37DEF0F421617CDEFEFD2169D5E5E5E9DE01",
+        "Characters": 4100
+      },
+      {
+        "Name": "Increase Volume.bat",
+        "SHA256": "79EFD7645AFBAC7CECFE67C3695AD955A872376BC75E323E289B4A8822AD36FD",
+        "Characters": 5306
+      },
+      {
+        "Name": "Increase Volume.md",
+        "SHA256": "BBC111687B8324BE860326AA781C4DE4B784B57B4BC6EE087B6EEF580E6BFEB5",
+        "Characters": 4181
+      },
+      {
+        "Name": "Merge Audio.bat",
+        "SHA256": "C0D205D5DEAF22CDAA6FCAE2D331F53ECBA84AFD68F1037DADC6A535B4F826A5",
+        "Characters": 6060
+      },
+      {
+        "Name": "Merge Audio.md",
+        "SHA256": "0D9FF1E7BBFB1090793F7002CCB42CC5932735C65CFD5ECDBA90AF8B59FF5262",
+        "Characters": 4221
+      },
+      {
+        "Name": "Normalize Audio.bat",
+        "SHA256": "EA240B2F6ECC1C1D15BD6CDDC16583E3A178A2FA1A64AA9F566A3B230102033A",
+        "Characters": 3968
+      },
+      {
+        "Name": "Normalize Audio.md",
+        "SHA256": "59E984F6F4100AC5620F9E3245AA7FC8B1BACAA4FF3315E16D92D2A8D3473918",
+        "Characters": 4150
+      },
+      {
+        "Name": "Remove Audio.bat",
+        "SHA256": "9DBCCA9AA47E47523639A053862DE692F6CD6663151D1AB18DB9975197109FB7",
+        "Characters": 3856
+      },
+      {
+        "Name": "Remove Audio.md",
+        "SHA256": "49DD7CD29517B7ED05C9BE0502208EBF37BE0E914F464687ED63D9AA72B3D35E",
+        "Characters": 4131
+      },
+      {
+        "Name": "Replace Audio.bat",
+        "SHA256": "80462B411961C5692FC4EDC89F44C4FC63B3AC6A52AD9D7B48ACA141FAC7C4B7",
+        "Characters": 3774
+      },
+      {
+        "Name": "Replace Audio.md",
+        "SHA256": "8EF21D0E457D7C4D9D15C5DC17A69FA21D3241B885830ABF8EA879D7FEE76B74",
+        "Characters": 4135
+      }
+    ],
+    "Choices": []
+  },
+  {
+    "Name": "Replace Audio",
+    "Files": [
+      {
+        "Name": "Audio-Video — FFmpeg.md",
+        "SHA256": "4C22CF611C9249399EFDB4CFBC35424A2662AF02463A1A3D18DE85A5C8F54E50",
+        "Characters": 8309
+      },
+      {
+        "Name": "Convert Audio.bat",
+        "SHA256": "F5869A582B9E12E339D526CDAE440DBF0EE160C4D35ED594ABF358366BFE2652",
+        "Characters": 3766
+      },
+      {
+        "Name": "Convert Audio.md",
+        "SHA256": "47B404AEAC5F9E6B78744B0EA5ADD4ADFAD26477DA0B9C92466C68EC5D912DD6",
+        "Characters": 4229
+      },
+      {
+        "Name": "Extract Audio.bat",
+        "SHA256": "E95B07F1FD5FC86C43BA07E946E9CADC6CE43347DF593A7C7C3D7AABBD6A9BD2",
+        "Characters": 3722
+      },
+      {
+        "Name": "Extract Audio.md",
+        "SHA256": "4C676B2469AAFDFBA25B4D28F45D37DEF0F421617CDEFEFD2169D5E5E5E9DE01",
+        "Characters": 4100
+      },
+      {
+        "Name": "Increase Volume.bat",
+        "SHA256": "79EFD7645AFBAC7CECFE67C3695AD955A872376BC75E323E289B4A8822AD36FD",
+        "Characters": 5306
+      },
+      {
+        "Name": "Increase Volume.md",
+        "SHA256": "BBC111687B8324BE860326AA781C4DE4B784B57B4BC6EE087B6EEF580E6BFEB5",
+        "Characters": 4181
+      },
+      {
+        "Name": "Merge Audio.bat",
+        "SHA256": "C0D205D5DEAF22CDAA6FCAE2D331F53ECBA84AFD68F1037DADC6A535B4F826A5",
+        "Characters": 6060
+      },
+      {
+        "Name": "Merge Audio.md",
+        "SHA256": "0D9FF1E7BBFB1090793F7002CCB42CC5932735C65CFD5ECDBA90AF8B59FF5262",
+        "Characters": 4221
+      },
+      {
+        "Name": "Normalize Audio.bat",
+        "SHA256": "EA240B2F6ECC1C1D15BD6CDDC16583E3A178A2FA1A64AA9F566A3B230102033A",
+        "Characters": 3968
+      },
+      {
+        "Name": "Normalize Audio.md",
+        "SHA256": "59E984F6F4100AC5620F9E3245AA7FC8B1BACAA4FF3315E16D92D2A8D3473918",
+        "Characters": 4150
+      },
+      {
+        "Name": "Remove Audio.bat",
+        "SHA256": "9DBCCA9AA47E47523639A053862DE692F6CD6663151D1AB18DB9975197109FB7",
+        "Characters": 3856
+      },
+      {
+        "Name": "Remove Audio.md",
+        "SHA256": "49DD7CD29517B7ED05C9BE0502208EBF37BE0E914F464687ED63D9AA72B3D35E",
+        "Characters": 4131
+      },
+      {
+        "Name": "Replace Audio.bat",
+        "SHA256": "80462B411961C5692FC4EDC89F44C4FC63B3AC6A52AD9D7B48ACA141FAC7C4B7",
+        "Characters": 3774
+      },
+      {
+        "Name": "Replace Audio.md",
+        "SHA256": "8EF21D0E457D7C4D9D15C5DC17A69FA21D3241B885830ABF8EA879D7FEE76B74",
+        "Characters": 4135
+      }
+    ],
+    "Choices": []
+  },
+  {
+    "Name": "Video FPS Converter",
+    "Files": [
+      {
+        "Name": "Video FPS Conversion — FFmpeg.md",
+        "SHA256": "55A5140F54C3E14C4ACC36FCA6A0D1CE2F84BF13F74CD897F3996BB411E16181",
+        "Characters": 9288
+      },
+      {
+        "Name": "Video FPS Converter.bat",
+        "SHA256": "D4E2F0B9EB0637FE4DF5A54F3B528F1400CB7219A9F77F89B4C61F7143AC15F8",
+        "Characters": 3732
+      },
+      {
+        "Name": "Video FPS Converter.md",
+        "SHA256": "58803571AA4E018D5EC52B88105182B2C242BBA8541DBF12B291A43104B9AED8",
+        "Characters": 4136
+      }
+    ],
+    "Choices": []
+  },
+  {
+    "Name": "Video Resolution Converter",
+    "Files": [
+      {
+        "Name": "Video Resolution Converter — FFmpeg.md",
+        "SHA256": "99D6860552749ED3B9762157F4D9A92E96D3B8C239FF04C6406EBB409B3F8DB2",
+        "Characters": 9260
+      },
+      {
+        "Name": "Video Resolution Converter.bat",
+        "SHA256": "74BE343CDB7593C433D0A89F0BE09D9AAF98864C649D511F58068E865C7EB4F3",
+        "Characters": 3901
+      },
+      {
+        "Name": "Video Resolution Converter.md",
+        "SHA256": "E33B272ED6FCE13A818103112A0665E04AA8A03071A879A81C57F7268071464F",
+        "Characters": 4362
+      }
+    ],
+    "Choices": []
+  },
+  {
+    "Name": "Video Speed",
+    "Files": [
+      {
+        "Name": "Video Speed — FFmpeg.md",
+        "SHA256": "0E373C1A680280955E0A9286BD93C1BCA436C4536C0B15B5F8A300FCA0BC172F",
+        "Characters": 9793
+      },
+      {
+        "Name": "Video Speed.bat",
+        "SHA256": "BFA7284AB3FAEB54B379F89878F338931FC630950E8B2DE863A8DAC269DAC0A2",
+        "Characters": 4034
+      },
+      {
+        "Name": "Video Speed.md",
+        "SHA256": "6AF686574B9E7AEB36B6300C4A49A7CB1853255FE2F34F606901D590C214A5EC",
+        "Characters": 4114
+      }
+    ],
+    "Choices": []
+  },
+  {
+    "Name": "Video Thumbnail",
+    "Files": [
+      {
+        "Name": "Video Thumbnail.bat",
+        "SHA256": "E4D7811308288EDB1EF038BF031F892ABF9C2E77F7E74A38BCB49B1AD1C3F33E",
+        "Characters": 642
+      },
+      {
+        "Name": "Video Thumbnail.md",
+        "SHA256": "3A599BC711084898702D96EC43C5FAD2DB92CB33C7111CFF165C7A366435A733",
+        "Characters": 4075
+      }
+    ],
+    "Choices": []
+  },
+  {
+    "Name": "Compress PDF",
+    "Files": [
+      {
+        "Name": "Compress PDF.bat",
+        "SHA256": "BFE57A7390CB2291C7CAB9643A1A51263389E469893F7F7B88093046741824BB",
+        "Characters": 4737
+      },
+      {
+        "Name": "Compress PDF.md",
+        "SHA256": "48943AC91B238BD94A1819919351DF9F35E38FDDD80E1D02D9EAC97D910C02A5",
+        "Characters": 4176
+      },
+      {
+        "Name": "PDF Compression — Ghostscript.md",
+        "SHA256": "15D501D031B6CAD8580B80FBFE0F1F0C7B4A5127846E110E06A0B65BD17404B6",
+        "Characters": 6466
+      }
+    ],
+    "Choices": []
+  },
+  {
+    "Name": "Merge PDF",
+    "Files": [
+      {
+        "Name": "Merge PDF.bat",
+        "SHA256": "60C956F0F71921396DD2A4858885B5FB969685DC0746E556167D8266A6EBFAA6",
+        "Characters": 630
+      },
+      {
+        "Name": "Merge PDF.md",
+        "SHA256": "71A48466EA2158E85CA62A6815D49716A8CF3D76B8C42D52D9B882B72AEC38BB",
+        "Characters": 4139
+      }
+    ],
+    "Choices": []
+  },
+  {
+    "Name": "Audio Converter",
+    "Files": [
+      {
+        "Name": "Audio Converter.bat",
+        "SHA256": "2EB72A9B2F25A538C36D42DF6756D62D6CE279EFFFAF787A88ABC0ACB30CEACF",
+        "Characters": 642
+      },
+      {
+        "Name": "Audio Converter.md",
+        "SHA256": "DE7BABE07DB09C7129558BBB15E7B44E48F72445BED951993B9A846DD1B7ED0C",
+        "Characters": 4149
+      }
+    ],
+    "Choices": []
+  },
+  {
+    "Name": "Duplicate Finder",
+    "Files": [
+      {
+        "Name": "Duplicate Finder.bat",
+        "SHA256": "797519F02868E48F7B04F42DDCCBF15EA197514C8314981DD58223BE1B3239E2",
+        "Characters": 644
+      },
+      {
+        "Name": "Duplicate Finder.md",
+        "SHA256": "5C2F05125AD9391551FFDB629D7B6164F5690EA06F51618468801E58967F0B39",
+        "Characters": 4177
+      }
+    ],
+    "Choices": []
+  },
+  {
+    "Name": "File Hashes",
+    "Files": [
+      {
+        "Name": "File Hashes.bat",
+        "SHA256": "E00CA3D2D2B18014C21973331E85A01CD356DE43AA8D4D8C86650F30D9920B55",
+        "Characters": 634
+      },
+      {
+        "Name": "File Hashes.md",
+        "SHA256": "E0B2838975F6CEBE5F624765C3DFC6530D8E6BEB80DBAD51920C8DEE1C9ED7D0",
+        "Characters": 4295
+      }
+    ],
+    "Choices": []
+  },
+  {
+    "Name": "File Inventory",
+    "Files": [
+      {
+        "Name": "File Inventory.bat",
+        "SHA256": "BBFE253A87D34D7757A49E95004601F3BB2997739FF9A7E68FDB4486C6305028",
+        "Characters": 640
+      },
+      {
+        "Name": "File Inventory.md",
+        "SHA256": "5D93D6D044227AA333ABFDA77A32F334CD0A37F8BB43470A00A7E08753C4AA14",
+        "Characters": 4152
+      }
+    ],
+    "Choices": []
+  },
+  {
+    "Name": "Media Info",
+    "Files": [
+      {
+        "Name": "Media Info.bat",
+        "SHA256": "0530F80065D62961E363A0BB6B6F0822376C7372E7019C13861975B63195747D",
+        "Characters": 632
+      },
+      {
+        "Name": "Media Info.md",
+        "SHA256": "AD34BC983E91383D49B939F063AFF71D482244FCF1A8D7109E1D9C7EA74492CC",
+        "Characters": 4149
+      }
+    ],
+    "Choices": []
+  },
+  {
+    "Name": "ZIP Backup",
+    "Files": [
+      {
+        "Name": "ZIP Backup.bat",
+        "SHA256": "88407D0B9D899767DA04A4324F8A7581C57D8447A4701F8F46571B6FC76E0971",
+        "Characters": 632
+      },
+      {
+        "Name": "ZIP Backup.md",
+        "SHA256": "A6D3ADEE37834FD3BEBE80EDC4518DFE32A49DCC4E37DBA04D1F310AF9D71DBC",
+        "Characters": 4168
+      }
+    ],
+    "Choices": []
+  },
+  {
+    "Name": "ZIP Extract",
+    "Files": [
+      {
+        "Name": "ZIP Extract.bat",
+        "SHA256": "90E69839FC56D173C169FA1A32378DA0905F4FA73F30CDB5AD516D379F5EEB0A",
+        "Characters": 634
+      },
+      {
+        "Name": "ZIP Extract.md",
+        "SHA256": "FE37F351FF22BD735850E607AB240CF0D8B6778B06D9E37DB5A93E225C82886B",
+        "Characters": 4236
+      }
+    ],
+    "Choices": []
+  },
+  {
+    "Name": "Image Rotate",
+    "Files": [
+      {
+        "Name": "Image Rotate.bat",
+        "SHA256": "8699015F507CC684F7F28D103BADB1E3DBDEF122CA97A4C2B34FD6E6EC6D3824",
+        "Characters": 627
+      },
+      {
+        "Name": "Image Rotate.md",
+        "SHA256": "80BB1CAAA12B89CD5AA30FEAF8BD5CE5177914343DFBACF774531CF69A2C14D3",
+        "Characters": 4368
+      },
+      {
+        "Name": "Image Rotate.ps1",
+        "SHA256": "969838D011A2B5B4E55106E677BD3642913CB9E8BD857579AF49E7EC71FFA77E",
+        "Characters": 1078
+      }
+    ],
+    "Choices": [
+      "    Show-LocalTool 'Image Rotate' $PSScriptRoot $Mode 'magick' 'Rotate images into a new PNG; originals are preserved.'",
+      "    $choice=Read-LocalChoice $Mode @('90 degrees clockwise','90 degrees counterclockwise','180 degrees')",
+      "    Invoke-LocalBatch $files {param($f) $f.Name+'.rotated.png'} {"
+    ]
+  },
+  {
+    "Name": "Image Flip",
+    "Files": [
+      {
+        "Name": "Image Flip.bat",
+        "SHA256": "3B1502419211995BD1357DA28A5FCA4726E6C926B35FFB6FF6E69A6B5BE995F8",
+        "Characters": 623
+      },
+      {
+        "Name": "Image Flip.md",
+        "SHA256": "450E09597FFF98C10D4B8BF269B1CA95C1C8C8A3CB3913F93BEAA11AB382CC31",
+        "Characters": 4249
+      },
+      {
+        "Name": "Image Flip.ps1",
+        "SHA256": "BBB6986F6E9F5344C24E6E9C7583DE4735FE4036497CB2A762F12B011A7E722D",
+        "Characters": 1010
+      }
+    ],
+    "Choices": [
+      "    Show-LocalTool 'Image Flip' $PSScriptRoot $Mode 'magick' 'Mirror an image horizontally or vertically; output is PNG.'",
+      "    $choice=Read-LocalChoice $Mode @('Horizontal mirror','Vertical mirror')",
+      "    Invoke-LocalBatch $files {param($f) $f.Name+'.flipped.png'} {"
+    ]
+  },
+  {
+    "Name": "Image Grayscale",
+    "Files": [
+      {
+        "Name": "Image Grayscale.bat",
+        "SHA256": "EC114A83825BE424A78FD3AB2D983276ABEFD9F0E6BD2F98E7BB8E4170F55D9B",
+        "Characters": 633
+      },
+      {
+        "Name": "Image Grayscale.md",
+        "SHA256": "6C2EA3FC87AD9F0ACBE6EB28C8CE40B97E67630F1798A4C9EADF5C07D84696E9",
+        "Characters": 4366
+      },
+      {
+        "Name": "Image Grayscale.ps1",
+        "SHA256": "4B5E5FCB0A997D0326F2FECB4BFA27CB30A36BE7DF05ADA1B8F6D2321022B764",
+        "Characters": 969
+      }
+    ],
+    "Choices": [
+      "    Show-LocalTool 'Image Grayscale' $PSScriptRoot $Mode 'magick' 'Create grayscale PNG copies while retaining transparency.'",
+      "    $null=Read-LocalChoice $Mode @('Convert to grayscale')",
+      "    Invoke-LocalBatch $files {param($f) $f.Name+'.gray.png'} {"
+    ]
+  },
+  {
+    "Name": "Image Border",
+    "Files": [
+      {
+        "Name": "Image Border.bat",
+        "SHA256": "C588B196F9C2D7343F77E1BDDFE21F56FC1E66980BB55EA502625351DE699D88",
+        "Characters": 627
+      },
+      {
+        "Name": "Image Border.md",
+        "SHA256": "4AE6C3D0CB2B5D5A708DDBBB76EF039372F2FAB8A57535A284B57E3C3877CA46",
+        "Characters": 4347
+      },
+      {
+        "Name": "Image Border.ps1",
+        "SHA256": "0CE98985411BA2623C43A0EDD2EA83C5C25B0AF3532847482E9B085DBA61ACBD",
+        "Characters": 1356
+      }
+    ],
+    "Choices": [
+      "    Show-LocalTool 'Image Border' $PSScriptRoot $Mode 'magick' 'Add a solid border around the full image; output is PNG.'",
+      "    $choice=Read-LocalChoice $Mode @('White 20-pixel border','Black 20-pixel border','Custom width and white/black')",
+      "    if($choice -eq 3){$width=Read-LocalNumber 'Border width in pixels (1-1000)' 1 1000;if($width -notmatch '^\\d+$'){throw 'Width must be an integer.'};$c=Read-LocalChoice 'Interactive' @('White','Black');$color=@('white','black')[$c-1]}",
+      "    Invoke-LocalBatch $files {param($f) $f.Name+'.border.png'} {"
+    ]
+  },
+  {
+    "Name": "Image Info",
+    "Files": [
+      {
+        "Name": "Image Info.bat",
+        "SHA256": "7ED0D3D6E3F48DA5FA47758C51A3B101945561D18F38DE2ECA2B13C302AF2FF5",
+        "Characters": 623
+      },
+      {
+        "Name": "Image Info.md",
+        "SHA256": "5EEB2FF91ACE142D6F19A0276FA069AFECEBB723A3C3789F3BE9B006B5F537B9",
+        "Characters": 4361
+      },
+      {
+        "Name": "Image Info.ps1",
+        "SHA256": "27426C7B1A2649658B623BC3E069AFEADDEC0B17F14CC1DB990F16B8A7DA21FC",
+        "Characters": 872
+      }
+    ],
+    "Choices": [
+      "    Show-LocalTool 'Image Info' $PSScriptRoot $Mode 'magick' 'Read dimensions, format, frame count, colorspace and metadata into a text report.'",
+      "    $null=Read-LocalChoice $Mode @('Create detailed image reports')",
+      "    Invoke-LocalBatch $files {param($f) $f.Name+'.info.txt'} {"
+    ]
+  },
+  {
+    "Name": "Video Trim",
+    "Files": [
+      {
+        "Name": "Video Trim.bat",
+        "SHA256": "0D06311B175FCD4C4A9F779167D7AD2EE5F5A9F0BBA0E6887DBF94A4C6C5D28B",
+        "Characters": 623
+      },
+      {
+        "Name": "Video Trim.md",
+        "SHA256": "A73944EDA8C63A4D7EA58780D5F3880A24381A7FE57CDB671EAEF48AE2BB781E",
+        "Characters": 4391
+      },
+      {
+        "Name": "Video Trim.ps1",
+        "SHA256": "CCAE5E26D5E80E5B8FB65292FB9CDBB3C74DBD626DEDFD4591029D54116A341A",
+        "Characters": 1373
+      }
+    ],
+    "Choices": [
+      "    Show-LocalTool 'Video Trim' $PSScriptRoot $Mode 'ffmpeg' 'Cut a precise segment by re-encoding H.264/AAC to MP4.'",
+      "    $choice=Read-LocalChoice $Mode @('First 10 seconds','Custom start and duration in seconds')",
+      "    Invoke-LocalBatch $files {param($f) $f.Name+'.trim.mp4'} {"
+    ]
+  },
+  {
+    "Name": "Video Rotate",
+    "Files": [
+      {
+        "Name": "Video Rotate.bat",
+        "SHA256": "32025ED2F4BED5B075BA2FE77EECA436EF2C350F624CBDE73DD896277CB1891A",
+        "Characters": 627
+      },
+      {
+        "Name": "Video Rotate.md",
+        "SHA256": "4AA3F1D7E59BF1F497DAB5E4CD9AEC198A245C50AF289D20D90FC10DD5F79978",
+        "Characters": 4357
+      },
+      {
+        "Name": "Video Rotate.ps1",
+        "SHA256": "9C5B33C933D8C282A5BF7156E799E8190D1AE386446F23711CE465B8D3EACE99",
+        "Characters": 942
+      }
+    ],
+    "Choices": [
+      "    Show-LocalTool 'Video Rotate' $PSScriptRoot $Mode 'ffmpeg' 'Rotate video pixels and re-encode MP4 with optional audio.'",
+      "    $choice=Read-LocalChoice $Mode @('90 degrees clockwise','90 degrees counterclockwise','180 degrees')",
+      "    Invoke-LocalBatch $files {param($f) $f.Name+'.rotated.mp4'} {"
+    ]
+  },
+  {
+    "Name": "Video To GIF",
+    "Files": [
+      {
+        "Name": "Video To GIF.bat",
+        "SHA256": "BF28A7F1807E4CC3B13347DDAD1980A7B02C7B542DE4E28248BC363C2AC68892",
+        "Characters": 627
+      },
+      {
+        "Name": "Video To GIF.md",
+        "SHA256": "42D318A5C6F46EC93672CD77B230903797F25EC73E8935C03662D2AD5A65CA1D",
+        "Characters": 4355
+      },
+      {
+        "Name": "Video To GIF.ps1",
+        "SHA256": "0D426856761C1EAFE7F38D2B67A7BD737837CF6EF1297CD0AA13556C2F5C1950",
+        "Characters": 976
+      }
+    ],
+    "Choices": [
+      "    Show-LocalTool 'Video To GIF' $PSScriptRoot $Mode 'ffmpeg' 'Create a silent looping GIF from the first 5 or 10 seconds.'",
+      "    $choice=Read-LocalChoice $Mode @('5 seconds, 480 pixels, 10 FPS','10 seconds, 640 pixels, 15 FPS')",
+      "    Invoke-LocalBatch $files {param($f) $f.Name+'.gif'} {",
+      "        Invoke-LocalFF @('-t',$duration,'-i',$source,'-filter_complex',$filter,'-map','[out]','-an','-loop','0',$result)"
+    ]
+  },
+  {
+    "Name": "Video Remux",
+    "Files": [
+      {
+        "Name": "Video Remux.bat",
+        "SHA256": "F5A429D2D28CC51E00A2912705A9909B2D341F75BBCFFFFAD884286D669005B2",
+        "Characters": 625
+      },
+      {
+        "Name": "Video Remux.md",
+        "SHA256": "623EF6278FD731C67842DC4A77A8303161506B913D9BD8E363EFACFF067FBC21",
+        "Characters": 4344
+      },
+      {
+        "Name": "Video Remux.ps1",
+        "SHA256": "07FBC77E8F2B426F66095AAE7437C821E049A1A36DA168BE7C75086D3495EC0C",
+        "Characters": 811
+      }
+    ],
+    "Choices": [
+      "    Show-LocalTool 'Video Remux' $PSScriptRoot $Mode 'ffmpeg' 'Copy video/audio/subtitle streams into MKV or MP4 without re-encoding.'",
+      "    $choice=Read-LocalChoice $Mode @('MKV container','MP4 container (compatible codecs only)')",
+      "    Invoke-LocalBatch $files {param($f) $f.Name+'.remux'+$extension} {"
+    ]
+  },
+  {
+    "Name": "Video Frames",
+    "Files": [
+      {
+        "Name": "Video Frames.bat",
+        "SHA256": "ABACE32AB6375AB2DD1D1A4120674D37128BCB7CD8CFF4F57260C130AA99ACA1",
+        "Characters": 627
+      },
+      {
+        "Name": "Video Frames.md",
+        "SHA256": "8EEAB59B0B57752DF685B7C3FE769A3158233ECC4DDFA334A115749594B307F9",
+        "Characters": 4356
+      },
+      {
+        "Name": "Video Frames.ps1",
+        "SHA256": "7DBB1DD05AAB564110AB1709D1FDD913EE330E39B330E8DFD7A60B03CDDAF0C8",
+        "Characters": 1009
+      }
+    ],
+    "Choices": [
+      "    Show-LocalTool 'Video Frames' $PSScriptRoot $Mode 'ffmpeg' 'Export evenly spaced PNG frames into a new folder; maximum 1000 frames.'",
+      "    $choice=Read-LocalChoice $Mode @('One frame each second','One frame each 5 seconds','One frame each 10 seconds')",
+      "    Invoke-LocalBatch $files {param($f) $f.Name+'.frames'} {"
+    ]
+  },
+  {
+    "Name": "Audio Trim",
+    "Files": [
+      {
+        "Name": "Audio Trim.bat",
+        "SHA256": "85BEBC28DF51942E35B1F4BD77DC6EC13EB990B80EB37D8169A0E69B1A605A53",
+        "Characters": 623
+      },
+      {
+        "Name": "Audio Trim.md",
+        "SHA256": "250226287AC56D266D6D90D4FAFCF779FA1E8E05B1CE54B3F57465B072C361A1",
+        "Characters": 4257
+      },
+      {
+        "Name": "Audio Trim.ps1",
+        "SHA256": "C5D57C16EE4CDC3C6B74B105B1C8906C09C3D2CC6C65D564A61E0B4F0A2BAECC",
+        "Characters": 1326
+      }
+    ],
+    "Choices": [
+      "    Show-LocalTool 'Audio Trim' $PSScriptRoot $Mode 'ffmpeg' 'Cut an audio segment into uncompressed 16-bit WAV.'",
+      "    $choice=Read-LocalChoice $Mode @('First 10 seconds','Custom start and duration in seconds')",
+      "    Invoke-LocalBatch $files {param($f) $f.Name+'.trim.wav'} {"
+    ]
+  },
+  {
+    "Name": "Audio Normalize",
+    "Files": [
+      {
+        "Name": "Audio Normalize.bat",
+        "SHA256": "62FF1239442CF5A68A3B054E63E118A5744D4E8A5A8631D992E34D41857F84D4",
+        "Characters": 633
+      },
+      {
+        "Name": "Audio Normalize.md",
+        "SHA256": "68FD396E94E7C8BA319A3889D24F4B2F9636E76EECEDF15B229B24A31FAD997E",
+        "Characters": 4362
+      },
+      {
+        "Name": "Audio Normalize.ps1",
+        "SHA256": "149F060672707CF9EE83810F44AAF394EFB96C64676F5D9D5B58486506AACCD8",
+        "Characters": 840
+      }
+    ],
+    "Choices": [
+      "    Show-LocalTool 'Audio Normalize' $PSScriptRoot $Mode 'ffmpeg' 'Normalize standalone audio loudness into 48 kHz 16-bit WAV.'",
+      "    $choice=Read-LocalChoice $Mode @('-16 LUFS for spoken audio','-23 LUFS broadcast target')",
+      "    Invoke-LocalBatch $files {param($f) $f.Name+'.normalized.wav'} {"
+    ]
+  },
+  {
+    "Name": "Audio Fade",
+    "Files": [
+      {
+        "Name": "Audio Fade.bat",
+        "SHA256": "AB1C47BC8C368C7BD93B27187CBED6554E23939C6444FE1FCCFFEB5B6104AA45",
+        "Characters": 623
+      },
+      {
+        "Name": "Audio Fade.md",
+        "SHA256": "1341C91225171D290BEF62033BFC022F9EB927338AD6EDE5EE87CCF04959980C",
+        "Characters": 4299
+      },
+      {
+        "Name": "Audio Fade.ps1",
+        "SHA256": "2393BB79613102C7489A9ADBB940D4D305242091521B2453FA63206AF54B161E",
+        "Characters": 1468
+      }
+    ],
+    "Choices": [
+      "    Show-LocalTool 'Audio Fade' $PSScriptRoot $Mode 'ffmpeg' 'Fade in, fade out, or both; fade duration is at most half the clip.'",
+      "    $choice=Read-LocalChoice $Mode @('Fade in and out','Fade in only','Fade out only')",
+      "    Invoke-LocalBatch $files {param($f) $f.Name+'.fade.wav'} {"
+    ]
+  },
+  {
+    "Name": "Audio Channels",
+    "Files": [
+      {
+        "Name": "Audio Channels.bat",
+        "SHA256": "A162C2790F6C497C93A80777AC9663A4F3BDBC8F99686C205582629E278A1AD6",
+        "Characters": 631
+      },
+      {
+        "Name": "Audio Channels.md",
+        "SHA256": "C24B37DA41FC4743551D1EA4AE664EDEB5F34192C35C179C58C7F8EFA341FDD8",
+        "Characters": 4357
+      },
+      {
+        "Name": "Audio Channels.ps1",
+        "SHA256": "8C1EF480C5DFE7E738297C7397AF15B6B073C0A457DCC0663285AA50952181FB",
+        "Characters": 765
+      }
+    ],
+    "Choices": [
+      "    Show-LocalTool 'Audio Channels' $PSScriptRoot $Mode 'ffmpeg' 'Downmix to mono or produce two-channel stereo WAV.'",
+      "    $choice=Read-LocalChoice $Mode @('Mono (1 channel)','Stereo (2 channels)')",
+      "    Invoke-LocalBatch $files {param($f) $f.Name+'.channels.wav'} {"
+    ]
+  },
+  {
+    "Name": "Audio Concatenate",
+    "Files": [
+      {
+        "Name": "Audio Concatenate.bat",
+        "SHA256": "92DDB1CD2A054E477B145D448088D30C759C2D6F64BFF5FFCDA80713D5E80438",
+        "Characters": 637
+      },
+      {
+        "Name": "Audio Concatenate.md",
+        "SHA256": "F0DD9B428BA40671A8791BC7EB07DF9595D8D24B00D24024CAE8761A494F30C2",
+        "Characters": 4471
+      },
+      {
+        "Name": "Audio Concatenate.ps1",
+        "SHA256": "1A00CC1A0570F9C4319FB5BB9A7F2381BC36D27CD41574A8DE200B8DBFC353FA",
+        "Characters": 1204
+      }
+    ],
+    "Choices": [
+      "    Show-LocalTool 'Audio Concatenate' $PSScriptRoot $Mode 'ffmpeg' 'Join clips in filename order into stereo 48 kHz WAV; use 001, 002 prefixes.'",
+      "    $null=Read-LocalChoice $Mode @('Join all audio files in filename order')",
+      "    Invoke-LocalBatch $files { 'joined.wav' } {"
+    ]
+  },
+  {
+    "Name": "PDF Split",
+    "Files": [
+      {
+        "Name": "PDF Split.bat",
+        "SHA256": "169CA50FE6B1E8B9FDE2909AF90BB2EE5CF6BEE77368EBE751549DE04907028E",
+        "Characters": 621
+      },
+      {
+        "Name": "PDF Split.md",
+        "SHA256": "1628F315AD978D2285852505A67D5CC5566F8F5EB7C1820F55BD61CFF1EE2A9B",
+        "Characters": 4275
+      },
+      {
+        "Name": "PDF Split.ps1",
+        "SHA256": "1293E16540EA6302368AD0D5219269712D8054C50C373CDF4BC89AF6C971C1BB",
+        "Characters": 814
+      }
+    ],
+    "Choices": [
+      "    Show-LocalTool 'PDF Split' $PSScriptRoot $Mode 'ghostscript' 'Create one PDF per page, up to the first 1000 pages, in a new folder.'",
+      "    $null=Read-LocalChoice $Mode @('Split pages 1-1000 into separate PDFs')",
+      "    Invoke-LocalBatch $files {param($f) $f.Name+'.pages'} {",
+      "        [void](Invoke-Checked $script:Engine @('-q','-dSAFER','-dBATCH','-dNOPAUSE','-sDEVICE=pdfwrite','-dFirstPage=1','-dLastPage=1000',('-sOutputFile='+'result\\page-%04d.pdf'),[IO.Path]::GetFileName($source)))"
+    ]
+  },
+  {
+    "Name": "PDF To Images",
+    "Files": [
+      {
+        "Name": "PDF To Images.bat",
+        "SHA256": "F0C7B07CB29656D88F04E301661AC0DFCDE416451906ED89385B52DFBB75B293",
+        "Characters": 629
+      },
+      {
+        "Name": "PDF To Images.md",
+        "SHA256": "3C078F14001C9902C42AAD1FE2E77403C40396D4A2A220A4D96375C545F47FC4",
+        "Characters": 4336
+      },
+      {
+        "Name": "PDF To Images.ps1",
+        "SHA256": "EEE97019D6CFEA70FF7D344496DB8AD344DEA4CF3D6B496FA3DEFCE868E6BA75",
+        "Characters": 892
+      }
+    ],
+    "Choices": [
+      "    Show-LocalTool 'PDF To Images' $PSScriptRoot $Mode 'ghostscript' 'Render the first 100 PDF pages into PNG copies; no OCR.'",
+      "    $choice=Read-LocalChoice $Mode @('120 DPI preview','200 DPI detailed')",
+      "    Invoke-LocalBatch $files {param($f) $f.Name+'.images'} {",
+      "        [void](Invoke-Checked $script:Engine @('-q','-dSAFER','-dBATCH','-dNOPAUSE','-sDEVICE=png16m',('-r'+$dpi),'-dFirstPage=1','-dLastPage=100','-dTextAlphaBits=4','-dGraphicsAlphaBits=4',('-sOutputFile='+'result\\page-%04d.png'),[IO.Path]::GetFileName($source)))"
+    ]
+  },
+  {
+    "Name": "PDF Text",
+    "Files": [
+      {
+        "Name": "PDF Text.bat",
+        "SHA256": "5279FCBA127AC5098F287F461F0442752D59D84A8B5D0FB0C1BC8078EBC1B53A",
+        "Characters": 619
+      },
+      {
+        "Name": "PDF Text.md",
+        "SHA256": "87E19288EDC85F81C13F9DB554FB136936773818A6820550B4C58890A0B86346",
+        "Characters": 4247
+      },
+      {
+        "Name": "PDF Text.ps1",
+        "SHA256": "6F26F9EAF9B2413096A0D8D2485AE4B6E2D48FD058F44BFF1807BC2BE13AF97E",
+        "Characters": 935
+      }
+    ],
+    "Choices": [
+      "    Show-LocalTool 'PDF Text' $PSScriptRoot $Mode 'ghostscript' 'Extract the text layer of PDF to UTF-8 text. Scanned pages need separate OCR.'",
+      "    $null=Read-LocalChoice $Mode @('Extract text layer')",
+      "    Invoke-LocalBatch $files {param($f) $f.Name+'.txt'} {",
+      "        [void](Invoke-Checked $script:Engine @('-q','-dSAFER','-dBATCH','-dNOPAUSE','-sDEVICE=txtwrite','-dTextFormat=3',('-sOutputFile='+[IO.Path]::GetFileName($result)),[IO.Path]::GetFileName($source)))"
+    ]
+  },
+  {
+    "Name": "Rename Copies",
+    "Files": [
+      {
+        "Name": "Rename Copies.bat",
+        "SHA256": "2349F91EE9F30ACD25E5E486DF023220F26551F0BAFADD585A658103A6482283",
+        "Characters": 629
+      },
+      {
+        "Name": "Rename Copies.md",
+        "SHA256": "81BC3CF04442A9A3596A303CCCB708252F9745B720B9D40D32670E7CB5885EBE",
+        "Characters": 4327
+      },
+      {
+        "Name": "Rename Copies.ps1",
+        "SHA256": "4D1F76E6F97FE8E6701227CB24F298BE24DB502A366AAFD9F0CB2C8167B28085",
+        "Characters": 926
+      }
+    ],
+    "Choices": [
+      "    Show-LocalTool 'Rename Copies' $PSScriptRoot $Mode '' 'Copy files with ordered numeric names; originals are never renamed.'",
+      "    $null=Read-LocalChoice $Mode @('Number copies as 0001, 0002, ... and save a name map')",
+      "    Invoke-LocalBatch $files {'renamed'} {"
+    ]
+  },
+  {
+    "Name": "Sort Copies",
+    "Files": [
+      {
+        "Name": "Sort Copies.bat",
+        "SHA256": "E7E5EDD7E566DC8E6543FE052B6669BF0DBF865C47C6CAB3106A18DCD078CFA1",
+        "Characters": 625
+      },
+      {
+        "Name": "Sort Copies.md",
+        "SHA256": "3B375484AE053CC1ECF1DD628A271B79B7BF1D844F59CFC4E6309BF22E6BFB34",
+        "Characters": 4240
+      },
+      {
+        "Name": "Sort Copies.ps1",
+        "SHA256": "5983852DBF14FB6CC05E1C082E2DC35156D8CEAC4AC5AEC5714277FAD2829D61",
+        "Characters": 1002
+      }
+    ],
+    "Choices": [
+      "    Show-LocalTool 'Sort Copies' $PSScriptRoot $Mode '' 'Organize copies of flat Input files by extension; originals stay in Input.'",
+      "    $null=Read-LocalChoice $Mode @('Sort copies by extension')",
+      "    Invoke-LocalBatch $files {'sorted'} {"
+    ]
+  },
+  {
+    "Name": "Text Encoding",
+    "Files": [
+      {
+        "Name": "Text Encoding.bat",
+        "SHA256": "CEBCBC2FD6FD956780027DE6E0C4BB6B6C468738976B3CBF1841DE33DA57395C",
+        "Characters": 629
+      },
+      {
+        "Name": "Text Encoding.md",
+        "SHA256": "E3164CB4598E35D8EF20CB411C7B0A0EFBF0BF6E9C6D7ABCFF32BDB0CEA6A92D",
+        "Characters": 4364
+      },
+      {
+        "Name": "Text Encoding.ps1",
+        "SHA256": "B635A525F286D4A90A6C04CC9D588FF66CCB76E77AB7940DA41D613A9B033E1C",
+        "Characters": 1960
+      }
+    ],
+    "Choices": [
+      "    Show-LocalTool 'Text Encoding' $PSScriptRoot $Mode '' 'Convert strictly validated UTF-8 or BOM-marked UTF-16 text to UTF-8.'",
+      "    $choice=Read-LocalChoice $Mode @('UTF-8 without BOM','UTF-8 with BOM')",
+      "    Invoke-LocalBatch $files {param($f) $f.Name+'.utf8'+$f.Extension} {"
+    ]
+  },
+  {
+    "Name": "Folder Compare",
+    "Files": [
+      {
+        "Name": "Folder Compare.bat",
+        "SHA256": "DB8D6831E09718A381028CF1445AB2529752A05012AC03D42D87A7B621AFBA22",
+        "Characters": 631
+      },
+      {
+        "Name": "Folder Compare.md",
+        "SHA256": "92B017E5E40A0649169BE28C3A19D8C9215665EE40B7CE3BFF9083B156BBBC43",
+        "Characters": 4382
+      },
+      {
+        "Name": "Folder Compare.ps1",
+        "SHA256": "197F2C913B43C35C8623161314065E794F0C3D3077198158029C744D5D824A2B",
+        "Characters": 1670
+      }
+    ],
+    "Choices": [
+      "    Show-LocalTool 'Folder Compare' $PSScriptRoot $Mode '' 'Compare Input\\Left and Input\\Right recursively by relative name and SHA-256; report only.'",
+      "    $null=Read-LocalChoice $Mode @('Compare two folders without changing either')",
+      "    Invoke-LocalBatch $files {'comparison.csv'} {"
+    ]
+  },
+  {
+    "Name": "JSON Format",
+    "Files": [
+      {
+        "Name": "JSON Format.bat",
+        "SHA256": "300FCD393F463A1361D42D4ED556E9C66415720D3DDA34C23918E2D4FF4A140D",
+        "Characters": 625
+      },
+      {
+        "Name": "JSON Format.md",
+        "SHA256": "12A72F686003F01DCCAC43B6F51A8150233A8BAF33473B945F86044DBBBB48A2",
+        "Characters": 4439
+      },
+      {
+        "Name": "JSON Format.ps1",
+        "SHA256": "6D6A99DE89205B178D16FC0C0F5CF50B142EF87E5031E186E59FBD61E1C87C24",
+        "Characters": 4626
+      }
+    ],
+    "Choices": [
+      "    Show-LocalTool 'JSON Format' $PSScriptRoot $Mode '' 'Validate and indent JSON objects/arrays up to 50 levels; output is a separate UTF-8 file.'",
+      "    $choice=Read-LocalChoice $Mode @('Indented JSON','Compact JSON')",
+      "    Invoke-LocalBatch $files {param($f) $f.Name+'.formatted.json'} {"
+    ]
+  },
+  {
+    "Name": "Network Info",
+    "Files": [
+      {
+        "Name": "Network Info.bat",
+        "SHA256": "0D21EA8091CD1B2A3DD1D06811D1A1C098F1B28CD56C9E028D46812DBF1C4DFA",
+        "Characters": 627
+      },
+      {
+        "Name": "Network Info.md",
+        "SHA256": "300C5937D34CB4C3DF7BBF1C91A57A22A83D829AF36A4C4906A4CD331D806BFA",
+        "Characters": 4367
+      },
+      {
+        "Name": "Network Info.ps1",
+        "SHA256": "F570336816B2556B4DA8142D6FBC3EF62C39017C5DCF41B2A98884E6441AAB19",
+        "Characters": 1445
+      }
+    ],
+    "Choices": [
+      "    Show-LocalTool 'Network Info' $PSScriptRoot $Mode '' 'Read local network addresses, DNS servers and gateways; does not change configuration.'",
+      "    $null=Read-LocalChoice $Mode @('Save local adapter report')"
+    ]
+  },
+  {
+    "Name": "Ping Host",
+    "Files": [
+      {
+        "Name": "Ping Host.bat",
+        "SHA256": "E462FFD566B036B212A6A80E86740BC0024018DB7B60370546DB80104BB54276",
+        "Characters": 621
+      },
+      {
+        "Name": "Ping Host.md",
+        "SHA256": "FCB54A2C58ED6354D85E090D5A66828EECFC2863EA7193756997ACF95EF908A6",
+        "Characters": 4352
+      },
+      {
+        "Name": "Ping Host.ps1",
+        "SHA256": "568D4DE1EB528836DD776C68A50E2861E10E1C005465C1F4BBF0FB5D404F3E3A",
+        "Characters": 1893
+      }
+    ],
+    "Choices": [
+      "    Show-LocalTool 'Ping Host' $PSScriptRoot $Mode '' 'Four ICMP echo requests to a host or IP; defaults to local loopback. No network settings change.'",
+      "    $choice=Read-LocalChoice $Mode @('Local loopback 127.0.0.1','Custom host or IP')",
+      "    if($choice -eq 2){$target=Read-Host 'Hostname or IP only (no URL, port, switches or spaces)'}"
+    ]
+  },
+  {
+    "Name": "Image Duplicates",
+    "Files": [
+      {
+        "Name": "Image Duplicates.bat",
+        "SHA256": "5CFFEC14BC099C784151ECCE135B0B515761FC4BD71ED34784E72F9C5C62A99D",
+        "Characters": 543
+      },
+      {
+        "Name": "Image Duplicates.md",
+        "SHA256": "18B8D57E55B3A8EBDF287351D031CE971E993E34C3F83BD8FAD88A3C7C9E1283",
+        "Characters": 3624
+      },
+      {
+        "Name": "Image Duplicates.ps1",
+        "SHA256": "41823CEDD87CD80F530E8316E2F033EEC69A7E14123B53868B95019CF3A8DEF7",
+        "Characters": 3071
+      }
+    ],
+    "Choices": [
+      "Show-LocalTool 'Image Duplicates' $PSScriptRoot $Mode 'magick' 'Image Duplicates: use the local Input folder; originals and previous outputs are preserved. Read the MD for options and limits.'",
+      "$choice=Read-LocalChoice $Mode @('Visual hash distance <= 5','Distance <= 10','Custom distance 0-16')",
+      "Invoke-LocalBatch $files {'similarity'} {"
+    ]
+  },
+  {
+    "Name": "Image to PDF",
+    "Files": [
+      {
+        "Name": "Image to PDF.bat",
+        "SHA256": "3D8E441D284273FDE19B645CFF7DB029E6306B9B0EC6874DE3D09EBAEC7C2CF1",
+        "Characters": 535
+      },
+      {
+        "Name": "Image to PDF.md",
+        "SHA256": "30CD0B3AE21A5C631ECAF7111419236C9C3D42F5D173146579612CB81E79745F",
+        "Characters": 3478
+      },
+      {
+        "Name": "Image to PDF.ps1",
+        "SHA256": "7C0573838F46354F0E0F3F7B23C2B79F4EF362959CAB2E2865DC16A9B14B56BE",
+        "Characters": 1802
+      }
+    ],
+    "Choices": [
+      "Show-LocalTool 'Image to PDF' $PSScriptRoot $Mode 'magick' 'Image to PDF: use the local Input folder; originals and previous outputs are preserved. Read the MD for options and limits.'",
+      "$choice=Read-LocalChoice $Mode @('A4 portrait, 150 DPI','A4 landscape, 150 DPI','Original pixel dimensions at 150 DPI')",
+      "Invoke-LocalBatch $files {'images.pdf'} {"
+    ]
+  },
+  {
+    "Name": "Image Compare",
+    "Files": [
+      {
+        "Name": "Image Compare.bat",
+        "SHA256": "60DFB4BC09D648A596BB0A74BD8BF5ABDF9A16EC6EF13649E40102E8B25E5087",
+        "Characters": 537
+      },
+      {
+        "Name": "Image Compare.md",
+        "SHA256": "8A440F65C85388F4EB48D8481171CD679F82390B3CE3DE2AC54D64821CDB2A08",
+        "Characters": 3600
+      },
+      {
+        "Name": "Image Compare.ps1",
+        "SHA256": "1738D4A4DF95D69221C2F739938EA7E00F64C8272DEC02781056E4FC2FF57F3A",
+        "Characters": 2107
+      }
+    ],
+    "Choices": [
+      "Show-LocalTool 'Image Compare' $PSScriptRoot $Mode 'magick' 'Image Compare: use the local Input folder; originals and previous outputs are preserved. Read the MD for options and limits.'",
+      "$null=Read-LocalChoice $Mode @('Compare one image from Left with one from Right')",
+      "Invoke-LocalBatch $files {'difference'} {"
+    ]
+  },
+  {
+    "Name": "Image Collage",
+    "Files": [
+      {
+        "Name": "Image Collage.bat",
+        "SHA256": "AA1A108C707926A5C48A703D1EE02EA6D913F6D5441D210A02D9F6B6F559E6F1",
+        "Characters": 537
+      },
+      {
+        "Name": "Image Collage.md",
+        "SHA256": "BC4B7A8BD7B111CDB81ED4D76E553295E759480AE628A49B416F3F6F1DF81C37",
+        "Characters": 3513
+      },
+      {
+        "Name": "Image Collage.ps1",
+        "SHA256": "57840C364CCD11CF0DB819268325E4F2051722F942A0E44E8AAD4ED1AD7F84F5",
+        "Characters": 2730
+      }
+    ],
+    "Choices": [
+      "Show-LocalTool 'Image Collage' $PSScriptRoot $Mode 'magick' 'Image Collage: use the local Input folder; originals and previous outputs are preserved. Read the MD for options and limits.'",
+      "$choice=Read-LocalChoice $Mode @('Large left image and two stacked right images','Large top image and two bottom images','Custom left layout')",
+      " $color=Read-Host 'Background #RRGGBB';if($color -notmatch '^#[A-Fa-f0-9]{6}$'){throw 'Expected #RRGGBB.'}",
+      "Invoke-LocalBatch $files {'collage.png'} {"
+    ]
+  },
+  {
+    "Name": "Image Auto Orient",
+    "Files": [
+      {
+        "Name": "Image Auto Orient.bat",
+        "SHA256": "61CEACDF8DFB6D158D6549E50727C85772ACC7B95BE6997F2CB91026AE4B7021",
+        "Characters": 545
+      },
+      {
+        "Name": "Image Auto Orient.md",
+        "SHA256": "2CC47098607E66ED9DF6C2CE92241630209761F18A7123B775817882CE1F3C4B",
+        "Characters": 3532
+      },
+      {
+        "Name": "Image Auto Orient.ps1",
+        "SHA256": "7346F251992127BB6E701D26510C332A5B86C1D6F31FB873AB11C99DE3E842D1",
+        "Characters": 1249
+      }
+    ],
+    "Choices": [
+      "Show-LocalTool 'Image Auto Orient' $PSScriptRoot $Mode 'magick' 'Image Auto Orient: use the local Input folder; originals and previous outputs are preserved. Read the MD for options and limits.'",
+      "$null=Read-LocalChoice $Mode @('Correct EXIF orientation; otherwise make a byte-identical copy')",
+      "Invoke-LocalBatch $files {param($f) $f.Name+'.oriented'+$f.Extension} {"
+    ]
+  },
+  {
+    "Name": "Image Color Palette",
+    "Files": [
+      {
+        "Name": "Image Color Palette.bat",
+        "SHA256": "1A5BCFC3429502A74FEC9E79E7DEAB33929F3FA8BABB833ED156F68100A4FD65",
+        "Characters": 549
+      },
+      {
+        "Name": "Image Color Palette.md",
+        "SHA256": "B969CF15D6E2A77168DD6B47077588C1CB039CA8AFA543C296FCA7DB8F0321E5",
+        "Characters": 3513
+      },
+      {
+        "Name": "Image Color Palette.ps1",
+        "SHA256": "BA0B85B0A3CEBFF264B1EB15F33C86A5C962DBE655A4A87B73E0127476387D29",
+        "Characters": 1705
+      }
+    ],
+    "Choices": [
+      "Show-LocalTool 'Image Color Palette' $PSScriptRoot $Mode 'magick' 'Image Color Palette: use the local Input folder; originals and previous outputs are preserved. Read the MD for options and limits.'",
+      "$choice=Read-LocalChoice $Mode @('8 representative colors','16 colors','4 colors')",
+      "Invoke-LocalBatch $files {param($f) $f.Name+'.palette'} {"
+    ]
+  },
+  {
+    "Name": "Image Format Report",
+    "Files": [
+      {
+        "Name": "Image Format Report.bat",
+        "SHA256": "8F4BA952E2D20FCD5E188A0EA60C816DDD0B5394F645EB711277917E715F2652",
+        "Characters": 549
+      },
+      {
+        "Name": "Image Format Report.md",
+        "SHA256": "8967D9285B46C15BC834DE7C0F957338033D2333E3E6F48046B33272BAA1954E",
+        "Characters": 3533
+      },
+      {
+        "Name": "Image Format Report.ps1",
+        "SHA256": "88F109E4599C26F135CF016FD20E49F855A9CFAF3FC27E27C1459C05D40C09B6",
+        "Characters": 1801
+      }
+    ],
+    "Choices": [
+      "Show-LocalTool 'Image Format Report' $PSScriptRoot $Mode 'magick' 'Image Format Report: use the local Input folder; originals and previous outputs are preserved. Read the MD for options and limits.'",
+      "$null=Read-LocalChoice $Mode @('Collect image rows, totals, format counts and largest images')",
+      "Invoke-LocalBatch $files {'image-report'} {"
+    ]
+  },
+  {
+    "Name": "Video Merge",
+    "Files": [
+      {
+        "Name": "Video Merge.bat",
+        "SHA256": "0EB494555B6335EA2D6A5E7324E2795BD5BE9559D0FC59CF05D78E6F26D994AF",
+        "Characters": 533
+      },
+      {
+        "Name": "Video Merge.md",
+        "SHA256": "95E57A5F919105DFB40EB39E298143FB6FB66D402F029B5D6C7E9587DFA024A3",
+        "Characters": 3510
+      },
+      {
+        "Name": "Video Merge.ps1",
+        "SHA256": "F134424BF4467141A308CA9806BB1B0020F71B1D0C6C9ABEC7912458AAEB5208",
+        "Characters": 3780
+      }
+    ],
+    "Choices": [
+      "Show-LocalTool 'Video Merge' $PSScriptRoot $Mode 'ffmpeg' 'Video Merge: use the local Input folder; originals and previous outputs are preserved. Read the MD for options and limits.'",
+      "$choice=Read-LocalChoice $Mode @('Auto: copy compatible streams, otherwise normalize','Normalize to 1280x720 30fps','Compatible stream copy only')",
+      "Invoke-LocalBatch $files {'merged.mp4'} {"
+    ]
+  },
+  {
+    "Name": "Video Screenshot at Time",
+    "Files": [
+      {
+        "Name": "Video Screenshot at Time.bat",
+        "SHA256": "626225DA4B6AC7D0D2D46E16425274AA10355339A21292E7437A45010348D22C",
+        "Characters": 559
+      },
+      {
+        "Name": "Video Screenshot at Time.md",
+        "SHA256": "83BB5AF01BD067DE146733BE47C16C3FAB318452DB04BFDA654D4F2CF35FBAC6",
+        "Characters": 3500
+      },
+      {
+        "Name": "Video Screenshot at Time.ps1",
+        "SHA256": "F501DB2C73C03F778C33EAAD002FD49DCDFC7E047EEEB44BB290A990FEB0E3ED",
+        "Characters": 1394
+      }
+    ],
+    "Choices": [
+      "Show-LocalTool 'Video Screenshot at Time' $PSScriptRoot $Mode 'ffmpeg' 'Video Screenshot at Time: use the local Input folder; originals and previous outputs are preserved. Read the MD for options and limits.'",
+      "$choice=Read-LocalChoice $Mode @('Screenshot at 1 second','Custom time in seconds')",
+      "Invoke-LocalBatch $files {param($f) $f.Name+'.at-time.png'} {"
+    ]
+  },
+  {
+    "Name": "Video Watermark",
+    "Files": [
+      {
+        "Name": "Video Watermark.bat",
+        "SHA256": "DF10E35C8057BC289318A3CED28D8120CE24150963A0E51890CC60EE4CD05245",
+        "Characters": 541
+      },
+      {
+        "Name": "Video Watermark.md",
+        "SHA256": "D74BEBF27A5CF4FA1E84D8CFE5D1CD2CE4D7ED504A1380C2FB6BE7092D6B0213",
+        "Characters": 3608
+      },
+      {
+        "Name": "Video Watermark.ps1",
+        "SHA256": "B2716FCCAED6F80337AA51B1C875E8CB083777AD689DFF898638E954ED4D153D",
+        "Characters": 3169
+      }
+    ],
+    "Choices": [
+      "Show-LocalTool 'Video Watermark' $PSScriptRoot $Mode 'ffmpeg' 'Video Watermark: use the local Input folder; originals and previous outputs are preserved. Read the MD for options and limits.'",
+      "$choice=Read-LocalChoice $Mode @('Bottom right, width20%, opacity60%','Top left, width20%, opacity60%','Custom position, size and opacity')",
+      "if($choice -eq 3){$position=Read-LocalChoice 'Interactive' @('Top left','Top right','Bottom left','Bottom right','Center');$size=Read-LocalNumber 'Width percent (1-80)' 1 80;$opacity=Read-LocalNumber 'Opacity percent (1-100)' 1 100}",
+      "Invoke-LocalBatch $files {param($f) $f.Name+'.watermarked.mp4'} {",
+      " Invoke-LocalFF @('-i',$source,'-loop','1','-i',$logo,'-filter_complex',$filter,'-map','[v]','-map','0:a:0?','-c:v','libx264','-crf','18','-pix_fmt','yuv420p','-c:a','aac','-shortest','-movflags','+faststart',$result)"
+    ]
+  },
+  {
+    "Name": "Video Subtitles Burn",
+    "Files": [
+      {
+        "Name": "Video Subtitles Burn.bat",
+        "SHA256": "06EE411B7458514BB9677BC6CF74906787A1BE7A3C7E3DB354CF8473C5DAA26A",
+        "Characters": 551
+      },
+      {
+        "Name": "Video Subtitles Burn.md",
+        "SHA256": "64F36ACA7DA5209F69D193C97C3957994B573BF9EC9F53A57A1DCB7FF7CE4FCC",
+        "Characters": 3669
+      },
+      {
+        "Name": "Video Subtitles Burn.ps1",
+        "SHA256": "0C7C1CE8D3B695C6E7F814B04C6E7D6E1D45A13226080A3E7F9D5DDBEB062437",
+        "Characters": 2253
+      }
+    ],
+    "Choices": [
+      "if($Mode -ne 'Help'){$ff=Require-Dependency 'ffmpeg';$filters=Invoke-Checked $ff @('-hide_banner','-filters');if($filters -notmatch '\\bsubtitles\\s'){throw 'FFmpeg subtitles/libass filter unavailable; use a compatible build.'}}",
+      "Show-LocalTool 'Video Subtitles Burn' $PSScriptRoot $Mode 'ffmpeg' 'Video Subtitles Burn: use the local Input folder; originals and previous outputs are preserved. Read the MD for options and limits.'",
+      "$null=Read-LocalChoice $Mode @('Burn matching UTF-8 SRT/ASS with system fonts')",
+      "Invoke-LocalBatch $files {param($f) $f.Name+'.subtitled.mp4'} {"
+    ]
+  },
+  {
+    "Name": "Video Extract Subtitles",
+    "Files": [
+      {
+        "Name": "Video Extract Subtitles.bat",
+        "SHA256": "5C2B7BA8A335C56D3C19DDC43FD8D8FC79703E011987DC5F4F52F2D39ECAD37F",
+        "Characters": 557
+      },
+      {
+        "Name": "Video Extract Subtitles.md",
+        "SHA256": "3ECAFFB0411C6E3E3BEB251A96A51AAF1E9FCED616DD12AD06290FC89BC182FE",
+        "Characters": 3577
+      },
+      {
+        "Name": "Video Extract Subtitles.ps1",
+        "SHA256": "12E251B1592E6C68295EAE4C5457BA2B454A9B59ADB1493A889489B3C1ACADCD",
+        "Characters": 1818
+      }
+    ],
+    "Choices": [
+      "Show-LocalTool 'Video Extract Subtitles' $PSScriptRoot $Mode 'ffmpeg' 'Video Extract Subtitles: use the local Input folder; originals and previous outputs are preserved. Read the MD for options and limits.'",
+      "$null=Read-LocalChoice $Mode @('Extract all embedded subtitle streams; no OCR')",
+      "Invoke-LocalBatch $files {param($f) $f.Name+'.subtitles'} {"
+    ]
+  },
+  {
+    "Name": "Video Add Subtitle Track",
+    "Files": [
+      {
+        "Name": "Video Add Subtitle Track.bat",
+        "SHA256": "0EF5579BCD61717891D247F7F175C5871528C89AFF2694BCFDD7C740AD907A21",
+        "Characters": 559
+      },
+      {
+        "Name": "Video Add Subtitle Track.md",
+        "SHA256": "AADC4B029C58694459CC97736D65EE71FD8C72BCB70CC1DC22808B224237D2E4",
+        "Characters": 3543
+      },
+      {
+        "Name": "Video Add Subtitle Track.ps1",
+        "SHA256": "17286EE11A7A6F8795C628E9E33ACC6E6C4083912FFD9FE7C1D947A6DACDAB18",
+        "Characters": 1844
+      }
+    ],
+    "Choices": [
+      "Show-LocalTool 'Video Add Subtitle Track' $PSScriptRoot $Mode 'ffmpeg' 'Video Add Subtitle Track: use the local Input folder; originals and previous outputs are preserved. Read the MD for options and limits.'",
+      "$null=Read-LocalChoice $Mode @('Add matching SRT/ASS as a selectable track in MKV')",
+      "Invoke-LocalBatch $files {param($f) $f.Name+'.with-subtitle.mkv'} {"
+    ]
+  },
+  {
+    "Name": "Video Remove Black Bars",
+    "Files": [
+      {
+        "Name": "Video Remove Black Bars.bat",
+        "SHA256": "032A460B0A8FE03A6600A8A35BFE6A1030FB6CD5CF9EE84BD211F10F4181C9B6",
+        "Characters": 557
+      },
+      {
+        "Name": "Video Remove Black Bars.md",
+        "SHA256": "5FE0BAF090365C5B8BCE48D32AC306B9A675735E49BAFF3D336DB0600BB2C8DD",
+        "Characters": 3908
+      },
+      {
+        "Name": "Video Remove Black Bars.ps1",
+        "SHA256": "2EAE88B49F8008E5CB649CEF1CD7A87362D44D0AD4E72B8CBA140D2FC08FADDD",
+        "Characters": 3550
+      }
+    ],
+    "Choices": [
+      "Show-LocalTool 'Video Remove Black Bars' $PSScriptRoot $Mode 'ffmpeg' 'Video Remove Black Bars: use the local Input folder; originals and previous outputs are preserved. Read the MD for options and limits.'",
+      "$choice=Read-LocalChoice $Mode @('Detection report and preview only','Preview, then APPLY confirmation for each crop')",
+      "Invoke-LocalBatch $files {param($f) $f.Name+'.crop-preview'} {",
+      "  $answer=Read-Host 'Review the dimensions above; type APPLY to crop this copy'"
+    ]
+  },
+  {
+    "Name": "Video Audio Sync",
+    "Files": [
+      {
+        "Name": "Video Audio Sync.bat",
+        "SHA256": "A760FE56994AFF3945C649D4623CB1021F0EF42C854D7AEA7102573347A152D6",
+        "Characters": 543
+      },
+      {
+        "Name": "Video Audio Sync.md",
+        "SHA256": "D020C266F63ED3065A8586F854FAACEA7B3A985B58406ECD0FAD19AC2A78E7DF",
+        "Characters": 3502
+      },
+      {
+        "Name": "Video Audio Sync.ps1",
+        "SHA256": "39ED101AE8174F17F86A321EBDBD4C173D24D8FCCD503F226627E80D45181E1B",
+        "Characters": 2048
+      }
+    ],
+    "Choices": [
+      "Show-LocalTool 'Video Audio Sync' $PSScriptRoot $Mode 'ffmpeg' 'Video Audio Sync: use the local Input folder; originals and previous outputs are preserved. Read the MD for options and limits.'",
+      "$choice=Read-LocalChoice $Mode @('Delay audio by +0.250 seconds','Custom signed offset (-60 to 60 seconds)')",
+      "if($choice -eq 2){$offset=Read-Host 'Signed seconds, e.g. +0.250 or -0.500';if($offset -notmatch '^[+-]?\\d{1,2}(\\.\\d{1,3})?$'){throw 'Invalid signed offset.'}}",
+      "Invoke-LocalBatch $files {param($f) $f.Name+'.synced.mkv'} {"
+    ]
+  },
+  {
+    "Name": "Audio to Video",
+    "Files": [
+      {
+        "Name": "Audio to Video.bat",
+        "SHA256": "C8CF1A272DE5ACA41EEA92D1C4400E229A5C12C5FC7CD7F9579998D51A1D7283",
+        "Characters": 539
+      },
+      {
+        "Name": "Audio to Video.md",
+        "SHA256": "FB8ABBA3668EE3F6CFD2475EF409C77ABA80EA73C3BF0EF1FF8A37CAE7217F1B",
+        "Characters": 3423
+      },
+      {
+        "Name": "Audio to Video.ps1",
+        "SHA256": "A72037F7279534BD5CD03A40684D580DBB56DD75F468DA974E0B3492FCEDAA37",
+        "Characters": 2374
+      }
+    ],
+    "Choices": [
+      "Show-LocalTool 'Audio to Video' $PSScriptRoot $Mode 'ffmpeg' 'Audio to Video: use the local Input folder; originals and previous outputs are preserved. Read the MD for options and limits.'",
+      "$choice=Read-LocalChoice $Mode @('Black 1280x720 background, 25fps','One still image from Input\\Picture')",
+      "Invoke-LocalBatch $files {param($f) $f.Name+'.video.mp4'} {"
+    ]
+  },
+  {
+    "Name": "Video Metadata Report",
+    "Files": [
+      {
+        "Name": "Video Metadata Report.bat",
+        "SHA256": "275DD0A162E5E066C5009CBE9EC627B115E592B14F7356BBC3C9AAC416CE0756",
+        "Characters": 553
+      },
+      {
+        "Name": "Video Metadata Report.md",
+        "SHA256": "8A4A21F76730965C177DEAB35381450857405336D9EA0B2645BBDEAA497FB8D5",
+        "Characters": 3602
+      },
+      {
+        "Name": "Video Metadata Report.ps1",
+        "SHA256": "B688874CC4AC3FB78EEB99B2E1827E1E5EA251D95F940D8AA585CF82B5EA883C",
+        "Characters": 3637
+      }
+    ],
+    "Choices": [
+      "Show-LocalTool 'Video Metadata Report' $PSScriptRoot $Mode 'ffprobe' 'Video Metadata Report: use the local Input folder; originals and previous outputs are preserved. Read the MD for options and limits.'",
+      "$null=Read-LocalChoice $Mode @('Batch video/stream rows and codec, dimensions, FPS and duration statistics')"
+    ]
+  },
+  {
+    "Name": "Audio Remove Silence",
+    "Files": [
+      {
+        "Name": "Audio Remove Silence.bat",
+        "SHA256": "E188FBEB5A32536BBFD811626F17082638730E7E6D2EB7B36F68342E895D59C1",
+        "Characters": 551
+      },
+      {
+        "Name": "Audio Remove Silence.md",
+        "SHA256": "92ED526646DF2AA2E088DC0302C09E6AEA14145BA05E92E5263ECACB2336AD08",
+        "Characters": 3717
+      },
+      {
+        "Name": "Audio Remove Silence.ps1",
+        "SHA256": "F5A57FCF7523055E8A5E6B441E3773FE6CA38507F7679D05E8EED8B52C59ECD7",
+        "Characters": 4190
+      }
+    ],
+    "Choices": [
+      "Show-LocalTool 'Audio Remove Silence' $PSScriptRoot $Mode 'ffmpeg' 'Audio Remove Silence: use the local Input folder; originals and previous outputs are preserved. Read the MD for options and limits.'",
+      "$choice=Read-LocalChoice $Mode @('Trim leading/trailing silence only (-50dB, 1s)','Also remove internal gaps (-50dB, 1s)','Custom internal-gap threshold and duration')",
+      "Invoke-LocalBatch $files {param($f) $f.Name+'.no-silence.wav'} {"
+    ]
+  },
+  {
+    "Name": "Audio Split by Silence",
+    "Files": [
+      {
+        "Name": "Audio Split by Silence.bat",
+        "SHA256": "48A1BD3BB54B5AD80C38FA60038171B8978EFCAF1CE7B61E0AC11D1C9EA7F1A2",
+        "Characters": 555
+      },
+      {
+        "Name": "Audio Split by Silence.md",
+        "SHA256": "FEEBA63F3AA8CDD8DED653762CF4608BFEC081545C8FE3E8B20C6DD72112CE71",
+        "Characters": 3632
+      },
+      {
+        "Name": "Audio Split by Silence.ps1",
+        "SHA256": "154254C62DAA1CC932DD2AA29F37B50736C5FD2177C54B514E4F5F78CFC262B1",
+        "Characters": 3305
+      }
+    ],
+    "Choices": [
+      "Show-LocalTool 'Audio Split by Silence' $PSScriptRoot $Mode 'ffmpeg' 'Audio Split by Silence: use the local Input folder; originals and previous outputs are preserved. Read the MD for options and limits.'",
+      "$choice=Read-LocalChoice $Mode @('Split gaps at -45dB, 0.7s silence, 0.3s minimum clip','Custom threshold, silence duration and minimum clip')",
+      "Invoke-LocalBatch $files {param($f) $f.Name+'.segments'} {"
+    ]
+  },
+  {
+    "Name": "Audio Volume Report",
+    "Files": [
+      {
+        "Name": "Audio Volume Report.bat",
+        "SHA256": "3286FD38F1618220683D62C29D6A289C2F2010C18EB06014BF7A98D3287CD037",
+        "Characters": 549
+      },
+      {
+        "Name": "Audio Volume Report.md",
+        "SHA256": "19C436D334071078EB5A61116AE4FD6C7DBD33B66B1B30C288F52BB975CD2820",
+        "Characters": 3418
+      },
+      {
+        "Name": "Audio Volume Report.ps1",
+        "SHA256": "8331D476D2C67FAA6E3BEE3BC76F33B2AF343AB8CEB739D084B46BA89F1FC414",
+        "Characters": 2101
+      }
+    ],
+    "Choices": [
+      "Show-LocalTool 'Audio Volume Report' $PSScriptRoot $Mode 'ffmpeg' 'Audio Volume Report: use the local Input folder; originals and previous outputs are preserved. Read the MD for options and limits.'",
+      "$null=Read-LocalChoice $Mode @('Measure mean/peak dBFS, integrated LUFS, true peak and LRA; no file changes')",
+      "Invoke-LocalBatch $files {'audio-volume.csv'} {"
+    ]
+  },
+  {
+    "Name": "Audio Reverse",
+    "Files": [
+      {
+        "Name": "Audio Reverse.bat",
+        "SHA256": "4C0F758F912AE2A491B6683407DBBA5E1FDC9E02CBC72801AB0952DE3874B764",
+        "Characters": 537
+      },
+      {
+        "Name": "Audio Reverse.md",
+        "SHA256": "AB10DEEC89BE682C63D7E0D4607B6D4A4027188323324F28FB5B70ADDA09C443",
+        "Characters": 3322
+      },
+      {
+        "Name": "Audio Reverse.ps1",
+        "SHA256": "9E4730B9A86804148F0C461F18D7259F8C8F2503035248036F38CA1F94982079",
+        "Characters": 1584
+      }
+    ],
+    "Choices": [
+      "Show-LocalTool 'Audio Reverse' $PSScriptRoot $Mode 'ffmpeg' 'Audio Reverse: use the local Input folder; originals and previous outputs are preserved. Read the MD for options and limits.'",
+      "$null=Read-LocalChoice $Mode @('Reverse the first audio stream into a new WAV')",
+      "Invoke-LocalBatch $files {param($f) $f.Name+'.reversed.wav'} {"
+    ]
+  },
+  {
+    "Name": "PDF Rotate Pages",
+    "Files": [
+      {
+        "Name": "PDF Rotate Pages.bat",
+        "SHA256": "EA7BF90E6AB576E1EA2F47C5A5F7BD0397EBFDFF7863864AB74931F5D58500BB",
+        "Characters": 543
+      },
+      {
+        "Name": "PDF Rotate Pages.md",
+        "SHA256": "CA17C92130C5609FA08CB1929BD85A33FBEE0A0A60C6622B2CDB6DA6946960AD",
+        "Characters": 3688
+      },
+      {
+        "Name": "PDF Rotate Pages.ps1",
+        "SHA256": "FF1673BA3BB86FBFBFAA12D50E31AE9E7847509A05ED58375C61851E448F3CC6",
+        "Characters": 3141
+      }
+    ],
+    "Choices": [
+      "Show-LocalTool 'PDF Rotate Pages' $PSScriptRoot $Mode 'ghostscript' 'PDF Rotate Pages: use the local Input folder; originals and previous outputs are preserved. Read the MD for options and limits.'",
+      "$choice=Read-LocalChoice $Mode @('All pages: 90 degrees clockwise','Selected pages and angle')",
+      "if($choice -eq 2){$selection=Read-Host 'Pages, e.g. 2,5-7';$angle=Read-LocalChoice 'Interactive' @('90 clockwise','180','270 clockwise');$orientation=@(3,2,1)[$angle-1]}",
+      "Invoke-LocalBatch $files {param($f) $f.Name+'.rotated.pdf'} {",
+      "  [void](Invoke-Checked $script:Engine @('-q','-dSAFER','-dBATCH','-dNOPAUSE','-sDEVICE=pdfwrite','-dAutoRotatePages=/None',('-sPageList='+$p),('-sOutputFile='+$name),'-c',('<</Orientation '+$o+'>> setpagedevice'),'-f',$alias));$list+=$name",
+      " [void](Invoke-Checked $script:Engine @('-q','-dSAFER','-dBATCH','-dNOPAUSE','-sDEVICE=pdfwrite','-dAutoRotatePages=/None','-sOutputFile=result.pdf','@pages.txt'))"
+    ]
+  },
+  {
+    "Name": "PDF Extract Pages",
+    "Files": [
+      {
+        "Name": "PDF Extract Pages.bat",
+        "SHA256": "4DFCB9DFD75D5BE6F6E8DA1887390093629416082A7B7577E3A4D96AB3996D60",
+        "Characters": 545
+      },
+      {
+        "Name": "PDF Extract Pages.md",
+        "SHA256": "15E0583BFE32799EB7215803D20313CBB7604FF5599AF926D87143404434FA27",
+        "Characters": 3707
+      },
+      {
+        "Name": "PDF Extract Pages.ps1",
+        "SHA256": "079F7B4C8679D4DB94271F67A97586F294E115BA2B2DB14542B474278C31279B",
+        "Characters": 2987
+      }
+    ],
+    "Choices": [
+      "Show-LocalTool 'PDF Extract Pages' $PSScriptRoot $Mode 'ghostscript' 'PDF Extract Pages: use the local Input folder; originals and previous outputs are preserved. Read the MD for options and limits.'",
+      "$choice=Read-LocalChoice $Mode @('First page','Custom pages/ranges in requested order')",
+      "$selection='1';if($choice -eq 2){$selection=Read-Host 'Pages/ranges, e.g. 2,5,7-10'}",
+      "Invoke-LocalBatch $files {param($f) $f.Name+'.selected.pdf'} {",
+      "  [void](Invoke-Checked $script:Engine @('-q','-dSAFER','-dBATCH','-dNOPAUSE','-sDEVICE=pdfwrite',('-dFirstPage='+$page),('-dLastPage='+$page),('-sOutputFile='+$name),$alias));$list+=$name",
+      " [void](Invoke-Checked $script:Engine @('-q','-dSAFER','-dBATCH','-dNOPAUSE','-sDEVICE=pdfwrite','-sOutputFile=result.pdf','@selected.txt'))"
+    ]
+  },
+  {
+    "Name": "PDF Reorder Pages",
+    "Files": [
+      {
+        "Name": "PDF Reorder Pages.bat",
+        "SHA256": "BD5EF6BE8CF3C295D41194353445990C4BB0285C300E23B36D103909C66E9F02",
+        "Characters": 545
+      },
+      {
+        "Name": "PDF Reorder Pages.md",
+        "SHA256": "DAF64284A223815F20FE814BBA917EAC0F840860D396D841DD6E42C5C82ACD0C",
+        "Characters": 3721
+      },
+      {
+        "Name": "PDF Reorder Pages.ps1",
+        "SHA256": "CA787C2600CA8EC56D806AF0CF301BCFC65BD0000BD8249DC9FEC712564B56EE",
+        "Characters": 3181
+      }
+    ],
+    "Choices": [
+      "Show-LocalTool 'PDF Reorder Pages' $PSScriptRoot $Mode 'ghostscript' 'PDF Reorder Pages: use the local Input folder; originals and previous outputs are preserved. Read the MD for options and limits.'",
+      "$choice=Read-LocalChoice $Mode @('Reverse all pages','Custom complete permutation')",
+      "$selection='';if($choice -eq 2){$selection=Read-Host 'Every page once, e.g. 3,1,2'}",
+      "Invoke-LocalBatch $files {param($f) $f.Name+'.reordered.pdf'} {",
+      "  [void](Invoke-Checked $script:Engine @('-q','-dSAFER','-dBATCH','-dNOPAUSE','-sDEVICE=pdfwrite',('-dFirstPage='+$page),('-dLastPage='+$page),('-sOutputFile='+$name),$alias));$list+=$name",
+      " [void](Invoke-Checked $script:Engine @('-q','-dSAFER','-dBATCH','-dNOPAUSE','-sDEVICE=pdfwrite','-sOutputFile=result.pdf','@selected.txt'))"
+    ]
+  },
+  {
+    "Name": "PDF Metadata Cleaner",
+    "Files": [
+      {
+        "Name": "PDF Metadata Cleaner.bat",
+        "SHA256": "564627AF0BA2C4582EAD4E24D343E9E9B0D2566E55F53A88E334DD6504535666",
+        "Characters": 551
+      },
+      {
+        "Name": "PDF Metadata Cleaner.md",
+        "SHA256": "81BB04859A9B5C2F176517EBC0FEF4405A9C82D8CD8D6D3FA1B9C834D304D04E",
+        "Characters": 3867
+      },
+      {
+        "Name": "PDF Metadata Cleaner.ps1",
+        "SHA256": "7B705D49749428500276D8E0BD3EE8A85D742A2A363638C9EB6966D119F4C3D1",
+        "Characters": 1317
+      }
+    ],
+    "Choices": [
+      "Show-LocalTool 'PDF Metadata Cleaner' $PSScriptRoot $Mode 'ghostscript' 'PDF Metadata Cleaner: use the local Input folder; originals and previous outputs are preserved. Read the MD for options and limits.'",
+      "$null=Read-LocalChoice $Mode @('Clear Title, Author, Subject, Keywords, Creator; omit Info dates and generated XMP')",
+      "Invoke-LocalBatch $files {param($f) $f.Name+'.metadata-cleaned.pdf'} {",
+      " [void](Invoke-Checked $script:Engine @('-q','-dSAFER','-dBATCH','-dNOPAUSE','-sDEVICE=pdfwrite','-dOmitInfoDate=true','-dOmitXMP=true','-dOmitID=true','-sOutputFile=result.pdf','-f',[IO.Path]::GetFileName($source),'-c','[ /Title () /Author () /Subject () /Keywords () /Creator () /DOCINFO pdfmark'))"
+    ]
+  },
+  {
+    "Name": "Batch Rename",
+    "Files": [
+      {
+        "Name": "Batch Rename.bat",
+        "SHA256": "6C78FA44AA8C008BF9B05B2332BEC5A5A37DFB94B53520C1577149522A38E9EA",
+        "Characters": 535
+      },
+      {
+        "Name": "Batch Rename.md",
+        "SHA256": "FE4E555DD203010FC29291A5A467F6976EB9C05F21D09F9E02355CD0631F54BC",
+        "Characters": 4158
+      },
+      {
+        "Name": "Batch Rename.ps1",
+        "SHA256": "DE055A39DAAF0BF6C2538C31869AB5503BA966D471A718412000DA0A81ADEDB8",
+        "Characters": 5693
+      }
+    ],
+    "Choices": [
+      "Show-LocalTool 'Batch Rename' $PSScriptRoot $Mode '' 'Batch Rename: use the local Input folder; originals and previous outputs are preserved. Read the MD for options and limits.'",
+      "$choice=Read-LocalChoice $Mode @('Copy with prefix copy_','Copy with suffix _copy','Copy with literal replacement','Copy with item_0001 numbering','RENAME ORIGINALS with preview and backup')",
+      "if($inPlace){$pattern=Read-LocalChoice 'Interactive' @('Prefix','Suffix','Literal replacement','Numbering')}",
+      "if($Mode -ne 'Defaults' -and $pattern -eq 1){$p=Read-Host 'Prefix [copy_]';if($p){$prefix=$p}}",
+      "if($Mode -ne 'Defaults' -and $pattern -eq 2){$p=Read-Host 'Suffix [_copy]';if($p){$suffix=$p}}",
+      "if($pattern -eq 3){$find=Read-Host 'Literal text to replace in basename';$replace=Read-Host 'Replacement (may be empty)';if(-not $find){throw 'Search text cannot be empty.'}}",
+      "$confirmed=$false;if($inPlace){$confirmed=(Read-Host 'Type RENAME ORIGINALS to apply; originals are backed up first') -ceq 'RENAME ORIGINALS'}"
+    ]
+  },
+  {
+    "Name": "Find Large Files",
+    "Files": [
+      {
+        "Name": "Find Large Files.bat",
+        "SHA256": "8D89BA3B6F51B5895749C81D4F0FD4D6A64F34B720F7C74ED02CCDA8B4CA1C93",
+        "Characters": 543
+      },
+      {
+        "Name": "Find Large Files.md",
+        "SHA256": "613CAB8A1F44CD4F28D510F16E6FB042D363EE964F5539FCA90BE0C4D51D80E6",
+        "Characters": 3601
+      },
+      {
+        "Name": "Find Large Files.ps1",
+        "SHA256": "78C77F13DF599AD8F9140283040A1F36C2E64DEB9F2AB2746203AD1DD8952DA5",
+        "Characters": 3301
+      }
+    ],
+    "Choices": [
+      "Show-LocalTool 'Find Large Files' $PSScriptRoot $Mode '' 'Find Large Files: use the local Input folder; originals and previous outputs are preserved. Read the MD for options and limits.'",
+      "$choice=Read-LocalChoice $Mode @('Largest 20 files and cumulative folder sizes in Input','Custom read-only folder scope and top count')",
+      "if($choice -eq 2){$scope=Read-Host 'Folder path to inspect (read only)';$n=Read-LocalNumber 'Top file count, integer 1-1000' 1 1000;if($n -notmatch '^\\d+$'){throw 'Integer count required.'};$top=[int]$n}"
+    ]
+  },
+  {
+    "Name": "Empty Folders Report",
+    "Files": [
+      {
+        "Name": "Empty Folders Report.bat",
+        "SHA256": "22EB3B1D605E484ED1706F9707F5229D4D2EF7E33DE389199D2F4541CD8F2A54",
+        "Characters": 551
+      },
+      {
+        "Name": "Empty Folders Report.md",
+        "SHA256": "D9BE2D55808CF91C59CE0121167C680F954D0F9CCB38F8C11C1CF4323050C960",
+        "Characters": 3492
+      },
+      {
+        "Name": "Empty Folders Report.ps1",
+        "SHA256": "DAFA18BBA6CC2E6736122FBCF38E67DC43DC282AC0E441E8DCDC26EB0CC04612",
+        "Characters": 1647
+      }
+    ],
+    "Choices": [
+      "Show-LocalTool 'Empty Folders Report' $PSScriptRoot $Mode '' 'Empty Folders Report: use the local Input folder; originals and previous outputs are preserved. Read the MD for options and limits.'",
+      "$null=Read-LocalChoice $Mode @('Report directly empty child folders; no deletion')"
+    ]
+  },
+  {
+    "Name": "Text Find and Replace",
+    "Files": [
+      {
+        "Name": "Text Find and Replace.bat",
+        "SHA256": "CA14D7CFD92600AAD5A2EC47668A750957D2AA94B31D0623C055A48265B88EB9",
+        "Characters": 553
+      },
+      {
+        "Name": "Text Find and Replace.md",
+        "SHA256": "CE6BD4EE985442C87BF5D8F7C39F8188D4EA92712E780E3D2F20FEE1A243CEAD",
+        "Characters": 3684
+      },
+      {
+        "Name": "Text Find and Replace.ps1",
+        "SHA256": "44FD3028D98992959F9996A1F179B85D1C2DD19C3A31A8D134C60119F3027A09",
+        "Characters": 3396
+      }
+    ],
+    "Choices": [
+      "Show-LocalTool 'Text Find and Replace' $PSScriptRoot $Mode '' 'Text Find and Replace: use the local Input folder; originals and previous outputs are preserved. Read the MD for options and limits.'",
+      "$choice=Read-LocalChoice $Mode @('Preview TODO -> DONE only','Custom literal replacement; preview before WRITE confirmation')",
+      "if($choice -eq 2){$find=Read-Host 'Find literal text (case sensitive)';$replace=Read-Host 'Replacement text (may be empty)'}",
+      "Invoke-LocalBatch $files {'replacements'} {",
+      " $apply=$false;if($choice -eq 2){$apply=(Read-Host 'Type WRITE to create changed copies; originals stay untouched') -ceq 'WRITE'}"
+    ]
+  },
+  {
+    "Name": "CSV to JSON",
+    "Files": [
+      {
+        "Name": "CSV to JSON.bat",
+        "SHA256": "BA50916449807B4D9F1002A62347F2DC90B92B9B2594B38D18D1A1549D5005EB",
+        "Characters": 533
+      },
+      {
+        "Name": "CSV to JSON.md",
+        "SHA256": "DAEC72BB7D315611797D1807346FD97EBE2C4529DA4503F6AED90493F449636F",
+        "Characters": 3818
+      },
+      {
+        "Name": "CSV to JSON.ps1",
+        "SHA256": "6992C730862B3D86A50F686D9F395687A9727D61C33DEFCDB252AD53F2C90F25",
+        "Characters": 5845
+      }
+    ],
+    "Choices": [
+      "Show-LocalTool 'CSV to JSON' $PSScriptRoot $Mode '' 'CSV to JSON: use the local Input folder; originals and previous outputs are preserved. Read the MD for options and limits.'",
+      "$choice=Read-LocalChoice $Mode @('Comma CSV to JSON (all values stay strings)','Semicolon CSV to JSON','Flat string-only JSON array to comma CSV')",
+      "Invoke-LocalBatch $files {param($f) $f.Name+$(if($choice -eq 3){'.csv'}else{'.json'})} {"
+    ]
+  }
+]

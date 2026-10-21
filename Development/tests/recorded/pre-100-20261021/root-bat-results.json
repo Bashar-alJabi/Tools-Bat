@@ -1,0 +1,27 @@
+﻿[
+    {
+        "Test":  "BUILD_DISTRIBUTION --help",
+        "Passed":  true,
+        "Detail":  "Real BAT launched from Windows directory; expected successful mode."
+    },
+    {
+        "Test":  "BUILD_DISTRIBUTION --check",
+        "Passed":  true,
+        "Detail":  "Real BAT launched from Windows directory; expected successful mode."
+    },
+    {
+        "Test":  "BUILD_DISTRIBUTION --defaults",
+        "Passed":  true,
+        "Detail":  "Real BAT launched from Windows directory; expected successful mode."
+    },
+    {
+        "Test":  "START_HERE help",
+        "Passed":  true,
+        "Detail":  "Real help BAT ran successfully."
+    },
+    {
+        "Test":  "START_HERE portable decline",
+        "Passed":  true,
+        "Detail":  "All catalog tools registered; declined each copy; full readiness rescan succeeded; no production program copy or download."
+    }
+]

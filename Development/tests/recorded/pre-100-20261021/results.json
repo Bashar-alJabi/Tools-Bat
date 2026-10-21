@@ -1,0 +1,623 @@
+﻿{
+    "DateUTC":  "2026-10-20T16:37:05.6877891Z",
+    "Windows":  "10.0.26300.0",
+    "PowerShell":  "5.1.26100.9549",
+    "Sandbox":  "<PROJECT_ROOT>\\Development\\tests\\_sandbox\\run-89becd79",
+    "Results":  [
+                    {
+                        "Test":  "Background Color Remover",
+                        "Passed":  true,
+                        "Detail":  "BAT executed from another working directory; moved special/Arabic filenames; output produced; inputs preserved; repeat skipped existing output."
+                    },
+                    {
+                        "Test":  "Image Compression",
+                        "Passed":  true,
+                        "Detail":  "BAT executed from another working directory; moved special/Arabic filenames; output produced; inputs preserved; repeat skipped existing output."
+                    },
+                    {
+                        "Test":  "Image Convert",
+                        "Passed":  true,
+                        "Detail":  "BAT executed from another working directory; moved special/Arabic filenames; output produced; inputs preserved; repeat skipped existing output."
+                    },
+                    {
+                        "Test":  "Image Crop",
+                        "Passed":  true,
+                        "Detail":  "BAT executed from another working directory; moved special/Arabic filenames; output produced; inputs preserved; repeat skipped existing output."
+                    },
+                    {
+                        "Test":  "Image Enhance",
+                        "Passed":  true,
+                        "Detail":  "BAT executed from another working directory; moved special/Arabic filenames; output produced; inputs preserved; repeat skipped existing output."
+                    },
+                    {
+                        "Test":  "Image Contact Sheet",
+                        "Passed":  true,
+                        "Detail":  "BAT executed from another working directory; moved special/Arabic filenames; output produced; inputs preserved; repeat skipped existing output."
+                    },
+                    {
+                        "Test":  "Image Metadata Cleaner",
+                        "Passed":  true,
+                        "Detail":  "BAT executed from another working directory; moved special/Arabic filenames; output produced; inputs preserved; repeat skipped existing output."
+                    },
+                    {
+                        "Test":  "Image Resize",
+                        "Passed":  true,
+                        "Detail":  "BAT executed from another working directory; moved special/Arabic filenames; output produced; inputs preserved; repeat skipped existing output."
+                    },
+                    {
+                        "Test":  "Image Watermark",
+                        "Passed":  true,
+                        "Detail":  "BAT executed from another working directory; moved special/Arabic filenames; output produced; inputs preserved; repeat skipped existing output."
+                    },
+                    {
+                        "Test":  "Compress Video",
+                        "Passed":  true,
+                        "Detail":  "BAT executed from another working directory; moved special/Arabic filenames; output produced; inputs preserved; repeat skipped existing output."
+                    },
+                    {
+                        "Test":  "Convert Audio",
+                        "Passed":  true,
+                        "Detail":  "BAT executed from another working directory; moved special/Arabic filenames; output produced; inputs preserved; repeat skipped existing output."
+                    },
+                    {
+                        "Test":  "Extract Audio",
+                        "Passed":  true,
+                        "Detail":  "BAT executed from another working directory; moved special/Arabic filenames; output produced; inputs preserved; repeat skipped existing output."
+                    },
+                    {
+                        "Test":  "Increase Volume",
+                        "Passed":  true,
+                        "Detail":  "BAT executed from another working directory; moved special/Arabic filenames; output produced; inputs preserved; repeat skipped existing output."
+                    },
+                    {
+                        "Test":  "Merge Audio",
+                        "Passed":  true,
+                        "Detail":  "BAT executed from another working directory; moved special/Arabic filenames; output produced; inputs preserved; repeat skipped existing output."
+                    },
+                    {
+                        "Test":  "Normalize Audio",
+                        "Passed":  true,
+                        "Detail":  "BAT executed from another working directory; moved special/Arabic filenames; output produced; inputs preserved; repeat skipped existing output."
+                    },
+                    {
+                        "Test":  "Remove Audio",
+                        "Passed":  true,
+                        "Detail":  "BAT executed from another working directory; moved special/Arabic filenames; output produced; inputs preserved; repeat skipped existing output."
+                    },
+                    {
+                        "Test":  "Replace Audio",
+                        "Passed":  true,
+                        "Detail":  "BAT executed from another working directory; moved special/Arabic filenames; output produced; inputs preserved; repeat skipped existing output."
+                    },
+                    {
+                        "Test":  "Video FPS Converter",
+                        "Passed":  true,
+                        "Detail":  "BAT executed from another working directory; moved special/Arabic filenames; output produced; inputs preserved; repeat skipped existing output."
+                    },
+                    {
+                        "Test":  "Video Resolution Converter",
+                        "Passed":  true,
+                        "Detail":  "BAT executed from another working directory; moved special/Arabic filenames; output produced; inputs preserved; repeat skipped existing output."
+                    },
+                    {
+                        "Test":  "Video Speed",
+                        "Passed":  true,
+                        "Detail":  "BAT executed from another working directory; moved special/Arabic filenames; output produced; inputs preserved; repeat skipped existing output."
+                    },
+                    {
+                        "Test":  "Video Thumbnail",
+                        "Passed":  true,
+                        "Detail":  "BAT executed from another working directory; moved special/Arabic filenames; output produced; inputs preserved; repeat skipped existing output."
+                    },
+                    {
+                        "Test":  "Compress PDF",
+                        "Passed":  true,
+                        "Detail":  "BAT executed from another working directory; moved special/Arabic filenames; output produced; inputs preserved; repeat skipped existing output."
+                    },
+                    {
+                        "Test":  "Merge PDF",
+                        "Passed":  true,
+                        "Detail":  "BAT executed from another working directory; moved special/Arabic filenames; output produced; inputs preserved; repeat skipped existing output."
+                    },
+                    {
+                        "Test":  "Audio Converter",
+                        "Passed":  true,
+                        "Detail":  "BAT executed from another working directory; moved special/Arabic filenames; output produced; inputs preserved; repeat skipped existing output."
+                    },
+                    {
+                        "Test":  "Duplicate Finder",
+                        "Passed":  true,
+                        "Detail":  "BAT executed from another working directory; moved special/Arabic filenames; output produced; inputs preserved; repeat skipped existing output."
+                    },
+                    {
+                        "Test":  "File Hashes",
+                        "Passed":  true,
+                        "Detail":  "BAT executed from another working directory; moved special/Arabic filenames; output produced; inputs preserved; repeat skipped existing output."
+                    },
+                    {
+                        "Test":  "File Inventory",
+                        "Passed":  true,
+                        "Detail":  "BAT executed from another working directory; moved special/Arabic filenames; output produced; inputs preserved; repeat skipped existing output."
+                    },
+                    {
+                        "Test":  "Media Info",
+                        "Passed":  true,
+                        "Detail":  "BAT executed from another working directory; moved special/Arabic filenames; output produced; inputs preserved; repeat skipped existing output."
+                    },
+                    {
+                        "Test":  "ZIP Backup",
+                        "Passed":  true,
+                        "Detail":  "BAT executed from another working directory; moved special/Arabic filenames; output produced; inputs preserved; repeat skipped existing output."
+                    },
+                    {
+                        "Test":  "ZIP Extract",
+                        "Passed":  true,
+                        "Detail":  "BAT executed from another working directory; moved special/Arabic filenames; output produced; inputs preserved; repeat skipped existing output."
+                    },
+                    {
+                        "Test":  "Image Crop dimensions",
+                        "Passed":  true,
+                        "Detail":  "96x96"
+                    },
+                    {
+                        "Test":  "Image Resize dimensions",
+                        "Passed":  true,
+                        "Detail":  "128x96"
+                    },
+                    {
+                        "Test":  "Image Enhance dimensions",
+                        "Passed":  true,
+                        "Detail":  "256x192"
+                    },
+                    {
+                        "Test":  "Hash verify/tamper",
+                        "Passed":  true,
+                        "Detail":  "Verified matching files and detected modified bytes."
+                    },
+                    {
+                        "Test":  "Duplicate contents",
+                        "Passed":  true,
+                        "Detail":  "Only two files with equal SHA-256 reported."
+                    },
+                    {
+                        "Test":  "Background Color Remover missing dependency",
+                        "Passed":  true,
+                        "Detail":  "No download or prompt; useful nonzero code when required."
+                    },
+                    {
+                        "Test":  "Image Compression missing dependency",
+                        "Passed":  true,
+                        "Detail":  "No download or prompt; useful nonzero code when required."
+                    },
+                    {
+                        "Test":  "Image Convert missing dependency",
+                        "Passed":  true,
+                        "Detail":  "No download or prompt; useful nonzero code when required."
+                    },
+                    {
+                        "Test":  "Image Crop missing dependency",
+                        "Passed":  true,
+                        "Detail":  "No download or prompt; useful nonzero code when required."
+                    },
+                    {
+                        "Test":  "Image Enhance missing dependency",
+                        "Passed":  true,
+                        "Detail":  "No download or prompt; useful nonzero code when required."
+                    },
+                    {
+                        "Test":  "Image Contact Sheet missing dependency",
+                        "Passed":  true,
+                        "Detail":  "No download or prompt; useful nonzero code when required."
+                    },
+                    {
+                        "Test":  "Image Metadata Cleaner missing dependency",
+                        "Passed":  true,
+                        "Detail":  "No download or prompt; useful nonzero code when required."
+                    },
+                    {
+                        "Test":  "Image Resize missing dependency",
+                        "Passed":  true,
+                        "Detail":  "No download or prompt; useful nonzero code when required."
+                    },
+                    {
+                        "Test":  "Image Watermark missing dependency",
+                        "Passed":  true,
+                        "Detail":  "No download or prompt; useful nonzero code when required."
+                    },
+                    {
+                        "Test":  "Compress Video missing dependency",
+                        "Passed":  true,
+                        "Detail":  "No download or prompt; useful nonzero code when required."
+                    },
+                    {
+                        "Test":  "Convert Audio missing dependency",
+                        "Passed":  true,
+                        "Detail":  "No download or prompt; useful nonzero code when required."
+                    },
+                    {
+                        "Test":  "Extract Audio missing dependency",
+                        "Passed":  true,
+                        "Detail":  "No download or prompt; useful nonzero code when required."
+                    },
+                    {
+                        "Test":  "Increase Volume missing dependency",
+                        "Passed":  true,
+                        "Detail":  "No download or prompt; useful nonzero code when required."
+                    },
+                    {
+                        "Test":  "Merge Audio missing dependency",
+                        "Passed":  true,
+                        "Detail":  "No download or prompt; useful nonzero code when required."
+                    },
+                    {
+                        "Test":  "Normalize Audio missing dependency",
+                        "Passed":  true,
+                        "Detail":  "No download or prompt; useful nonzero code when required."
+                    },
+                    {
+                        "Test":  "Remove Audio missing dependency",
+                        "Passed":  true,
+                        "Detail":  "No download or prompt; useful nonzero code when required."
+                    },
+                    {
+                        "Test":  "Replace Audio missing dependency",
+                        "Passed":  true,
+                        "Detail":  "No download or prompt; useful nonzero code when required."
+                    },
+                    {
+                        "Test":  "Video FPS Converter missing dependency",
+                        "Passed":  true,
+                        "Detail":  "No download or prompt; useful nonzero code when required."
+                    },
+                    {
+                        "Test":  "Video Resolution Converter missing dependency",
+                        "Passed":  true,
+                        "Detail":  "No download or prompt; useful nonzero code when required."
+                    },
+                    {
+                        "Test":  "Video Speed missing dependency",
+                        "Passed":  true,
+                        "Detail":  "No download or prompt; useful nonzero code when required."
+                    },
+                    {
+                        "Test":  "Video Thumbnail missing dependency",
+                        "Passed":  true,
+                        "Detail":  "No download or prompt; useful nonzero code when required."
+                    },
+                    {
+                        "Test":  "Compress PDF missing dependency",
+                        "Passed":  true,
+                        "Detail":  "No download or prompt; useful nonzero code when required."
+                    },
+                    {
+                        "Test":  "Merge PDF missing dependency",
+                        "Passed":  true,
+                        "Detail":  "No download or prompt; useful nonzero code when required."
+                    },
+                    {
+                        "Test":  "Audio Converter missing dependency",
+                        "Passed":  true,
+                        "Detail":  "No download or prompt; useful nonzero code when required."
+                    },
+                    {
+                        "Test":  "Duplicate Finder missing dependency",
+                        "Passed":  true,
+                        "Detail":  "No download or prompt; useful nonzero code when required."
+                    },
+                    {
+                        "Test":  "File Hashes missing dependency",
+                        "Passed":  true,
+                        "Detail":  "No download or prompt; useful nonzero code when required."
+                    },
+                    {
+                        "Test":  "File Inventory missing dependency",
+                        "Passed":  true,
+                        "Detail":  "No download or prompt; useful nonzero code when required."
+                    },
+                    {
+                        "Test":  "Media Info missing dependency",
+                        "Passed":  true,
+                        "Detail":  "No download or prompt; useful nonzero code when required."
+                    },
+                    {
+                        "Test":  "ZIP Backup missing dependency",
+                        "Passed":  true,
+                        "Detail":  "No download or prompt; useful nonzero code when required."
+                    },
+                    {
+                        "Test":  "ZIP Extract missing dependency",
+                        "Passed":  true,
+                        "Detail":  "No download or prompt; useful nonzero code when required."
+                    },
+                    {
+                        "Test":  "START_HERE repeat",
+                        "Passed":  true,
+                        "Detail":  "Dependency check passed, no download."
+                    },
+                    {
+                        "Test":  "START_HERE repeat",
+                        "Passed":  true,
+                        "Detail":  "Dependency check passed, no download."
+                    },
+                    {
+                        "Test":  "START_HERE decline all",
+                        "Passed":  true,
+                        "Detail":  "All three missing packages declined; nothing downloaded."
+                    },
+                    {
+                        "Test":  "Batch input validation",
+                        "Passed":  true,
+                        "Detail":  "Rejected invalid width before cmd expansion."
+                    },
+                    {
+                        "Test":  "Real network failure",
+                        "Passed":  true,
+                        "Detail":  "Network/HTTP failure raised a handled error."
+                    },
+                    {
+                        "Test":  "Download partial",
+                        "Passed":  true,
+                        "Detail":  "Rejected before extraction; own partial files cleaned."
+                    },
+                    {
+                        "Test":  "Download offline",
+                        "Passed":  true,
+                        "Detail":  "Rejected before extraction; own partial files cleaned."
+                    },
+                    {
+                        "Test":  "ZIP traversal",
+                        "Passed":  true,
+                        "Detail":  "Rejected before writing an archive member."
+                    },
+                    {
+                        "Test":  "Image convert jpg",
+                        "Passed":  true,
+                        "Detail":  "Expected result, exit code and output validated."
+                    },
+                    {
+                        "Test":  "Image convert png",
+                        "Passed":  true,
+                        "Detail":  "Expected result, exit code and output validated."
+                    },
+                    {
+                        "Test":  "Image convert webp",
+                        "Passed":  true,
+                        "Detail":  "Expected result, exit code and output validated."
+                    },
+                    {
+                        "Test":  "Image convert tiff",
+                        "Passed":  true,
+                        "Detail":  "Expected result, exit code and output validated."
+                    },
+                    {
+                        "Test":  "Image convert bmp",
+                        "Passed":  true,
+                        "Detail":  "Expected result, exit code and output validated."
+                    },
+                    {
+                        "Test":  "Image convert gif",
+                        "Passed":  true,
+                        "Detail":  "Expected result, exit code and output validated."
+                    },
+                    {
+                        "Test":  "Image convert avif",
+                        "Passed":  true,
+                        "Detail":  "Expected result, exit code and output validated."
+                    },
+                    {
+                        "Test":  "Audio convert mp3",
+                        "Passed":  true,
+                        "Detail":  "Expected result, exit code and output validated."
+                    },
+                    {
+                        "Test":  "Audio convert wav",
+                        "Passed":  true,
+                        "Detail":  "Expected result, exit code and output validated."
+                    },
+                    {
+                        "Test":  "Audio convert flac",
+                        "Passed":  true,
+                        "Detail":  "Expected result, exit code and output validated."
+                    },
+                    {
+                        "Test":  "Audio convert m4a",
+                        "Passed":  true,
+                        "Detail":  "Expected result, exit code and output validated."
+                    },
+                    {
+                        "Test":  "Audio convert opus",
+                        "Passed":  true,
+                        "Detail":  "Expected result, exit code and output validated."
+                    },
+                    {
+                        "Test":  "PDF preset screen",
+                        "Passed":  true,
+                        "Detail":  "Expected result, exit code and output validated."
+                    },
+                    {
+                        "Test":  "PDF preset ebook",
+                        "Passed":  true,
+                        "Detail":  "Expected result, exit code and output validated."
+                    },
+                    {
+                        "Test":  "PDF preset printer",
+                        "Passed":  true,
+                        "Detail":  "Expected result, exit code and output validated."
+                    },
+                    {
+                        "Test":  "PDF preset prepress",
+                        "Passed":  true,
+                        "Detail":  "Expected result, exit code and output validated."
+                    },
+                    {
+                        "Test":  "PDF preset default",
+                        "Passed":  true,
+                        "Detail":  "Expected result, exit code and output validated."
+                    },
+                    {
+                        "Test":  "Silent speed",
+                        "Passed":  true,
+                        "Detail":  "Expected result, exit code and output validated."
+                    },
+                    {
+                        "Test":  "Silent fps",
+                        "Passed":  true,
+                        "Detail":  "Expected result, exit code and output validated."
+                    },
+                    {
+                        "Test":  "HEVC encode",
+                        "Passed":  true,
+                        "Detail":  "Expected result, exit code and output validated."
+                    },
+                    {
+                        "Test":  "Custom image resize",
+                        "Passed":  true,
+                        "Detail":  "Expected result, exit code and output validated."
+                    },
+                    {
+                        "Test":  "Remove white transparency",
+                        "Passed":  true,
+                        "Detail":  "Expected result, exit code and output validated."
+                    },
+                    {
+                        "Test":  "Watermark logo opacity 100",
+                        "Passed":  true,
+                        "Detail":  "Expected result, exit code and output validated."
+                    },
+                    {
+                        "Test":  "Watermark nine positions",
+                        "Passed":  true,
+                        "Detail":  "Expected result, exit code and output validated."
+                    },
+                    {
+                        "Test":  "Animated GIF preserve",
+                        "Passed":  true,
+                        "Detail":  "Expected result, exit code and output validated."
+                    },
+                    {
+                        "Test":  "Animated to static rejected",
+                        "Passed":  true,
+                        "Detail":  "Expected result, exit code and output validated."
+                    },
+                    {
+                        "Test":  "Bad image",
+                        "Passed":  true,
+                        "Detail":  "Expected result, exit code and output validated."
+                    },
+                    {
+                        "Test":  "Bad video",
+                        "Passed":  true,
+                        "Detail":  "Expected result, exit code and output validated."
+                    },
+                    {
+                        "Test":  "Bad PDF",
+                        "Passed":  true,
+                        "Detail":  "Expected result, exit code and output validated."
+                    },
+                    {
+                        "Test":  "Bad ZIP",
+                        "Passed":  true,
+                        "Detail":  "Expected result, exit code and output validated."
+                    },
+                    {
+                        "Test":  "No audio extraction rejected",
+                        "Passed":  true,
+                        "Detail":  "Expected result, exit code and output validated."
+                    },
+                    {
+                        "Test":  "Ambiguous replacement rejected",
+                        "Passed":  true,
+                        "Detail":  "Expected result, exit code and output validated."
+                    },
+                    {
+                        "Test":  "Invalid quality rejected",
+                        "Passed":  true,
+                        "Detail":  "Expected result, exit code and output validated."
+                    },
+                    {
+                        "Test":  "Same basename collision",
+                        "Passed":  true,
+                        "Detail":  "Expected result, exit code and output validated."
+                    },
+                    {
+                        "Test":  "PDF merge pages",
+                        "Passed":  true,
+                        "Detail":  "Expected result, exit code and output validated."
+                    },
+                    {
+                        "Test":  "Image Compression real menu",
+                        "Passed":  true,
+                        "Detail":  "Selected nondefault option through cmd input; setting reached processing."
+                    },
+                    {
+                        "Test":  "Image Convert real menu",
+                        "Passed":  true,
+                        "Detail":  "Selected nondefault option through cmd input; setting reached processing."
+                    },
+                    {
+                        "Test":  "Image Resize real menu",
+                        "Passed":  true,
+                        "Detail":  "Selected nondefault option through cmd input; setting reached processing."
+                    },
+                    {
+                        "Test":  "Increase Volume real menu",
+                        "Passed":  true,
+                        "Detail":  "Selected nondefault option through cmd input; setting reached processing."
+                    },
+                    {
+                        "Test":  "Image Crop real menu",
+                        "Passed":  true,
+                        "Detail":  "Selected nondefault option through cmd input; setting reached processing."
+                    },
+                    {
+                        "Test":  "Video FPS Converter real menu",
+                        "Passed":  true,
+                        "Detail":  "Selected nondefault option through cmd input; setting reached processing."
+                    },
+                    {
+                        "Test":  "Valid fixture download install/cache",
+                        "Passed":  true,
+                        "Detail":  "Checksum, extraction, executable version, whole distribution, cache reuse and prior setup protection verified without downloading a program."
+                    },
+                    {
+                        "Test":  "7z fixture install",
+                        "Passed":  true,
+                        "Detail":  "Windows tar created and extracted a verified local 7z fixture."
+                    },
+                    {
+                        "Test":  "Installer download-only policy",
+                        "Passed":  true,
+                        "Detail":  "Verified fixture saved without running or installing it."
+                    },
+                    {
+                        "Test":  "Insufficient space guard",
+                        "Passed":  true,
+                        "Detail":  "Impossible allocation rejected without filling a disk."
+                    },
+                    {
+                        "Test":  "ZIP empty/hidden tree",
+                        "Passed":  true,
+                        "Detail":  "Empty directories and hidden content retained."
+                    },
+                    {
+                        "Test":  "ZIP rejects C:escape.txt",
+                        "Passed":  true,
+                        "Detail":  "Unsafe/ambiguous name rejected."
+                    },
+                    {
+                        "Test":  "ZIP rejects CON.txt",
+                        "Passed":  true,
+                        "Detail":  "Unsafe/ambiguous name rejected."
+                    },
+                    {
+                        "Test":  "ZIP rejects duplicate.txt,DUPLICATE.txt",
+                        "Passed":  true,
+                        "Detail":  "Unsafe/ambiguous name rejected."
+                    },
+                    {
+                        "Test":  "ZIP rejects trailing.",
+                        "Passed":  true,
+                        "Detail":  "Unsafe/ambiguous name rejected."
+                    }
+                ]
+}

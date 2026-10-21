@@ -1,6 +1,6 @@
 ﻿# tOOls Bat
 
-مجموعة أدوات Windows قابلة للنقل: **85 أداة** للصور والفيديو والصوت وPDF والملفات والشبكة، إضافة إلى `START_HERE.bat` للتجهيز. الأسماء والمجلدات والقوائم الأصلية محفوظة. كل أداة لها MD مستقل؛ الأدوات الأحدث تضع المعالجة في PS1 داخل مجلدها وتشارك وظائف المسارات والأمان واكتشاف البرامج فقط.
+مجموعة أدوات Windows قابلة للنقل: **97 أداة** للصور والفيديو والصوت وPDF والملفات والشبكة، إضافة إلى `START_HERE.bat` للتجهيز. الأسماء والمجلدات والقوائم الأصلية محفوظة. كل أداة لها MD مستقل؛ الأدوات الأحدث تضع المعالجة في PS1 داخل مجلدها وتشارك وظائف المسارات والأمان واكتشاف البرامج فقط.
 
 ## التنظيم
 
@@ -223,3 +223,18 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File ".\Development\tests\Tes
 [تقرير توسعة85 أداة والاختبارات والقيود](Development/Reports/EXPANSION_20261020_AR.md).
 
 اختبارات التوسعة: Development/tests/Test-Expansion.ps1 -Batch All ثم Development/tests/Test-ExpansionOptions.ps1. البرامج المطلوبة نفسها، والنسخة النظيفة لا تضمها افتراضيًا.
+
+## إضافات المرحلة الأولى نحو100 أداة
+
+- [PDF Search](<Tools/PDF/PDF Search/PDF Search.md>)
+- [PDF Add Page Numbers](<Tools/PDF/PDF Add Page Numbers/PDF Add Page Numbers.md>)
+- [PDF Protect](<Tools/PDF/PDF Protect/PDF Protect.md>)
+- [PDF Unlock](<Tools/PDF/PDF Unlock/PDF Unlock.md>)
+- [PDF Watermark](<Tools/PDF/PDF Watermark/PDF Watermark.md>)
+- [PDF Compare](<Tools/PDF/PDF Compare/PDF Compare.md>)
+- [PDF Blank Page Remover](<Tools/PDF/PDF Blank Page Remover/PDF Blank Page Remover.md>)
+- [Files to ZIP by Size](<Tools/UTI/Files to ZIP by Size/Files to ZIP by Size.md>)
+- [File Type Organizer](<Tools/UTI/File Type Organizer/File Type Organizer.md>)
+- [File Date Organizer](<Tools/UTI/File Date Organizer/File Date Organizer.md>)
+- [Video Contact Sheet](<Tools/VID/Video Contact Sheet/Video Contact Sheet.md>)
+- [Subtitle Tools](<Tools/VID/Subtitle Tools/Subtitle Tools.md>)

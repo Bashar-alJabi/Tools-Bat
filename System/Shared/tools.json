@@ -641,5 +641,115 @@
     "Original": false,
     "Standalone": true,
     "Expansion": "2026-10-20-B"
+  },
+  {
+    "Name": "PDF Search",
+    "Path": "Tools\\PDF\\PDF Search\\PDF Search.bat",
+    "Dependency": "ghostscript",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-21-1"
+  },
+  {
+    "Name": "PDF Add Page Numbers",
+    "Path": "Tools\\PDF\\PDF Add Page Numbers\\PDF Add Page Numbers.bat",
+    "Dependency": "ghostscript",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-21-1"
+  },
+  {
+    "Name": "PDF Protect",
+    "Path": "Tools\\PDF\\PDF Protect\\PDF Protect.bat",
+    "Dependency": "qpdf",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-21-1"
+  },
+  {
+    "Name": "PDF Unlock",
+    "Path": "Tools\\PDF\\PDF Unlock\\PDF Unlock.bat",
+    "Dependency": "qpdf",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-21-1"
+  },
+  {
+    "Name": "PDF Watermark",
+    "Path": "Tools\\PDF\\PDF Watermark\\PDF Watermark.bat",
+    "Dependency": "qpdf",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-21-1",
+    "AdditionalDependencies": [
+      "ghostscript",
+      "magick"
+    ]
+  },
+  {
+    "Name": "PDF Compare",
+    "Path": "Tools\\PDF\\PDF Compare\\PDF Compare.bat",
+    "Dependency": "ghostscript",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-21-1",
+    "AdditionalDependencies": [
+      "magick"
+    ]
+  },
+  {
+    "Name": "PDF Blank Page Remover",
+    "Path": "Tools\\PDF\\PDF Blank Page Remover\\PDF Blank Page Remover.bat",
+    "Dependency": "ghostscript",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-21-1",
+    "AdditionalDependencies": [
+      "magick"
+    ]
+  },
+  {
+    "Name": "Files to ZIP by Size",
+    "Path": "Tools\\UTI\\Files to ZIP by Size\\Files to ZIP by Size.bat",
+    "Dependency": "",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-21-1"
+  },
+  {
+    "Name": "File Type Organizer",
+    "Path": "Tools\\UTI\\File Type Organizer\\File Type Organizer.bat",
+    "Dependency": "",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-21-1"
+  },
+  {
+    "Name": "File Date Organizer",
+    "Path": "Tools\\UTI\\File Date Organizer\\File Date Organizer.bat",
+    "Dependency": "",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-21-1"
+  },
+  {
+    "Name": "Video Contact Sheet",
+    "Path": "Tools\\VID\\Video Contact Sheet\\Video Contact Sheet.bat",
+    "Dependency": "ffmpeg",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-21-1",
+    "AdditionalDependencies": [
+      "ffprobe",
+      "magick"
+    ]
+  },
+  {
+    "Name": "Subtitle Tools",
+    "Path": "Tools\\VID\\Subtitle Tools\\Subtitle Tools.bat",
+    "Dependency": "",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-21-1"
   }
 ]
