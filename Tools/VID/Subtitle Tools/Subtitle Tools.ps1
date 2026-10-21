@@ -49,7 +49,7 @@ try {
   $vtt=$choice -eq 3;$output=New-Object 'Collections.Generic.List[string]';if($vtt){$output.Add("WEBVTT`r`n")}
   foreach($cue in $data.Cues){
    $start=$cue.Start;$end=$cue.End
-   if($choice -eq 2){$start=[Math]::Max(0,$start+$offset);$end=[Math]::Max(0,$end+$offset);if($end -le $start){throw 'Shift would erase a cue before time zero; use a smaller negative offset. No output published.'}}
+   if($choice -eq 2){$start=[Math]::Max([long]0,([long]$start+$offset));$end=[Math]::Max([long]0,([long]$end+$offset));if($end -le $start){throw 'Shift would erase a cue before time zero; use a smaller negative offset. No output published.'}}
    $output.Add($cue.Index.ToString());$output.Add((Format-SubtitleTime $start $vtt)+' --> '+(Format-SubtitleTime $end $vtt));$output.Add($cue.Text);$output.Add('')
   }
   $name=if($vtt){'converted.vtt'}elseif($choice -eq 4){'converted.srt'}else{'shifted.srt'}

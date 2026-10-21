@@ -1,0 +1,45 @@
+﻿[
+    {
+        "Test":  "Complete Tesseract extracted by actual setup code; no installer executed",
+        "Passed":  false,
+        "Detail":  "Unsafe package member."
+    },
+    {
+        "Test":  "Three language packages verified and initialized using Unicode-safe paths",
+        "Passed":  false,
+        "Detail":  "Prepare the complete local Tesseract package first, then approve languages. No language download started."
+    },
+    {
+        "Test":  "qpdf portable ZIP prepared by actual setup code",
+        "Passed":  false,
+        "Detail":  "ZIP entry exceeds the supported path length (240)."
+    },
+    {
+        "Test":  "Language cache reuse and prior runtime preservation",
+        "Passed":  false,
+        "Detail":  "Prepare the complete local Tesseract package first, then approve languages. No language download started."
+    },
+    {
+        "Test":  "Optional model pathway validates pinned Git blob using approved Arabic data",
+        "Passed":  false,
+        "Detail":  "Exception calling \"Move\" with \"2\" argument(s): \"Could not find file \u0027\u003cPROJECT_ROOT\u003e\\Development\\tests\\_work\\.toolsbat-0268092052964c0da9d76014a9766b1a\\تجهيز عربي \u0026 ! %X% [1]\\System\\Bin\\Tesseract\\tessdata\\ara.traineddata\u0027.\""
+    },
+    {
+        "Test":  "Partial/corrupt package refused without publishing a runtime",
+        "Passed":  true
+    },
+    {
+        "Test":  "Offline download failure is explicit and preserves files",
+        "Passed":  true
+    },
+    {
+        "Test":  "Real START_HERE check repeated after portable preparation",
+        "Passed":  false,
+        "Detail":  "\n============================================================\n                     tOOls Bat - START HERE\n============================================================\nProject: \u003cPROJECT_ROOT\u003e\\Development\\tests\\_work\\.toolsbat-0268092052964c0da9d76014a9766b1a\\تجهيز عربي \u0026 ! %X% [1]\nWindows: 10.0.26300.0 | Architecture: AMD64\nPowerShell: 5.1.26100.9549\nAdministrator is not required. No PATH, Registry or Windows settings are changed.\nTools registered: 100\n[OK] ffmpeg | system | <USER_APPS>\\Portable Apps\\ffmpeg-9.0.1-essentials_build\\bin\\ffmpeg.exe\n     ffmpeg version 9.0.1-essentials_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers\n     subtitles/libass filter: available; Arabic rendering still depends on fonts.\n     Used by: Compress Video, Convert Audio, Extract Audio, Increase Volume, Merge Audio, Normalize Audio, Remove Audio, Replace Audio, Video FPS Converter, Video Resolution Converter, Video Speed, Video Thumbnail, Audio Converter, Video Trim, Video Rotate, Video To GIF, Video Remux, Video Frames, Audio Trim, Audio Normalize, Audio Fade, Audio Channels, Audio Concatenate, Video Merge, Video Screenshot at Time, Video Watermark, Video Subtitles Burn, Video Extract Subtitles, Video Add Subtitle Track, Video Remove Black Bars, Video Audio Sync, Audio to Video, Audio Remove Silence, Audio Split by Silence, Audio Volume Report, Audio Reverse, Video Contact Sheet\n[OK] ffprobe | system | <USER_APPS>\\Portable Apps\\ffmpeg-9.0.1-essentials_build\\bin\\ffprobe.exe\n     ffprobe version 9.0.1-essentials_build-www.gyan.dev Copyright (c) 2007-2026 the FFmpeg developers\n     Used by: Media Info, Video Trim, Audio Trim, Audio Fade, Video Merge, Video Screenshot at Time, Video Watermark, Video Subtitles Burn, Video Extract Subtitles, Video Add Subtitle Track, Video Remove Black Bars, Video Audio Sync, Audio to Video, Video Metadata Report, Audio Remove Silence, Audio Split by Silence, Audio Volume Report, Audio Reverse, Video Contact Sheet\n[OK] magick | system | C:\\Program Files\\ImageMagick-7.1.2-Q16-HDRI\\magick.exe\n     Version: ImageMagick 7.1.2-30 Q16-HDRI x64 344e905:20260823 https://imagemagick.org\n     Used by: Background Color Remover, Image Compression, Image Convert, Image Crop, Image Enhance, Image Contact Sheet, Image Metadata Cleaner, Image Resize, Image Watermark, Image Rotate, Image Flip, Image Grayscale, Image Border, Image Info, Image Duplicates, Image to PDF, Image Compare, Image Collage, Image Auto Orient, Image Color Palette, Image Format Report, PDF Watermark, PDF Compare, PDF Blank Page Remover, Video Contact Sheet, Image OCR, PDF OCR, Document Scanner\n[OK] ghostscript | system | C:\\Program Files\\gs\\gs10.07.1\\bin\\gswin64c.exe\n     10.07.1\n     Used by: Compress PDF, Merge PDF, PDF Split, PDF To Images, PDF Text, PDF Rotate Pages, PDF Extract Pages, PDF Reorder Pages, PDF Metadata Cleaner, PDF Search, PDF Add Page Numbers, PDF Watermark, PDF Compare, PDF Blank Page Remover, PDF OCR\n[MISSING] qpdf\n     Used by: PDF Protect, PDF Unlock, PDF Watermark, PDF OCR\n[MISSING] tesseract\n     Used by: Image OCR, PDF OCR\n[MISSING] OCR configuration: Tesseract 5+ is missing. Run START_HERE; no download was started.\n"
+    },
+    {
+        "Test":  "Missing models produce partial setup without a success claim",
+        "Passed":  false,
+        "Detail":  "Exception calling \"Move\" with \"2\" argument(s): \"Could not find file \u0027\u003cPROJECT_ROOT\u003e\\Development\\tests\\_work\\.toolsbat-0268092052964c0da9d76014a9766b1a\\تجهيز عربي \u0026 ! %X% [1]\\System\\Bin\\Tesseract\\tessdata\\ara.traineddata\u0027.\""
+    }
+]

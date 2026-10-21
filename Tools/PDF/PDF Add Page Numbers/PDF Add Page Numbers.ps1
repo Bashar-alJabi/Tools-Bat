@@ -14,7 +14,7 @@ try {
   $x=switch($position){2{'18'};5{'18'};3{'pw 18 sub tw sub'};6{'pw 18 sub tw sub'};default{'pw tw sub 2 div'}}
   $y=if($position -ge 4){'ph 30 sub'}else{'18'}
   $program='/TBpage 0 def << /EndPage { exch pop 2 ne { userdict /TBpage TBpage 1 add put TBpage '+$skip+' gt { gsave initgraphics /pw currentpagedevice /PageSize get 0 get def /ph currentpagedevice /PageSize get 1 get def /Helvetica findfont 12 scalefont setfont /s TBpage '+$skip+' sub '+$start+' add 1 sub 20 string cvs def /tw s stringwidth pop def '+$x+' '+$y+' moveto 0 setgray s show grestore } if true } { false } ifelse } bind >> setpagedevice'
-  [void](Invoke-Checked $script:PDFEngine @('-q','-dSAFER','-dPDFSTOPONERROR','-dBATCH','-dNOPAUSE','-sDEVICE=pdfwrite','-dAutoRotatePages=/None','-sOutputFile=result.pdf','-c',$program,'-f','source.pdf'))
+  [void](Invoke-Checked $script:PDFEngine @('-q','-dSAFER','-dPDFSTOPONERROR','-dBATCH','-dNOPAUSE','-dUseCropBox','-sDEVICE=pdfwrite','-dAutoRotatePages=/None','-sOutputFile=result.pdf','-c',$program,'-f','source.pdf'))
   if((Get-PDFCount 'result.pdf') -ne $count){throw 'Numbering lost pages.'}
  }
 }catch{Write-Host ('[ERROR] '+$_.Exception.Message);exit 2}

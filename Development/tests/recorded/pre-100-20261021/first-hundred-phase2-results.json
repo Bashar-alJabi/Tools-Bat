@@ -1,0 +1,49 @@
+﻿{
+    "Sandbox":  "\u003cPROJECT_ROOT\u003e\\Development\\tests\\_work\\hundred-f52249ed",
+    "PowerShell":  "5.1.26100.9549",
+    "Windows":  "10.0.26300.0",
+    "Date":  "2026-10-21T09:38:35.7761680+03:00",
+    "Phase":  "2",
+    "Results":  [
+                    {
+                        "Test":  "Image OCR",
+                        "Passed":  false,
+                        "Detail":  "--check: [ERROR] Tesseract could not list languages.\n"
+                    },
+                    {
+                        "Test":  "PDF OCR",
+                        "Passed":  false,
+                        "Detail":  "--check: [ERROR] Tesseract could not list languages.\n"
+                    },
+                    {
+                        "Test":  "Document Scanner launch",
+                        "Passed":  true,
+                        "Detail":  "Actual BAT help/check from a different working directory in relocated Arabic/metacharacter path."
+                    },
+                    {
+                        "Test":  "Document Scanner empty",
+                        "Passed":  true,
+                        "Detail":  "Empty Input handled without publishing output."
+                    },
+                    {
+                        "Test":  "Document Scanner processing",
+                        "Passed":  true,
+                        "Detail":  "Actual BAT operation, semantic output checks, original SHA-256 and repeated-output preservation."
+                    },
+                    {
+                        "Test":  "Document Scanner menu",
+                        "Passed":  true,
+                        "Detail":  "Shell metacharacters rejected as menu input."
+                    },
+                    {
+                        "Test":  "Document Scanner missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Absent local/system dependencies refused without downloading."
+                    },
+                    {
+                        "Test":  "Document Scanner invalid input",
+                        "Passed":  true,
+                        "Detail":  "Corrupt media refused or opaque file handled according to tool semantics; source bytes preserved."
+                    }
+                ]
+}

@@ -1,0 +1,89 @@
+﻿{
+  "Date": "2026-10-21T10:41:30.1604527+03:00",
+  "Platform": "Windows PowerShell 5.1.26100.9549; OS build 10.0.26300.0",
+  "Suites": [
+    {
+      "Suite": "results.json",
+      "Passed": 123,
+      "Failed": 0
+    },
+    {
+      "Suite": "improvements-All-results.json",
+      "Passed": 127,
+      "Failed": 0
+    },
+    {
+      "Suite": "expansion-All-results.json",
+      "Passed": 145,
+      "Failed": 0
+    },
+    {
+      "Suite": "expansion-options-results.json",
+      "Passed": 45,
+      "Failed": 0
+    },
+    {
+      "Suite": "original-comparison-results.json",
+      "Passed": 23,
+      "Failed": 0
+    },
+    {
+      "Suite": "verification-results.json",
+      "Passed": 6,
+      "Failed": 0
+    },
+    {
+      "Suite": "distribution-results.json",
+      "Passed": 5,
+      "Failed": 0
+    },
+    {
+      "Suite": "root-bat-results.json",
+      "Passed": 5,
+      "Failed": 0
+    },
+    {
+      "Suite": "local-portable-results.json",
+      "Passed": 6,
+      "Failed": 0
+    },
+    {
+      "Suite": "edge-results.json",
+      "Passed": 9,
+      "Failed": 0
+    },
+    {
+      "Suite": "reorganization-results.json",
+      "Passed": 123,
+      "Failed": 0
+    },
+    {
+      "Suite": "hundred-phase1-results.json",
+      "Passed": 68,
+      "Failed": 0
+    },
+    {
+      "Suite": "hundred-phase2-results.json",
+      "Passed": 20,
+      "Failed": 0
+    },
+    {
+      "Suite": "hundred-options-final-results.json",
+      "Passed": 43,
+      "Failed": 0
+    },
+    {
+      "Suite": "ocr-setup-results.json",
+      "Passed": 9,
+      "Failed": 0
+    },
+    {
+      "Suite": "ocr-visual-results.json",
+      "Passed": 2,
+      "Failed": 0
+    }
+  ],
+  "Passed": 759,
+  "Failed": 0,
+  "Caution": "Counts are recorded checks, not independent tools or proof of arbitrary OCR accuracy. Phase-one contact-sheet fixes and arithmetic changes have later focused checks and final-ZIP processing evidence."
+}

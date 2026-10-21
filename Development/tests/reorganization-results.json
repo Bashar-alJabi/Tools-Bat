@@ -1,6 +1,6 @@
 ﻿{
-    "DateUTC":  "2026-10-20T17:14:02.9901159Z",
-    "Archive":  "dist\\tOOls Bat 85 20261020.zip",
+    "DateUTC":  "2026-10-21T07:35:09.3381858Z",
+    "Archive":  ".\\dist\\tOOls Bat 100 20261021-verified.zip",
     "Results":  [
                     {
                         "Test":  "All 55 BAT bodies preserved",
@@ -438,14 +438,89 @@
                         "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
                     },
                     {
+                        "Test":  "PDF Search extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "PDF Add Page Numbers extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "PDF Protect extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "PDF Unlock extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "PDF Watermark extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "PDF Compare extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "PDF Blank Page Remover extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Files to ZIP by Size extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "File Type Organizer extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "File Date Organizer extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Video Contact Sheet extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Subtitle Tools extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Image OCR extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "PDF OCR extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
+                        "Test":  "Document Scanner extracted BAT",
+                        "Passed":  true,
+                        "Detail":  "Help and actual dependency check executed from an unrelated working directory after ZIP extraction."
+                    },
+                    {
                         "Test":  "Extracted START_HERE check 1",
                         "Passed":  true,
-                        "Detail":  "All four dependencies detected; no download, prompt, registry or persistent PATH change."
+                        "Detail":  "All registered programs and OCR languages detected; no download, prompt, registry or persistent PATH change."
                     },
                     {
                         "Test":  "Extracted START_HERE check 2",
                         "Passed":  true,
-                        "Detail":  "All four dependencies detected; no download, prompt, registry or persistent PATH change."
+                        "Detail":  "All registered programs and OCR languages detected; no download, prompt, registry or persistent PATH change."
                     },
                     {
                         "Test":  "Release Markdown links",
@@ -504,6 +579,41 @@
                     },
                     {
                         "Test":  "Batch Rename extracted processing",
+                        "Passed":  true,
+                        "Detail":  "Real fixture processing and repeat in extracted ZIP; original input and existing output hashes unchanged."
+                    },
+                    {
+                        "Test":  "PDF Add Page Numbers extracted processing",
+                        "Passed":  true,
+                        "Detail":  "Real fixture processing and repeat in extracted ZIP; original input and existing output hashes unchanged."
+                    },
+                    {
+                        "Test":  "File Type Organizer extracted processing",
+                        "Passed":  true,
+                        "Detail":  "Real fixture processing and repeat in extracted ZIP; original input and existing output hashes unchanged."
+                    },
+                    {
+                        "Test":  "File Date Organizer extracted processing",
+                        "Passed":  true,
+                        "Detail":  "Real fixture processing and repeat in extracted ZIP; original input and existing output hashes unchanged."
+                    },
+                    {
+                        "Test":  "Video Contact Sheet extracted processing",
+                        "Passed":  true,
+                        "Detail":  "Real fixture processing and repeat in extracted ZIP; original input and existing output hashes unchanged."
+                    },
+                    {
+                        "Test":  "Image OCR extracted processing",
+                        "Passed":  true,
+                        "Detail":  "Real fixture processing and repeat in extracted ZIP; original input and existing output hashes unchanged."
+                    },
+                    {
+                        "Test":  "PDF OCR extracted processing",
+                        "Passed":  true,
+                        "Detail":  "Real fixture processing and repeat in extracted ZIP; original input and existing output hashes unchanged."
+                    },
+                    {
+                        "Test":  "Document Scanner extracted processing",
                         "Passed":  true,
                         "Detail":  "Real fixture processing and repeat in extracted ZIP; original input and existing output hashes unchanged."
                     }

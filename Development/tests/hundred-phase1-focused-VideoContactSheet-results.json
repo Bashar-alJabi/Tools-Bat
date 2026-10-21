@@ -1,0 +1,39 @@
+﻿{
+    "Sandbox":  "\u003cPROJECT_ROOT\u003e\\Development\\tests\\_work\\hundred-0374be85",
+    "PowerShell":  "5.1.26100.9549",
+    "Windows":  "10.0.26300.0",
+    "Date":  "2026-10-21T10:14:55.5213188+03:00",
+    "Phase":  "1",
+    "Results":  [
+                    {
+                        "Test":  "Video Contact Sheet launch",
+                        "Passed":  true,
+                        "Detail":  "Actual BAT help/check from a different working directory in relocated Arabic/metacharacter path."
+                    },
+                    {
+                        "Test":  "Video Contact Sheet empty",
+                        "Passed":  true,
+                        "Detail":  "Empty Input handled without publishing output."
+                    },
+                    {
+                        "Test":  "Video Contact Sheet processing",
+                        "Passed":  true,
+                        "Detail":  "Actual BAT operation, semantic output checks, original SHA-256 and repeated-output preservation."
+                    },
+                    {
+                        "Test":  "Video Contact Sheet menu",
+                        "Passed":  true,
+                        "Detail":  "Shell metacharacters rejected as menu input."
+                    },
+                    {
+                        "Test":  "Video Contact Sheet missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Absent local/system dependencies refused without downloading."
+                    },
+                    {
+                        "Test":  "Video Contact Sheet invalid input",
+                        "Passed":  true,
+                        "Detail":  "Corrupt media refused or opaque file handled according to tool semantics; source bytes preserved."
+                    }
+                ]
+}

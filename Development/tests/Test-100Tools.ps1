@@ -27,6 +27,16 @@ $bytes=New-Object byte[] 700000;$rng=[Security.Cryptography.RandomNumberGenerato
 [IO.File]::WriteAllText((Join-Path $fixtures 'text.txt'),'test عربي',(New-Object Text.UTF8Encoding($false)))
 [IO.File]::WriteAllText((Join-Path $fixtures 'text.srt'),"1`r`n00:00:01,000 --> 00:00:02,000`r`nمرحبا TEST`r`n`r`n2`r`n00:00:03,000 --> 00:00:04,000`r`nالعالم`r`n",(New-Object Text.UTF8Encoding($false)))
 [void](Invoke-Checked $ff @('-v','error','-nostdin','-n','-f','lavfi','-i','testsrc2=s=160x90:r=10:d=4','-c:v','libx264','-pix_fmt','yuv420p','video.mp4'))
+if($Phase -ne '1'){
+ Add-Type -AssemblyName System.Drawing
+ foreach($sample in @(@('english.png','TOOLS BAT OCR TEST', $false),@('arabic.png','مرحبا بالعالم تجربة عربية',$true))){
+  $bitmap=New-Object Drawing.Bitmap(1600,500);$g=[Drawing.Graphics]::FromImage($bitmap);$font=New-Object Drawing.Font('Arial',64,[Drawing.FontStyle]::Regular,[Drawing.GraphicsUnit]::Pixel);$format=New-Object Drawing.StringFormat
+  try{$g.Clear([Drawing.Color]::White);$g.TextRenderingHint=[Drawing.Text.TextRenderingHint]::AntiAliasGridFit;$format.Alignment=[Drawing.StringAlignment]::Center;$format.LineAlignment=[Drawing.StringAlignment]::Center;if($sample[2]){$format.FormatFlags=[Drawing.StringFormatFlags]::DirectionRightToLeft};$g.DrawString($sample[1],$font,[Drawing.Brushes]::Black,(New-Object Drawing.RectangleF(20,30,1560,440)),$format);$bitmap.Save((Join-Path $fixtures $sample[0]),[Drawing.Imaging.ImageFormat]::Png)}finally{$format.Dispose();$font.Dispose();$g.Dispose();$bitmap.Dispose()}
+ }
+ [void](Invoke-Checked $magick @('english.png','arabic.png','-units','PixelsPerInch','-density','150','scans.pdf'))
+ [void](Invoke-Checked $magick @('-size','400x600','xc:white','-fill','black','-draw','rectangle 20,200 380,206','-font','Arial','-pointsize','26','-gravity','north','-annotate','+0+80','DOCUMENT TEST','paper-flat.png'))
+ [void](Invoke-Checked $magick @('paper-flat.png','-virtual-pixel','black','-define','distort:viewport=800x800+0+0','-distort','Perspective','0,0 120,80 399,0 650,140 399,599 620,730 0,599 80,650','+repage','paper.png'))
+}
 $catalog=Get-Content -LiteralPath (Join-Path $root 'System\Shared\tools.json') -Raw -Encoding UTF8|ConvertFrom-Json
 $catalog=@($catalog|Where-Object{$_.PSObject.Properties['Expansion'] -and $_.Expansion -like '2026-10-21-*' -and ($Phase -eq 'All' -or $_.Expansion -eq ('2026-10-21-'+$Phase)) -and (-not $Only -or $_.Name -eq $Only)})
 foreach($tool in $catalog){
@@ -51,6 +61,9 @@ foreach($tool in $catalog){
    'File Date Organizer' {Copy-Fixture 'image.png' (Join-Path $inputDir ($leaf+'.png'));(Get-Item -LiteralPath (Join-Path $inputDir ($leaf+'.png'))).LastWriteTime=Get-Date '2026-10-12T12:00:00'}
    'Video Contact Sheet' {Copy-Fixture 'video.mp4' (Join-Path $inputDir ($leaf+'.mp4'))}
    'Subtitle Tools' {Copy-Fixture 'text.srt' (Join-Path $inputDir ($leaf+'.srt'))}
+   'Image OCR' {Copy-Fixture 'english.png' (Join-Path $inputDir ($leaf+' english.png'));Copy-Fixture 'arabic.png' (Join-Path $inputDir ($leaf+' عربي.png'))}
+   'PDF OCR' {Copy-Fixture 'scans.pdf' (Join-Path $inputDir ($leaf+'.pdf'))}
+   'Document Scanner' {Copy-Fixture 'paper.png' (Join-Path $inputDir ($leaf+'.png'));$args='';$answers="3`n2`n2`n120,80 650,140 620,730 80,650`n"}
   }
   $before=HashTree $inputDir;$r=Run-Bat $bat $args $answers
   Assert ($r.Code -eq 0 -and $r.Text -match 'SUCCESS') ('Processing failed: '+$r.Text)
@@ -69,6 +82,9 @@ foreach($tool in $catalog){
    'File Date Organizer' {$rows=@(Import-Csv -LiteralPath (Join-Path $output 'organized-dates\dates.csv'));Assert ($rows[0].Copy.StartsWith('2026\10\') -and $rows[0].DateSource -eq 'Modification') ('Wrong date folders: '+$rows[0].Copy)}
    'Video Contact Sheet' {$rows=@(Import-Csv -LiteralPath $outputs.Where({$_.Name -eq 'timestamps.csv'})[0].FullName);Assert ($rows.Count -eq 12 -and [double]$rows[0].Seconds -lt [double]$rows[-1].Seconds) 'Contact sheet times not distributed.';$dims=Image-Info $outputs.Where({$_.Name -eq 'contact-sheet.jpg'})[0].FullName;Assert ($dims -eq '1312 642') ('Wrong contact sheet layout: '+$dims);[IO.File]::Copy($outputs.Where({$_.Name -eq 'contact-sheet.jpg'})[0].FullName,(Join-Path $fixtures 'sheet.jpg'),$true);[void](Invoke-Checked $magick @('sheet.jpg','-crop','320x180+4+4','+repage','tile-a.png'));[void](Invoke-Checked $magick @('sheet.jpg','-crop','320x180+332+4','+repage','tile-b.png'));$diff=Invoke-Native $magick @('compare','-metric','AE','tile-a.png','tile-b.png','tile-diff.png');Assert ($diff.Code -eq 1) 'Snapshot content is identical in a changing test video.'}
    'Subtitle Tools' {$j=Get-Content -LiteralPath $outputs.Where({$_.Name -eq 'summary.json'})[0].FullName -Raw|ConvertFrom-Json;Assert ($j.Cues -eq 2 -and $j.Issues -eq 0) 'Valid Arabic SRT not validated.'}
+   'Image OCR' {$a=[IO.File]::ReadAllText(($outputs|Where-Object Name -like '*عربي*ocr.txt'|Select-Object -Last 1).FullName,(New-Object Text.UTF8Encoding($false,$true)));$english=$outputs|Where-Object Name -like '*english*'|Select-Object -First 1;$e=[IO.File]::ReadAllText($english.FullName);Assert ($e.Contains('TOOLS BAT OCR TEST')) ('English OCR differs: '+$e);$arabicFile=$outputs|Where-Object {$_.Name -notlike '*english*'}|Select-Object -First 1;$a=[IO.File]::ReadAllText($arabicFile.FullName,(New-Object Text.UTF8Encoding($false,$true)));Assert ($a.Contains('مرحبا') -and $a.Contains('عربية')) ('Arabic OCR differs: '+$a);Record 'Real OCR sample text' $true ('English: '+$e.Trim()+' | Arabic: '+$a.Trim())}
+   'PDF OCR' {$pdf=$outputs|Where-Object Name -eq 'searchable.pdf';Assert ((PDF-Count $pdf.FullName) -eq 2) 'OCR PDF page count.';$e=Get-PDFText 'checked.pdf' 1;$a=Get-PDFText 'checked.pdf' 2;Assert ($e.Contains('TOOLS BAT OCR TEST')) ('Searchable English layer missing: '+$e);Assert ($a.Contains('مرحبا') -and $a.Contains('عربية')) ('Searchable Arabic layer missing: '+$a);Record 'Real PDF searchable layer' $true ('English: '+$e.Trim()+' | Arabic: '+$a.Trim())}
+   'Document Scanner' {$decision=Get-Content -LiteralPath ($outputs|Where-Object Name -eq decision.json).FullName -Raw|ConvertFrom-Json;Assert ($decision.Applied -and $decision.Method -like 'Manual*') 'Real correction not applied.';Assert ($decision.OutputWidth -gt 530 -and $decision.OutputHeight -gt 570) 'Unexpected perspective rectangle size.';$scan=$outputs|Where-Object Name -eq scanned.png;$bitmap=[Drawing.Bitmap]::FromFile($scan.FullName);try{$ys=@(foreach($fraction in @(0.25,0.75)){$x=[int]($bitmap.Width*$fraction);$found=@(for($y=[int]($bitmap.Height*0.28);$y -lt $bitmap.Height*0.4;$y++){if($bitmap.GetPixel($x,$y).R -lt 80){$y}});Assert ($found.Count -gt 0) 'Corrected reference line missing.';$found[0]});Assert ([Math]::Abs($ys[0]-$ys[1]) -le 2) 'Perspective correction did not straighten the known sloping line.'}finally{$bitmap.Dispose()};Assert ((PDF-Count ($outputs|Where-Object Name -eq scanned.pdf).FullName) -eq 1) 'Scanner PDF missing.'}
   }
   Assert ((HashTree $inputDir) -ceq $before) 'Original hashes changed.';$previous=HashTree $output;$again=Run-Bat $bat $args $answers;Assert ($again.Code -eq 0 -and (HashTree $output) -ceq $previous) 'Repeat changed earlier outputs.'
   Record ($tool.Name+' processing') $true 'Actual BAT operation, semantic output checks, original SHA-256 and repeated-output preservation.'
@@ -83,7 +99,7 @@ foreach($tool in $catalog){
   Assert ($inputDir.StartsWith($work+'\',[StringComparison]::OrdinalIgnoreCase)) 'Unsafe fixture move.'
   [IO.Directory]::Move($inputDir,($inputDir+'-saved'));[IO.Directory]::Move($output,($output+'-saved'));Ensure-Directory $inputDir;Ensure-Directory $output
   if($tool.Name -eq 'PDF Compare'){foreach($s in @('Left','Right')){Ensure-Directory (Join-Path $inputDir $s)};Copy-Fixture 'pages.pdf' (Join-Path $inputDir 'Left\good.pdf');$bad=Join-Path $inputDir 'Right\bad.pdf'}
-  else{$extension=if($tool.Name -like 'PDF *'){'.pdf'}elseif($tool.Name -eq 'Subtitle Tools'){'.srt'}elseif($tool.Name -eq 'Video Contact Sheet'){'.mp4'}else{'.bin'};$bad=Join-Path $inputDir ('bad'+$extension)}
+  else{$extension=if($tool.Name -like 'PDF *'){'.pdf'}elseif($tool.Name -eq 'Subtitle Tools'){'.srt'}elseif($tool.Name -eq 'Video Contact Sheet'){'.mp4'}elseif($tool.Name -in @('Image OCR','Document Scanner')){'.png'}else{'.bin'};$bad=Join-Path $inputDir ('bad'+$extension)}
   [IO.File]::WriteAllText($bad,'not a valid media/subtitle document');$badHash=(Get-FileHash -LiteralPath $bad).Hash
   $badAnswers=$answers;$badArgs=$args;if($tool.Name -eq 'Files to ZIP by Size'){$badAnswers='';$badArgs='--defaults'}
   $invalid=Run-Bat $bat $badArgs $badAnswers
@@ -93,5 +109,6 @@ foreach($tool in $catalog){
   Assert ((Get-FileHash -LiteralPath $bad).Hash -eq $badHash) 'Corrupt source changed.';Record ($tool.Name+' invalid input') $true 'Corrupt media refused or opaque file handled according to tool semantics; source bytes preserved.'
  }catch{Record $tool.Name $false $_.Exception.Message}
 }
-@{Date=[datetime]::Now.ToString('o');Phase=$Phase;Sandbox=$work.Replace($root,'<PROJECT_ROOT>');Windows=[Environment]::OSVersion.Version.ToString();PowerShell=$PSVersionTable.PSVersion.ToString();Results=$results.ToArray()}|ConvertTo-Json -Depth 7|Set-Content -LiteralPath (Join-Path $PSScriptRoot ('hundred-phase'+$Phase+'-results.json')) -Encoding UTF8
+$scope=if($Only){'-focused-'+($Only -replace '[^A-Za-z0-9]','')}else{''}
+@{Date=[datetime]::Now.ToString('o');Phase=$Phase;Sandbox=$work.Replace($root,'<PROJECT_ROOT>');Windows=[Environment]::OSVersion.Version.ToString();PowerShell=$PSVersionTable.PSVersion.ToString();Results=$results.ToArray()}|ConvertTo-Json -Depth 7|Set-Content -LiteralPath (Join-Path $PSScriptRoot ('hundred-phase'+$Phase+$scope+'-results.json')) -Encoding UTF8
 if(@($results|Where-Object{-not $_.Passed}).Count){exit 1};exit 0

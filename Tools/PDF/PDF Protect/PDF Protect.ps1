@@ -3,10 +3,10 @@
 . (Join-Path $PSScriptRoot '..\..\..\System\Shared\PDF.ps1')
 try {
  Show-LocalTool 'PDF Protect' $PSScriptRoot $Mode 'qpdf' 'Encrypt new PDF copies using AES-256 (revision 6). Password is requested privately, including with --defaults.'
- $null=Read-LocalChoice $Mode @('Protect with AES-256; no viewing/printing restrictions')
+ $null=Read-PrivatePDFChoice $Mode 'Protect with AES-256; no viewing/printing restrictions'
  $files=@(Get-SafeFiles $script:InputDir @('.pdf'));if(-not $files.Count){Write-Host '[INFO] No supported input files.';exit 0}
  $password=Read-PrivatePassword 'Open password (12+ characters)';$confirm=Read-PrivatePassword 'Repeat password'
- if($password.Length -lt 12 -or $password -cne $confirm){throw 'Passwords must match and contain at least 12 characters.'}
+ if($password.Length -lt 12 -or [Text.Encoding]::UTF8.GetByteCount($password) -gt 127 -or $password -cne $confirm){throw 'Passwords must match, contain at least12 characters and fit127 UTF-8 bytes (the PDF limit).'}
  $confirm=$null
  try {
   Invoke-LocalBatch $files {param($f)$f.Name+'.protected.pdf'} {

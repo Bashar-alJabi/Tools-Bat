@@ -50,7 +50,22 @@
         "Detail":  "Real BAT options and content checked; originals unchanged."
     },
     {
+        "Test":  "Date actual EXIF shooting timestamp",
+        "Passed":  true,
+        "Detail":  "Real BAT options and content checked; originals unchanged."
+    },
+    {
         "Test":  "Subtitle positive shift Arabic",
+        "Passed":  true,
+        "Detail":  "Real BAT options and content checked; originals unchanged."
+    },
+    {
+        "Test":  "Contact sheet very short video EOF sampling",
+        "Passed":  true,
+        "Detail":  "Real BAT options and content checked; originals unchanged."
+    },
+    {
+        "Test":  "Contact sheet custom four frames two columns",
         "Passed":  true,
         "Detail":  "Real BAT options and content checked; originals unchanged."
     },
@@ -76,6 +91,81 @@
     },
     {
         "Test":  "SRT bad end overlap and numbering report",
+        "Passed":  true,
+        "Detail":  "Real BAT options and content checked; originals unchanged."
+    },
+    {
+        "Test":  "Protect Unicode password through private stdin",
+        "Passed":  true,
+        "Detail":  "Real BAT options and content checked; originals unchanged."
+    },
+    {
+        "Test":  "Unlock wrong password refuses publication",
+        "Passed":  true,
+        "Detail":  "Real BAT options and content checked; originals unchanged."
+    },
+    {
+        "Test":  "Image OCR English selected language",
+        "Passed":  true,
+        "Detail":  "Real BAT options and content checked; originals unchanged."
+    },
+    {
+        "Test":  "Image OCR Arabic selected language",
+        "Passed":  true,
+        "Detail":  "Real BAT options and content checked; originals unchanged."
+    },
+    {
+        "Test":  "Image OCR rotated English orientation detection",
+        "Passed":  true,
+        "Detail":  "Real BAT options and content checked; originals unchanged."
+    },
+    {
+        "Test":  "OCR missing Arabic model check",
+        "Passed":  true,
+        "Detail":  "Real BAT options and content checked; originals unchanged."
+    },
+    {
+        "Test":  "OCR corrupt Arabic model check",
+        "Passed":  true,
+        "Detail":  "Real BAT options and content checked; originals unchanged."
+    },
+    {
+        "Test":  "Scanner automatic corner proposal",
+        "Passed":  true,
+        "Detail":  "Real BAT options and content checked; originals unchanged."
+    },
+    {
+        "Test":  "Scanner automatic APPLY black and white",
+        "Passed":  true,
+        "Detail":  "Real BAT options and content checked; originals unchanged."
+    },
+    {
+        "Test":  "Scanner uncertain boundary preserves full preview",
+        "Passed":  true,
+        "Detail":  "Real BAT options and content checked; originals unchanged."
+    },
+    {
+        "Test":  "Scanner crossed corners refused",
+        "Passed":  true,
+        "Detail":  "Real BAT options and content checked; originals unchanged."
+    },
+    {
+        "Test":  "Scanner per-file corner batch",
+        "Passed":  true,
+        "Detail":  "Real BAT options and content checked; originals unchanged."
+    },
+    {
+        "Test":  "PDF OCR retains existing text and white page",
+        "Passed":  true,
+        "Detail":  "Real BAT options and content checked; originals unchanged."
+    },
+    {
+        "Test":  "PDF Search finds real Arabic OCR layer",
+        "Passed":  true,
+        "Detail":  "Real BAT options and content checked; originals unchanged."
+    },
+    {
+        "Test":  "PDF OCR rejects encrypted input",
         "Passed":  true,
         "Detail":  "Real BAT options and content checked; originals unchanged."
     }

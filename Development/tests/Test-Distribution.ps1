@@ -29,7 +29,10 @@ try {
     Assert ($repeat.Code -ne 0) 'Existing distribution was overwritten.'
     foreach($row in $manifest){Assert ((Get-FileHash -LiteralPath (Join-Path $destination $row.Path)).Hash -eq $row.SHA256) 'Existing distribution changed.'}
     Record 'Build repeat safety' 'An existing destination was rejected; all original output hashes preserved.'
-    $ghostscript=Get-Dependency 'ghostscript'
+    # Look up a real system installation even when the development project now
+    # already has a complete local copy; exercise the installed-copy pathway.
+    $script:ProjectRoot=Join-Path $work 'discovery'
+    try{$ghostscript=Get-Dependency 'ghostscript'}finally{$script:ProjectRoot=$root}
     Assert ($null -ne $ghostscript) 'Installed Ghostscript missing.'
     $portable=Join-Path $work 'installed-copy';Ensure-Directory $portable
     Copy-InstalledDependency $ghostscript $portable

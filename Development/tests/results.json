@@ -1,8 +1,8 @@
 ﻿{
-    "DateUTC":  "2026-10-20T16:37:05.6877891Z",
+    "DateUTC":  "2026-10-21T07:13:22.8086788Z",
     "Windows":  "10.0.26300.0",
     "PowerShell":  "5.1.26100.9549",
-    "Sandbox":  "<PROJECT_ROOT>\\Development\\tests\\_sandbox\\run-89becd79",
+    "Sandbox":  "\u003cPROJECT_ROOT\u003e\\Development\\tests\\_sandbox\\run-ebff8746",
     "Results":  [
                     {
                         "Test":  "Background Color Remover",

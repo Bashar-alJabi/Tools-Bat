@@ -54,5 +54,69 @@
     "Folder": "qpdf",
     "Source": "https://github.com/qpdf/qpdf/releases/tag/v12.4.2",
     "License": "Apache-2.0; preserve NOTICE/LICENSE and bundled library licenses."
+  },
+  {
+    "Id": "tesseract",
+    "Name": "Tesseract OCR Portable extraction (includes 7-Zip extractors, no installers executed)",
+    "Version": "5.5.3",
+    "Arch": "AMD64",
+    "Url": "https://github.com/tesseract-ocr/tesseract/releases/download/5.5.3/tesseract-ocr-w64-setup-5.5.3.20260724.exe",
+    "SHA256": "bee9e3434bd94fd65387d9be28cd467a41f61b1275383b55b0f59a1331270ae4",
+    "ApproxMB": 28,
+    "Kind": "nsis-portable",
+    "Folder": "Tesseract",
+    "Source": "https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.3",
+    "License": "Apache-2.0 engine/models; preserve bundled library notices. 7-Zip extraction helpers: LGPL/BSD/unRAR restrictions; used in private scratch, not installed.",
+    "Extractors": [
+      {
+        "Name": "7zip.exe",
+        "Url": "https://github.com/ip7z/7zip/releases/download/26.04/7z2604-x64.exe",
+        "SHA256": "d54bf805f9f3704d1e8db2fa3498ae7ef2df0312b40b558e7c71c734430a665d"
+      },
+      {
+        "Name": "7zr.exe",
+        "Url": "https://github.com/ip7z/7zip/releases/download/26.04/7zr.exe",
+        "SHA256": "256feca8e274e5da655e2a284fabafd9f554365eb164862089dacd4e8276d282"
+      }
+    ]
+  },
+  {
+    "Id": "tessdata-ara",
+    "Name": "Tesseract language ara",
+    "Version": "4.1.0",
+    "Arch": "AMD64",
+    "Url": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/65727574dfcd264acbb0c3e07860e4e9e9b22185/ara.traineddata",
+    "SHA256": "e3206d3dc87fd50c24a0fb9f01838615911d25168f4e64415244b67d2bb3e729",
+    "ApproxMB": 2.0,
+    "Kind": "traineddata",
+    "Folder": "Tesseract",
+    "Source": "https://github.com/tesseract-ocr/tessdata_fast/tree/65727574dfcd264acbb0c3e07860e4e9e9b22185",
+    "License": "Apache-2.0; pinned official tessdata_fast 4.1.0 commit. See doc/LICENSE in Tesseract."
+  },
+  {
+    "Id": "tessdata-eng",
+    "Name": "Tesseract language eng",
+    "Version": "4.1.0",
+    "Arch": "AMD64",
+    "Url": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/65727574dfcd264acbb0c3e07860e4e9e9b22185/eng.traineddata",
+    "SHA256": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2",
+    "ApproxMB": 4.0,
+    "Kind": "traineddata",
+    "Folder": "Tesseract",
+    "Source": "https://github.com/tesseract-ocr/tessdata_fast/tree/65727574dfcd264acbb0c3e07860e4e9e9b22185",
+    "License": "Apache-2.0; pinned official tessdata_fast 4.1.0 commit. See doc/LICENSE in Tesseract."
+  },
+  {
+    "Id": "tessdata-osd",
+    "Name": "Tesseract language osd",
+    "Version": "4.1.0",
+    "Arch": "AMD64",
+    "Url": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/65727574dfcd264acbb0c3e07860e4e9e9b22185/osd.traineddata",
+    "SHA256": "9cf5d576fcc47564f11265841e5ca839001e7e6f38ff7f7aacf46d15a96b00ff",
+    "ApproxMB": 11.0,
+    "Kind": "traineddata",
+    "Folder": "Tesseract",
+    "Source": "https://github.com/tesseract-ocr/tessdata_fast/tree/65727574dfcd264acbb0c3e07860e4e9e9b22185",
+    "License": "Apache-2.0; pinned official tessdata_fast 4.1.0 commit. See doc/LICENSE in Tesseract."
   }
 ]

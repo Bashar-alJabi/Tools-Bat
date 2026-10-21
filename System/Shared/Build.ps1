@@ -1,4 +1,4 @@
-param([ValidateSet('Interactive','Defaults','Check','Help')][string]$Mode='Interactive',[string]$Destination,[switch]$IncludeLocalDependencies)
+﻿param([ValidateSet('Interactive','Defaults','Check','Help')][string]$Mode='Interactive',[string]$Destination,[switch]$IncludeLocalDependencies)
 . (Join-Path $PSScriptRoot 'Core.ps1')
 . (Join-Path $PSScriptRoot 'Archives.ps1')
 try {
@@ -28,7 +28,7 @@ try {
     try {
         $stage=Join-Path $work 'package';Ensure-Directory $stage
         $shared=Join-Path $stage 'System\Shared';Ensure-Directory $shared
-        foreach($name in @('Core.ps1','PDF.ps1','Archives.ps1','Download.ps1','Setup.ps1','Check.ps1','Validate.ps1','ToolRunner.ps1','NewTool.ps1','Build.ps1','tools.json','packages.json')){[IO.File]::Copy((Join-Path $PSScriptRoot $name),(Join-Path $shared $name),$false)}
+        foreach($name in @('Core.ps1','PDF.ps1','OCR.ps1','Archives.ps1','Download.ps1','Setup.ps1','Check.ps1','Validate.ps1','ToolRunner.ps1','NewTool.ps1','Build.ps1','tools.json','packages.json','ocr-extra-languages.json')){[IO.File]::Copy((Join-Path $PSScriptRoot $name),(Join-Path $shared $name),$false)}
         foreach($name in @('START_HERE.bat','START_HERE.md','BUILD_DISTRIBUTION.bat','BUILD_DISTRIBUTION.md')){[IO.File]::Copy((Join-Path $script:ProjectRoot $name),(Join-Path $stage $name),$false)}
         $seen=@{}
         foreach($tool in $catalog){
@@ -41,11 +41,22 @@ try {
             if($tool.Name -in @('Folder Compare','Image Compare','PDF Compare')){Ensure-Directory (Join-Path $target 'Input\Left');Ensure-Directory (Join-Path $target 'Input\Right')}
             if($tool.Name -in @('Video Subtitles Burn','Video Add Subtitle Track')){Ensure-Directory (Join-Path $target 'Input\Subtitles')}
             if($tool.Name -eq 'Audio to Video'){Ensure-Directory (Join-Path $target 'Input\Picture')}
+            if($tool.Name -eq 'Document Scanner'){Ensure-Directory (Join-Path $target 'Input\Corners')}
         }
         $docDir=Join-Path $stage 'System\Docs';Ensure-Directory $docDir
         foreach($name in @('DEPENDENCIES.md','DISTRIBUTION.md')){[IO.File]::Copy((Join-Path $script:ProjectRoot ('System\Docs\'+$name)),(Join-Path $docDir $name),$false)}
         $bin=Join-Path $stage 'System\Bin';Ensure-Directory $bin
         if($IncludeLocalDependencies){
+            foreach($directory in (Get-ChildItem -LiteralPath (Join-Path $script:ProjectRoot 'System\Bin') -Directory)){
+                $name=if($directory.Name -ieq 'imagemagick'){'magick'}else{$directory.Name.ToLowerInvariant()}
+                if($name -notin @('ffmpeg','magick','ghostscript','qpdf','tesseract')){throw 'Unrecognized local runtime; review its contents and license before including it.'}
+                if(-not (Get-Dependency $name -LocalOnly)){throw ('Local runtime is incomplete or incompatible: '+$name)}
+                if($name -eq 'tesseract'){
+                    . (Join-Path $PSScriptRoot 'OCR.ps1')
+                    $configuration=Get-OCRConfiguration;Test-OCRLanguages $configuration 'ara+eng'
+                    if('osd' -notin $configuration.Languages -or -not (Test-Path -LiteralPath (Join-Path $configuration.Data 'pdf.ttf'))){throw 'Complete Tesseract resources/models are required for binary inclusion.'}
+                }
+            }
             $source=Join-Path $script:ProjectRoot 'System\Bin'
             $files=@(Get-SafeFiles $source $null -Recurse)
             if($files.Count){Test-FreeSpace $parent ([long]($files|Measure-Object Length -Sum).Sum*3+16MB)}

@@ -1,4 +1,4 @@
-# Shared Windows PowerShell 5.1 runtime. No global environment changes.
+﻿# Shared Windows PowerShell 5.1 runtime. No global environment changes.
 if ($PSVersionTable.PSVersion.Major -eq 5) {
     # A PowerShell 7 parent can pass incompatible module directories to cmd/5.1.
     # Limit this process to Windows' built-in modules; never persist this change.
@@ -251,7 +251,7 @@ function Invoke-LocalBatch([IO.FileInfo[]]$Files,[scriptblock]$Name,[scriptblock
             if ($destination.Length -gt 240) { throw 'Output path exceeds 240 characters.' }
             Write-Host ('Processing: '+$(if($Aggregate){$Files.Count.ToString()+' files'}else{$file.Name}))
             $bytes=if($Aggregate){($Files|Measure-Object Length -Sum).Sum}else{$file.Length}
-            Test-FreeSpace $script:OutputDir ([Math]::Max(16MB,[long]$bytes*3))
+            Test-FreeSpace $script:OutputDir ([Math]::Max([long]16MB,([long]$bytes*3)))
             $work=New-WorkDirectory $script:OutputDir
             $script:NativeWorkingDirectory=$work
             $source=Join-Path $work ('source'+$file.Extension)

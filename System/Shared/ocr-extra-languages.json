@@ -1,0 +1,34 @@
+[
+  {
+    "Code": "deu",
+    "Bytes": 1525436,
+    "GitBlobSHA1": "97ed7b2b60f2771c07040660ef0f6daf596dc7bf",
+    "Url": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/65727574dfcd264acbb0c3e07860e4e9e9b22185/deu.traineddata",
+    "Version": "4.1.0",
+    "License": "Apache-2.0"
+  },
+  {
+    "Code": "fra",
+    "Bytes": 1130365,
+    "GitBlobSHA1": "d9e2b2160be0d1ca3b8f1bf2730fae476ef3b4a6",
+    "Url": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/65727574dfcd264acbb0c3e07860e4e9e9b22185/fra.traineddata",
+    "Version": "4.1.0",
+    "License": "Apache-2.0"
+  },
+  {
+    "Code": "spa",
+    "Bytes": 2294433,
+    "GitBlobSHA1": "72e901f13ca52cfe34cf239a368b9ed3c0ddaf26",
+    "Url": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/65727574dfcd264acbb0c3e07860e4e9e9b22185/spa.traineddata",
+    "Version": "4.1.0",
+    "License": "Apache-2.0"
+  },
+  {
+    "Code": "tur",
+    "Bytes": 4550554,
+    "GitBlobSHA1": "1f0b331ef29f50ceb7c44da58e38c7ec42314d0a",
+    "Url": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/65727574dfcd264acbb0c3e07860e4e9e9b22185/tur.traineddata",
+    "Version": "4.1.0",
+    "License": "Apache-2.0"
+  }
+]

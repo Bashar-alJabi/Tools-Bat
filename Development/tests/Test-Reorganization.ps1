@@ -62,7 +62,7 @@ try{
     for($i=1;$i -le 2;$i++){
         $text=Run-Bat (Join-Path $copy 'START_HERE.bat') '--check'
         Assert ($text -match ('Tools registered: '+$catalog.Count) -and $text -notmatch '\[MISSING\]') 'START_HERE check failed.'
-        Record ('Extracted START_HERE check '+$i) 'All four dependencies detected; no download, prompt, registry or persistent PATH change.'
+        Record ('Extracted START_HERE check '+$i) 'All registered programs and OCR languages detected; no download, prompt, registry or persistent PATH change.'
     }
     $docs=@(Get-SafeFiles $copy @('.md') -Recurse)
     foreach($doc in $docs){
@@ -80,12 +80,35 @@ try{
     [void](Invoke-Checked $ffmpeg @('-v','error','-nostdin','-n','-f','lavfi','-i','sine=frequency=440:duration=1','audio.wav'))
     [void](Invoke-Checked $gs @('-q','-dSAFER','-dBATCH','-dNOPAUSE','-sDEVICE=pdfwrite','-sOutputFile=pages.pdf','-c','/Helvetica findfont 12 scalefont setfont 72 720 moveto (Moved PDF) show showpage'))
     [IO.File]::WriteAllText((Join-Path $fixtures 'sample.txt'),'preserve source bytes')
-    foreach($sample in @(@('Image Resize','image.png'),@('Video Speed','video.mp4'),@('Audio Channels','audio.wav'),@('PDF Split','pages.pdf'),@('File Inventory','sample.txt'),@('Network Info',''),@('Image Auto Orient','image.png'),@('Video Audio Sync','video.mp4'),@('Audio Reverse','audio.wav'),@('PDF Extract Pages','pages.pdf'),@('Batch Rename','sample.txt'))){
+    $ocrRun=Get-Content -LiteralPath (Join-Path $PSScriptRoot 'hundred-phase2-results.json') -Raw -Encoding UTF8|ConvertFrom-Json
+    $ocrFixtures=Join-Path ($ocrRun.Sandbox.Replace('<PROJECT_ROOT>',$root)) 'f'
+    foreach($name in @('english.png','arabic.png','scans.pdf','paper.png')){[IO.File]::Copy((Join-Path $ocrFixtures $name),(Join-Path $fixtures $name),$false)}
+    foreach($sample in @(@('Image Resize','image.png'),@('Video Speed','video.mp4'),@('Audio Channels','audio.wav'),@('PDF Split','pages.pdf'),@('File Inventory','sample.txt'),@('Network Info',''),@('Image Auto Orient','image.png'),@('Video Audio Sync','video.mp4'),@('Audio Reverse','audio.wav'),@('PDF Extract Pages','pages.pdf'),@('Batch Rename','sample.txt'),@('PDF Add Page Numbers','pages.pdf'),@('File Type Organizer','sample.txt'),@('File Date Organizer','sample.txt'),@('Video Contact Sheet','video.mp4'),@('Image OCR','english.png'),@('PDF OCR','scans.pdf'),@('Document Scanner','paper.png'))){
         $tool=$catalog|Where-Object Name -eq $sample[0];$bat=Join-Path $copy $tool.Path;$folder=Split-Path $bat
         $inputDir=Join-Path $folder 'Input';$output=Join-Path $folder 'Output'
         if($sample[1]){[IO.File]::Copy((Join-Path $fixtures $sample[1]),(Join-Path $inputDir ($arabic+' & ! %X% [1]'+[IO.Path]::GetExtension($sample[1]))),$false)}
+        if($sample[0] -eq 'Image OCR'){[IO.File]::Copy((Join-Path $fixtures 'arabic.png'),(Join-Path $inputDir 'arabic.png'),$false)}
         $before=HashTree $inputDir;$text=Run-Bat $bat '--defaults'
         Assert (@(Get-SafeFiles $output $null -Recurse).Count -gt 0) ('No output '+$tool.Name)
+        $produced=@(Get-SafeFiles $output $null -Recurse)
+        if($tool.Name -eq 'PDF Add Page Numbers'){
+            [IO.File]::Copy($produced[0].FullName,(Join-Path $fixtures 'numbered.pdf'),$true)
+            [void](Invoke-Checked $gs @('-q','-dSAFER','-dBATCH','-dNOPAUSE','-sDEVICE=txtwrite','-sOutputFile=numbered.txt','numbered.pdf'))
+            $content=[IO.File]::ReadAllText((Join-Path $fixtures 'numbered.txt'));Assert ($content.Contains('Moved PDF') -and $content -match '\b1\b') 'Extracted page numbering/content failed.'
+        }
+        if($tool.Name -eq 'File Type Organizer'){$rows=@(Import-Csv -LiteralPath (Join-Path $output 'organized-types\files.csv'));Assert ($rows.Count -eq 1 -and $rows[0].Category -eq 'Documents') 'Extracted organizer category failed.'}
+        if($tool.Name -eq 'File Date Organizer'){$rows=@(Import-Csv -LiteralPath (Join-Path $output 'organized-dates\dates.csv'));Assert ($rows.Count -eq 1 -and $rows[0].DateSource -eq 'Modification' -and $rows[0].Copy -match '^\d{4}\\\d{2}\\') 'Extracted date organizer failed.'}
+        if($tool.Name -eq 'Video Contact Sheet'){$rows=@(Import-Csv -LiteralPath ($produced|Where-Object Name -eq timestamps.csv).FullName);Assert ($rows.Count -eq 12 -and [double]$rows[0].Seconds -lt [double]$rows[-1].Seconds) 'Extracted contact sheet timestamps failed.'}
+        if($tool.Name -eq 'Image OCR'){
+            $content=($produced|ForEach-Object{[IO.File]::ReadAllText($_.FullName,(New-Object Text.UTF8Encoding($false,$true)))}) -join "`n"
+            $word=-join([char[]]@(0x645,0x631,0x62D,0x628,0x627));Assert ($content.Contains('TOOLS BAT OCR TEST') -and $content.Contains($word)) 'Extracted real bilingual image OCR failed.'
+        }
+        if($tool.Name -eq 'PDF OCR'){
+            [IO.File]::Copy(($produced|Where-Object Name -eq searchable.pdf).FullName,(Join-Path $fixtures 'searchable.pdf'),$true)
+            [void](Invoke-Checked $gs @('-q','-dSAFER','-dBATCH','-dNOPAUSE','-sDEVICE=txtwrite','-sOutputFile=searchable.txt','searchable.pdf'))
+            $content=[IO.File]::ReadAllText((Join-Path $fixtures 'searchable.txt'));$word=-join([char[]]@(0x645,0x631,0x62D,0x628,0x627));Assert ($content.Contains('TOOLS BAT OCR TEST') -and $content.Contains($word)) 'Extracted searchable PDF layer failed.'
+        }
+        if($tool.Name -eq 'Document Scanner'){$j=Get-Content -LiteralPath ($produced|Where-Object Name -eq decision.json).FullName -Raw|ConvertFrom-Json;Assert (-not $j.Applied -and $j.Corners.Count -eq 8) 'Extracted scanner proposal failed.'}
         $outBefore=HashTree $output;$null=Run-Bat $bat '--defaults'
         Assert ((HashTree $inputDir) -eq $before -and (HashTree $output) -eq $outBefore) ('Original or previous output changed '+$tool.Name)
         Record ($tool.Name+' extracted processing') 'Real fixture processing and repeat in extracted ZIP; original input and existing output hashes unchanged.'

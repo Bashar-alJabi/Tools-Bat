@@ -1,0 +1,47 @@
+﻿[
+    {
+        "Test":  "Batch PDF Search two documents",
+        "Passed":  true,
+        "Detail":  "Real BAT options and content checked; originals unchanged."
+    },
+    {
+        "Test":  "Batch PDF page numbering resets each document",
+        "Passed":  true,
+        "Detail":  "Real BAT options and content checked; originals unchanged."
+    },
+    {
+        "Test":  "Batch PDF Protect two documents one private password",
+        "Passed":  true,
+        "Detail":  "Real BAT options and content checked; originals unchanged."
+    },
+    {
+        "Test":  "Batch PDF Unlock two documents",
+        "Passed":  true,
+        "Detail":  "Real BAT options and content checked; originals unchanged."
+    },
+    {
+        "Test":  "Batch PDF Watermark two documents",
+        "Passed":  true,
+        "Detail":  "Real BAT options and content checked; originals unchanged."
+    },
+    {
+        "Test":  "Batch blank-page reports keep documents separate",
+        "Passed":  true,
+        "Detail":  "Real BAT options and content checked; originals unchanged."
+    },
+    {
+        "Test":  "Batch date organizer two files",
+        "Passed":  true,
+        "Detail":  "Real BAT options and content checked; originals unchanged."
+    },
+    {
+        "Test":  "Batch Subtitle Validate two Arabic files",
+        "Passed":  true,
+        "Detail":  "Real BAT options and content checked; originals unchanged."
+    },
+    {
+        "Test":  "Batch PDF OCR two scanned documents",
+        "Passed":  true,
+        "Detail":  "Real BAT options and content checked; originals unchanged."
+    }
+]

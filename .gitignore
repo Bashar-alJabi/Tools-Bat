@@ -6,3 +6,4 @@
 /System/Downloads/
 /System/Bin/*
 !/System/Bin/.gitkeep
+/.setup-*/

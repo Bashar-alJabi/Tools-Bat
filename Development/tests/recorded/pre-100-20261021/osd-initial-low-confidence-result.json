@@ -1,0 +1,12 @@
+﻿[
+    {
+        "Test":  "Image OCR rotated English orientation detection",
+        "Passed":  false,
+        "Detail":  "OSD failed rotated text: LISSLl YOO LV SIOOL\n\nLISSLl YOO LV SIOOL\n\nLISSLl YOO LV SIOOL\n\nLISSLl YOO LV SIOOL\n\nLISSLl YOO LV SIOOL\n\nLISSLl YOO LV SIOOL\n"
+    },
+    {
+        "Test":  "Scanner per-file corner batch",
+        "Passed":  true,
+        "Detail":  "Real BAT options and content checked; originals unchanged."
+    }
+]

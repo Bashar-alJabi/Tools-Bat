@@ -1,0 +1,38 @@
+﻿[
+    {
+        "Test":  "Complete Tesseract extracted by actual setup code; no installer executed",
+        "Passed":  true
+    },
+    {
+        "Test":  "Three language packages verified and initialized using Unicode-safe paths",
+        "Passed":  true
+    },
+    {
+        "Test":  "qpdf portable ZIP prepared by actual setup code",
+        "Passed":  true
+    },
+    {
+        "Test":  "Language cache reuse and prior runtime preservation",
+        "Passed":  true
+    },
+    {
+        "Test":  "Optional model pathway validates pinned Git blob using approved Arabic data",
+        "Passed":  true
+    },
+    {
+        "Test":  "Partial/corrupt package refused without publishing a runtime",
+        "Passed":  true
+    },
+    {
+        "Test":  "Offline download failure is explicit and preserves files",
+        "Passed":  true
+    },
+    {
+        "Test":  "Real START_HERE check repeated after portable preparation",
+        "Passed":  true
+    },
+    {
+        "Test":  "Missing models produce partial setup without a success claim",
+        "Passed":  true
+    }
+]

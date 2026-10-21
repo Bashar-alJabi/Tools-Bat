@@ -1,0 +1,45 @@
+﻿{
+  "BaselineCommit": "3e8197df2cafdc37e4011fd3ce5b3709eca4b3e5",
+  "OriginalToolsReviewed": 85,
+  "OldToolFileHashChecks": 330,
+  "ChangedOldToolFiles": [],
+  "DeletedTrackedPaths": [],
+  "ProductionUserInputOutputFiles": [],
+  "FinalTools": 100,
+  "Categories": [
+    {
+      "Name": "AUD",
+      "Count": 10
+    },
+    {
+      "Name": "IMG",
+      "Count": 23
+    },
+    {
+      "Name": "NET",
+      "Count": 2
+    },
+    {
+      "Name": "PDF",
+      "Count": 17
+    },
+    {
+      "Name": "UTI",
+      "Count": 19
+    },
+    {
+      "Name": "VID",
+      "Count": 29
+    }
+  ],
+  "OldDistDeleted": false,
+  "MainMerged": false,
+  "LocalRuntimeFolders": [
+    "ffmpeg",
+    "ghostscript",
+    "imagemagick",
+    "qpdf",
+    "Tesseract"
+  ],
+  "LocalRuntimeBytes": 656144595
+}

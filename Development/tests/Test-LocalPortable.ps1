@@ -1,4 +1,4 @@
-# Copies already installed distributions into an isolated temporary project.
+﻿# Copies already installed distributions into an isolated temporary project.
 # No downloads, installers, registry changes or persistent dependency copies.
 param([string]$FixtureDirectory)
 . (Join-Path $PSScriptRoot '..\..\System\Shared\Core.ps1')
@@ -15,7 +15,7 @@ try {
     Copy-Item -LiteralPath (Join-Path $sourceRoot 'System\Shared') -Destination (Join-Path $localRoot 'System\Shared') -Recurse
     Copy-Item -LiteralPath (Join-Path $sourceRoot 'START_HERE.bat') -Destination (Join-Path $localRoot 'START_HERE.bat')
     Ensure-Directory (Join-Path $localRoot 'System\Bin')
-    foreach($name in @('ffmpeg','magick','ghostscript')) {
+    foreach($name in @('ffmpeg','magick','ghostscript','qpdf','tesseract')) {
         $dependency=Get-Dependency $name
         if(-not $dependency){throw "Missing installed test dependency: $name"}
         $distribution=Split-Path $dependency.Path
@@ -47,7 +47,7 @@ try {
         Write-Host ($(if($success){'PASS '}else{'FAIL '})+$item.Path+' using project local distributions with system discovery disabled.')
     }
     $setup=Run-Bat (Join-Path $localRoot 'START_HERE.bat') '--check' '' $true
-    $success=$setup.Code -eq 0 -and ([regex]::Matches($setup.Text,'project local')).Count -eq 4
+    $success=$setup.Code -eq 0 -and ([regex]::Matches($setup.Text,'project local')).Count -eq 6
     $results.Add([pscustomobject]@{Test='START_HERE local priority';Passed=$success;Detail=$setup.Text})
     Write-Host ($(if($success){'PASS '}else{'FAIL '})+'START_HERE local priority')
 } catch { $results.Add([pscustomobject]@{Test='Local portability infrastructure';Passed=$false;Detail=$_.Exception.Message}); Write-Host $_.Exception.Message }

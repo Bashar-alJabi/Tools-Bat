@@ -12,14 +12,25 @@ try {
   $media=(Invoke-Checked $script:Probe @('-v','error','-show_streams','-show_format','-of','json',$source))|ConvertFrom-Json
   $duration=[double]::Parse([string]$media.format.duration,[Globalization.CultureInfo]::InvariantCulture)
   if($duration -le 0 -or $duration -gt 86400 -or -not @($media.streams|Where-Object codec_type -eq 'video').Count){throw 'Need a finite video duration between 0 and 24 hours.'}
+  $video=@($media.streams|Where-Object codec_type -eq 'video')[0];$interval=1.0/30
+  if($video.avg_frame_rate -match '^(\d+)/(\d+)$' -and [double]$Matches[1] -gt 0 -and [double]$Matches[2] -gt 0){$interval=[double]$Matches[2]/[double]$Matches[1]}
+  $lastSafe=[Math]::Max(0.0,($duration-$interval))
   $tiles=@();$rows=@(for($i=0;$i -lt $count;$i++){
-   $seconds=$duration*($i+1)/($count+1);$time=$seconds.ToString('0.000',[Globalization.CultureInfo]::InvariantCulture)
-   $frame='frame'+$i+'.png';$tile='tile'+$i+'.png';$label=[timespan]::FromSeconds($seconds).ToString('hh\:mm\:ss\.fff')
+   $requested=$duration*($i+1)/($count+1);$seconds=[Math]::Min($requested,$lastSafe)
+   $frame='frame'+$i+'.png';$tile='tile'+$i+'.png'
    # Input seeking decodes only a short GOP even in long videos; precise seeking
    # remains enabled during PNG transcoding. Scratch frames never enter Output.
-   Invoke-LocalFF @('-ss',$time,'-i',$source,'-frames:v','1','-vf','scale=320:180:force_original_aspect_ratio=decrease,pad=320:180:(ow-iw)/2:(oh-ih)/2:black',$frame)
+   for($attempt=0;$attempt -lt 5;$attempt++){
+    $time=$seconds.ToString('0.000',[Globalization.CultureInfo]::InvariantCulture)
+    Invoke-LocalFF @('-ss',$time,'-i',$source,'-frames:v','1','-vf','scale=320:180:force_original_aspect_ratio=decrease,pad=320:180:(ow-iw)/2:(oh-ih)/2:black',$frame)
+    if(Test-Path -LiteralPath (Join-Path $script:NativeWorkingDirectory $frame)){break}
+    $seconds=if($attempt -ge 3){0.0}else{[Math]::Max(0.0,($seconds-[Math]::Max(0.1,$interval)))}
+   }
+   if(-not (Test-Path -LiteralPath (Join-Path $script:NativeWorkingDirectory $frame))){throw 'No decodable frame at the requested or fallback time.'}
+   $label=[timespan]::FromSeconds($seconds).ToString('hh\:mm\:ss\.fff')
+   if([Math]::Abs($requested-$seconds) -gt 0.001){Write-Host '[INFO] End-of-stream sampling adjusted; short videos may repeat frames. See RequestedSeconds and Seconds in timestamps.csv.'}
    [void](Invoke-Checked $script:Magick @($frame,'-background','black','-gravity','south','-splice','0x26','-font','Arial','-pointsize','16','-fill','white','-annotate','+0+4',$label,$tile));$tiles+=$tile
-   [pscustomobject]@{Frame=$i+1;Seconds=$time;Timestamp=$label}
+   [pscustomobject]@{Frame=$i+1;RequestedSeconds=$requested.ToString('0.000',[Globalization.CultureInfo]::InvariantCulture);Seconds=$time;Timestamp=$label}
   })
   [IO.File]::WriteAllLines((Join-Path $script:NativeWorkingDirectory 'tiles.txt'),$tiles,(New-Object Text.ASCIIEncoding))
   [void](Invoke-Checked $script:Magick @('montage','@tiles.txt','-tile',($columns.ToString()+'x'),'-geometry','+4+4','-background','#202020','result/contact-sheet.jpg'))

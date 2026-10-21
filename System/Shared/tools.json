@@ -751,5 +751,37 @@
     "Original": false,
     "Standalone": true,
     "Expansion": "2026-10-21-1"
+  },
+  {
+    "Name": "Image OCR",
+    "Path": "Tools\\IMG\\Image OCR\\Image OCR.bat",
+    "Dependency": "tesseract",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-21-2",
+    "AdditionalDependencies": [
+      "magick"
+    ]
+  },
+  {
+    "Name": "PDF OCR",
+    "Path": "Tools\\PDF\\PDF OCR\\PDF OCR.bat",
+    "Dependency": "tesseract",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-21-2",
+    "AdditionalDependencies": [
+      "ghostscript",
+      "qpdf",
+      "magick"
+    ]
+  },
+  {
+    "Name": "Document Scanner",
+    "Path": "Tools\\IMG\\Document Scanner\\Document Scanner.bat",
+    "Dependency": "magick",
+    "Original": false,
+    "Standalone": true,
+    "Expansion": "2026-10-21-2"
   }
 ]

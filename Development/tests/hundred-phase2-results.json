@@ -1,0 +1,109 @@
+﻿{
+    "Sandbox":  "\u003cPROJECT_ROOT\u003e\\Development\\tests\\_work\\hundred-bec08966",
+    "PowerShell":  "5.1.26100.9549",
+    "Windows":  "10.0.26300.0",
+    "Date":  "2026-10-21T09:42:34.9988223+03:00",
+    "Phase":  "2",
+    "Results":  [
+                    {
+                        "Test":  "Image OCR launch",
+                        "Passed":  true,
+                        "Detail":  "Actual BAT help/check from a different working directory in relocated Arabic/metacharacter path."
+                    },
+                    {
+                        "Test":  "Image OCR empty",
+                        "Passed":  true,
+                        "Detail":  "Empty Input handled without publishing output."
+                    },
+                    {
+                        "Test":  "Real OCR sample text",
+                        "Passed":  true,
+                        "Detail":  "English: TOOLS BAT OCR TEST | Arabic: مرحبا بالعالم تجربة عربية"
+                    },
+                    {
+                        "Test":  "Image OCR processing",
+                        "Passed":  true,
+                        "Detail":  "Actual BAT operation, semantic output checks, original SHA-256 and repeated-output preservation."
+                    },
+                    {
+                        "Test":  "Image OCR menu",
+                        "Passed":  true,
+                        "Detail":  "Shell metacharacters rejected as menu input."
+                    },
+                    {
+                        "Test":  "Image OCR missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Absent local/system dependencies refused without downloading."
+                    },
+                    {
+                        "Test":  "Image OCR invalid input",
+                        "Passed":  true,
+                        "Detail":  "Corrupt media refused or opaque file handled according to tool semantics; source bytes preserved."
+                    },
+                    {
+                        "Test":  "PDF OCR launch",
+                        "Passed":  true,
+                        "Detail":  "Actual BAT help/check from a different working directory in relocated Arabic/metacharacter path."
+                    },
+                    {
+                        "Test":  "PDF OCR empty",
+                        "Passed":  true,
+                        "Detail":  "Empty Input handled without publishing output."
+                    },
+                    {
+                        "Test":  "Real PDF searchable layer",
+                        "Passed":  true,
+                        "Detail":  "English: TOOLS BAT OCR TEST | Arabic: عربيةتجربة بالعالم مرحبا"
+                    },
+                    {
+                        "Test":  "PDF OCR processing",
+                        "Passed":  true,
+                        "Detail":  "Actual BAT operation, semantic output checks, original SHA-256 and repeated-output preservation."
+                    },
+                    {
+                        "Test":  "PDF OCR menu",
+                        "Passed":  true,
+                        "Detail":  "Shell metacharacters rejected as menu input."
+                    },
+                    {
+                        "Test":  "PDF OCR missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Absent local/system dependencies refused without downloading."
+                    },
+                    {
+                        "Test":  "PDF OCR invalid input",
+                        "Passed":  true,
+                        "Detail":  "Corrupt media refused or opaque file handled according to tool semantics; source bytes preserved."
+                    },
+                    {
+                        "Test":  "Document Scanner launch",
+                        "Passed":  true,
+                        "Detail":  "Actual BAT help/check from a different working directory in relocated Arabic/metacharacter path."
+                    },
+                    {
+                        "Test":  "Document Scanner empty",
+                        "Passed":  true,
+                        "Detail":  "Empty Input handled without publishing output."
+                    },
+                    {
+                        "Test":  "Document Scanner processing",
+                        "Passed":  true,
+                        "Detail":  "Actual BAT operation, semantic output checks, original SHA-256 and repeated-output preservation."
+                    },
+                    {
+                        "Test":  "Document Scanner menu",
+                        "Passed":  true,
+                        "Detail":  "Shell metacharacters rejected as menu input."
+                    },
+                    {
+                        "Test":  "Document Scanner missing dependency",
+                        "Passed":  true,
+                        "Detail":  "Absent local/system dependencies refused without downloading."
+                    },
+                    {
+                        "Test":  "Document Scanner invalid input",
+                        "Passed":  true,
+                        "Detail":  "Corrupt media refused or opaque file handled according to tool semantics; source bytes preserved."
+                    }
+                ]
+}

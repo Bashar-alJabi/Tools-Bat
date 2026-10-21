@@ -4,6 +4,8 @@ $root=$script:ProjectRoot
 $expectedCatalog=Get-Content -LiteralPath (Join-Path $root 'System\Shared\tools.json') -Raw -Encoding UTF8|ConvertFrom-Json
 $expectedCount=$expectedCatalog.Count
 $results=New-Object 'Collections.Generic.List[object]'
+$binRoot=Join-Path $root 'System\Bin'
+$binBefore=@(Get-SafeFiles $binRoot $null -Recurse|ForEach-Object{(Get-RelativeName $binRoot $_.FullName)+'|'+(Get-FileHash -LiteralPath $_.FullName).Hash}) -join "`n"
 function Run-RootBat([string]$Name,[string]$Arguments,[string]$InputText=''){
     $info=New-Object Diagnostics.ProcessStartInfo
     $info.FileName=Join-Path $env:SystemRoot 'System32\cmd.exe';$info.Arguments='/d /v:off /s /c ""%TB_ROOT_BAT%" '+$Arguments+'"'
@@ -23,7 +25,8 @@ try {
     $results.Add([pscustomobject]@{Test='START_HERE help';Passed=$true;Detail='Real help BAT ran successfully.'})
     $text=Run-RootBat 'START_HERE.bat' '--portable' "n`nn`nn`nn`n"
     if($text -notmatch ('Tools registered: '+$expectedCount) -or $text -notmatch '\[SUCCESS\] All project requirements'){throw 'Portable consent/readiness flow failed.'}
-    if(@(Get-ChildItem -LiteralPath (Join-Path $root 'System\Bin') -Recurse -Force -File|Where-Object Name -ne '.gitkeep').Count){throw 'Declined copies changed production System\Bin.'}
+    $binAfter=@(Get-SafeFiles $binRoot $null -Recurse|ForEach-Object{(Get-RelativeName $binRoot $_.FullName)+'|'+(Get-FileHash -LiteralPath $_.FullName).Hash}) -join "`n"
+    if($binAfter -cne $binBefore){throw 'Declined copies changed production System\Bin.'}
     $results.Add([pscustomobject]@{Test='START_HERE portable decline';Passed=$true;Detail='All catalog tools registered; declined each copy; full readiness rescan succeeded; no production program copy or download.'})
 }catch{$results.Add([pscustomobject]@{Test='Root BAT';Passed=$false;Detail=$_.Exception.Message.Replace($root,'<PROJECT_ROOT>')})}
 $results|ConvertTo-Json -Depth 4|Set-Content -LiteralPath (Join-Path $PSScriptRoot 'root-bat-results.json') -Encoding UTF8

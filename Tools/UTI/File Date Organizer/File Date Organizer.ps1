@@ -25,7 +25,7 @@ try {
     Ensure-Directory ([IO.Path]::GetDirectoryName($target));[IO.File]::Copy($entry.FullName,$target,$false)
     if((Get-FileHash -LiteralPath $target).Hash -ne $hash){throw 'Copy checksum mismatch.'}
    }
-   [pscustomobject]@{Source=$relative;Status=$status;DateSource=$used;Date=$date.ToString('o');Copy=$copy;SHA256=$hash}
+   [pscustomobject]@{Source=$relative;Status=$status;DateSource=$used;Date=$(if($status -eq 'Copied'){$date.ToString('o')}else{''});Copy=$copy;SHA256=$hash}
   })
   $rows|Export-Csv -LiteralPath (Join-Path $result 'dates.csv') -NoTypeInformation -Encoding UTF8
   Write-Host ('Files copied: '+@($rows|Where-Object Status -eq 'Copied').Count+'; skipped (missing EXIF): '+@($rows|Where-Object Status -eq 'Skipped').Count)

@@ -1,4 +1,4 @@
-# Small PDF primitives shared by the independent PDF tools. Core.ps1 is loaded first.
+﻿# Small PDF primitives shared by the independent PDF tools. Core.ps1 is loaded first.
 # All native filenames supplied here are private ASCII aliases, never user commands.
 function Get-PDFCount([string]$Alias) {
     $answer=Invoke-Checked $script:PDFEngine @('-q','-dSAFER','-dPDFSTOPONERROR','-dNODISPLAY',('--permit-file-read='+$Alias),'-c',('('+$Alias+') (r) file runpdfbegin pdfpagecount = quit'))
@@ -34,6 +34,13 @@ function Join-PDFPages([string[]]$Aliases,[string]$Target) {
 }
 function Export-PDFPage([string]$Alias,[int]$Page,[string]$Target) {
     [void](Invoke-Checked $script:PDFEngine @('-q','-dSAFER','-dPDFSTOPONERROR','-dBATCH','-dNOPAUSE','-sDEVICE=pdfwrite','-dAutoRotatePages=/None',('-dFirstPage='+$Page),('-dLastPage='+$Page),('-sOutputFile='+$Target),$Alias))
+}
+function Read-PrivatePDFChoice([string]$Mode,[string]$Label) {
+    if($Mode -ne 'Interactive' -or -not [Console]::IsInputRedirected){return (Read-LocalChoice $Mode @($Label))}
+    # Do not mix Read-Host's buffered stdin with Console.ReadLine's private
+    # password input. Never echo redirected input, including malformed lines.
+    Write-Host ('[1] '+$Label);Write-Host '[Q] Quit'
+    while($true){$line=[Console]::ReadLine();if($null -eq $line){throw 'No selection received.'};if($line -match '^[Qq]$'){exit 0};if($line -ceq '1'){return 1};Write-Host '[ERROR] Invalid selection.'}
 }
 function Read-PrivatePassword([string]$Prompt) {
     # Redirected stdin is an explicit automation interface; never accept argv/env secrets.

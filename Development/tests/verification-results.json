@@ -7,12 +7,12 @@
     {
         "Test":  "Catalog completeness",
         "Passed":  true,
-        "Detail":  "85 tool launchers, dependencies registered; all local tool, root and development-report Markdown links resolve."
+        "Detail":  "100 tool launchers, dependencies registered; all local tool, root and development-report Markdown links resolve."
     },
     {
         "Test":  "Pinned packages",
         "Passed":  true,
-        "Detail":  "All three package URLs and SHA-256 values are fixed."
+        "Detail":  "All program/baseline-language package URLs and SHA-256 values are fixed; optional languages disclose their pinned Git-blob integrity anchor."
     },
     {
         "Test":  "Original snapshot integrity",
@@ -22,7 +22,7 @@
     {
         "Test":  "Production input/output/bin isolation",
         "Passed":  true,
-        "Detail":  "No test data, dependency installation, or program download in production folders."
+        "Detail":  "No test/user data in tool Input/Output. Complete local runtime trees were explicitly authorized for portable preparation; binaries are Git-ignored."
     },
     {
         "Test":  "Native progress/output",

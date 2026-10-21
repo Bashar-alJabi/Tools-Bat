@@ -1,0 +1,12 @@
+﻿[
+    {
+        "Test":  "Contact sheet very short video EOF sampling",
+        "Passed":  true,
+        "Detail":  "Real BAT options and content checked; originals unchanged."
+    },
+    {
+        "Test":  "Contact sheet custom four frames two columns",
+        "Passed":  true,
+        "Detail":  "Real BAT options and content checked; originals unchanged."
+    }
+]

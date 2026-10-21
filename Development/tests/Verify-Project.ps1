@@ -1,4 +1,4 @@
-$ErrorActionPreference='Stop'
+﻿$ErrorActionPreference='Stop'
 $root=Split-Path (Split-Path $PSScriptRoot)
 $results=New-Object 'Collections.Generic.List[object]'
 try {
@@ -21,7 +21,7 @@ try {
             [void][Management.Automation.Language.Parser]::ParseFile($localScript,[ref]$tokens,[ref]$issues)
             if($issues.Count){throw ($issues -join "`n")}
         }
-        if($tool.Dependency -and $tool.Dependency -notin @('ffmpeg','ffprobe','magick','ghostscript')){throw 'Unregistered dependency.'}
+        if($tool.Dependency -and $tool.Dependency -notin @('ffmpeg','ffprobe','magick','ghostscript','qpdf','tesseract')){throw 'Unregistered dependency.'}
     }
     $manuals=@(Get-ChildItem -LiteralPath (Join-Path $root 'Tools') -Recurse -File -Filter '*.md')+@(Get-ChildItem -LiteralPath (Join-Path $root 'System\Docs'),(Join-Path $root 'Development\Reports') -File -Filter '*.md')+@(Get-Item -LiteralPath (Join-Path $root 'README.md'),(Join-Path $root 'START_HERE.md'),(Join-Path $root 'BUILD_DISTRIBUTION.md'))
     foreach($manual in $manuals){
@@ -37,7 +37,7 @@ try {
     foreach($package in $packages){
         if($package.SHA256 -notmatch '^[a-f0-9]{64}$' -or $package.Url -notmatch '^https://' -or $package.Url -match '/latest/'){throw 'Unpinned package.'}
     }
-    $results.Add([pscustomobject]@{Test='Pinned packages';Passed=$true;Detail='All three package URLs and SHA-256 values are fixed.'})
+    $results.Add([pscustomobject]@{Test='Pinned packages';Passed=$true;Detail='All program/baseline-language package URLs and SHA-256 values are fixed; optional languages disclose their pinned Git-blob integrity anchor.'})
     Add-Type -AssemblyName System.IO.Compression.FileSystem
     $archive=[IO.Compression.ZipFile]::OpenRead((Join-Path $root 'Development\Original\original.zip'))
     $manifest=Get-Content -LiteralPath (Join-Path $root 'Development\Original\manifest.json') -Raw -Encoding UTF8 | ConvertFrom-Json
@@ -67,8 +67,11 @@ try {
         $dir=Split-Path (Join-Path $root $tool.Path)
         foreach($name in @('Input','Output')){if(@(Get-ChildItem -LiteralPath (Join-Path $dir $name) -File -Recurse -Force | Where-Object {$_.Name -ne '.gitkeep'}).Count){throw 'Test data leaked into a production Input/Output folder.'}}
     }
-    if(@(Get-ChildItem -LiteralPath (Join-Path $root 'System\Bin') -Recurse -File -Force | Where-Object {$_.Name -ne '.gitkeep'}).Count){throw 'A test program was left in the production System\Bin folder.'}
-    $results.Add([pscustomobject]@{Test='Production input/output/bin isolation';Passed=$true;Detail='No test data, dependency installation, or program download in production folders.'})
+    foreach($entry in (Get-ChildItem -LiteralPath (Join-Path $root 'System\Bin') -Force|Where-Object Name -ne '.gitkeep')){
+        if(-not $entry.PSIsContainer -or $entry.Name -notin @('ffmpeg','imagemagick','ghostscript','qpdf','Tesseract') -or ($entry.Attributes -band [IO.FileAttributes]::ReparsePoint)){throw 'Unexpected runtime/test files in production Bin.'}
+    }
+    foreach($name in @('ffmpeg','magick','ghostscript','qpdf','tesseract')){if(-not (Get-Dependency $name -LocalOnly)){throw 'Approved local runtime failed validation.'}}
+    $results.Add([pscustomobject]@{Test='Production input/output/bin isolation';Passed=$true;Detail='No test/user data in tool Input/Output. Complete local runtime trees were explicitly authorized for portable preparation; binaries are Git-ignored.'})
     . (Join-Path $root 'System\Shared\Core.ps1')
     $script:ReportNativeProgress=$true
     $native=Invoke-Native (Join-Path $env:SystemRoot 'System32\WindowsPowerShell\v1.0\powershell.exe') @('-NoProfile','-Command','Start-Sleep -Seconds 2; Write-Output done')

@@ -23,6 +23,7 @@ try {
    if($w -gt 10000 -or $h -gt 10000 -or $w -lt 72 -or $h -lt 72){throw 'Page dimensions outside safe stamp limits.'}
    $bitmap=New-Object Drawing.Bitmap($w,$h);$graphics=[Drawing.Graphics]::FromImage($bitmap);$font=New-Object Drawing.Font('Segoe UI',([single]($size*2)),[Drawing.FontStyle]::Regular,[Drawing.GraphicsUnit]::Pixel);$brush=New-Object Drawing.SolidBrush([Drawing.Color]::FromArgb([int](255*$opacity),0,0,0));$format=New-Object Drawing.StringFormat
    try {
+    if($font.Name -ne 'Segoe UI'){throw 'Segoe UI font is unavailable; restore Windows fonts or choose another supported machine. No substitute-font success claimed.'}
     $graphics.Clear([Drawing.Color]::Transparent);$graphics.TextRenderingHint=[Drawing.Text.TextRenderingHint]::AntiAliasGridFit;$format.Alignment=[Drawing.StringAlignment]::Center;$format.LineAlignment=[Drawing.StringAlignment]::Center
     if($text -match '[\u0600-\u06ff]'){$format.FormatFlags=[Drawing.StringFormatFlags]::DirectionRightToLeft}
     if($p -in $pages){

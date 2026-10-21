@@ -1,0 +1,27 @@
+﻿[
+    {
+        "Test":  "Subtitle positive shift Arabic",
+        "Passed":  true,
+        "Detail":  "Real BAT options and content checked; originals unchanged."
+    },
+    {
+        "Test":  "Contact sheet very short video EOF sampling",
+        "Passed":  true,
+        "Detail":  "Real BAT options and content checked; originals unchanged."
+    },
+    {
+        "Test":  "Contact sheet custom four frames two columns",
+        "Passed":  true,
+        "Detail":  "Real BAT options and content checked; originals unchanged."
+    },
+    {
+        "Test":  "Subtitle negative shift clamps start",
+        "Passed":  true,
+        "Detail":  "Real BAT options and content checked; originals unchanged."
+    },
+    {
+        "Test":  "Subtitle negative shift refuses erased cue",
+        "Passed":  true,
+        "Detail":  "Real BAT options and content checked; originals unchanged."
+    }
+]

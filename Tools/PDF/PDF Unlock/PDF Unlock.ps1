@@ -3,7 +3,7 @@
 . (Join-Path $PSScriptRoot '..\..\..\System\Shared\PDF.ps1')
 try {
  Show-LocalTool 'PDF Unlock' $PSScriptRoot $Mode 'qpdf' 'Decrypt a new PDF copy using its known password; no guessing or cracking.'
- $null=Read-LocalChoice $Mode @('Decrypt using the correct known password')
+ $null=Read-PrivatePDFChoice $Mode 'Decrypt using the correct known password'
  $files=@(Get-SafeFiles $script:InputDir @('.pdf'));if(-not $files.Count){Write-Host '[INFO] No supported input files.';exit 0}
  $password=Read-PrivatePassword 'Known PDF password'
  try {

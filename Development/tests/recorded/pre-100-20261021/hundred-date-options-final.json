@@ -1,0 +1,17 @@
+﻿[
+    {
+        "Test":  "Date EXIF missing fallback",
+        "Passed":  true,
+        "Detail":  "Real BAT options and content checked; originals unchanged."
+    },
+    {
+        "Test":  "Date EXIF missing skip",
+        "Passed":  true,
+        "Detail":  "Real BAT options and content checked; originals unchanged."
+    },
+    {
+        "Test":  "Date actual EXIF shooting timestamp",
+        "Passed":  true,
+        "Detail":  "Real BAT options and content checked; originals unchanged."
+    }
+]

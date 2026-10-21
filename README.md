@@ -1,6 +1,6 @@
 ﻿# tOOls Bat
 
-مجموعة أدوات Windows قابلة للنقل: **97 أداة** للصور والفيديو والصوت وPDF والملفات والشبكة، إضافة إلى `START_HERE.bat` للتجهيز. الأسماء والمجلدات والقوائم الأصلية محفوظة. كل أداة لها MD مستقل؛ الأدوات الأحدث تضع المعالجة في PS1 داخل مجلدها وتشارك وظائف المسارات والأمان واكتشاف البرامج فقط.
+مجموعة أدوات Windows قابلة للنقل: **100 أداة** للصور والفيديو والصوت وPDF والملفات والشبكة، إضافة إلى `START_HERE.bat` للتجهيز. الأسماء والمجلدات والقوائم الأصلية محفوظة. كل أداة لها MD مستقل؛ الأدوات الأحدث تضع المعالجة في PS1 داخل مجلدها وتشارك وظائف المسارات والأمان واكتشاف البرامج فقط.
 
 ## التنظيم
 
@@ -224,7 +224,7 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File ".\Development\tests\Tes
 
 اختبارات التوسعة: Development/tests/Test-Expansion.ps1 -Batch All ثم Development/tests/Test-ExpansionOptions.ps1. البرامج المطلوبة نفسها، والنسخة النظيفة لا تضمها افتراضيًا.
 
-## إضافات المرحلة الأولى نحو100 أداة
+## إضافات2026-10-21: من85 إلى100 أداة
 
 - [PDF Search](<Tools/PDF/PDF Search/PDF Search.md>)
 - [PDF Add Page Numbers](<Tools/PDF/PDF Add Page Numbers/PDF Add Page Numbers.md>)
@@ -238,3 +238,19 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File ".\Development\tests\Tes
 - [File Date Organizer](<Tools/UTI/File Date Organizer/File Date Organizer.md>)
 - [Video Contact Sheet](<Tools/VID/Video Contact Sheet/Video Contact Sheet.md>)
 - [Subtitle Tools](<Tools/VID/Subtitle Tools/Subtitle Tools.md>)
+
+- [Image OCR](<Tools/IMG/Image OCR/Image OCR.md>)
+- [PDF OCR](<Tools/PDF/PDF OCR/PDF OCR.md>)
+- [Document Scanner](<Tools/IMG/Document Scanner/Document Scanner.md>)
+
+## OCR والتجهيز المحمول
+
+يدعم Image OCR استخراج TXT عربي/إنجليزي، وPDF OCR إنشاء PDF بطبقة نص فعلية قابلة للبحث، مع إبقاء الصفحات ذات النص الموجود دون مضاعفته. يستعملان Tesseract5 ونماذج ara/eng/osd، مع اختيار اللغات الموجودة فعلًا. جودة التعرف وترتيب العربية ليست مضمونة؛ PDF Search يبحث في النص المستخرج ويربط النتيجة بالصفحة، وقد لا يعثر على عبارة عربية موزعة بترتيب مختلف داخل PDF.
+
+START_HERE يفحص الآن FFmpeg/FFprobe وImageMagick وGhostscript وqpdf وTesseract واللغات. ينزّل حزمًا مثبتة وبصمات محددة بعد الموافقة لكل حزمة، ويستخرج Tesseract كاملًا دون تشغيل مثبتاته. تجهيز Ghostscript تلقائيًا يبقى تنزيل مثبت متحقق منه فقط؛ يمكن بدلًا منه نسخ شجرة مثبتة كاملة بواسطة --portable بعد الموافقة. لا يعلن نجاحًا شاملًا مع اعتماد ناقص.
+
+البرامج المحلية وملفات اللغات خارج Git، ولا تدخل ZIP افتراضيًا. احتفظ بـTools وSystem وملفات BAT/MD الأساسية عند النقل، وبـSystem/Bin إذا أردت العمل دون إنترنت وكان نقل تلك البرامج مسموحًا وفق تراخيصها. راجع System/Docs/DEPENDENCIES.md؛ إعادة توزيع الثنائيات لها شروط إضافية.
+
+المسارات العربية والمسافات و & و! و% و[1] اختُبرت فعليًا. الحد المحافظ240 محرفًا للملف و200 لقاعدة نتائج المجلدات؛ فك الحزم الطويلة قد يحتاج جذرًا أقصر. Windows PowerShell5.1 نفسه رفض مسارًا يحوي الزوج الفارغ [] في اسم المجلد قبل تحميل السكربت؛ تجنب هذا النمط، ولا تُعمم نتائج الاختبار على كل اسم تسمح به Windows.
+
+العدد100 هو ملفات BAT داخل Tools فقط، دون احتساب START_HERE وBUILD_DISTRIBUTION. [التقرير النهائي والاختبارات](Development/Reports/FINAL_100_TOOLS_AR.md).
